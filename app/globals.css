@@ -1,0 +1,184 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Ganbaru "study desk" tokens.
+  paper/grid/ink: the notebook. pen: answers only, always >= 24px (3:1 large-text contrast).
+  redpen: red sheet, hanamaru, ×, stamps, destructive. hi: highlighter for new items and matches.
+*/
+:root {
+  --paper: #f6f8fa;
+  --paper-raised: #ffffff;
+  --grid: #e3eaf2;
+  --edge: #d3dde8;
+  --ink: #1b2a47;
+  --ink-2: #56688a;
+  --pen: #ff5a1f;
+  --redpen: #e5243b;
+  --redpen-ink: #b4232f;
+  --on-redpen: #ffffff;
+  --hi: #ffe76a;
+
+  --belt-n5: #ffffff;
+  --belt-n4: #f5c518;
+  --belt-n3: #23784a;
+  --belt-n2: #7a4a2a;
+  --belt-n1: #1b1b1b;
+
+  /* shadcn roles mapped onto the desk */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper-raised);
+  --card-foreground: var(--ink);
+  --popover: var(--paper-raised);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--paper);
+  --secondary: var(--grid);
+  --secondary-foreground: var(--ink);
+  --muted: var(--grid);
+  --muted-foreground: var(--ink-2);
+  --accent: var(--grid);
+  --accent-foreground: var(--ink);
+  --destructive: var(--redpen);
+  --border: var(--edge);
+  --input: var(--edge);
+  --ring: var(--ink);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --paper: #131b2c;
+  --paper-raised: #1a2438;
+  --grid: #1f2a40;
+  --edge: #2a3854;
+  --ink: #e4eaf4;
+  --ink-2: #9aa8c2;
+  --pen: #ff8a4c;
+  --redpen: #ff4d5e;
+  --redpen-ink: #ff7a87;
+  --on-redpen: #131b2c;
+  --hi: rgb(232 201 58 / 0.35);
+  --belt-n1: #000000;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-grid: var(--grid);
+  --color-edge: var(--edge);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-pen: var(--pen);
+  --color-redpen: var(--redpen);
+  --color-redpen-ink: var(--redpen-ink);
+  --color-on-redpen: var(--on-redpen);
+  --color-hi: var(--hi);
+  --color-belt-n5: var(--belt-n5);
+  --color-belt-n4: var(--belt-n4);
+  --color-belt-n3: var(--belt-n3);
+  --color-belt-n2: var(--belt-n2);
+  --color-belt-n1: var(--belt-n1);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-atkinson), var(--font-biz), system-ui, sans-serif;
+  --font-jp: var(--font-biz), var(--font-atkinson), sans-serif;
+  --font-study: var(--font-klee), var(--font-biz), serif;
+  --font-heading: var(--font-sans);
+
+  --radius-paper: 3px;
+  --radius-sm: 0.3rem;
+  --radius-md: 0.4rem;
+  --radius-lg: var(--radius);
+  --radius-xl: 0.7rem;
+
+  --shadow-float: 0 2px 0 rgb(27 42 71 / 0.12);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-paper text-ink;
+    line-height: 1.5;
+  }
+  :lang(ja) {
+    line-height: 1.8;
+  }
+  rt {
+    font-size: 0.5em;
+    font-family: var(--font-jp);
+  }
+  :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  /* Grid notebook paper. Study surfaces only, never page wallpaper. */
+  .paper-grid {
+    background-color: var(--paper-raised);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: -1px -1px;
+  }
+}
+
+.theme-switching *,
+.theme-switching *::before,
+.theme-switching *::after {
+  transition: none !important;
+}
+
+/* Night desk: the translucent sheet can't hide light ink, so answers fade out under it. */
+[data-answer] {
+  transition: opacity 150ms ease;
+}
+.dark [data-sheet="covered"] [data-answer] {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
