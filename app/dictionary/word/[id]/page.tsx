@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { Belt } from "@/components/desk/belt";
-import { furiganaParts, kanjiByChar, posLabel, wordById, words } from "@/lib/dictionary";
+import { ExampleSentence } from "@/components/desk/example-sentence";
+import { kanjiByChar, posLabel, wordById, words } from "@/lib/dictionary";
 
 // N5 pages are built ahead of time; every other word renders on its first visit and is then kept.
 export async function generateStaticParams() {
@@ -91,31 +92,7 @@ function Word({ id }: { id: string }) {
           <ul className="mt-3 space-y-5">
             {w.examples.map((ex) => (
               <li key={ex.tatoeba_id ?? ex.ja}>
-                <p lang="ja" className="font-jp text-xl leading-[2.2]">
-                  {ex.furigana
-                    ? furiganaParts(ex.furigana).map((p, i) =>
-                        p.ruby ? (
-                          <ruby key={i}>
-                            {p.text}
-                            <rt>{p.ruby}</rt>
-                          </ruby>
-                        ) : (
-                          p.text
-                        ),
-                      )
-                    : ex.ja}
-                </p>
-                <p className="text-ink-2">
-                  {ex.en}
-                  {ex.tatoeba_id && (
-                    <a
-                      href={`https://tatoeba.org/sentences/show/${ex.tatoeba_id}`}
-                      className="ml-2 text-xs underline underline-offset-2"
-                    >
-                      Tatoeba {ex.tatoeba_id}
-                    </a>
-                  )}
-                </p>
+                <ExampleSentence example={ex} />
               </li>
             ))}
           </ul>

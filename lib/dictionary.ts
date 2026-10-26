@@ -7,6 +7,8 @@ const data = load();
 export const words = data.vocab;
 export const kanjiList = data.kanji;
 export const wordById = new Map(words.map((w) => [w.id, w]));
+export const grammarPoints = data.grammar;
+export const grammarById = new Map(grammarPoints.map((g) => [g.id, g]));
 export const kanjiByChar = new Map(kanjiList.map((k) => [k.character, k]));
 // Files load N5 first, so a spelling shared by several entries resolves to the easiest one.
 const wordByText = new Map<string, Vocab>();
@@ -86,11 +88,4 @@ const POS_LABELS: Record<string, string> = {
 };
 export const posLabel = (code: string) => POS_LABELS[code] ?? (code.startsWith("v5") ? "godan verb" : code);
 
-/** Splits OpenJLPT's {漢字|かんじ} notation into plain and ruby segments. */
-export function furiganaParts(furigana: string): { text: string; ruby?: string }[] {
-  return furigana.split(/(\{[^|{}]+\|[^{}]+\})/).filter(Boolean).map((part) => {
-    const m = part.match(/^\{([^|]+)\|(.+)\}$/);
-    // OpenJLPT 0.3.0 has ~95 groups holding a JMdict id instead of a reading ({前|#1392580}); show those as plain text.
-    return m && /^[ぁ-ゖァ-ヺー]+$/.test(m[2]) ? { text: m[1], ruby: m[2] } : { text: m ? m[1] : part };
-  });
-}
+export { furiganaParts } from "./furigana.ts";
