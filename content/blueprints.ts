@@ -30,6 +30,13 @@ export const QUESTION_TYPES = {
 } as const satisfies Record<string, { ja: string; en: string; area: Area }>;
 
 export type QuestionType = keyof typeof QUESTION_TYPES;
+
+/** One-line task shown above each question, in Ganbaru's own words. */
+export const INSTRUCTIONS: Partial<Record<QuestionType, string>> = {
+  "kanji-reading": "Choose the reading of the underlined word.",
+  orthography: "Choose how the underlined word is written in kanji.",
+  context: "Choose the word that fits the blank.",
+};
 export type Part = { type: QuestionType; count: number };
 export type Section = { id: string; title: string; minutes: number; parts: Part[] };
 export type ScoringSection = { id: string; title: string; max: number; min: number; areas: Area[] };

@@ -8,11 +8,14 @@ export function SiteHeader() {
         Ganbaru <span lang="ja" className="font-jp text-ink-2">頑張る</span>
       </Link>
       <nav aria-label="Main" className="flex items-center gap-4">
+        <Link href="/test" className="text-sm underline underline-offset-4 hover:text-ink-2">
+          Tests
+        </Link>
+        <Link href="/grammar" className="text-sm underline underline-offset-4 hover:text-ink-2">
+          Grammar
+        </Link>
         <Link href="/dictionary" className="text-sm underline underline-offset-4 hover:text-ink-2">
           Dictionary
-        </Link>
-        <Link href="/design" className="text-sm underline underline-offset-4 hover:text-ink-2">
-          Design system
         </Link>
         <ThemeToggle />
       </nav>

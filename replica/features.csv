@@ -1,13 +1,13 @@
 feature,area,priority,original,clone,notes
-Test hub per level with Full / Mini / Skill tabs,test,must,migii,no,
-Test status untested / in progress / done with best score,test,must,ai-sensei,no,
-Test player practice mode with instant explanation,test,must,limen,no,
+Test hub per level with Full / Mini / Skill tabs,test,must,migii,partial,skill drills live; full and mini tests show the blueprint until content exists
+Test status untested / in progress / done with best score,test,must,ai-sensei,yes,stored in the browser until accounts
+Test player practice mode with instant explanation,test,must,limen,yes,
 Test player exam mode with official section timers,test,must,migii,no,blueprints from the research notes
-Question bar showing answered and flagged with jump,test,must,ai-sensei,no,
-Resume an in-progress test,test,must,ai-sensei,no,
+Question bar showing answered and flagged with jump,test,must,ai-sensei,partial,answered and jump done; flagging comes with exam mode
+Resume an in-progress test,test,must,ai-sensei,yes,browser storage until accounts
 Results with estimated section scores vs sectional minimums,test,must,ganbaru,no,labelled as an estimate
-Question review with explanation and translation,test,must,limen,no,
-Data-built vocab and grammar drills for all levels,content,must,ganbaru,no,OpenJLPT + Tatoeba
+Question review with explanation and translation,test,must,limen,partial,review from results; dedicated review screen with exam mode
+Data-built vocab and grammar drills for all levels,content,must,ganbaru,partial,kanji reading and orthography live (585 sets); context waits for blind solve; grammar moves to AI
 AI-written questions with blind-solve verification,content,must,ganbaru,no,needs ANTHROPIC_API_KEY
 Full mock tests for all levels N5 to N1,content,must,migii,no,pilot 1 per level then 3 then 10
 Reading questions (all official types),content,must,migii,no,AI
@@ -15,7 +15,7 @@ Listening questions with play-once audio,content,must,migii,no,VOICEVOX audio
 Report a problem on every question,test,must,ganbaru,no,
 Mistakes go into a spaced-review notebook,study,must,ganbaru,no,FSRS + red-sheet card
 Bookmarks,study,must,limen,no,
-Grammar list and grammar point pages,study,must,jlptsensei,no,OpenJLPT grammar (526 points)
+Grammar list and grammar point pages,study,must,jlptsensei,yes,526 points
 Dictionary search,dictionary,must,jisho,yes,
 Word detail with furigana examples,dictionary,must,jisho,yes,
 Kanji detail,dictionary,must,jisho,partial,no stroke order or components yet
@@ -23,9 +23,9 @@ Accounts and saved progress,platform,must,ganbaru,no,needs Supabase keys
 Home with countdown and readiness per section,home,must,ganbaru,no,
 Onboarding level and exam date,platform,must,ganbaru,no,
 Licenses and credits page,legal,must,ganbaru,no,OpenJLPT EDRDG Tatoeba VOICEVOX
-Keyboard shortcuts in the player,test,must,ganbaru,no,1-4 F arrows
+Keyboard shortcuts in the player,test,must,ganbaru,yes,1-4 and Enter; flag key comes with exam mode
 Tap a word in a passage to look it up,test,should,migii,no,
-Furigana toggle in practice mode,test,should,ganbaru,no,
+Furigana toggle in practice mode,test,should,ganbaru,yes,
 Listening transcript and translation after answering,test,should,migii,no,
 Word lists by level with flashcards,study,should,migii,no,
 Personalized study roadmap to the exam date,study,should,migii,no,

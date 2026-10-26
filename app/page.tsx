@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiteHeader } from "@/components/desk/site-header";
 import { StudyCard } from "@/components/desk/study-card";
 import { DEMO_WORDS } from "@/lib/demo-words";
@@ -14,7 +15,10 @@ export default function Home() {
             Every word from N5 to N1, scheduled to come back right before you&apos;d forget it. Type the reading, peek
             under the sheet, grade yourself, and move on.
           </p>
-          <p className="mt-6 text-sm text-ink-2">Try the card. Type in romaji, then press Enter.</p>
+          <Link href="/test" className="mt-6 inline-flex h-12 items-center rounded-lg bg-ink px-5 text-paper hover:opacity-90">
+            Start practising
+          </Link>
+          <p className="mt-6 text-sm text-ink-2">Or try the card. Type in romaji, then press Enter.</p>
         </div>
         <StudyCard words={DEMO_WORDS} />
       </div>

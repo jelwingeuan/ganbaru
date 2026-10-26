@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/dictionary": ["./data/openjlpt/**/*"],
     "/dictionary/**": ["./data/openjlpt/**/*"],
+    "/grammar": ["./data/openjlpt/**/*"],
+    "/grammar/**": ["./data/openjlpt/**/*"],
+    "/test": ["./content/questions/**/*"],
+    "/test/**": ["./content/questions/**/*"],
   },
   turbopack: {
     rules: {
