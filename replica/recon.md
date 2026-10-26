@@ -1,133 +1,113 @@
-# Recon map: Ganbaru, from 9 Japanese-learning sites (web)
+# Recon map: Ganbaru v2, a JLPT exam-practice web app
 
-Scope: an original JLPT study app (dictionary, SRS, grammar, quizzes, mock tests, gamification). The sources below are inspiration for features and flows only. No text, quiz items, images, audio or code from them is used.
-For: self-studying JLPT learners, N5 to N1, mostly on phones in short daily sessions
-Date: 2026-10-26
+Scope: mock tests at the centre (full, mini, skill drills) with study tools around them: dictionary, grammar, word lists, mistake review.
+For: JLPT candidates N5 to N1. A product to sell (free tier plus premium), so all question content is original.
+Date: 2026-10-27 (replaces the 2026-10-26 map, which centred on SRS flashcards)
 
 ## Sources
 
 | # | source | URL | notes |
 | --- | --- | --- | --- |
-| 1 | Jisho | https://jisho.org/ | EDRDG dictionary; romaji→kana, `#jlpt-n3 #verb` tags, wildcards, radical picker, kanji pivots |
-| 2 | Weblio | https://www.weblio.jp/ | native dictionary; search modes, word of the day, rankings, "A と B の違い" |
-| 3 | JLPT Sensei | https://jlptsensei.com/ | grammar by level; pattern by part of speech; JP/romaji/EN toggles per example |
-| 4 | TUFS language modules | https://www.coelang.tufs.ac.jp/ja/zt/ | fixed lesson order card → explanation → examples → exercises; must-know vs extra |
-| 5 | TUFS grammar module | https://www.coelang.tufs.ac.jp/ja/zt/gmod/ | 24/48-week pacing |
-| 6 | Sigure | https://www.sigure.tw/learn-japanese/grammar/ | confusable "A vs B" pages, conjugation and kana drills, themed difficulty ladder |
-| 7 | 3A Network | https://www.3anet.co.jp/ | ★ core words, perfect score unlocks a collectible, repeat-until-correct |
-| 8 | 日本語NET | https://nihongokyoshi-net.com/ | can-do lines per lesson, confusable pairs, quiz packs by level × type |
-| 9 | Tanoshii Japanese | https://www.tanoshiijapanese.com/dictionary/ | returned 403; not read |
+| 1 | Migii JLPT, App Store | https://apps.apple.com/us/app/id1463267540 | 4.5★ from 512 ratings; 100+ mock tests; full, mini and skill tests; online trial exam with leaderboard; roadmap; subscription |
+| 2 | JLPT Test with AI Sensei, App Store | https://apps.apple.com/us/app/id1500859862 | Tests by part; untested / in progress / done status; resume; AI explanations; $3.99 / $7.99 |
+| 3 | JLPT N1-N5 Exam Practice (Limen), App Store | https://apps.apple.com/us/app/id6748291478 | Official Workbook questions plus original sets; explanation and translation; bookmarks; ads |
+| 4 | User's App Store screenshots | (in chat, 2026-10-27) | もんだい question screen with pill options and an Explanation block; Full / Mini / Skill tabs; test rows with time, pass score, best score |
+| 5 | JLPT format and scoring research | reports/JLPT tests and study methods.md | Official sections, times, question types and counts, scoring |
+| 6 | Nine study sites (first recon) | git history of this file | Dictionary, grammar and drill ideas |
 
 ## Core loop
 
-Open Today, clear the due reviews with the red sheet, learn the next 10 new items, keep the streak.
+Pick a level, take a timed mock or a short drill, see an honest score estimate per section, review mistakes with explanations, and drill the weakest question type.
 
 ## Screens
 
 | ID | screen | route / how to reach | purpose | key components | states seen |
 | --- | --- | --- | --- | --- | --- |
-| S01 | Landing | `/` logged out | explain and convert | live red-sheet demo card, sign-up CTA | default |
-| S02 | Auth | `/login` | magic link, Google | email field, provider button | empty, sent, error |
-| S03 | Onboarding | `/onboarding` | level, exam date, daily goal | Stepper, belt picker, date picker | each step, skip |
-| S04 | Today | `/` logged in | one primary action | Counter (countdown), ink-bottle goal, due count, word of the day | new user, due > 0, all done, behind plan |
-| S05 | Study session | `/study` | SRS reviews and new cards | study card, red sheet, typed answer, grade buttons, Swipe Toast | loading, review, new, correct, wrong, session done |
-| S06 | Dictionary search | `/dictionary?q=` | find words and kanji | search field, Rubber Segment modes, tag pills, results list | empty, typing, results, no results |
-| S07 | Word detail | `/dictionary/word/[id]` | meanings, readings, examples | ruby furigana, peek toggles, add-to-deck | not in deck, in deck |
-| S08 | Kanji detail | `/dictionary/kanji/[char]` | readings, strokes, components | stroke-order SVG, pivots (starts/ends/contains) | default |
-| S09 | Radical picker | overlay on S06 | search kanji by parts | radical grid by stroke count | none picked, narrowed |
-| S10 | Level browser | `/levels/[n]` | units of 10 items | Status Mark per unit, Stack preview | not started, in progress, done |
-| S11 | Grammar list | `/grammar?level=` | browse points | filters by level and POS | default |
-| S12 | Grammar point (Dojo) | `/grammar/[slug]` | learn one point | pattern card, two-tier explanation, examples, 3 practice items, vs link | draft badge, reviewed |
-| S13 | Confusable Duel | `/duel/[pair]` | minimal-pair drill | 2-choice quick fire, timer | playing, result |
-| S14 | Quiz | `/quiz` | 10-question rounds | question types, Count Up XP | question, feedback, summary |
-| S15 | Mock test | `/test/[level]` | timed JLPT-style test | Tear Ticket start, section timer, Hold Button end | ticket, in section, time up |
-| S16 | Test results | `/test/[level]/result/[id]` | score breakdown | section bars, weak areas, add mistakes to SRS | pass, fail |
-| S17 | Drills | `/drills` | conjugation and kana | typed input, streak counter | default |
-| S18 | Stamp book & achievements | `/stamps` | collectibles | Flip Card stamps, badge grid | empty, partial, full |
-| S19 | Stats | `/stats` | progress | heatmap, retention, Rubber Segment range | no data, data |
-| S20 | Settings | `/settings` | goals, theme, exam date | form controls | default |
-| S21 | Licenses | `/about/licenses` | data attribution | text | default |
+| S01 | Landing | `/` logged out | Explain and convert | Live sample question, sign-up CTA | default |
+| S02 | Auth | `/login` | Magic link, Google | Email field | empty, sent, error |
+| S03 | Onboarding | `/onboarding` | Target level, exam date | Stepper, belt picker | each step |
+| S04 | Home | `/` logged in | One next action | Countdown, readiness per section, continue test, today's mini test | new user, mid-test, after mock |
+| S05 | Test hub | `/test/[level]` | Choose what to take | Tabs Full / Mini / Skill; rows with status, best score, time, pass mark | untested, in progress, done |
+| S06 | Test player | `/test/[level]/[testId]` | Answer questions | Section header + timer, question, 4 options, question bar, flag, bookmark, audio player | exam mode, practice mode, time up, resume |
+| S07 | Results | `/test/[level]/[testId]/result` | Score estimate | Section scores vs minimum, pass estimate, type breakdown | pass, fail, section fail |
+| S08 | Question review | from S07 or S10 | Learn from each question | Explanation, translation, furigana, report button | correct, wrong, unanswered |
+| S09 | Mistake notebook | `/mistakes` | Spaced review of mistakes | Red-sheet study card | empty, due, all done |
+| S10 | Bookmarks | `/bookmarks` | Saved questions | List | empty, filled |
+| S11 | Dictionary | `/dictionary` | Look up words | Search, modes, tags | built |
+| S12 | Word | `/dictionary/word/[id]` | | | built |
+| S13 | Kanji | `/dictionary/kanji/[char]` | | | built |
+| S14 | Grammar list | `/grammar?level=` | Browse grammar points | Level filter, list | |
+| S15 | Grammar point | `/grammar/[id]` | Learn one point | Pattern, formation, meaning, notes, examples, practice drill | |
+| S16 | Word lists | `/words/[level]` | Learn vocab by level | List, flashcards | |
+| S17 | Study roadmap | `/plan` | Daily plan to the exam date | Day list | |
+| S18 | Settings | `/settings` | Level, date, theme | | |
+| S19 | Licenses | `/about/licenses` | Credits | | |
 
 ## Flows
 
 ```
-F01 New learner gets to the first review
-    S01 -> S02 -> S03 (3 steps) -> S04 -> S05
-    happy path clicks: 6
-    edge: magic link opened on another device, no exam date picked
+F01 Take a full mock test
+    S05 -> S06 exam (ticket start, section timers) -> S07 -> S08
+    happy path clicks: 3 to start
+    edge: time runs out mid-section, tab closed mid-test (resume), listening can't play
 
-F02 Daily review
-    S04 -> S05 -> session done -> S04
-    happy path clicks: 1 + one keypress per card
-    edge: 0 due, mistaken grade (undo), offline mid-session
+F02 Quick practice
+    S04 "Today's mini test" -> S06 practice -> S07
 
-F03 Look up a word and add it
-    S06 (type) -> S07 -> add to deck
-    happy path clicks: 2
-    edge: romaji input, no results, wildcard query
+F03 Drill a weak question type
+    S07 weakest type -> S05 skill drill -> S06 practice
 
-F04 Find a kanji by its parts
-    S06 -> S09 -> S08 -> pivot -> S07
+F04 Resume an interrupted test
+    S04 "Continue" -> S06 at the saved question and remaining time
 
-F05 Learn a grammar point
-    S11 -> S12 -> practice -> add to SRS -> S13 (vs pair)
+F05 Review mistakes
+    S09 red-sheet card (FSRS) -> S08 full question
 
-F06 Quick quiz
-    S04 or S14 -> 10 questions -> summary -> mistakes into SRS
+F06 Learn a grammar point
+    S14 -> S15 -> "Practice this point" -> S06 practice
 
-F07 Mock test
-    S15 ticket -> sections -> S16 -> add mistakes to SRS
-
-F08 Earn a stamp
-    finish a unit with 100% -> stamp animation -> S18
+F07 Report a problem
+    S06 or S08 "Report a problem" -> reason -> saved
 ```
 
 ## Components
 
 | component | variants | states | used on |
 | --- | --- | --- | --- |
-| Button | primary (ink), secondary (outline), danger (red), ghost | default, hover, focus, disabled, loading | all |
-| Study card | review, new, kanji, grammar | prompt, answering, revealed, correct, wrong | S05, S01 |
-| Red sheet | light (multiply), dark (opaque) | covering, peeked | S05, S07 examples, S01 |
-| Grade bar | 4 grades with interval and key hint | disabled, enabled | S05 |
-| Search field | with mode segment and tag pills | empty, typing, results | S06 |
-| Belt pill | N5–N1 | default, current | S03, S04, S10 |
-| Ink-bottle gauge | daily goal | empty, partial, full | S04 |
-| Toast | undo, info | with fuse | S05, global |
-| Hold button | destructive confirm | idle, holding, done | S15, S20 |
-| Stamp | earned, partial, locked | front, back | S18 |
-| Command palette | global search and navigation | open, results | all |
+| Option button | practice, exam | idle, selected, correct, wrong, disabled | S06, S08 |
+| Question bar | | current, answered, flagged, unanswered | S06 |
+| Section timer | countdown | running, last 5 min, ended | S06 |
+| Test row | full, mini, skill | untested, in progress, done (best score) | S05 |
+| Score bar | per section | above minimum, below minimum | S07, S04 |
+| Audio player | exam (once), practice (replay) | idle, playing, played | S06 |
+| Explanation block | | | S06 practice, S08 |
+| Belt, Stepper, Countdown, Tally, ExamTicket, UnitStatus, HoldToConfirm | existing design system | | various |
 
 ## Inferred data model
 
 ```
-Word        id, jmdict_id, kanji[], readings[], senses[] (pos, glosses), jlpt_level, common, core
-            evidence: Jisho entry layout, JMdict structure   confidence: high
-Kanji       char, meanings, on[], kun[], strokes, jlpt_level, components[], stroke_svg
-            evidence: Jisho kanji page, KANJIDIC2            confidence: high
-Sentence    id, ja, en, tokens (with readings), source=tatoeba
-GrammarPoint slug, level, pattern, pos, explanation_core, explanation_extra, examples[], practice[], confusable_with[], status (draft|reviewed)
-            evidence: JLPT Sensei, TUFS module order, Sigure badges   confidence: design choice
-Card        user_id, item_type, item_id, card_type, fsrs fields (due, stability, difficulty, reps, lapses, state)
-ReviewLog   card_id, rating, reviewed_at, elapsed, scheduled
-Unit        level, topic, items[], can_do
-Stamp       user_id, unit_id, skill (vocab|kanji|grammar), earned_at
-Profile     user_id, target_level, exam_date, daily_goal, xp, belt, streak, tz
+Question  id, level, type, stem, options[4], answer, explanation, translation, passageId?, audio?, source (data|ai), status (verified|reviewed), refs
+          evidence: Limen question screen, Migii answer keys; confidence: design choice
+Test      id, level, kind (full|mini|skill), sections[{title, minutes, questionIds}]
+          evidence: Migii test rows (time, pass score); official blueprint
+Attempt   user, test, mode (exam|practice), status, answers[{question, choice, flagged}], section_elapsed
+          evidence: AI Sensei "keep state of test", status labels
+Bookmark  user, question
+Report    user, question, reason, note
+Card      user, item (word or question), FSRS state
 ```
-
-Relationships: User 1-n Card, Card 1-n ReviewLog, Unit n-n Word/Kanji/GrammarPoint, User 1-n Stamp, Word n-n Sentence.
 
 ## Feature matrix
 
-See `features.csv`. Must: 22, should: 6, could: 18, skip: 4. v1 (cut 2026-10-27) is the core study loop plus a timed vocabulary-section mock test; grammar lessons, the other mock sections and collectibles come after v1.
+See `features.csv`. Must: 25, should: 10, could: 10, skip: 6.
 
 ## Out of scope (cannot or should not be cloned)
 
-- Any site's grammar explanations, example sentences, quiz items, audio or illustrations (copyrighted; Ganbaru writes its own grammar content)
-- Official JLPT past papers (copyrighted by JEES/Japan Foundation; mock tests are original)
-- Minna no Nihongo lesson order and vocabulary lists (textbook content)
-- Weblio's licensed dictionaries (Ganbaru uses open EDRDG data instead)
+- Official Workbook questions: the JLPT Site Policy requires written permission for a paid product, and the listening audio is third-party content
+- "Predicted exam" claims: the real test isn't disclosed, so the claim would mislead
+- Certificates that resemble official JLPT results
+- Their question banks, explanations, audio and illustrations
 
 ## Size
 
-Screens 21, flows 8, entities 9. Hard parts: the dictionary import and search at JMdict scale, writing and checking original grammar content, a mock-test generator that produces believable JLPT-style questions. Size: L.
+Screens 19, flows 7, entities 6. Hard parts: generating and checking hundreds of original questions per level (vocab, grammar, reading, listening), listening audio, timed exam mode with resume. Size: L.

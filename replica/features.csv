@@ -1,51 +1,52 @@
 feature,area,priority,original,clone,notes
-Sign up with magic link or Google,onboarding,must,ganbaru,no,
-Onboarding: target level exam date daily goal,onboarding,must,ganbaru,no,
-Today dashboard with one primary action,today,must,ganbaru,no,
-FSRS spaced repetition reviews,study,must,ganbaru,no,ts-fsrs
-Red sheet peek and typed answers (romaji or kana),study,must,ganbaru,no,signature interaction
-Grade buttons with next interval and 1-4 keys,study,must,ganbaru,no,
-Repeat missed cards before the session ends,study,must,3anet,no,
-Undo last grade,study,must,ganbaru,no,
-Dictionary search kana kanji romaji English,dictionary,must,jisho,yes,
-Search tags #n3 #verb #common,dictionary,must,jisho,yes,#n5–#n1 #verb #noun #adj #adv; no #common (every OpenJLPT word is a JLPT word)
-Search modes exact starts contains ends,dictionary,must,weblio,yes,
-Word detail with furigana examples,dictionary,must,jisho,yes,Tatoeba sentences
-Kanji detail with readings strokes components,dictionary,must,jisho,partial,"readings, stroke count, radical, words; stroke-order diagrams (KanjiVG) and components (KRADFILE) still to do"
-Add word or kanji to my deck,dictionary,must,ganbaru,no,
-JLPT level browser in units of 10,levels,must,ganbaru,no,
-Mock test mistakes go into SRS,quiz,must,ganbaru,no,
-Timed vocabulary-section mock test per level,test,must,ganbaru,no,v1: generated from open data; hard timer
-Mock results with section readiness estimate,test,must,ganbaru,no,labelled as an estimate
-XP and belt ranks N5 white to N1 black,gamification,must,sigure,no,
-Daily streak and goal,gamification,must,ganbaru,no,
-Licenses and attribution page,legal,must,ganbaru,no,CC BY-SA
-Exam countdown planner (daily quota),today,must,ganbaru,no,
-Peek toggles JP furigana romaji EN on examples,dictionary,should,jlptsensei,no,
-Kanji pivots starts ends contains,dictionary,should,jisho,no,
-Wildcard search,dictionary,should,jisho,no,
-Command palette and keyboard shortcuts,global,should,ganbaru,no,
+Test hub per level with Full / Mini / Skill tabs,test,must,migii,no,
+Test status untested / in progress / done with best score,test,must,ai-sensei,no,
+Test player practice mode with instant explanation,test,must,limen,no,
+Test player exam mode with official section timers,test,must,migii,no,blueprints from the research notes
+Question bar showing answered and flagged with jump,test,must,ai-sensei,no,
+Resume an in-progress test,test,must,ai-sensei,no,
+Results with estimated section scores vs sectional minimums,test,must,ganbaru,no,labelled as an estimate
+Question review with explanation and translation,test,must,limen,no,
+Data-built vocab and grammar drills for all levels,content,must,ganbaru,no,OpenJLPT + Tatoeba
+AI-written questions with blind-solve verification,content,must,ganbaru,no,needs ANTHROPIC_API_KEY
+Full mock tests for all levels N5 to N1,content,must,migii,no,pilot 1 per level then 3 then 10
+Reading questions (all official types),content,must,migii,no,AI
+Listening questions with play-once audio,content,must,migii,no,VOICEVOX audio
+Report a problem on every question,test,must,ganbaru,no,
+Mistakes go into a spaced-review notebook,study,must,ganbaru,no,FSRS + red-sheet card
+Bookmarks,study,must,limen,no,
+Grammar list and grammar point pages,study,must,jlptsensei,no,OpenJLPT grammar (526 points)
+Dictionary search,dictionary,must,jisho,yes,
+Word detail with furigana examples,dictionary,must,jisho,yes,
+Kanji detail,dictionary,must,jisho,partial,no stroke order or components yet
+Accounts and saved progress,platform,must,ganbaru,no,needs Supabase keys
+Home with countdown and readiness per section,home,must,ganbaru,no,
+Onboarding level and exam date,platform,must,ganbaru,no,
+Licenses and credits page,legal,must,ganbaru,no,OpenJLPT EDRDG Tatoeba VOICEVOX
+Keyboard shortcuts in the player,test,must,ganbaru,no,1-4 F arrows
+Tap a word in a passage to look it up,test,should,migii,no,
+Furigana toggle in practice mode,test,should,ganbaru,no,
+Listening transcript and translation after answering,test,should,migii,no,
+Word lists by level with flashcards,study,should,migii,no,
+Personalized study roadmap to the exam date,study,should,migii,no,
+Printable tests,test,should,migii,no,print CSS
+Payments with free tier and premium,platform,should,migii,no,Stripe; later
 Dark mode,global,should,ganbaru,yes,
-Core word fast track,levels,should,3anet,no,
-Grammar point page (card explanation examples practice),grammar,could,tufs,no,original content; deferred after v1
-N5 and N4 grammar content,grammar,could,ganbaru,no,~170 points; deferred after v1
-Quick 10-question quizzes,quiz,could,nihongokyoshi-net,no,deferred after v1
-Radical picker,dictionary,could,jisho,no,RADKFILE; deferred after v1
-Confusable Duel minimal pairs,grammar,could,sigure,no,deferred after v1
-Related grammar at other levels,grammar,could,jlptsensei,no,deferred after v1
-Draft or reviewed badge on content,grammar,could,sigure,no,deferred after v1
-Stamp book collectibles per unit,gamification,could,3anet,no,deferred after v1
-Achievements,gamification,could,ganbaru,no,deferred after v1
-Stats heatmap and retention,stats,could,ganbaru,no,deferred after v1
-Word of the day and seasonal words,today,could,weblio,no,
-Conjugation drill,drills,could,sigure,no,
-Kana drill,drills,could,sigure,no,
-Can-do line per unit,levels,could,nihongokyoshi-net,no,
-Custom decks,study,could,3anet,no,
-Text-to-speech audio,dictionary,could,ganbaru,no,browser speechSynthesis
-N3 to N1 grammar content,grammar,could,ganbaru,no,incremental
-Grammar reading and listening mock sections,test,could,ganbaru,no,needs authored content; deferred after v1
-Copy grammar explanations or examples from source sites,content,skip,various,skip,copyrighted; write original
-Official JLPT past papers,test,skip,jees,skip,copyrighted
-Minna no Nihongo lesson vocab lists,levels,skip,3anet,skip,textbook content
+Mobile layout,global,should,ganbaru,no,
+Kanji stroke order and components,dictionary,should,jisho,no,KanjiVG + KRADFILE
+Online trial exam with leaderboard,community,could,migii,no,
+Ask Sensei follow-up chat (runtime AI),test,could,ai-sensei,no,premium
+Explanations in the learner's language,test,could,ai-sensei,no,
+Daily reminders,platform,could,migii,no,
+Confusable pair drills,study,could,sigure,no,
+Achievements and stamps,gamification,could,3anet,no,
+Streaks and XP,gamification,could,ganbaru,no,
+Peek toggles on example sentences,dictionary,could,jlptsensei,no,
+Text-to-speech on dictionary entries,dictionary,could,ganbaru,no,
+Radical picker,dictionary,could,jisho,no,
+Official Workbook questions,content,skip,limen,skip,JLPT Site Policy: paid use needs written permission; audio is third-party
+Predicted exam claims,content,skip,migii,skip,the real test is undisclosed
+Certificates resembling official JLPT results,content,skip,migii,skip,misleading
+Copying any app's questions explanations or audio,content,skip,various,skip,copyrighted
 Weblio licensed dictionaries,dictionary,skip,weblio,skip,use open EDRDG data
+Minna no Nihongo lesson vocab lists,content,skip,3anet,skip,textbook content
