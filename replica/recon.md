@@ -119,7 +119,7 @@ Relationships: User 1-n Card, Card 1-n ReviewLog, Unit n-n Word/Kanji/GrammarPoi
 
 ## Feature matrix
 
-See `features.csv`. Must: 24, should: 14, could: 7, skip: 4.
+See `features.csv`. Must: 22, should: 6, could: 18, skip: 4. v1 (cut 2026-10-27) is the core study loop plus a timed vocabulary-section mock test; grammar lessons, the other mock sections and collectibles come after v1.
 
 ## Out of scope (cannot or should not be cloned)
 
