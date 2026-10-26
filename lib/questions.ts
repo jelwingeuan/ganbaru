@@ -20,6 +20,12 @@ export type Question = {
   refs?: string[];
 };
 
+/** A reading text shared by several questions (reading passages, the 文章の文法 text, an information sheet). */
+export type Passage = { id: string; level: Level; type: QuestionType; text: string; translation: string };
+
+/** A full mock test: the questions for each official timed section, in order. */
+export type Test = { id: string; level: Level; title: string; note?: string; sections: { id: string; questionIds: string[] }[] };
+
 /** Types whose stem must underline the part being asked about. */
 const UNDERLINED: QuestionType[] = ["kanji-reading", "orthography", "paraphrase"];
 const BLANKED: QuestionType[] = ["context", "grammar-form"];
@@ -43,5 +49,7 @@ export function checkQuestion(q: Question): string[] {
   for (const text of [q.stem, ...q.options]) if (!furiganaOk(text)) problems.push(`broken furigana in "${text}"`);
   if (UNDERLINED.includes(q.type) && !/\[\[.+?\]\]/.test(q.stem)) problems.push("missing [[underline]]");
   if (BLANKED.includes(q.type) && !q.stem.includes("（　）")) problems.push("missing （　） blank");
+  if (q.type === "sentence-order" && (q.stem.split("★").length !== 2 || (q.stem.match(/＿★＿|＿＿＿/g) ?? []).length !== 4))
+    problems.push("sentence order needs four slots: three ＿＿＿ and one ＿★＿");
   return problems.map((p) => `${q.id}: ${p}`);
 }
