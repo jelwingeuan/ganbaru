@@ -1,0 +1,50 @@
+feature,area,priority,original,clone,notes
+Sign up with magic link or Google,onboarding,must,ganbaru,no,
+Onboarding: target level exam date daily goal,onboarding,must,ganbaru,no,
+Today dashboard with one primary action,today,must,ganbaru,no,
+FSRS spaced repetition reviews,study,must,ganbaru,no,ts-fsrs
+Red sheet peek and typed answers (romaji or kana),study,must,ganbaru,no,signature interaction
+Grade buttons with next interval and 1-4 keys,study,must,ganbaru,no,
+Repeat missed cards before the session ends,study,must,3anet,no,
+Undo last grade,study,must,ganbaru,no,
+Dictionary search kana kanji romaji English,dictionary,must,jisho,no,
+Search tags #n3 #verb #common,dictionary,must,jisho,no,
+Search modes exact starts contains ends,dictionary,must,weblio,no,
+Word detail with furigana examples,dictionary,must,jisho,no,Tatoeba sentences
+Kanji detail with readings strokes components,dictionary,must,jisho,no,KANJIDIC2 + KanjiVG
+Add word or kanji to my deck,dictionary,must,ganbaru,no,
+JLPT level browser in units of 10,levels,must,ganbaru,no,
+Grammar point page (card explanation examples practice),grammar,must,tufs,no,original content
+N5 and N4 grammar content,grammar,must,ganbaru,no,~170 points
+Quick 10-question quizzes,quiz,must,nihongokyoshi-net,no,
+Quiz mistakes go into SRS,quiz,must,ganbaru,no,
+Timed mock test per level,test,must,ganbaru,no,original questions
+Test results with section breakdown,test,must,ganbaru,no,
+XP and belt ranks N5 white to N1 black,gamification,must,sigure,no,
+Daily streak and goal,gamification,must,ganbaru,no,
+Licenses and attribution page,legal,must,ganbaru,no,CC BY-SA
+Exam countdown planner (daily quota),today,should,ganbaru,no,
+Peek toggles JP furigana romaji EN on examples,dictionary,should,jlptsensei,no,
+Radical picker,dictionary,should,jisho,no,RADKFILE
+Kanji pivots starts ends contains,dictionary,should,jisho,no,
+Wildcard search,dictionary,should,jisho,no,
+Confusable Duel minimal pairs,grammar,should,sigure,no,
+Related grammar at other levels,grammar,should,jlptsensei,no,
+Draft or reviewed badge on content,grammar,should,sigure,no,
+Stamp book collectibles per unit,gamification,should,3anet,no,
+Achievements,gamification,should,ganbaru,no,
+Stats heatmap and retention,stats,should,ganbaru,no,
+Command palette and keyboard shortcuts,global,should,ganbaru,no,
+Dark mode,global,should,ganbaru,no,
+Core word fast track,levels,should,3anet,no,
+Word of the day and seasonal words,today,could,weblio,no,
+Conjugation drill,drills,could,sigure,no,
+Kana drill,drills,could,sigure,no,
+Can-do line per unit,levels,could,nihongokyoshi-net,no,
+Custom decks,study,could,3anet,no,
+Text-to-speech audio,dictionary,could,ganbaru,no,browser speechSynthesis
+N3 to N1 grammar content,grammar,could,ganbaru,no,incremental
+Copy grammar explanations or examples from source sites,content,skip,various,skip,copyrighted; write original
+Official JLPT past papers,test,skip,jees,skip,copyrighted
+Minna no Nihongo lesson vocab lists,levels,skip,3anet,skip,textbook content
+Weblio licensed dictionaries,dictionary,skip,weblio,skip,use open EDRDG data
