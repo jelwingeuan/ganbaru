@@ -16,6 +16,7 @@ const files = new Map<string, string>([
     return [
       [`data/json/vocab/${f}`, `vocab/${f}`],
       [`data/json/kanji/${f}`, `kanji/${f}`],
+      [`data/json/grammar/${f}`, `grammar/${f}`],
     ] as [string, string][];
   }),
 ]);
@@ -40,5 +41,5 @@ await rm(DATA_DIR, { recursive: true, force: true });
 await rename(tmp, DATA_DIR);
 
 const withExamples = data.vocab.filter((w) => w.examples?.length).length;
-console.log(`OpenJLPT ${data.meta.version} (${SHA.slice(0, 7)}): ${data.vocab.length} words, ${data.kanji.length} kanji, ${withExamples} words with examples.`);
+console.log(`OpenJLPT ${data.meta.version} (${SHA.slice(0, 7)}): ${data.vocab.length} words, ${data.kanji.length} kanji, ${data.grammar.length} grammar points, ${withExamples} words with examples.`);
 for (const l of LEVELS) console.log(`  ${l}: ${data.meta.counts.vocab[l]} words, ${data.meta.counts.kanji[l]} kanji`);

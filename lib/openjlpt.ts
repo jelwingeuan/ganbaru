@@ -38,9 +38,22 @@ export type Kanji = {
   supplementary?: true;
 };
 
+export type GrammarPoint = {
+  id: string;
+  pattern: string;
+  reading?: string;
+  romaji?: string;
+  level: Level;
+  meaning: string;
+  formation?: string;
+  examples: Example[];
+  tags?: string[];
+  notes?: string;
+};
+
 type Counts = Record<Level | "total", number>;
-export type Meta = { version: string; counts: { vocab: Counts; kanji: Counts } };
-export type Dataset = { meta: Meta; vocab: Vocab[]; kanji: Kanji[] };
+export type Meta = { version: string; counts: { vocab: Counts; kanji: Counts; grammar: Counts } };
+export type Dataset = { meta: Meta; vocab: Vocab[]; kanji: Kanji[]; grammar: GrammarPoint[] };
 
 export const DATA_DIR = join(process.cwd(), "data", "openjlpt");
 
@@ -52,6 +65,7 @@ export function load(dir = DATA_DIR): Dataset {
     meta: read<Meta>(dir, "meta.json"),
     vocab: files.flatMap((f) => read<Vocab[]>(dir, `vocab/${f}`)),
     kanji: files.flatMap((f) => read<Kanji[]>(dir, `kanji/${f}`)),
+    grammar: files.flatMap((f) => read<GrammarPoint[]>(dir, `grammar/${f}`)),
   };
 }
 
@@ -59,13 +73,21 @@ const KANA = /^[ぁ-ゖゝゞァ-ヺーヽヾ]+$/;
 const ID = /^[0-9a-f]{10}$/;
 
 /** Problems that would break the app: wrong counts, duplicate or malformed ids, non-kana readings. Empty means usable. */
-export function validate({ meta, vocab, kanji }: Dataset): string[] {
+export function validate({ meta, vocab, kanji, grammar }: Dataset): string[] {
   const problems: string[] = [];
   for (const level of LEVELS) {
     const v = vocab.filter((w) => w.level === level).length;
     const k = kanji.filter((c) => c.level === level).length;
+    const g = grammar.filter((p) => p.level === level).length;
     if (v !== meta.counts.vocab[level]) problems.push(`${level} vocab: ${v} entries, meta says ${meta.counts.vocab[level]}`);
     if (k !== meta.counts.kanji[level]) problems.push(`${level} kanji: ${k} entries, meta says ${meta.counts.kanji[level]}`);
+    if (g !== meta.counts.grammar[level]) problems.push(`${level} grammar: ${g} points, meta says ${meta.counts.grammar[level]}`);
+  }
+  const grammarIds = new Set<string>();
+  for (const p of grammar) {
+    if (grammarIds.has(p.id)) problems.push(`duplicate grammar id ${p.id}`);
+    grammarIds.add(p.id);
+    if (!p.examples?.length) problems.push(`grammar ${p.id} has no examples`);
   }
   const ids = new Set<string>();
   for (const w of vocab) {
