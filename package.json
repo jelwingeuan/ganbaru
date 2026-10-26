@@ -2,11 +2,14 @@
   "name": "ganbaru",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --test lib/*.test.ts",
+    "data:openjlpt": "node scripts/openjlpt.ts"
   },
   "dependencies": {
     "@hugeicons/core-free-icons": "^4.3.5",
