@@ -1,0 +1,5062 @@
+[
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This white coat will look very nice on you.",
+  "refs": [
+   "54e1f7a772"
+  ],
+  "id": "n4-or-54e1f7a772",
+  "type": "orthography",
+  "stem": "この{白|しろ}いコートはあなたによく[[あう]]でしょう。",
+  "options": [
+   "悪う",
+   "上う",
+   "合う",
+   "登う"
+  ],
+  "answer": 2,
+  "explanation": "あう is written 合う (to match). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I hope it will clear up soon.",
+  "refs": [
+   "4a3152836b"
+  ],
+  "id": "n4-or-4a3152836b",
+  "type": "orthography",
+  "stem": "やがて{雨|あめ}は[[あがる]]と{思|おも}う。",
+  "options": [
+   "明がる",
+   "上がる",
+   "登がる",
+   "合がる"
+  ],
+  "answer": 1,
+  "explanation": "あがる is written 上がる (to rise). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The baby is not capable of walking yet.",
+  "refs": [
+   "e877021bf4"
+  ],
+  "id": "n4-or-e877021bf4",
+  "type": "orthography",
+  "stem": "[[あかんぼう]]はまだ{歩|ある}くことができない。",
+  "options": [
+   "赤ん望",
+   "明ん坊",
+   "赤ん坊",
+   "赤ん夢"
+  ],
+  "answer": 2,
+  "explanation": "あかんぼう is written 赤ん坊 (baby). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You can trust him with any job.",
+  "refs": [
+   "d06643e4e1"
+  ],
+  "id": "n4-or-d06643e4e1",
+  "type": "orthography",
+  "stem": "あいつに{仕事|しごと}を{任|まか}せておけば[[あんしん]]だ。",
+  "options": [
+   "安真",
+   "行心",
+   "安心",
+   "安神"
+  ],
+  "answer": 2,
+  "explanation": "あんしん is written 安心 (relief). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We are not all that safe.",
+  "refs": [
+   "160a8399af"
+  ],
+  "id": "n4-or-160a8399af",
+  "type": "orthography",
+  "stem": "{私|わたし}たちは{思|おも}っているほど[[あんぜん]]ではない。",
+  "options": [
+   "安然",
+   "行全",
+   "暗全",
+   "安全"
+  ],
+  "answer": 3,
+  "explanation": "あんぜん is written 安全 (safety). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Please show me around.",
+  "refs": [
+   "52a79a5d69"
+  ],
+  "id": "n4-or-52a79a5d69",
+  "type": "orthography",
+  "stem": "{私|わたし}をあちこちに[[あんない]]してください。",
+  "options": [
+   "案内",
+   "安内",
+   "行内",
+   "暗内"
+  ],
+  "answer": 0,
+  "explanation": "あんない is written 案内 (to guide). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You can't buy it under 1,000 yen.",
+  "refs": [
+   "629362dbfc"
+  ],
+  "id": "n4-or-629362dbfc",
+  "type": "orthography",
+  "stem": "それは{千円|せんえん}[[いか]]では{買|か}えません。",
+  "options": [
+   "以加",
+   "以下",
+   "以何",
+   "以歌"
+  ],
+  "answer": 1,
+  "explanation": "いか is written 以下 (less than). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'll do anything but that job.",
+  "refs": [
+   "da4198f39c"
+  ],
+  "id": "n4-or-da4198f39c",
+  "type": "orthography",
+  "stem": "その{仕事|しごと}[[いがい]]ならなんでもやる。",
+  "options": [
+   "位外",
+   "以外",
+   "活外",
+   "以害"
+  ],
+  "answer": 1,
+  "explanation": "いがい is written 以外 (with the exception of). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Two doctors were talking shop.",
+  "refs": [
+   "20044dd689"
+  ],
+  "id": "n4-or-20044dd689",
+  "type": "orthography",
+  "stem": "{二人|ふたり}の{医者|いしゃ}が[[いがく]]の{話|はなし}をしていた。",
+  "options": [
+   "医学",
+   "行学",
+   "要学",
+   "言学"
+  ],
+  "answer": 0,
+  "explanation": "いがく is written 医学 (medical science). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "All living things die some day.",
+  "refs": [
+   "db01fd59d7"
+  ],
+  "id": "n4-or-db01fd59d7",
+  "type": "orthography",
+  "stem": "[[いきる]]ものはすべていつかは{死|し}ぬ。",
+  "options": [
+   "寝きる",
+   "帰きる",
+   "生きる",
+   "言きる"
+  ],
+  "answer": 2,
+  "explanation": "いきる is written 生きる (to live). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You can speak out freely here.",
+  "refs": [
+   "ba5a03baf1"
+  ],
+  "id": "n4-or-ba5a03baf1",
+  "type": "orthography",
+  "stem": "ここではどんどん[[いけん]]をおっしゃってかまいません。",
+  "options": [
+   "意見",
+   "出見",
+   "意険",
+   "言見"
+  ],
+  "answer": 0,
+  "explanation": "いけん is written 意見 (opinion). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Is that all?",
+  "refs": [
+   "13ab63d79a"
+  ],
+  "id": "n4-or-13ab63d79a",
+  "type": "orthography",
+  "stem": "[[いじょう]]ですか？",
+  "options": [
+   "医上",
+   "以上",
+   "以定",
+   "位上"
+  ],
+  "answer": 1,
+  "explanation": "いじょう is written 以上 (more than; this is all). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "One lives but once in the world.",
+  "refs": [
+   "bf82bb12d2"
+  ],
+  "id": "n4-or-bf82bb12d2",
+  "type": "orthography",
+  "stem": "{人間|にんげん}はこの{世|よ}に[[いちど]]しか{生|い}きない。",
+  "options": [
+   "一取",
+   "一度",
+   "一努",
+   "一止"
+  ],
+  "answer": 1,
+  "explanation": "いちど is written 一度 (once). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You should have worked harder.",
+  "refs": [
+   "cf69ef2274"
+  ],
+  "id": "n4-or-cf69ef2274",
+  "type": "orthography",
+  "stem": "もっと[[いっしょうけんめい]]{勉強|べんきょう}すべきだったのに。",
+  "options": [
+   "一生懸命",
+   "一居懸命",
+   "一商懸命",
+   "一様懸命"
+  ],
+  "answer": 0,
+  "explanation": "いっしょうけんめい is written 一生懸命 (with utmost effort). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'll finish the work in a week or less.",
+  "refs": [
+   "556e3e0d99"
+  ],
+  "id": "n4-or-556e3e0d99",
+  "type": "orthography",
+  "stem": "{一週間|いっしゅうかん}[[いない]]にその{仕事|しごと}を{終|お}えるでしょう。",
+  "options": [
+   "以内",
+   "生内",
+   "活内",
+   "出内"
+  ],
+  "answer": 0,
+  "explanation": "いない is written 以内 (within). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You have to fill out an application for admission to the hospital at the front desk.",
+  "refs": [
+   "4bdd43130b"
+  ],
+  "id": "n4-or-4bdd43130b",
+  "type": "orthography",
+  "stem": "[[うけつけ]]で{入院|にゅういん}の{手続|てつづ}きをしてください。",
+  "options": [
+   "受付",
+   "受都",
+   "受注",
+   "優付"
+  ],
+  "answer": 0,
+  "explanation": "うけつけ is written 受付 (receipt). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Are you going to take the entrance examination?",
+  "refs": [
+   "20989c0cb5"
+  ],
+  "id": "n4-or-20989c0cb5",
+  "type": "orthography",
+  "stem": "{入学試験|にゅうがくしけん}を[[うける]]つもりですか。",
+  "options": [
+   "有ける",
+   "受ける",
+   "優ける",
+   "浮ける"
+  ],
+  "answer": 1,
+  "explanation": "うける is written 受ける (to take a lesson or test). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Where can I buy snacks?",
+  "refs": [
+   "11222e25b5"
+  ],
+  "id": "n4-or-11222e25b5",
+  "type": "orthography",
+  "stem": "スナック[[うりば]]は、どこですか。",
+  "options": [
+   "売り場",
+   "失り場",
+   "売り化",
+   "有り場"
+  ],
+  "answer": 0,
+  "explanation": "うりば is written 売り場 (place where things are sold). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Carol is driving a rent-a-car.",
+  "refs": [
+   "44f33984fb"
+  ],
+  "id": "n4-or-44f33984fb",
+  "type": "orthography",
+  "stem": "キャロルはレンタカーを[[うんてん]]しています。",
+  "options": [
+   "運点",
+   "運貼",
+   "運店",
+   "運転"
+  ],
+  "answer": 3,
+  "explanation": "うんてん is written 運転 (to drive). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The driver accelerated his car.",
+  "refs": [
+   "9f6e25d5e2"
+  ],
+  "id": "n4-or-9f6e25d5e2",
+  "type": "orthography",
+  "stem": "[[うんてんしゅ]]は{車|くるま}のスピードを{上|あ}げた。",
+  "options": [
+   "運転最",
+   "運伝手",
+   "運点手",
+   "運転手"
+  ],
+  "answer": 3,
+  "explanation": "うんてんしゅ is written 運転手 (driver). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Try to exercise at least once a week.",
+  "refs": [
+   "47487b1e85"
+  ],
+  "id": "n4-or-47487b1e85",
+  "type": "orthography",
+  "stem": "{週|しゅう}に{一度|いちど}でいいから[[うんどう]]しなさい。",
+  "options": [
+   "運登",
+   "運道",
+   "運同",
+   "運動"
+  ],
+  "answer": 3,
+  "explanation": "うんどう is written 運動 (to exercise). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Please refrain from smoking here.",
+  "refs": [
+   "5ceed9165d"
+  ],
+  "id": "n4-or-5ceed9165d",
+  "type": "orthography",
+  "stem": "ここでのおタバコはご[[えんりょ]]{願|ねが}います。",
+  "options": [
+   "遠旅",
+   "煙慮",
+   "遠慮",
+   "演慮"
+  ],
+  "answer": 2,
+  "explanation": "えんりょ is written 遠慮 (to be reserved; to be restrained). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How can I become rich?",
+  "refs": [
+   "a58874b751"
+  ],
+  "id": "n4-or-a58874b751",
+  "type": "orthography",
+  "stem": "どうしたら[[おかねもち]]になれるのかしら？",
+  "options": [
+   "お金若ち",
+   "お金馬ち",
+   "お金母ち",
+   "お金持ち"
+  ],
+  "answer": 3,
+  "explanation": "おかねもち is written お金持ち (rich man). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The earth came into existence about five thousand million years ago.",
+  "refs": [
+   "4cfa8f43e2"
+  ],
+  "id": "n4-or-4cfa8f43e2",
+  "type": "orthography",
+  "stem": "{地球|ちきゅう}はおよそ５０[[おく]]{年|ねん}前に{生|う}まれた。",
+  "options": [
+   "送",
+   "億",
+   "帰",
+   "遅"
+  ],
+  "answer": 1,
+  "explanation": "おく is written 億 (one hundred million). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "There is an advertising balloon flying above the department store.",
+  "refs": [
+   "1065d7145c"
+  ],
+  "id": "n4-or-1065d7145c",
+  "type": "orthography",
+  "stem": "デパートの[[おくじょう]]にアドバルーンが{上|あ}がっている。",
+  "options": [
+   "屋情",
+   "屋上",
+   "屋丈",
+   "後上"
+  ],
+  "answer": 1,
+  "explanation": "おくじょう is written 屋上 (rooftop). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was given a nice present by my uncle.",
+  "refs": [
+   "ba001e2f36"
+  ],
+  "id": "n4-or-ba001e2f36",
+  "type": "orthography",
+  "stem": "{私|わたし}はおじによい[[おくりもの]]をもらった。",
+  "options": [
+   "贈り物",
+   "贈り者",
+   "後り物",
+   "屋り物"
+  ],
+  "answer": 0,
+  "explanation": "おくりもの is written 贈り物 (gift). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "On Mondays, the buses are late more often than not.",
+  "refs": [
+   "ae8ce3986c"
+  ],
+  "id": "n4-or-ae8ce3986c",
+  "type": "orthography",
+  "stem": "{月曜日|げつようび}にはバスはたいてい[[おくれる]]。",
+  "options": [
+   "屋れる",
+   "後れる",
+   "帰れる",
+   "遅れる"
+  ],
+  "answer": 3,
+  "explanation": "おくれる is written 遅れる (to be late). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "To say is one thing, and to do quite another.",
+  "refs": [
+   "2139fab218"
+  ],
+  "id": "n4-or-2139fab218",
+  "type": "orthography",
+  "stem": "いう{事|こと}と[[おこなう]]{事|こと}はまったく{別|べつ}だ。",
+  "options": [
+   "怒う",
+   "行う",
+   "発う",
+   "起う"
+  ],
+  "answer": 1,
+  "explanation": "おこなう is written 行う (to do). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The burglar shut the child in the closet.",
+  "refs": [
+   "3787755f33"
+  ],
+  "id": "n4-or-3787755f33",
+  "type": "orthography",
+  "stem": "{強盗|ごうとう}はその{子供|こども}を[[おしいれ]]に{閉|と}じ{込|こ}めた。",
+  "options": [
+   "押し入れ",
+   "押し違れ",
+   "押し出れ",
+   "落し入れ"
+  ],
+  "answer": 0,
+  "explanation": "おしいれ is written 押し入れ (closet). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Your daughter passed the examination, I hear.",
+  "refs": [
+   "1f5a7d8e07"
+  ],
+  "id": "n4-or-1f5a7d8e07",
+  "type": "orthography",
+  "stem": "[[おじょうさん]]は{試験|しけん}に{合格|ごうかく}なさったそうですね。",
+  "options": [
+   "お静さん",
+   "お定さん",
+   "お嬢さん",
+   "お場さん"
+  ],
+  "answer": 2,
+  "explanation": "おじょうさん is written お嬢さん (young lady). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "If you don't study, you will fail the exam.",
+  "refs": [
+   "981ee66f59"
+  ],
+  "id": "n4-or-981ee66f59",
+  "type": "orthography",
+  "stem": "{勉強|べんきょう}しないと{試験|しけん}に[[おちる]]よ。",
+  "options": [
+   "緒ちる",
+   "愛ちる",
+   "落ちる",
+   "追ちる"
+  ],
+  "answer": 2,
+  "explanation": "おちる is written 落ちる (to fall or drop). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I think it will be sunny.",
+  "refs": [
+   "bad913ed8f"
+  ],
+  "id": "n4-or-bad913ed8f",
+  "type": "orthography",
+  "stem": "{晴|は}れだと[[おもう]]よ。",
+  "options": [
+   "思う",
+   "想う",
+   "主う",
+   "重う"
+  ],
+  "answer": 0,
+  "explanation": "おもう is written 思う (to think; to feel). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'll tell you how to swim.",
+  "refs": [
+   "d9cf4f541d"
+  ],
+  "id": "n4-or-d9cf4f541d",
+  "type": "orthography",
+  "stem": "{君|きみ}に[[およぎかた]]を{教|おし}えよう。",
+  "options": [
+   "泳ぎ形",
+   "泳ぎ語",
+   "泳ぎ方",
+   "泳ぎ難"
+  ],
+  "answer": 2,
+  "explanation": "およぎかた is written 泳ぎ方 (way of swimming). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I thank you on behalf of my son.",
+  "refs": [
+   "12db3e5f4e"
+  ],
+  "id": "n4-or-12db3e5f4e",
+  "type": "orthography",
+  "stem": "{息子|むすこ}に{成|な}り{代|か}わって[[おれい]]を{申|もう}し{上|あ}げます。",
+  "options": [
+   "お戻",
+   "お礼",
+   "お冷",
+   "お例"
+  ],
+  "answer": 1,
+  "explanation": "おれい is written お礼 (expression of gratitude). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Let's call it a day.",
+  "refs": [
+   "19cb869e4d"
+  ],
+  "id": "n4-or-19cb869e4d",
+  "type": "orthography",
+  "stem": "さぁ、{一日|いちにち}を[[おわり]]としましょう。",
+  "options": [
+   "追わり",
+   "居わり",
+   "起わり",
+   "終わり"
+  ],
+  "answer": 3,
+  "explanation": "おわり is written 終わり (the end). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "There were few people on the beach.",
+  "refs": [
+   "6f4ad2115e"
+  ],
+  "id": "n4-or-6f4ad2115e",
+  "type": "orthography",
+  "stem": "[[かいがん]]にはほとんど{人|ひと}がいなかった。",
+  "options": [
+   "海顔",
+   "海元",
+   "画岸",
+   "海岸"
+  ],
+  "answer": 3,
+  "explanation": "かいがん is written 海岸 (coast). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The conference was drawing to an end.",
+  "refs": [
+   "83af91b7eb"
+  ],
+  "id": "n4-or-83af91b7eb",
+  "type": "orthography",
+  "stem": "[[かいぎ]]は{終|お}わりに{近|ちか}づきつつあった。",
+  "options": [
+   "回議",
+   "会切",
+   "開議",
+   "会議"
+  ],
+  "answer": 3,
+  "explanation": "かいぎ is written 会議 (meeting). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The club members assembled in the meeting room.",
+  "refs": [
+   "93ff1a80c2"
+  ],
+  "id": "n4-or-93ff1a80c2",
+  "type": "orthography",
+  "stem": "クラブの{会員|かいいん}は[[かいぎしつ]]に{集|あつ}まった。",
+  "options": [
+   "会切室",
+   "掛議室",
+   "会議室",
+   "絵議室"
+  ],
+  "answer": 2,
+  "explanation": "かいぎしつ is written 会議室 (meeting room). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We sat at the back of the hall.",
+  "refs": [
+   "7508a7d366"
+  ],
+  "id": "n4-or-7508a7d366",
+  "type": "orthography",
+  "stem": "{私|わたし}たちは[[かいじょう]]の{後|うし}ろに{座|すわ}った。",
+  "options": [
+   "会乗",
+   "回場",
+   "会場",
+   "会常"
+  ],
+  "answer": 2,
+  "explanation": "かいじょう is written 会場 (assembly hall or meeting place). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The writer is very good at a dialog.",
+  "refs": [
+   "81b9c23c14"
+  ],
+  "id": "n4-or-81b9c23c14",
+  "type": "orthography",
+  "stem": "その{作家|さっか}は[[かいわ]]を{書|か}くのがうまい。",
+  "options": [
+   "皆話",
+   "界話",
+   "画話",
+   "会話"
+  ],
+  "answer": 3,
+  "explanation": "かいわ is written 会話 (conversation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Do you think Dad will change his mind?",
+  "refs": [
+   "64e3e16740"
+  ],
+  "id": "n4-or-64e3e16740",
+  "type": "orthography",
+  "stem": "{父|とう}さんは{考|かんが}えを[[かえる]]と{思|おも}うかい。",
+  "options": [
+   "日える",
+   "科える",
+   "欠える",
+   "変える"
+  ],
+  "answer": 3,
+  "explanation": "かえる is written 変える (to change). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I have been learning a science.",
+  "refs": [
+   "ea150f3d48"
+  ],
+  "id": "n4-or-ea150f3d48",
+  "type": "orthography",
+  "stem": "{私|わたし}は、ずっと[[かがく]]を{習|なら}っている。",
+  "options": [
+   "科学",
+   "花学",
+   "彼学",
+   "歌学"
+  ],
+  "answer": 0,
+  "explanation": "かがく is written 科学 (science). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "A fire broke out the day before yesterday.",
+  "refs": [
+   "b64af0c4f7"
+  ],
+  "id": "n4-or-b64af0c4f7",
+  "type": "orthography",
+  "stem": "その[[かじ]]はおととい{発生|はっせい}した。",
+  "options": [
+   "貸事",
+   "化事",
+   "火事",
+   "借事"
+  ],
+  "answer": 2,
+  "explanation": "かじ is written 火事 (fire). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was appointed to section chief.",
+  "refs": [
+   "26a19196b7"
+  ],
+  "id": "n4-or-26a19196b7",
+  "type": "orthography",
+  "stem": "{私|わたし}は[[かちょう]]に{任命|にんめい}された。",
+  "options": [
+   "課長",
+   "回長",
+   "家長",
+   "借長"
+  ],
+  "answer": 0,
+  "explanation": "かちょう is written 課長 (section manager). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I may win by some chance.",
+  "refs": [
+   "021c00423f"
+  ],
+  "id": "n4-or-021c00423f",
+  "type": "orthography",
+  "stem": "ひょっとしたら[[かつ]]かもしれない。",
+  "options": [
+   "花つ",
+   "靴つ",
+   "勝つ",
+   "欠つ"
+  ],
+  "answer": 2,
+  "explanation": "かつ is written 勝つ (to win). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "My wife is preparing dinner right now.",
+  "refs": [
+   "89927b8fa1"
+  ],
+  "id": "n4-or-89927b8fa1",
+  "type": "orthography",
+  "stem": "[[かない]]は{今|いま}、{夕食|ゆうしょく}の{支度|したく}をしている。",
+  "options": [
+   "家内",
+   "化内",
+   "下内",
+   "過内"
+  ],
+  "answer": 0,
+  "explanation": "かない is written 家内 (housewife). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Don't give me such a sad look.",
+  "refs": [
+   "3153705f1f"
+  ],
+  "id": "n4-or-3153705f1f",
+  "type": "orthography",
+  "stem": "そんな[[かなしい]]{目|め}で{見|み}ないで。",
+  "options": [
+   "金しい",
+   "悲しい",
+   "愛しい",
+   "適しい"
+  ],
+  "answer": 1,
+  "explanation": "かなしい is written 悲しい (sad). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The point is whether she will come or not.",
+  "refs": [
+   "be3dacfc93"
+  ],
+  "id": "n4-or-be3dacfc93",
+  "type": "orthography",
+  "stem": "{問題|もんだい}は[[かのじょ]]が{来|く}るかどうかである。",
+  "options": [
+   "靴女",
+   "彼女",
+   "交女",
+   "下女"
+  ],
+  "answer": 1,
+  "explanation": "かのじょ is written 彼女 (she; girlfriend). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He has a perfect swing.",
+  "refs": [
+   "0963c50b58"
+  ],
+  "id": "n4-or-0963c50b58",
+  "type": "orthography",
+  "stem": "[[かれ]]のスイングは{実|じつ}に{見事|みごと}だ。",
+  "options": [
+   "欠",
+   "借",
+   "化",
+   "彼"
+  ],
+  "answer": 3,
+  "explanation": "かれ is written 彼 (he; boyfriend). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "They would never meet again.",
+  "refs": [
+   "6345553664"
+  ],
+  "id": "n4-or-6345553664",
+  "type": "orthography",
+  "stem": "[[かれら]]は{二度|にど}と{会|あ}うことはなかった。",
+  "options": [
+   "夏ら",
+   "回ら",
+   "交ら",
+   "彼ら"
+  ],
+  "answer": 3,
+  "explanation": "かれら is written 彼ら (they). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The wet shirt will soon dry up.",
+  "refs": [
+   "84c24fbab6"
+  ],
+  "id": "n4-or-84c24fbab6",
+  "type": "orthography",
+  "stem": "そのぬれたシャツはすぐに[[かわく]]だろう。",
+  "options": [
+   "代く",
+   "川く",
+   "交く",
+   "乾く"
+  ],
+  "answer": 3,
+  "explanation": "かわく is written 乾く (to get dry). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Let's play cards instead.",
+  "refs": [
+   "34071d7901"
+  ],
+  "id": "n4-or-34071d7901",
+  "type": "orthography",
+  "stem": "その[[かわり]]にトランプをしようよ。",
+  "options": [
+   "火わり",
+   "川わり",
+   "代わり",
+   "夏わり"
+  ],
+  "answer": 2,
+  "explanation": "かわり is written 代わり (substitute; alternate). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How is this connected to that?",
+  "refs": [
+   "f960d43119"
+  ],
+  "id": "n4-or-f960d43119",
+  "type": "orthography",
+  "stem": "これとあれはどういう[[かんけい]]があるの。",
+  "options": [
+   "官係",
+   "感係",
+   "関係",
+   "漢係"
+  ],
+  "answer": 2,
+  "explanation": "かんけい is written 関係 (relationship). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Why do you want to be a nurse?",
+  "refs": [
+   "374a0aa749"
+  ],
+  "id": "n4-or-374a0aa749",
+  "type": "orthography",
+  "stem": "なぜ[[かんごふ]]になりたいのですか。",
+  "options": [
+   "看護老",
+   "看護浮",
+   "看護歩",
+   "看護婦"
+  ],
+  "answer": 3,
+  "explanation": "かんごふ is written 看護婦 (female nurse). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Playing tennis is easy for me.",
+  "refs": [
+   "ac20bba998"
+  ],
+  "id": "n4-or-ac20bba998",
+  "type": "orthography",
+  "stem": "テニスをすることは{私|わたし}には[[かんたん]]だ。",
+  "options": [
+   "官単",
+   "完単",
+   "簡単",
+   "間単"
+  ],
+  "answer": 2,
+  "explanation": "かんたん is written 簡単 (simple). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He is more gentle than kind.",
+  "refs": [
+   "ab366b6c9d"
+  ],
+  "id": "n4-or-ab366b6c9d",
+  "type": "orthography",
+  "stem": "{彼|かれ}は{親切|しんせつ}というよりむしろ[[き]]がやさしい。",
+  "options": [
+   "寄",
+   "切",
+   "気",
+   "記"
+  ],
+  "answer": 2,
+  "explanation": "き is written 気 (spirit; mood). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Let's make it some other time.",
+  "refs": [
+   "3f4f3a3b9d"
+  ],
+  "id": "n4-or-3f4f3a3b9d",
+  "type": "orthography",
+  "stem": "またの[[きかい]]にしましょう。",
+  "options": [
+   "機解",
+   "機回",
+   "聞会",
+   "機会"
+  ],
+  "answer": 3,
+  "explanation": "きかい is written 機会 (opportunity). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Danger comes soonest when it is despised.",
+  "refs": [
+   "8bbbe3a9e8"
+  ],
+  "id": "n4-or-8bbbe3a9e8",
+  "type": "orthography",
+  "stem": "[[きけん]]は{見|み}くびるとすぐやってくる。",
+  "options": [
+   "危険",
+   "利険",
+   "切険",
+   "喜険"
+  ],
+  "answer": 0,
+  "explanation": "きけん is written 危険 (danger). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The train has not arrived yet.",
+  "refs": [
+   "a0c815188f"
+  ],
+  "id": "n4-or-a0c815188f",
+  "type": "orthography",
+  "stem": "[[きしゃ]]はまだ{着|つ}きません。",
+  "options": [
+   "聞車",
+   "消車",
+   "記車",
+   "汽車"
+  ],
+  "answer": 3,
+  "explanation": "きしゃ is written 汽車 (steam train). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Modern technology gives us many things.",
+  "refs": [
+   "bbf69b64f8"
+  ],
+  "id": "n4-or-bbf69b64f8",
+  "type": "orthography",
+  "stem": "{近代|きんだい}[[ぎじゅつ]]は{多|おお}くの{物|もの}を{与|あた}えてくれる。",
+  "options": [
+   "議術",
+   "疑術",
+   "技術",
+   "切術"
+  ],
+  "answer": 2,
+  "explanation": "ぎじゅつ is written 技術 (art; technology). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Fall is a good season for reading.",
+  "refs": [
+   "a1afb31e7b"
+  ],
+  "id": "n4-or-a1afb31e7b",
+  "type": "orthography",
+  "stem": "{秋|あき}は{読書|どくしょ}にもってこいの[[きせつ]]だ。",
+  "options": [
+   "消節",
+   "気節",
+   "季雪",
+   "季節"
+  ],
+  "answer": 3,
+  "explanation": "きせつ is written 季節 (season). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This rule applies to you, too.",
+  "refs": [
+   "fcca18b129"
+  ],
+  "id": "n4-or-fcca18b129",
+  "type": "orthography",
+  "stem": "この[[きそく]]はあなたにも{当|あ}てはまる。",
+  "options": [
+   "規則",
+   "決則",
+   "期則",
+   "消則"
+  ],
+  "answer": 0,
+  "explanation": "きそく is written 規則 (regulations). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I feel like a brand new person.",
+  "refs": [
+   "42f05076b3"
+  ],
+  "id": "n4-or-42f05076b3",
+  "type": "orthography",
+  "stem": "とても[[きぶん]]がリフレッシュされる。",
+  "options": [
+   "来分",
+   "聞分",
+   "気分",
+   "気無"
+  ],
+  "answer": 2,
+  "explanation": "きぶん is written 気分 (mood). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Isn't it a lovely morning?",
+  "refs": [
+   "af80712b7b"
+  ],
+  "id": "n4-or-af80712b7b",
+  "type": "orthography",
+  "stem": "[[きもち]]のいい{朝|あさ}ではありませんか。",
+  "options": [
+   "規持ち",
+   "記持ち",
+   "生持ち",
+   "気持ち"
+  ],
+  "answer": 3,
+  "explanation": "きもち is written 気持ち (feeling; mood). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She looks odd in those clothes.",
+  "refs": [
+   "a2a012c05f"
+  ],
+  "id": "n4-or-a2a012c05f",
+  "type": "orthography",
+  "stem": "{彼女|かのじょ}はその[[きもの]]を{着|き}ると{変|へん}に{見|み}える。",
+  "options": [
+   "機物",
+   "期物",
+   "木物",
+   "着物"
+  ],
+  "answer": 3,
+  "explanation": "きもの is written 着物 (kimono). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The current of this river is rapid.",
+  "refs": [
+   "a02c2a6790"
+  ],
+  "id": "n4-or-a02c2a6790",
+  "type": "orthography",
+  "stem": "この{川|かわ}の{流|なが}れは[[きゅう]]だ。",
+  "options": [
+   "究",
+   "給",
+   "求",
+   "急"
+  ],
+  "answer": 3,
+  "explanation": "きゅう is written 急 (urgent; steep). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How much is the express?",
+  "refs": [
+   "b6027b4099"
+  ],
+  "id": "n4-or-b6027b4099",
+  "type": "orthography",
+  "stem": "[[きゅうこう]]の{料金|りょうきん}は{幾|いく}らですか。",
+  "options": [
+   "急続",
+   "急広",
+   "急後",
+   "急行"
+  ],
+  "answer": 3,
+  "explanation": "きゅうこう is written 急行 (speedy; express). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Education in this world disappoints me.",
+  "refs": [
+   "319186af72"
+  ],
+  "id": "n4-or-319186af72",
+  "type": "orthography",
+  "stem": "この{世界|せかい}の[[きょういく]]にはがっかりしてしまう。",
+  "options": [
+   "教育",
+   "続育",
+   "脇育",
+   "京育"
+  ],
+  "answer": 0,
+  "explanation": "きょういく is written 教育 (education). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The church dates back to 1173.",
+  "refs": [
+   "7a7b79370f"
+  ],
+  "id": "n4-or-7a7b79370f",
+  "type": "orthography",
+  "stem": "その[[きょうかい]]は１１７３{年|ねん}までさかのぼる。",
+  "options": [
+   "供会",
+   "教会",
+   "教海",
+   "強会"
+  ],
+  "answer": 1,
+  "explanation": "きょうかい is written 教会 (church). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We raced our beetles.",
+  "refs": [
+   "a9dcbea815"
+  ],
+  "id": "n4-or-a9dcbea815",
+  "type": "orthography",
+  "stem": "みんなでカブトムシを[[きょうそう]]させた。",
+  "options": [
+   "恐争",
+   "競箱",
+   "競争",
+   "供争"
+  ],
+  "answer": 2,
+  "explanation": "きょうそう is written 競争 (competition). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Are you interested in flowers?",
+  "refs": [
+   "23ea485338"
+  ],
+  "id": "n4-or-23ea485338",
+  "type": "orthography",
+  "stem": "あなたは{花|はな}に[[きょうみ]]がありますか。",
+  "options": [
+   "興味",
+   "興三",
+   "供味",
+   "京味"
+  ],
+  "answer": 0,
+  "explanation": "きょうみ is written 興味 (an interest). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He moved into my neighborhood.",
+  "refs": [
+   "a6d55823a0"
+  ],
+  "id": "n4-or-a6d55823a0",
+  "type": "orthography",
+  "stem": "{彼|かれ}が[[きんじょ]]に{越|こ}してきた。",
+  "options": [
+   "僅所",
+   "金所",
+   "近所",
+   "京所"
+  ],
+  "answer": 2,
+  "explanation": "きんじょ is written 近所 (neighbourhood). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Something is the matter with my watch.",
+  "refs": [
+   "f36e445797"
+  ],
+  "id": "n4-or-f36e445797",
+  "type": "orthography",
+  "stem": "{時計|とけい}の[[ぐあい]]が{悪|わる}い。",
+  "options": [
+   "具和",
+   "具開",
+   "具合",
+   "具悪"
+  ],
+  "answer": 2,
+  "explanation": "ぐあい is written 具合 (condition; health). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The air is very pure in the mountains.",
+  "refs": [
+   "a70d257a61"
+  ],
+  "id": "n4-or-a70d257a61",
+  "type": "orthography",
+  "stem": "{山|やま}の{中|なか}では[[くうき]]がとてもきれいだ。",
+  "options": [
+   "空寄",
+   "空気",
+   "空利",
+   "空木"
+  ],
+  "answer": 1,
+  "explanation": "くうき is written 空気 (air; atmosphere). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Which airport do I leave from?",
+  "refs": [
+   "0f74a8f3a4"
+  ],
+  "id": "n4-or-0f74a8f3a4",
+  "type": "orthography",
+  "stem": "どの[[くうこう]]から{出発|しゅっぱつ}しますか。",
+  "options": [
+   "空構",
+   "空更",
+   "空港",
+   "空高"
+  ],
+  "answer": 2,
+  "explanation": "くうこう is written 空港 (airport). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We went with him on that plan.",
+  "refs": [
+   "836311c7d4"
+  ],
+  "id": "n4-or-836311c7d4",
+  "type": "orthography",
+  "stem": "その[[けいかく]]では{彼|かれ}に{同調|どうちょう}できました。",
+  "options": [
+   "計覚",
+   "京画",
+   "計画",
+   "計客"
+  ],
+  "answer": 2,
+  "explanation": "けいかく is written 計画 (to plan). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I think a part-time job is a good experience.",
+  "refs": [
+   "9746b57413"
+  ],
+  "id": "n4-or-9746b57413",
+  "type": "orthography",
+  "stem": "アルバイトはいい[[けいけん]]になるの。",
+  "options": [
+   "経間",
+   "掛験",
+   "経険",
+   "経験"
+  ],
+  "answer": 3,
+  "explanation": "けいけん is written 経験 (to experience). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The country is famous for the rapid growth of its economy.",
+  "refs": [
+   "5079fc5daf"
+  ],
+  "id": "n4-or-5079fc5daf",
+  "type": "orthography",
+  "stem": "その{国|くに}は[[けいざい]]の{急成長|きゅうせいちょう}で{有名|ゆうめい}だ。",
+  "options": [
+   "係済",
+   "兄済",
+   "経済",
+   "京済"
+  ],
+  "answer": 2,
+  "explanation": "けいざい is written 経済 (finance; economy). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "In that case, call the police.",
+  "refs": [
+   "25550955b0"
+  ],
+  "id": "n4-or-25550955b0",
+  "type": "orthography",
+  "stem": "その{場合|ばあい}には[[けいさつ]]を{呼|よ}びなさい。",
+  "options": [
+   "景察",
+   "京察",
+   "掛察",
+   "警察"
+  ],
+  "answer": 3,
+  "explanation": "けいさつ is written 警察 (police). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Can I borrow your eraser for a moment?",
+  "refs": [
+   "ba1b3c0d13"
+  ],
+  "id": "n4-or-ba1b3c0d13",
+  "type": "orthography",
+  "stem": "ちょっと[[けしゴム]]をかしてくれませんか。",
+  "options": [
+   "化しゴム",
+   "消しゴム",
+   "花しゴム",
+   "家しゴム"
+  ],
+  "answer": 1,
+  "explanation": "けしゴム is written 消しゴム (eraser). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She boards students.",
+  "refs": [
+   "c3da539389"
+  ],
+  "id": "n4-or-c3da539389",
+  "type": "orthography",
+  "stem": "{彼女|かのじょ}は{学生|がくせい}を[[げしゅく]]させている。",
+  "options": [
+   "下宿",
+   "外宿",
+   "夏宿",
+   "解宿"
+  ],
+  "answer": 0,
+  "explanation": "げしゅく is written 下宿 (lodging). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "There is not much doubt about the cause of the fire.",
+  "refs": [
+   "43f91bcf9d"
+  ],
+  "id": "n4-or-43f91bcf9d",
+  "type": "orthography",
+  "stem": "{火事|かじ}の[[げんいん]]はだいたいわかっている。",
+  "options": [
+   "原因",
+   "現因",
+   "原院",
+   "言因"
+  ],
+  "answer": 0,
+  "explanation": "げんいん is written 原因 (cause; source). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How are your studies going?",
+  "refs": [
+   "607f3c4430"
+  ],
+  "id": "n4-or-607f3c4430",
+  "type": "orthography",
+  "stem": "あなたのご[[けんきゅう]]は、いかがですか。",
+  "options": [
+   "建究",
+   "見究",
+   "研究",
+   "件究"
+  ],
+  "answer": 2,
+  "explanation": "けんきゅう is written 研究 (research). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We have made use of the laboratory.",
+  "refs": [
+   "912c269668"
+  ],
+  "id": "n4-or-912c269668",
+  "type": "orthography",
+  "stem": "{私|わたし}たちはその[[けんきゅうしつ]]を{利用|りよう}した。",
+  "options": [
+   "研給室",
+   "建究室",
+   "研究室",
+   "犬究室"
+  ],
+  "answer": 2,
+  "explanation": "けんきゅうしつ is written 研究室 (study room; laboratory). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What should I see?",
+  "refs": [
+   "a9a71878f0"
+  ],
+  "id": "n4-or-a9a71878f0",
+  "type": "orthography",
+  "stem": "どこを[[けんぶつ]]すればいいでしょうか。",
+  "options": [
+   "見物",
+   "欠物",
+   "権物",
+   "犬物"
+  ],
+  "answer": 0,
+  "explanation": "けんぶつ is written 見物 (sightseeing). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What a stupid boy he is!",
+  "refs": [
+   "f17fa2d7e1"
+  ],
+  "id": "n4-or-f17fa2d7e1",
+  "type": "orthography",
+  "stem": "なんてばかな[[こ]]なんだ、あいつは！",
+  "options": [
+   "去",
+   "込",
+   "処",
+   "子"
+  ],
+  "answer": 3,
+  "explanation": "こ is written 子 (child). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I live on the outskirts of Tokyo.",
+  "refs": [
+   "aa95e437a0"
+  ],
+  "id": "n4-or-aa95e437a0",
+  "type": "orthography",
+  "stem": "{私|わたし}は{東京|とうきょう}の[[こうがい]]に{住|す}んでいる。",
+  "options": [
+   "郊外",
+   "候外",
+   "港外",
+   "後外"
+  ],
+  "answer": 0,
+  "explanation": "こうがい is written 郊外 (outskirts). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Few people came to the lecture.",
+  "refs": [
+   "8063587e53"
+  ],
+  "id": "n4-or-8063587e53",
+  "type": "orthography",
+  "stem": "その[[こうぎ]]へ{来|き}た{人|ひと}はほとんどいなかった。",
+  "options": [
+   "工義",
+   "講義",
+   "後義",
+   "口義"
+  ],
+  "answer": 1,
+  "explanation": "こうぎ is written 講義 (lecture). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "More students are interested in finance than in industry.",
+  "refs": [
+   "baaaf1524a"
+  ],
+  "id": "n4-or-baaaf1524a",
+  "type": "orthography",
+  "stem": "[[こうぎょう]]よりも{金融|きんゆう}に{関心|かんしん}のある{学生|がくせい}のほうが{多|おお}い。",
+  "options": [
+   "構業",
+   "港業",
+   "更業",
+   "工業"
+  ],
+  "answer": 3,
+  "explanation": "こうぎょう is written 工業 (the manufacturing industry). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "On leaving high school, I went to Tokyo.",
+  "refs": [
+   "22ba4ea959"
+  ],
+  "id": "n4-or-22ba4ea959",
+  "type": "orthography",
+  "stem": "[[こうこう]]を{出|で}るとすぐ、{私|わたし}は{上京|じょうきょう}した。",
+  "options": [
+   "格校",
+   "構校",
+   "高校",
+   "交校"
+  ],
+  "answer": 2,
+  "explanation": "こうこう is written 高校 (high school). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I am corresponding with an American high school student.",
+  "refs": [
+   "795156bbfe"
+  ],
+  "id": "n4-or-795156bbfe",
+  "type": "orthography",
+  "stem": "{私|わたし}はアメリカの[[こうこうせい]]と{文通|ぶんつう}をしている。",
+  "options": [
+   "高校生",
+   "高校出",
+   "高広生",
+   "高後生"
+  ],
+  "answer": 0,
+  "explanation": "こうこうせい is written 高校生 (high school student). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The principal came in after the teacher.",
+  "refs": [
+   "0c49fbf17c"
+  ],
+  "id": "n4-or-0c49fbf17c",
+  "type": "orthography",
+  "stem": "[[こうちょう]]が{先生|せんせい}の{後|うし}ろから{入|はい}ってきた。",
+  "options": [
+   "校重",
+   "校鳥",
+   "校調",
+   "校長"
+  ],
+  "answer": 3,
+  "explanation": "こうちょう is written 校長 (headmaster). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You must take care driving.",
+  "refs": [
+   "d64432f194"
+  ],
+  "id": "n4-or-d64432f194",
+  "type": "orthography",
+  "stem": "[[こうつう]]に{注意|ちゅうい}しなければいけない。",
+  "options": [
+   "行通",
+   "交通",
+   "考通",
+   "交子"
+  ],
+  "answer": 1,
+  "explanation": "こうつう is written 交通 (traffic; transportation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The teacher assembled the students in the hall.",
+  "refs": [
+   "8786f4e971"
+  ],
+  "id": "n4-or-8786f4e971",
+  "type": "orthography",
+  "stem": "その{教師|きょうし}は[[こうどう]]に{学生|がくせい}を{集|あつ}めた。",
+  "options": [
+   "講登",
+   "広堂",
+   "向堂",
+   "講堂"
+  ],
+  "answer": 3,
+  "explanation": "こうどう is written 講堂 (auditorium). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He is not a high school student.",
+  "refs": [
+   "9593b3e04f"
+  ],
+  "id": "n4-or-9593b3e04f",
+  "type": "orthography",
+  "stem": "{彼|かれ}は[[こうとうがっこう]]の{生徒|せいと}ではありません。",
+  "options": [
+   "高答学校",
+   "高等学校",
+   "高等学確",
+   "高等学交"
+  ],
+  "answer": 1,
+  "explanation": "こうとうがっこう is written 高等学校 (high school). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm a government worker.",
+  "refs": [
+   "a431dff83f"
+  ],
+  "id": "n4-or-a431dff83f",
+  "type": "orthography",
+  "stem": "{私|わたし}は[[こうむいん]]です。",
+  "options": [
+   "公産員",
+   "高務員",
+   "公務員",
+   "好務員"
+  ],
+  "answer": 2,
+  "explanation": "こうむいん is written 公務員 (government worker). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "English is an international language.",
+  "refs": [
+   "8fd9bc63e8"
+  ],
+  "id": "n4-or-8fd9bc63e8",
+  "type": "orthography",
+  "stem": "{英語|えいご}は[[こくさい]]{言語|げんご}である。",
+  "options": [
+   "国際",
+   "国財",
+   "国殺",
+   "国妻"
+  ],
+  "answer": 0,
+  "explanation": "こくさい is written 国際 (international). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was late because my car broke down.",
+  "refs": [
+   "ce133477e7"
+  ],
+  "id": "n4-or-ce133477e7",
+  "type": "orthography",
+  "stem": "{車|くるま}が[[こしょう]]したので{遅|おく}れました。",
+  "options": [
+   "故様",
+   "故招",
+   "故障",
+   "故声"
+  ],
+  "answer": 2,
+  "explanation": "こしょう is written 故障 (to break-down). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The birds are singing merrily.",
+  "refs": [
+   "0ae014e274"
+  ],
+  "id": "n4-or-0ae014e274",
+  "type": "orthography",
+  "stem": "[[ことり]]たちはたのしそうにさえずっています。",
+  "options": [
+   "小鳥",
+   "処鳥",
+   "古鳥",
+   "来鳥"
+  ],
+  "answer": 0,
+  "explanation": "ことり is written 小鳥 (small bird). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The building may crash at any time.",
+  "refs": [
+   "63290aef69"
+  ],
+  "id": "n4-or-63290aef69",
+  "type": "orthography",
+  "stem": "その{建物|たてもの}はいつ[[こわれる]]かもしれない。",
+  "options": [
+   "声れる",
+   "壊れる",
+   "怖れる",
+   "強れる"
+  ],
+  "answer": 1,
+  "explanation": "こわれる is written 壊れる (to be broken). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How about playing tennis next Saturday?",
+  "refs": [
+   "cbb63150b8"
+  ],
+  "id": "n4-or-cbb63150b8",
+  "type": "orthography",
+  "stem": "[[こんど]]の{土曜日|どようび}、テニスをしませんか。",
+  "options": [
+   "今度",
+   "近度",
+   "今土",
+   "今怒"
+  ],
+  "answer": 0,
+  "explanation": "こんど is written 今度 (now; next time). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We're giving a party tonight.",
+  "refs": [
+   "bdad768057"
+  ],
+  "id": "n4-or-bdad768057",
+  "type": "orthography",
+  "stem": "[[こんや]]、パーティーを{開|ひら}きます。",
+  "options": [
+   "今夜",
+   "今病",
+   "今痩",
+   "近夜"
+  ],
+  "answer": 0,
+  "explanation": "こんや is written 今夜 (tonight). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I've got little time for reading these days.",
+  "refs": [
+   "df21df827a"
+  ],
+  "id": "n4-or-df21df827a",
+  "type": "orthography",
+  "stem": "[[さいきん]]は{読書|どくしょ}の{時間|じかん}がほとんどない。",
+  "options": [
+   "最近",
+   "際近",
+   "最経",
+   "才近"
+  ],
+  "answer": 0,
+  "explanation": "さいきん is written 最近 (latest; nowadays). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The final exams will probably carry over into next month.",
+  "refs": [
+   "c54201ce25"
+  ],
+  "id": "n4-or-c54201ce25",
+  "type": "orthography",
+  "stem": "[[さいご]]の{試験|しけん}は{来月|らいげつ}にまたがるだろう。",
+  "options": [
+   "切後",
+   "最後",
+   "最互",
+   "最語"
+  ],
+  "answer": 1,
+  "explanation": "さいご is written 最後 (last; end). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I knew that all along.",
+  "refs": [
+   "f5c169269f"
+  ],
+  "id": "n4-or-f5c169269f",
+  "type": "orthography",
+  "stem": "{私|わたし}は[[さいしょ]]からその{事|こと}は{知|し}っていた。",
+  "options": [
+   "最初",
+   "際初",
+   "最書",
+   "凄初"
+  ],
+  "answer": 0,
+  "explanation": "さいしょ is written 最初 (beginning; first). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How about two weeks from Thursday?",
+  "refs": [
+   "a6678a1d99"
+  ],
+  "id": "n4-or-a6678a1d99",
+  "type": "orthography",
+  "stem": "[[さらいしゅう]]の{木曜日|もくようび}はどう？",
+  "options": [
+   "去来週",
+   "冷来週",
+   "茶来週",
+   "再来週"
+  ],
+  "answer": 3,
+  "explanation": "さらいしゅう is written 再来週 (the week after next). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The country is supported by industry.",
+  "refs": [
+   "28faf8f7a3"
+  ],
+  "id": "n4-or-28faf8f7a3",
+  "type": "orthography",
+  "stem": "その{国|くに}は[[さんぎょう]]によって{支|ささ}えられている。",
+  "options": [
+   "三業",
+   "優業",
+   "生業",
+   "産業"
+  ],
+  "answer": 3,
+  "explanation": "さんぎょう is written 産業 (industry). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The town grew into a city.",
+  "refs": [
+   "988f9bb24f"
+  ],
+  "id": "n4-or-988f9bb24f",
+  "type": "orthography",
+  "stem": "その{町|まち}は{大|おお}きくなって[[し]]となった。",
+  "options": [
+   "使",
+   "試",
+   "市",
+   "閉"
+  ],
+  "answer": 2,
+  "explanation": "し is written 市 (city). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You write very neatly, don't you?",
+  "refs": [
+   "dd89673ae0"
+  ],
+  "id": "n4-or-dd89673ae0",
+  "type": "orthography",
+  "stem": "{君|きみ}は[[じ]]がうまいね。",
+  "options": [
+   "辞",
+   "事",
+   "除",
+   "字"
+  ],
+  "answer": 3,
+  "explanation": "じ is written 字 (character). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What time does the game start?",
+  "refs": [
+   "fd00937783"
+  ],
+  "id": "n4-or-fd00937783",
+  "type": "orthography",
+  "stem": "その[[しあい]]は{何時|なんじ}に{始|はじ}まりますか。",
+  "options": [
+   "強合",
+   "試合",
+   "試空",
+   "試登"
+  ],
+  "answer": 1,
+  "explanation": "しあい is written 試合 (match; game). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Do you know how to play chess?",
+  "refs": [
+   "88125cd960"
+  ],
+  "id": "n4-or-88125cd960",
+  "type": "orthography",
+  "stem": "あなたはチェスの[[しかた]]を{知|し}っていますか。",
+  "options": [
+   "仕方",
+   "紙方",
+   "示方",
+   "私方"
+  ],
+  "answer": 0,
+  "explanation": "しかた is written 仕方 (method). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Anyhow, I'm relieved the test is over.",
+  "refs": [
+   "7855de335f"
+  ],
+  "id": "n4-or-7855de335f",
+  "type": "orthography",
+  "stem": "とにかく、[[しけん]]が{終|お}わってほっとしたよ。",
+  "options": [
+   "試犬",
+   "私験",
+   "試験",
+   "自験"
+  ],
+  "answer": 2,
+  "explanation": "しけん is written 試験 (examination). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I asked him about the accident.",
+  "refs": [
+   "7f6ffe3432"
+  ],
+  "id": "n4-or-7f6ffe3432",
+  "type": "orthography",
+  "stem": "その[[じこ]]について{彼|かれ}に{質問|しつもん}した。",
+  "options": [
+   "事去",
+   "事込",
+   "自故",
+   "事故"
+  ],
+  "answer": 3,
+  "explanation": "じこ is written 事故 (accident). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "In case of an earthquake, turn off the gas.",
+  "refs": [
+   "ba8831572d"
+  ],
+  "id": "n4-or-ba8831572d",
+  "type": "orthography",
+  "stem": "[[じしん]]のときにはガスを{止|と}めなさい。",
+  "options": [
+   "除震",
+   "地震",
+   "地新",
+   "二震"
+  ],
+  "answer": 1,
+  "explanation": "じしん is written 地震 (earthquake). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I took an English newspaper when I was in college.",
+  "refs": [
+   "62ebad7ac3"
+  ],
+  "id": "n4-or-62ebad7ac3",
+  "type": "orthography",
+  "stem": "{大学|だいがく}[[じだい]]に{私|わたし}は{英字新聞|えいじしんぶん}をとっていた。",
+  "options": [
+   "除代",
+   "時台",
+   "時代",
+   "次代"
+  ],
+  "answer": 2,
+  "explanation": "じだい is written 時代 (era). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Get ready for the trip at once.",
+  "refs": [
+   "ecb83e16fd"
+  ],
+  "id": "n4-or-ecb83e16fd",
+  "type": "orthography",
+  "stem": "すぐに{旅|たび}の[[したく]]をしなさい。",
+  "options": [
+   "支度",
+   "支太",
+   "支食",
+   "支他"
+  ],
+  "answer": 0,
+  "explanation": "したく is written 支度 (to prepare). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The angry citizens took action immediately.",
+  "refs": [
+   "8f69279374"
+  ],
+  "id": "n4-or-8f69279374",
+  "type": "orthography",
+  "stem": "{怒|おこ}った[[しみん]]たちは{直|ただ}ちに{行動|こうどう}を{起|お}こした。",
+  "options": [
+   "識民",
+   "歯民",
+   "知民",
+   "市民"
+  ],
+  "answer": 3,
+  "explanation": "しみん is written 市民 (citizen). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Put on me to the office.",
+  "refs": [
+   "9690043102"
+  ],
+  "id": "n4-or-9690043102",
+  "type": "orthography",
+  "stem": "[[じむしょ]]の{方|ほう}につないでください。",
+  "options": [
+   "事産所",
+   "事務所",
+   "示務所",
+   "地務所"
+  ],
+  "answer": 1,
+  "explanation": "じむしょ is written 事務所 (office). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He lived and died in obscurity.",
+  "refs": [
+   "a7dc742b01"
+  ],
+  "id": "n4-or-a7dc742b01",
+  "type": "orthography",
+  "stem": "{彼|かれ}の{一生|いっしょう}は[[しゃかい]]の{下積|したづ}みで{終|お}わった。",
+  "options": [
+   "者会",
+   "社回",
+   "社解",
+   "社会"
+  ],
+  "answer": 3,
+  "explanation": "しゃかい is written 社会 (society; public). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Who is the boss of this company?",
+  "refs": [
+   "a40ee6e509"
+  ],
+  "id": "n4-or-a40ee6e509",
+  "type": "orthography",
+  "stem": "この{会社|かいしゃ}の[[しゃちょう]]は{誰|だれ}ですか。",
+  "options": [
+   "社長",
+   "者長",
+   "車長",
+   "社鳥"
+  ],
+  "answer": 0,
+  "explanation": "しゃちょう is written 社長 (company president). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You may spend or save at will.",
+  "refs": [
+   "d1805965ec"
+  ],
+  "id": "n4-or-d1805965ec",
+  "type": "orthography",
+  "stem": "お{金|かね}を{使|つか}うも{貯|た}めるも[[じゆう]]にしなさい。",
+  "options": [
+   "自有",
+   "自由",
+   "仕由",
+   "似由"
+  ],
+  "answer": 1,
+  "explanation": "じゆう is written 自由 (freedom). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The custom originated in China.",
+  "refs": [
+   "eacd8a5221"
+  ],
+  "id": "n4-or-eacd8a5221",
+  "type": "orthography",
+  "stem": "その[[しゅうかん]]は{中国|ちゅうごく}で{始|はじ}まった。",
+  "options": [
+   "収慣",
+   "集慣",
+   "習慣",
+   "習寒"
+  ],
+  "answer": 2,
+  "explanation": "しゅうかん is written 習慣 (custom; manners). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Fill in your name and address.",
+  "refs": [
+   "47593d1123"
+  ],
+  "id": "n4-or-47593d1123",
+  "type": "orthography",
+  "stem": "あなたの{名前|なまえ}と[[じゅうしょ]]を{記入|きにゅう}しなさい。",
+  "options": [
+   "重所",
+   "住所",
+   "住書",
+   "住処"
+  ],
+  "answer": 1,
+  "explanation": "じゅうしょ is written 住所 (an address; a residence). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "In judo, technique is more important than strength.",
+  "refs": [
+   "dcfb33317b"
+  ],
+  "id": "n4-or-dcfb33317b",
+  "type": "orthography",
+  "stem": "[[じゅうどう]]では{力|ちから}より{技|わざ}のほうが{大切|たいせつ}である。",
+  "options": [
+   "柔登",
+   "柔道",
+   "重道",
+   "十道"
+  ],
+  "answer": 1,
+  "explanation": "じゅうどう is written 柔道 (judo). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Have a good supply of drinking water.",
+  "refs": [
+   "ab6fd5bdbb"
+  ],
+  "id": "n4-or-ab6fd5bdbb",
+  "type": "orthography",
+  "stem": "{飲|の}み{水|みず}を[[じゅうぶん]]{用意|ようい}しておきなさい。",
+  "options": [
+   "住分",
+   "十部",
+   "十不",
+   "十分"
+  ],
+  "answer": 3,
+  "explanation": "じゅうぶん is written 十分 (enough). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You can't attend? Why not?",
+  "refs": [
+   "93f910e281"
+  ],
+  "id": "n4-or-93f910e281",
+  "type": "orthography",
+  "stem": "[[しゅっせき]]できないんですか。どうして？",
+  "options": [
+   "出石",
+   "出席",
+   "出夕",
+   "出昔"
+  ],
+  "answer": 1,
+  "explanation": "しゅっせき is written 出席 (to attend). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Did you talk about your hobby?",
+  "refs": [
+   "7c6d792073"
+  ],
+  "id": "n4-or-7c6d792073",
+  "type": "orthography",
+  "stem": "[[しゅみ]]については{話|はな}しましたか？",
+  "options": [
+   "趣味",
+   "痩味",
+   "種味",
+   "趣深"
+  ],
+  "answer": 0,
+  "explanation": "しゅみ is written 趣味 (hobby). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Hang on a bit until I'm ready.",
+  "refs": [
+   "6ce523bcb6"
+  ],
+  "id": "n4-or-6ce523bcb6",
+  "type": "orthography",
+  "stem": "[[じゅんび]]ができるまでちょっと{待|ま}ってくれ。",
+  "options": [
+   "準備",
+   "準日",
+   "準未",
+   "準火"
+  ],
+  "answer": 0,
+  "explanation": "じゅんび is written 準備 (to prepare). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'd like you to meet my brother, Tom.",
+  "refs": [
+   "c151fe4163"
+  ],
+  "id": "n4-or-c151fe4163",
+  "type": "orthography",
+  "stem": "{兄|あに}のトムを[[しょうかい]]させていただきます。",
+  "options": [
+   "青介",
+   "生介",
+   "性介",
+   "紹介"
+  ],
+  "answer": 3,
+  "explanation": "しょうかい is written 紹介 (introduction). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Do you go to an elementary school?",
+  "refs": [
+   "b04bf40187"
+  ],
+  "id": "n4-or-b04bf40187",
+  "type": "orthography",
+  "stem": "あなたは[[しょうがっこう]]に{通|かよ}っているの？",
+  "options": [
+   "小学校",
+   "小学港",
+   "青学校",
+   "性学校"
+  ],
+  "answer": 0,
+  "explanation": "しょうがっこう is written 小学校 (elementary school). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Tom is reading a novel.",
+  "refs": [
+   "689dc7a66e"
+  ],
+  "id": "n4-or-689dc7a66e",
+  "type": "orthography",
+  "stem": "トムは[[しょうせつ]]を{読|よ}んでいる。",
+  "options": [
+   "小説",
+   "少説",
+   "性説",
+   "登説"
+  ],
+  "answer": 0,
+  "explanation": "しょうせつ is written 小説 (novel). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Thank you for your invitation.",
+  "refs": [
+   "6111e87e72"
+  ],
+  "id": "n4-or-6111e87e72",
+  "type": "orthography",
+  "stem": "ご[[しょうたい]]をありがとうございます。",
+  "options": [
+   "招待",
+   "招太",
+   "招大",
+   "勝待"
+  ],
+  "answer": 0,
+  "explanation": "しょうたい is written 招待 (to invite). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We know that all men are mortal.",
+  "refs": [
+   "b377c7b2ea"
+  ],
+  "id": "n4-or-b377c7b2ea",
+  "type": "orthography",
+  "stem": "{人|ひと}はすべて{死|し}すべきものと[[しょうち]]している。",
+  "options": [
+   "承識",
+   "承千",
+   "承遅",
+   "承知"
+  ],
+  "answer": 3,
+  "explanation": "しょうち is written 承知 (to consent). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I can't help thinking of the future.",
+  "refs": [
+   "0e3ecb7665"
+  ],
+  "id": "n4-or-0e3ecb7665",
+  "type": "orthography",
+  "stem": "[[しょうらい]]の{事|こと}を{考|かんが}えずにはいられない。",
+  "options": [
+   "将来",
+   "少来",
+   "様来",
+   "招来"
+  ],
+  "answer": 0,
+  "explanation": "しょうらい is written 将来 (future; prospects). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm cooked meals by my mother.",
+  "refs": [
+   "1ad2f6d941"
+  ],
+  "id": "n4-or-1ad2f6d941",
+  "type": "orthography",
+  "stem": "[[しょくじ]]は{母|はは}に{作|つく}ってもらっています。",
+  "options": [
+   "続事",
+   "食餌",
+   "公事",
+   "食事"
+  ],
+  "answer": 3,
+  "explanation": "しょくじ is written 食事 (to have a meal). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "They sell good foods at that shop.",
+  "refs": [
+   "2ae7b1cb3b"
+  ],
+  "id": "n4-or-2ae7b1cb3b",
+  "type": "orthography",
+  "stem": "あの{店|みせ}では{良質|りょうしつ}の[[しょくりょうひん]]を{売|う}っている。",
+  "options": [
+   "食良品",
+   "食両品",
+   "暮料品",
+   "食料品"
+  ],
+  "answer": 3,
+  "explanation": "しょくりょうひん is written 食料品 (groceries). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The girl has grown into a slender woman.",
+  "refs": [
+   "8410c15b44"
+  ],
+  "id": "n4-or-8410c15b44",
+  "type": "orthography",
+  "stem": "その{少女|しょうじょ}は{大|おお}きくなってすらりとした[[じょせい]]になった。",
+  "options": [
+   "女青",
+   "女静",
+   "助性",
+   "女性"
+  ],
+  "answer": 3,
+  "explanation": "じょせい is written 女性 (woman). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What is the population of India?",
+  "refs": [
+   "7962f0cea1"
+  ],
+  "id": "n4-or-7962f0cea1",
+  "type": "orthography",
+  "stem": "インドの[[じんこう]]はどのくらいですか。",
+  "options": [
+   "人続",
+   "人好",
+   "人公",
+   "人口"
+  ],
+  "answer": 3,
+  "explanation": "じんこう is written 人口 (population). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Your family must be very nice.",
+  "refs": [
+   "c904982ded"
+  ],
+  "id": "n4-or-c904982ded",
+  "type": "orthography",
+  "stem": "あなたの{家族|かぞく}はきっと[[しんせつ]]でしょう。",
+  "options": [
+   "親切",
+   "新切",
+   "親折",
+   "寝切"
+  ],
+  "answer": 0,
+  "explanation": "しんせつ is written 親切 (kindness). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The boy got sick from anxiety.",
+  "refs": [
+   "ff60f2830f"
+  ],
+  "id": "n4-or-ff60f2830f",
+  "type": "orthography",
+  "stem": "その{男|おとこ}の{子|こ}は[[しんぱい]]して{病気|びょうき}になった。",
+  "options": [
+   "心配",
+   "参配",
+   "親配",
+   "深配"
+  ],
+  "answer": 0,
+  "explanation": "しんぱい is written 心配 (to worry). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Which newspaper do you work for?",
+  "refs": [
+   "f7e69f5427"
+  ],
+  "id": "n4-or-f7e69f5427",
+  "type": "orthography",
+  "stem": "どちらの[[しんぶんしゃ]]にお{勤|つと}めですか。",
+  "options": [
+   "申聞社",
+   "心聞社",
+   "新聞車",
+   "新聞社"
+  ],
+  "answer": 3,
+  "explanation": "しんぶんしゃ is written 新聞社 (newspaper company). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I swam in the afternoons during the summer vacation.",
+  "refs": [
+   "78de196fe8"
+  ],
+  "id": "n4-or-78de196fe8",
+  "type": "orthography",
+  "stem": "{私|わたし}は{夏休|なつやす}み{中|じゅう}{午後|ごご}には[[すいえい]]をした。",
+  "options": [
+   "水英",
+   "水泳",
+   "水映",
+   "出泳"
+  ],
+  "answer": 1,
+  "explanation": "すいえい is written 水泳 (swimming). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Most Japanese drink water from the tap.",
+  "refs": [
+   "2070f21eae"
+  ],
+  "id": "n4-or-2070f21eae",
+  "type": "orthography",
+  "stem": "たいていの{日本人|にほんじん}は[[すいどう]]の{水|みず}を{飲|の}みます。",
+  "options": [
+   "水道",
+   "誰道",
+   "出道",
+   "水動"
+  ],
+  "answer": 0,
+  "explanation": "すいどう is written 水道 (water supply). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This math problem beats me.",
+  "refs": [
+   "48341cc3a0"
+  ],
+  "id": "n4-or-48341cc3a0",
+  "type": "orthography",
+  "stem": "{私|わたし}にはこの[[すうがく]]の{問題|もんだい}はわからない。",
+  "options": [
+   "西学",
+   "数学",
+   "数楽",
+   "済学"
+  ],
+  "answer": 1,
+  "explanation": "すうがく is written 数学 (mathematics; arithmetic). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How are you getting along?",
+  "refs": [
+   "7817c4eed6"
+  ],
+  "id": "n4-or-7817c4eed6",
+  "type": "orthography",
+  "stem": "どのようにして[[せいかつ]]していきますか。",
+  "options": [
+   "以活",
+   "生違",
+   "精活",
+   "生活"
+  ],
+  "answer": 3,
+  "explanation": "せいかつ is written 生活 (to live). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Production of this automobile started in 1980.",
+  "refs": [
+   "75acde1d68"
+  ],
+  "id": "n4-or-75acde1d68",
+  "type": "orthography",
+  "stem": "この{自動車|じどうしゃ}の[[せいさん]]は１９８０{年|ねん}に{始|はじ}まった。",
+  "options": [
+   "政産",
+   "言産",
+   "生産",
+   "生山"
+  ],
+  "answer": 2,
+  "explanation": "せいさん is written 生産 (to produce). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'd rather not say anything about politics.",
+  "refs": [
+   "75b0305c60"
+  ],
+  "id": "n4-or-75b0305c60",
+  "type": "orthography",
+  "stem": "[[せいじ]]については{語|かた}りたくない。",
+  "options": [
+   "政自",
+   "政路",
+   "政治",
+   "西治"
+  ],
+  "answer": 2,
+  "explanation": "せいじ is written 政治 (politics; government). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "They are much better than Western baths.",
+  "refs": [
+   "1e4db2ac9d"
+  ],
+  "id": "n4-or-1e4db2ac9d",
+  "type": "orthography",
+  "stem": "それらは[[せいよう]]の{風呂|ふろ}よりずっといいです。",
+  "options": [
+   "凄洋",
+   "西洋",
+   "世洋",
+   "情洋"
+  ],
+  "answer": 1,
+  "explanation": "せいよう is written 西洋 (western countries). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Love makes the world go round.",
+  "refs": [
+   "bfe54303cd"
+  ],
+  "id": "n4-or-bfe54303cd",
+  "type": "orthography",
+  "stem": "{愛|あい}の{力|ちから}は[[せかい]]を{動|うご}かす。",
+  "options": [
+   "数界",
+   "急界",
+   "世界",
+   "世回"
+  ],
+  "answer": 2,
+  "explanation": "せかい is written 世界 (the world). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Can you save this seat for me?",
+  "refs": [
+   "d11d9a6207"
+  ],
+  "id": "n4-or-d11d9a6207",
+  "type": "orthography",
+  "stem": "この[[せき]]を{見|み}ていてくれませんか。",
+  "options": [
+   "席",
+   "夕",
+   "責",
+   "関"
+  ],
+  "answer": 0,
+  "explanation": "せき is written 席 (seat). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How do you account for that?",
+  "refs": [
+   "123ee74d43"
+  ],
+  "id": "n4-or-123ee74d43",
+  "type": "orthography",
+  "stem": "あなたはそれをどう[[せつめい]]しますか。",
+  "options": [
+   "切明",
+   "殺明",
+   "説明",
+   "雪明"
+  ],
+  "answer": 2,
+  "explanation": "せつめい is written 説明 (explanation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This blouse buttons at the back.",
+  "refs": [
+   "d8623369cb"
+  ],
+  "id": "n4-or-d8623369cb",
+  "type": "orthography",
+  "stem": "このブラウスはボタンが[[せなか]]にある。",
+  "options": [
+   "数中",
+   "責中",
+   "世中",
+   "背中"
+  ],
+  "answer": 3,
+  "explanation": "せなか is written 背中 (back of the body). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You can't care for pets.",
+  "refs": [
+   "dac7bb4374"
+  ],
+  "id": "n4-or-dac7bb4374",
+  "type": "orthography",
+  "stem": "あなたはペットの[[せわ]]ができない。",
+  "options": [
+   "世話",
+   "急話",
+   "数話",
+   "世和"
+  ],
+  "answer": 0,
+  "explanation": "せわ is written 世話 (to look after). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I hope war doesn't break out.",
+  "refs": [
+   "8c83cac81c"
+  ],
+  "id": "n4-or-8c83cac81c",
+  "type": "orthography",
+  "stem": "[[せんそう]]が{起|お}こらなければいいと{思|おも}う。",
+  "options": [
+   "戦箱",
+   "戦争",
+   "戦痩",
+   "戦早"
+  ],
+  "answer": 1,
+  "explanation": "せんそう is written 戦争 (war). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We respect him as a good senior.",
+  "refs": [
+   "9b3ce398bd"
+  ],
+  "id": "n4-or-9b3ce398bd",
+  "type": "orthography",
+  "stem": "{私|わたし}たちは{彼|かれ}をよき[[せんぱい]]として{尊敬|そんけい}している。",
+  "options": [
+   "先輩",
+   "山輩",
+   "川輩",
+   "洗輩"
+  ],
+  "answer": 0,
+  "explanation": "せんぱい is written 先輩 (senior). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I have something to talk over with you.",
+  "refs": [
+   "aa663833e4"
+  ],
+  "id": "n4-or-aa663833e4",
+  "type": "orthography",
+  "stem": "あなたに[[そうだん]]したいことがあるの。",
+  "options": [
+   "相談",
+   "窓談",
+   "箱談",
+   "相段"
+  ],
+  "answer": 0,
+  "explanation": "そうだん is written 相談 (to discuss). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "My grandfather cannot walk without a stick.",
+  "refs": [
+   "14363682cb"
+  ],
+  "id": "n4-or-14363682cb",
+  "type": "orthography",
+  "stem": "[[そふ]]はステッキがないと{歩|ある}けない。",
+  "options": [
+   "祖吹",
+   "祖父",
+   "組父",
+   "祖富"
+  ],
+  "answer": 1,
+  "explanation": "そふ is written 祖父 (grandfather). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I love my grandmother very much.",
+  "refs": [
+   "0f0ed38b4c"
+  ],
+  "id": "n4-or-0f0ed38b4c",
+  "type": "orthography",
+  "stem": "{私|わたし}は[[そぼ]]が{大好|だいす}きです。",
+  "options": [
+   "十母",
+   "祖母",
+   "想母",
+   "殺母"
+  ],
+  "answer": 1,
+  "explanation": "そぼ is written 祖母 (grandmother). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She will leave the hospital soon.",
+  "refs": [
+   "ced7c01cf1"
+  ],
+  "id": "n4-or-ced7c01cf1",
+  "type": "orthography",
+  "stem": "{彼女|かのじょ}はまもなく[[たいいん]]するでしょう。",
+  "options": [
+   "退院",
+   "大院",
+   "退因",
+   "諦院"
+  ],
+  "answer": 0,
+  "explanation": "たいいん is written 退院 (to leave hospital). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "That college student is studying engineering.",
+  "refs": [
+   "138dee4a26"
+  ],
+  "id": "n4-or-138dee4a26",
+  "type": "orthography",
+  "stem": "その[[だいがくせい]]は{工学|こうがく}を{学|まな}んでいます。",
+  "options": [
+   "大学情",
+   "大学出",
+   "大学声",
+   "大学生"
+  ],
+  "answer": 3,
+  "explanation": "だいがくせい is written 大学生 (university student). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Of these it is the latter one that is important.",
+  "refs": [
+   "de9d61dd71"
+  ],
+  "id": "n4-or-de9d61dd71",
+  "type": "orthography",
+  "stem": "このうち[[だいじ]]なのは{後者|こうしゃ}の{方|ほう}です。",
+  "options": [
+   "大事",
+   "大持",
+   "大餌",
+   "大次"
+  ],
+  "answer": 0,
+  "explanation": "だいじ is written 大事 (important; valuable). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm about ready.",
+  "refs": [
+   "c0afe72b73"
+  ],
+  "id": "n4-or-c0afe72b73",
+  "type": "orthography",
+  "stem": "ぼくは[[だいたい]]{用意|ようい}ができた。",
+  "options": [
+   "大体",
+   "大台",
+   "大代",
+   "大諦"
+  ],
+  "answer": 0,
+  "explanation": "だいたい is written 大体 (generally). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We had no school on account of the typhoon.",
+  "refs": [
+   "14d52a91d3"
+  ],
+  "id": "n4-or-14d52a91d3",
+  "type": "orthography",
+  "stem": "[[たいふう]]のため{学校|がっこう}が{休|やす}みになった。",
+  "options": [
+   "台更",
+   "諦風",
+   "待風",
+   "台風"
+  ],
+  "answer": 3,
+  "explanation": "たいふう is written 台風 (typhoon). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Add six and four and you have ten.",
+  "refs": [
+   "12d94456b3"
+  ],
+  "id": "n4-or-12d94456b3",
+  "type": "orthography",
+  "stem": "６と４を[[たす]]と１０になる。",
+  "options": [
+   "発す",
+   "太す",
+   "足す",
+   "田す"
+  ],
+  "answer": 2,
+  "explanation": "たす is written 足す (to add a number). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "It took many years to build it.",
+  "refs": [
+   "c5741f54d6"
+  ],
+  "id": "n4-or-c5741f54d6",
+  "type": "orthography",
+  "stem": "それを[[たてる]]のに{何年|なんねん}もかかった。",
+  "options": [
+   "太てる",
+   "田てる",
+   "絶てる",
+   "建てる"
+  ],
+  "answer": 3,
+  "explanation": "たてる is written 建てる (to build). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Jackets are requested for men.",
+  "refs": [
+   "73a3e59782"
+  ],
+  "id": "n4-or-73a3e59782",
+  "type": "orthography",
+  "stem": "[[だんせい]]の{方|かた}は{上着|うわぎ}を{着用|ちゃくよう}してください。",
+  "options": [
+   "男性",
+   "男精",
+   "談性",
+   "男青"
+  ],
+  "answer": 0,
+  "explanation": "だんせい is written 男性 (male). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How do you heat the house?",
+  "refs": [
+   "aaac8221c9"
+  ],
+  "id": "n4-or-aaac8221c9",
+  "type": "orthography",
+  "stem": "お{宅|たく}の[[だんぼう]]はどのようにしていますか。",
+  "options": [
+   "男房",
+   "暖房",
+   "暖望",
+   "暖忘"
+  ],
+  "answer": 1,
+  "explanation": "だんぼう is written 暖房 (heating). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We are related by blood.",
+  "refs": [
+   "56a36774ce"
+  ],
+  "id": "n4-or-56a36774ce",
+  "type": "orthography",
+  "stem": "{私|わたし}たちは[[ち]]がつながっている。",
+  "options": [
+   "知",
+   "治",
+   "血",
+   "散"
+  ],
+  "answer": 2,
+  "explanation": "ち is written 血 (blood). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I cautioned him against being late.",
+  "refs": [
+   "4e6d200127"
+  ],
+  "id": "n4-or-4e6d200127",
+  "type": "orthography",
+  "stem": "{彼|かれ}に{遅|おく}れないように[[ちゅうい]]した。",
+  "options": [
+   "注意",
+   "注好",
+   "注行",
+   "注位"
+  ],
+  "answer": 0,
+  "explanation": "ちゅうい is written 注意 (caution). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He entered junior high school.",
+  "refs": [
+   "4b99b4673b"
+  ],
+  "id": "n4-or-4b99b4673b",
+  "type": "orthography",
+  "stem": "{彼|かれ}は[[ちゅうがっこう]]に{入|はい}った。",
+  "options": [
+   "中学校",
+   "中学降",
+   "中学光",
+   "中学神"
+  ],
+  "answer": 0,
+  "explanation": "ちゅうがっこう is written 中学校 (junior high school; middle school). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'll give you a shot.",
+  "refs": [
+   "3f26d1cef7"
+  ],
+  "id": "n4-or-3f26d1cef7",
+  "type": "orthography",
+  "stem": "[[ちゅうしゃ]]をしましょう。",
+  "options": [
+   "注打",
+   "注浮",
+   "注射",
+   "注者"
+  ],
+  "answer": 2,
+  "explanation": "ちゅうしゃ is written 注射 (injection). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Not a soul was to be seen in the parking lot.",
+  "refs": [
+   "36f583c207"
+  ],
+  "id": "n4-or-36f583c207",
+  "type": "orthography",
+  "stem": "[[ちゅうしゃじょう]]には{人|ひと}ひとり{見|み}えなかった。",
+  "options": [
+   "駐車常",
+   "駐車場",
+   "中車場",
+   "駐者場"
+  ],
+  "answer": 1,
+  "explanation": "ちゅうしゃじょう is written 駐車場 (parking lot). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I am familiar with the geography of this town.",
+  "refs": [
+   "16db6a0f53"
+  ],
+  "id": "n4-or-16db6a0f53",
+  "type": "orthography",
+  "stem": "{私|わたし}はこの{町|まち}の[[ちり]]をよく{知|し}っている。",
+  "options": [
+   "質理",
+   "値理",
+   "地理",
+   "遅理"
+  ],
+  "answer": 2,
+  "explanation": "ちり is written 地理 (geography). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What time will be right for you?",
+  "refs": [
+   "7d940762d2"
+  ],
+  "id": "n4-or-7d940762d2",
+  "type": "orthography",
+  "stem": "{何時|なんじ}がご[[つごう]]よいでしょうか。",
+  "options": [
+   "都合",
+   "着合",
+   "都強",
+   "都格"
+  ],
+  "answer": 0,
+  "explanation": "つごう is written 都合 (circumstances; convenience). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She made a polite bow to me.",
+  "refs": [
+   "aa30940947"
+  ],
+  "id": "n4-or-aa30940947",
+  "type": "orthography",
+  "stem": "{彼女|かのじょ}は{私|わたし}に[[ていねい]]におじぎをした。",
+  "options": [
+   "庭寧",
+   "丁寧",
+   "体寧",
+   "程寧"
+  ],
+  "answer": 1,
+  "explanation": "ていねい is written 丁寧 (polite). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Read whatever books you think proper.",
+  "refs": [
+   "fa043680e3"
+  ],
+  "id": "n4-or-fa043680e3",
+  "type": "orthography",
+  "stem": "あなたが[[てきとう]]だと{思|おも}う{本|ほん}なら{何|なん}でも{読|よ}みなさい。",
+  "options": [
+   "適当",
+   "適冬",
+   "適読",
+   "適盗"
+  ],
+  "answer": 0,
+  "explanation": "てきとう is written 適当 (suitability). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I can see the tiniest spot.",
+  "refs": [
+   "67fb8c065d"
+  ],
+  "id": "n4-or-67fb8c065d",
+  "type": "orthography",
+  "stem": "どんな{小|ちい}さな[[てん]]でも{見|み}ることができる。",
+  "options": [
+   "伝",
+   "天",
+   "転",
+   "点"
+  ],
+  "answer": 3,
+  "explanation": "てん is written 点 (point; dot). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The clerk labeled the baggage.",
+  "refs": [
+   "29b43fab16"
+  ],
+  "id": "n4-or-29b43fab16",
+  "type": "orthography",
+  "stem": "[[てんいん]]はその{荷物|にもつ}にラベルをつけた。",
+  "options": [
+   "店飲",
+   "店音",
+   "店員",
+   "天員"
+  ],
+  "answer": 2,
+  "explanation": "てんいん is written 店員 (shop assistant). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The weather forecast was right.",
+  "refs": [
+   "5fd0c77ef5"
+  ],
+  "id": "n4-or-5fd0c77ef5",
+  "type": "orthography",
+  "stem": "[[てんきよほう]]が{当|あ}たったよ。",
+  "options": [
+   "天気予報",
+   "天喜予報",
+   "天気除報",
+   "天記予報"
+  ],
+  "answer": 0,
+  "explanation": "てんきよほう is written 天気予報 (weather forecast). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Lucy turned on the light switch.",
+  "refs": [
+   "db2fc03fcf"
+  ],
+  "id": "n4-or-db2fc03fcf",
+  "type": "orthography",
+  "stem": "ルーシーは[[でんとう]]のスイッチをつけた。",
+  "options": [
+   "電登",
+   "電東",
+   "電灯",
+   "電等"
+  ],
+  "answer": 2,
+  "explanation": "でんとう is written 電灯 (electric light). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I am going to visit the art exhibition one of these days.",
+  "refs": [
+   "80eba2fabb"
+  ],
+  "id": "n4-or-80eba2fabb",
+  "type": "orthography",
+  "stem": "{私|わたし}は{近|ちか}いうちにその[[てんらんかい]]を{見|み}に{行|い}くつもりだ。",
+  "options": [
+   "展覧会",
+   "転覧会",
+   "展覧回",
+   "展覧解"
+  ],
+  "answer": 0,
+  "explanation": "てんらんかい is written 展覧会 (exhibition). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "When did man start to use tools?",
+  "refs": [
+   "c64697ccaa"
+  ],
+  "id": "n4-or-c64697ccaa",
+  "type": "orthography",
+  "stem": "{人間|にんげん}はいつ[[どうぐ]]を{使|つか}い{始|はじ}めたのか。",
+  "options": [
+   "道工",
+   "道供",
+   "道具",
+   "登具"
+  ],
+  "answer": 2,
+  "explanation": "どうぐ is written 道具 (tool; means). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Condors have never bred in zoos.",
+  "refs": [
+   "69678bc04e"
+  ],
+  "id": "n4-or-69678bc04e",
+  "type": "orthography",
+  "stem": "コンドルは[[どうぶつえん]]では{決|けっ}して{育|そだ}たない。",
+  "options": [
+   "動物遠",
+   "動物煙",
+   "動物演",
+   "動物園"
+  ],
+  "answer": 3,
+  "explanation": "どうぶつえん is written 動物園 (zoo). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Don't give up halfway.",
+  "refs": [
+   "9b799806d8"
+  ],
+  "id": "n4-or-9b799806d8",
+  "type": "orthography",
+  "stem": "[[とちゅう]]であきらめるな。",
+  "options": [
+   "徒中",
+   "度中",
+   "途中",
+   "都中"
+  ],
+  "answer": 2,
+  "explanation": "とちゅう is written 途中 (on the way). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "As my watch was slow, I missed the special express.",
+  "refs": [
+   "3753f20423"
+  ],
+  "id": "n4-or-3753f20423",
+  "type": "orthography",
+  "stem": "{時計|とけい}がおくれていたので、{私|わたし}は[[とっきゅう]]にのりそこねた。",
+  "options": [
+   "特給",
+   "特九",
+   "特求",
+   "特急"
+  ],
+  "answer": 3,
+  "explanation": "とっきゅう is written 特急 (limited express train (faster than an express train)). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The beggar turned out to be a thief.",
+  "refs": [
+   "76d7890e5d"
+  ],
+  "id": "n4-or-76d7890e5d",
+  "type": "orthography",
+  "stem": "そこの{乞食|こじき}が[[どろぼう]]である{事|こと}がわかった。",
+  "options": [
+   "泥望",
+   "泥夢",
+   "泥棒",
+   "泥坊"
+  ],
+  "answer": 2,
+  "explanation": "どろぼう is written 泥棒 (thief). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Now stop crying.",
+  "refs": [
+   "a777a7ce62"
+  ],
+  "id": "n4-or-a777a7ce62",
+  "type": "orthography",
+  "stem": "だからほら、もう[[なく]]のをおやめ。",
+  "options": [
+   "字く",
+   "泣く",
+   "生く",
+   "投く"
+  ],
+  "answer": 1,
+  "explanation": "なく is written 泣く (to weep). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You can't escape from reality.",
+  "refs": [
+   "f7a51f2c1c"
+  ],
+  "id": "n4-or-f7a51f2c1c",
+  "type": "orthography",
+  "stem": "{現実|げんじつ}から[[にげる]]ことはできない。",
+  "options": [
+   "逃げる",
+   "二げる",
+   "似げる",
+   "餌げる"
+  ],
+  "answer": 0,
+  "explanation": "にげる is written 逃げる (to escape). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She wrote about it in her diary.",
+  "refs": [
+   "0ddf8d04c2"
+  ],
+  "id": "n4-or-0ddf8d04c2",
+  "type": "orthography",
+  "stem": "{彼女|かのじょ}はそのことを[[にっき]]に{書|か}いた。",
+  "options": [
+   "日寄",
+   "日規",
+   "日消",
+   "日記"
+  ],
+  "answer": 3,
+  "explanation": "にっき is written 日記 (journal). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Do I have to stay in the hospital?",
+  "refs": [
+   "178daf8296"
+  ],
+  "id": "n4-or-178daf8296",
+  "type": "orthography",
+  "stem": "[[にゅういん]]しなければいけませんか。",
+  "options": [
+   "入院",
+   "入飲",
+   "入音",
+   "入因"
+  ],
+  "answer": 0,
+  "explanation": "にゅういん is written 入院 (to hospitalise). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Mary gave me an American doll.",
+  "refs": [
+   "5cda324083"
+  ],
+  "id": "n4-or-5cda324083",
+  "type": "orthography",
+  "stem": "メアリーは{私|わたし}にアメリカの[[にんぎょう]]をくれた。",
+  "options": [
+   "任形",
+   "人行",
+   "人形",
+   "人業"
+  ],
+  "answer": 2,
+  "explanation": "にんぎょう is written 人形 (doll; figure). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He sometimes sleeps in.",
+  "refs": [
+   "1af14ddd32"
+  ],
+  "id": "n4-or-1af14ddd32",
+  "type": "orthography",
+  "stem": "{彼|かれ}はときどき[[ねぼう]]する。",
+  "options": [
+   "寝忘",
+   "寝忙",
+   "音坊",
+   "寝坊"
+  ],
+  "answer": 3,
+  "explanation": "ねぼう is written 寝坊 (sleeping in late). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Rides in the cars are for kids.",
+  "refs": [
+   "0787fd5472"
+  ],
+  "id": "n4-or-0787fd5472",
+  "type": "orthography",
+  "stem": "[[のりもの]]は{子供|こども}{向|む}けである。",
+  "options": [
+   "飲り物",
+   "退り物",
+   "乗り者",
+   "乗り物"
+  ],
+  "answer": 3,
+  "explanation": "のりもの is written 乗り物 (vehicle). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We have very big lotus leaves.",
+  "refs": [
+   "254439ebbe"
+  ],
+  "id": "n4-or-254439ebbe",
+  "type": "orthography",
+  "stem": "こちらには{大|おお}きなハスの[[は]]があります。",
+  "options": [
+   "晴",
+   "葉",
+   "破",
+   "映"
+  ],
+  "answer": 1,
+  "explanation": "は is written 葉 (leaf). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "There are cases where the system doesn't go.",
+  "refs": [
+   "2d86d7e0fc"
+  ],
+  "id": "n4-or-2d86d7e0fc",
+  "type": "orthography",
+  "stem": "システムが{作動|さどう}しない[[ばあい]]がある。",
+  "options": [
+   "晴合",
+   "場合",
+   "場空",
+   "場登"
+  ],
+  "answer": 1,
+  "explanation": "ばあい is written 場合 (situation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "May I see your passport, please?",
+  "refs": [
+   "88a295c433"
+  ],
+  "id": "n4-or-88a295c433",
+  "type": "orthography",
+  "stem": "パスポートを[[はいけん]]できますか。",
+  "options": [
+   "拝欠",
+   "杯見",
+   "拝見",
+   "拝建"
+  ],
+  "answer": 2,
+  "explanation": "はいけん is written 拝見 ((humble) to look at). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You'd better see a dentist at once.",
+  "refs": [
+   "9bb337edc6"
+  ],
+  "id": "n4-or-9bb337edc6",
+  "type": "orthography",
+  "stem": "すぐ[[はいしゃ]]に{見|み}てもらいなさい。",
+  "options": [
+   "歯医左",
+   "歯位者",
+   "歯医者",
+   "貼医者"
+  ],
+  "answer": 2,
+  "explanation": "はいしゃ is written 歯医者 (dentist). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This sofa takes too much room.",
+  "refs": [
+   "32ca6422d6"
+  ],
+  "id": "n4-or-32ca6422d6",
+  "type": "orthography",
+  "stem": "このソファーは[[ばしょ]]を{取|と}りすぎる。",
+  "options": [
+   "場書",
+   "場処",
+   "場所",
+   "晴所"
+  ],
+  "answer": 2,
+  "explanation": "ばしょ is written 場所 (location). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I feel ashamed of having lost my temper.",
+  "refs": [
+   "847b1b7535"
+  ],
+  "id": "n4-or-847b1b7535",
+  "type": "orthography",
+  "stem": "ついかっとなったことが[[はずかしい]]。",
+  "options": [
+   "映ずかしい",
+   "食ずかしい",
+   "恥ずかしい",
+   "晴ずかしい"
+  ],
+  "answer": 2,
+  "explanation": "はずかしい is written 恥ずかしい (embarrassed). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How do you pronounce your name?",
+  "refs": [
+   "3ce079af0b"
+  ],
+  "id": "n4-or-3ce079af0b",
+  "type": "orthography",
+  "stem": "あなたのお{名前|なまえ}はどのように[[はつおん]]するのですか。",
+  "options": [
+   "発遠",
+   "発音",
+   "八音",
+   "初音"
+  ],
+  "answer": 1,
+  "explanation": "はつおん is written 発音 (pronunciation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I can't wait for spring to come so we can sit under the cherry trees.",
+  "refs": [
+   "8825d6d645"
+  ],
+  "id": "n4-or-8825d6d645",
+  "type": "orthography",
+  "stem": "[[はなみ]]ができる{春|はる}が{待|ま}ち{遠|どお}しい。",
+  "options": [
+   "花見",
+   "花三",
+   "話見",
+   "花深"
+  ],
+  "answer": 0,
+  "explanation": "はなみ is written 花見 (cherry-blossom viewing). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What's on the air this evening?",
+  "refs": [
+   "76e19fba1a"
+  ],
+  "id": "n4-or-76e19fba1a",
+  "type": "orthography",
+  "stem": "{今晩|こんばん}どんな[[ばんぐみ]]がありますか。",
+  "options": [
+   "番組",
+   "判組",
+   "満組",
+   "晩組"
+  ],
+  "answer": 0,
+  "explanation": "ばんぐみ is written 番組 (television or radio program). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I have to oppose this idea.",
+  "refs": [
+   "d48ed47f5e"
+  ],
+  "id": "n4-or-d48ed47f5e",
+  "type": "orthography",
+  "stem": "この{考|かんが}えには[[はんたい]]せざるをえない。",
+  "options": [
+   "反来",
+   "反平",
+   "反対",
+   "反退"
+  ],
+  "answer": 2,
+  "explanation": "はんたい is written 反対 (opposition). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Draw your chair closer to the fire.",
+  "refs": [
+   "f9f80b1a36"
+  ],
+  "id": "n4-or-f9f80b1a36",
+  "type": "orthography",
+  "stem": "いすをもっと[[ひ]]の{近|ちか}くに{寄|よ}せなさい。",
+  "options": [
+   "退",
+   "引",
+   "火",
+   "陽"
+  ],
+  "answer": 2,
+  "explanation": "ひ is written 火 (fire). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The days grow shorter as winter approaches.",
+  "refs": [
+   "55a030e65f"
+  ],
+  "id": "n4-or-55a030e65f",
+  "type": "orthography",
+  "stem": "{冬|ふゆ}が{近|ちか}づくにつれて[[ひ]]が{短|みじか}くなる。",
+  "options": [
+   "疲",
+   "悲",
+   "冷",
+   "日"
+  ],
+  "answer": 3,
+  "explanation": "ひ is written 日 (day; sun). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The clean towels are in the drawer.",
+  "refs": [
+   "916e92f3da"
+  ],
+  "id": "n4-or-916e92f3da",
+  "type": "orthography",
+  "stem": "きれいなタオルは[[ひきだし]]にありますよ。",
+  "options": [
+   "日き出し",
+   "引き出し",
+   "陽き出し",
+   "飛き出し"
+  ],
+  "answer": 1,
+  "explanation": "ひきだし is written 引き出し (drawer; drawing out). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Try to bring out the best in him.",
+  "refs": [
+   "5d8e0ae01f"
+  ],
+  "id": "n4-or-5d8e0ae01f",
+  "type": "orthography",
+  "stem": "{彼|かれ}のいいところを[[ひきだす]]ようにしなさい。",
+  "options": [
+   "引き出す",
+   "日き出す",
+   "冷き出す",
+   "非き出す"
+  ],
+  "answer": 0,
+  "explanation": "ひきだす is written 引き出す (to withdraw). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The airfield on the island is now covered with weeds.",
+  "refs": [
+   "546e786cde"
+  ],
+  "id": "n4-or-546e786cde",
+  "type": "orthography",
+  "stem": "その{島|しま}の[[ひこうじょう]]は、{今|いま}では{草|くさ}がぼうぼうだ。",
+  "options": [
+   "日行場",
+   "飛行定",
+   "飛行場",
+   "飛口場"
+  ],
+  "answer": 2,
+  "explanation": "ひこうじょう is written 飛行場 (airport). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Admission to the museum is thirty dollars.",
+  "refs": [
+   "eced3a159f"
+  ],
+  "id": "n4-or-eced3a159f",
+  "type": "orthography",
+  "stem": "この[[びじゅつかん]]の{入場料|にゅうじょうりょう}は30ドルです。",
+  "options": [
+   "美術神",
+   "美術館",
+   "日術館",
+   "美術漢"
+  ],
+  "answer": 1,
+  "explanation": "びじゅつかん is written 美術館 (art gallery). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "It is a lot of fun to drive a car.",
+  "refs": [
+   "be23bfe1f6"
+  ],
+  "id": "n4-or-be23bfe1f6",
+  "type": "orthography",
+  "stem": "{車|くるま}を{運転|うんてん}することは[[ひじょうに]]{楽|たの}しい。",
+  "options": [
+   "非常に",
+   "否常に",
+   "火常に",
+   "飛常に"
+  ],
+  "answer": 0,
+  "explanation": "ひじょうに is written 非常に (extremely). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "If necessary, I will come soon.",
+  "refs": [
+   "6907fc706d"
+  ],
+  "id": "n4-or-6907fc706d",
+  "type": "orthography",
+  "stem": "[[ひつよう]]なら、すぐにまいりましょう。",
+  "options": [
+   "必様",
+   "必要",
+   "必用",
+   "必曜"
+  ],
+  "answer": 1,
+  "explanation": "ひつよう is written 必要 (necessary). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Owls cannot see in the daytime.",
+  "refs": [
+   "ee0c991348"
+  ],
+  "id": "n4-or-ee0c991348",
+  "type": "orthography",
+  "stem": "フクロウは[[ひるま]]は{目|め}が{見|み}えない。",
+  "options": [
+   "昼間",
+   "昼増",
+   "昼曲",
+   "昼目"
+  ],
+  "answer": 0,
+  "explanation": "ひるま is written 昼間 (daytime; during the day). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How complex?",
+  "refs": [
+   "1d83ae6a5a"
+  ],
+  "id": "n4-or-1d83ae6a5a",
+  "type": "orthography",
+  "stem": "どのぐらい[[ふくざつ]]なのだろうか。",
+  "options": [
+   "複雑",
+   "腹雑",
+   "服雑",
+   "福雑"
+  ],
+  "answer": 0,
+  "explanation": "ふくざつ is written 複雑 (complexity; complication). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Have you gone over the lesson?",
+  "refs": [
+   "c00788993b"
+  ],
+  "id": "n4-or-c00788993b",
+  "type": "orthography",
+  "stem": "その{課|か}の[[ふくしゅう]]をしましたか。",
+  "options": [
+   "福習",
+   "復習",
+   "復主",
+   "復週"
+  ],
+  "answer": 1,
+  "explanation": "ふくしゅう is written 復習 (revision). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The president appointed a new manager.",
+  "refs": [
+   "346a5da3c2"
+  ],
+  "id": "n4-or-346a5da3c2",
+  "type": "orthography",
+  "stem": "{社長|しゃちょう}は{新|あたら}しい[[ぶちょう]]を{任命|にんめい}した。",
+  "options": [
+   "部長",
+   "無長",
+   "部場",
+   "部重"
+  ],
+  "answer": 0,
+  "explanation": "ぶちょう is written 部長 (head of a section). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Fold up your bedding.",
+  "refs": [
+   "f1ef6228cb"
+  ],
+  "id": "n4-or-f1ef6228cb",
+  "type": "orthography",
+  "stem": "[[ふとん]]をたたみなさい。",
+  "options": [
+   "付団",
+   "布団",
+   "降団",
+   "風団"
+  ],
+  "answer": 1,
+  "explanation": "ふとん is written 布団 (Japanese bedding; futon). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Without telephones, it would be inconvenient.",
+  "refs": [
+   "25d649bd20"
+  ],
+  "id": "n4-or-25d649bd20",
+  "type": "orthography",
+  "stem": "もし{電話|でんわ}がなければ、[[ふべん]]だろう。",
+  "options": [
+   "浮便",
+   "父便",
+   "不便",
+   "不面"
+  ],
+  "answer": 2,
+  "explanation": "ふべん is written 不便 (inconvenience). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I didn't mean to step on your foot.",
+  "refs": [
+   "375c7ef77f"
+  ],
+  "id": "n4-or-375c7ef77f",
+  "type": "orthography",
+  "stem": "{足|あし}を[[ふむ]]つもりはなかったのです。",
+  "options": [
+   "降む",
+   "付む",
+   "負む",
+   "踏む"
+  ],
+  "answer": 3,
+  "explanation": "ふむ is written 踏む (to step on). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I learned about Greek culture.",
+  "refs": [
+   "2f79469321"
+  ],
+  "id": "n4-or-2f79469321",
+  "type": "orthography",
+  "stem": "{私|わたし}はギリシャ[[ぶんか]]について{学|まな}んだ。",
+  "options": [
+   "文鍋",
+   "文歌",
+   "文過",
+   "文化"
+  ],
+  "answer": 3,
+  "explanation": "ぶんか is written 文化 (culture). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She is well versed in Spanish literature.",
+  "refs": [
+   "452083ca3c"
+  ],
+  "id": "n4-or-452083ca3c",
+  "type": "orthography",
+  "stem": "{彼女|かのじょ}はスペイン[[ぶんがく]]に{明|あか}るいです。",
+  "options": [
+   "文学",
+   "文楽",
+   "聞学",
+   "分学"
+  ],
+  "answer": 0,
+  "explanation": "ぶんがく is written 文学 (literature). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I hope you will answer me soon.",
+  "refs": [
+   "ff9e385277"
+  ],
+  "id": "n4-or-ff9e385277",
+  "type": "orthography",
+  "stem": "すぐ[[へんじ]]をしてもらいたいと{思|おも}っています。",
+  "options": [
+   "返事",
+   "返持",
+   "返餌",
+   "返次"
+  ],
+  "answer": 0,
+  "explanation": "へんじ is written 返事 (reply). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The English entered into the tea trade at that time.",
+  "refs": [
+   "3597362058"
+  ],
+  "id": "n4-or-3597362058",
+  "type": "orthography",
+  "stem": "イギリス{人|じん}はそのころ{茶|ちゃ}の[[ぼうえき]]を{始|はじ}めた。",
+  "options": [
+   "望易",
+   "貿易",
+   "忘易",
+   "貿役"
+  ],
+  "answer": 1,
+  "explanation": "ぼうえき is written 貿易 (trade). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The show will be on the air at 7 p.m.",
+  "refs": [
+   "96799b1b11"
+  ],
+  "id": "n4-or-96799b1b11",
+  "type": "orthography",
+  "stem": "そのショーは{午後|ごご}７{時|じ}に[[ほうそう]]される。",
+  "options": [
+   "放送",
+   "放世",
+   "訪送",
+   "放走"
+  ],
+  "answer": 0,
+  "explanation": "ほうそう is written 放送 (to broadcast). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This law applies to everybody.",
+  "refs": [
+   "845a23790b"
+  ],
+  "id": "n4-or-845a23790b",
+  "type": "orthography",
+  "stem": "この[[ほうりつ]]はすべての{人|ひと}に{適用|てきよう}される。",
+  "options": [
+   "放律",
+   "法律",
+   "方律",
+   "訪律"
+  ],
+  "answer": 1,
+  "explanation": "ほうりつ is written 法律 (law). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Will you translate this into French?",
+  "refs": [
+   "36dc0ccd26"
+  ],
+  "id": "n4-or-36dc0ccd26",
+  "type": "orthography",
+  "stem": "これをフランス{語|ご}に[[ほんやく]]してくれないか。",
+  "options": [
+   "翻訳",
+   "本訳",
+   "翻役",
+   "反訳"
+  ],
+  "answer": 0,
+  "explanation": "ほんやく is written 翻訳 (translation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I think we'll make it if we hurry.",
+  "refs": [
+   "675232ef05"
+  ],
+  "id": "n4-or-675232ef05",
+  "type": "orthography",
+  "stem": "{急|いそ}げば{何|なん}とか[[まにあう]]と{思|おも}います。",
+  "options": [
+   "間に有う",
+   "間に空う",
+   "間に合う",
+   "馬に合う"
+  ],
+  "answer": 2,
+  "explanation": "まにあう is written 間に合う (to be in time for). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Stop reading comic books while working.",
+  "refs": [
+   "8077c744a0"
+  ],
+  "id": "n4-or-8077c744a0",
+  "type": "orthography",
+  "stem": "{仕事中|しごとちゅう}に[[まんが]]の{本|ほん}を{読|よ}むのはやめること。",
+  "options": [
+   "漫掛",
+   "漫代",
+   "漫画",
+   "満画"
+  ],
+  "answer": 2,
+  "explanation": "まんが is written 漫画 (comic). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "A truck was standing in the middle of the road.",
+  "refs": [
+   "59944588a8"
+  ],
+  "id": "n4-or-59944588a8",
+  "type": "orthography",
+  "stem": "トラックが{道|みち}の[[まんなか]]に{止|と}まっていた。",
+  "options": [
+   "先ん中",
+   "真ん中",
+   "待ん中",
+   "馬ん中"
+  ],
+  "answer": 1,
+  "explanation": "まんなか is written 真ん中 (middle). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You will see a red house over there.",
+  "refs": [
+   "0c27b9183f"
+  ],
+  "id": "n4-or-0c27b9183f",
+  "type": "orthography",
+  "stem": "あそこに{赤|あか}い{家|いえ}が[[みえる]]でしょう。",
+  "options": [
+   "実える",
+   "見える",
+   "観える",
+   "味える"
+  ],
+  "answer": 1,
+  "explanation": "みえる is written 見える (to be in sight). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The good thing about this electronic dictionary is that it's easy to carry.",
+  "refs": [
+   "fcf790e186"
+  ],
+  "id": "n4-or-fcf790e186",
+  "type": "orthography",
+  "stem": "この{電子辞書|でんしじしょ}は{携帯|けいたい}しやすいところが[[みそ]]です。",
+  "options": [
+   "三噌",
+   "味噌",
+   "御噌",
+   "見噌"
+  ],
+  "answer": 1,
+  "explanation": "みそ is written 味噌 (bean paste). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "In the fall, many birds head for the south.",
+  "refs": [
+   "6978e278b2"
+  ],
+  "id": "n4-or-6978e278b2",
+  "type": "orthography",
+  "stem": "{秋|あき}にはたくさんの{鳥|とり}が{南|みなみ}に[[むかう]]。",
+  "options": [
+   "迎かう",
+   "向かう",
+   "務かう",
+   "産かう"
+  ],
+  "answer": 1,
+  "explanation": "むかう is written 向かう (to face). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "My son asks for the moon.",
+  "refs": [
+   "88be7d523a"
+  ],
+  "id": "n4-or-88be7d523a",
+  "type": "orthography",
+  "stem": "[[むすこ]]はないものねだりをしている。",
+  "options": [
+   "息越",
+   "息守",
+   "息窓",
+   "息子"
+  ],
+  "answer": 3,
+  "explanation": "むすこ is written 息子 ((humble) son). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm sorry, but it's just not possible.",
+  "refs": [
+   "3d1727a56f"
+  ],
+  "id": "n4-or-3d1727a56f",
+  "type": "orthography",
+  "stem": "{悪|わる}いけど、どうしたって[[むり]]だわ。",
+  "options": [
+   "産理",
+   "無利",
+   "向理",
+   "無理"
+  ],
+  "answer": 3,
+  "explanation": "むり is written 無理 (impossible). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I must remind you of your promise.",
+  "refs": [
+   "2ef2e06612"
+  ],
+  "id": "n4-or-2ef2e06612",
+  "type": "orthography",
+  "stem": "[[やくそく]]したことを{思|おも}い{出|だ}して{下|くだ}さい。",
+  "options": [
+   "約戚",
+   "約速",
+   "薬束",
+   "約束"
+  ],
+  "answer": 3,
+  "explanation": "やくそく is written 約束 (promise). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Every little bit helps.",
+  "refs": [
+   "8011fa51a8"
+  ],
+  "id": "n4-or-8011fa51a8",
+  "type": "orthography",
+  "stem": "どんなに{少|すこ}しでもすべて[[やくにたつ]]。",
+  "options": [
+   "役に立つ",
+   "役に度つ",
+   "役に多つ",
+   "役に建つ"
+  ],
+  "answer": 0,
+  "explanation": "やくにたつ is written 役に立つ (to be helpful). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The cheap dollar is charging up exports.",
+  "refs": [
+   "ad11ce072b"
+  ],
+  "id": "n4-or-ad11ce072b",
+  "type": "orthography",
+  "stem": "ドル{安|やす}は[[ゆしゅつ]]にはずみをつけています。",
+  "options": [
+   "行出",
+   "首出",
+   "遊出",
+   "輸出"
+  ],
+  "answer": 3,
+  "explanation": "ゆしゅつ is written 輸出 (to export). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This is a car imported from Germany.",
+  "refs": [
+   "5d0d49b3fe"
+  ],
+  "id": "n4-or-5d0d49b3fe",
+  "type": "orthography",
+  "stem": "これはドイツから[[ゆにゅう]]した{車|くるま}です。",
+  "options": [
+   "行入",
+   "由入",
+   "遊入",
+   "輸入"
+  ],
+  "answer": 3,
+  "explanation": "ゆにゅう is written 輸入 (to import). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I bought this ring at a certain place.",
+  "refs": [
+   "688ed7ca0f"
+  ],
+  "id": "n4-or-688ed7ca0f",
+  "type": "orthography",
+  "stem": "この[[ゆびわ]]をある{場所|ばしょ}で{買|か}った。",
+  "options": [
+   "指話",
+   "指別",
+   "指輪",
+   "指破"
+  ],
+  "answer": 2,
+  "explanation": "ゆびわ is written 指輪 (finger ring). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The earth was felt to tremble.",
+  "refs": [
+   "fa8716c349"
+  ],
+  "id": "n4-or-fa8716c349",
+  "type": "orthography",
+  "stem": "{大地|だいち}が[[ゆれる]]のが{感|かん}じられた。",
+  "options": [
+   "遊れる",
+   "行れる",
+   "揺れる",
+   "由れる"
+  ],
+  "answer": 2,
+  "explanation": "ゆれる is written 揺れる (to shake; to sway). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What has brought you here?",
+  "refs": [
+   "7c9d2c46eb"
+  ],
+  "id": "n4-or-7c9d2c46eb",
+  "type": "orthography",
+  "stem": "{何|なん}の[[よう]]でここに{来|き}たのですか。",
+  "options": [
+   "陽",
+   "洋",
+   "用",
+   "曜"
+  ],
+  "answer": 2,
+  "explanation": "よう is written 用 (use). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The room is now ready for you.",
+  "refs": [
+   "cbb67e1b4d"
+  ],
+  "id": "n4-or-cbb67e1b4d",
+  "type": "orthography",
+  "stem": "その{部屋|へや}はあなたが{使|つか}えるよう[[ようい]]ができています。",
+  "options": [
+   "用意",
+   "用良",
+   "用入",
+   "用好"
+  ],
+  "answer": 0,
+  "explanation": "ようい is written 用意 (preparation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm sorry, I have another engagement.",
+  "refs": [
+   "c64fff23ae"
+  ],
+  "id": "n4-or-c64fff23ae",
+  "type": "orthography",
+  "stem": "{悪|わる}いけどほかに[[ようじ]]があるの。",
+  "options": [
+   "用次",
+   "八事",
+   "容事",
+   "用事"
+  ],
+  "answer": 3,
+  "explanation": "ようじ is written 用事 (things to do). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You may as well begin to prepare your lessons.",
+  "refs": [
+   "de815ae4e6"
+  ],
+  "id": "n4-or-de815ae4e6",
+  "type": "orthography",
+  "stem": "[[よしゅう]]を{始|はじ}めた{方|ほう}がいいですよ。",
+  "options": [
+   "能習",
+   "予習",
+   "過習",
+   "予終"
+  ],
+  "answer": 1,
+  "explanation": "よしゅう is written 予習 (preparation for a lesson). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was meeting Bob at six.",
+  "refs": [
+   "a9fe0e98c1"
+  ],
+  "id": "n4-or-a9fe0e98c1",
+  "type": "orthography",
+  "stem": "{私|わたし}は６{時|じ}にボブに{会|あ}う[[よてい]]だった。",
+  "options": [
+   "良定",
+   "寄定",
+   "夜定",
+   "予定"
+  ],
+  "answer": 3,
+  "explanation": "よてい is written 予定 (arrangement). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "\"Have you reserved a hotel room?\" \"Sorry, not yet.\"",
+  "refs": [
+   "ed37fe04b5"
+  ],
+  "id": "n4-or-ed37fe04b5",
+  "type": "orthography",
+  "stem": "「ホテルの[[よやく]]はしてありますか」「すみませんが、まだなんです」",
+  "options": [
+   "由約",
+   "予薬",
+   "過約",
+   "予約"
+  ],
+  "answer": 3,
+  "explanation": "よやく is written 予約 (reservation). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What is the reason you want to enter this college?",
+  "refs": [
+   "df83eb2b9c"
+  ],
+  "id": "n4-or-df83eb2b9c",
+  "type": "orthography",
+  "stem": "{本学|ほんがく}に{入学|にゅうがく}したい[[りゆう]]は{何|なに}ですか。",
+  "options": [
+   "理優",
+   "理由",
+   "理有",
+   "理夕"
+  ],
+  "answer": 1,
+  "explanation": "りゆう is written 理由 (reason). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Students should make use of the books in the library.",
+  "refs": [
+   "977d6bf88c"
+  ],
+  "id": "n4-or-977d6bf88c",
+  "type": "orthography",
+  "stem": "{学生|がくせい}は{図書館|としょかん}の{本|ほん}を[[りよう]]すべきだ。",
+  "options": [
+   "利要",
+   "利用",
+   "利八",
+   "利陽"
+  ],
+  "answer": 1,
+  "explanation": "りよう is written 利用 (utilization). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Their gloves are not in pairs.",
+  "refs": [
+   "520cc83d87"
+  ],
+  "id": "n4-or-520cc83d87",
+  "type": "orthography",
+  "stem": "この{手袋|てぶくろ}は[[りょうほう]]がそろっていない。",
+  "options": [
+   "両法",
+   "両方",
+   "両訪",
+   "料方"
+  ],
+  "answer": 1,
+  "explanation": "りょうほう is written 両方 (both sides). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The hotel has a homey atmosphere.",
+  "refs": [
+   "cd95253850"
+  ],
+  "id": "n4-or-cd95253850",
+  "type": "orthography",
+  "stem": "あの[[りょかん]]は{家庭的|かていてき}だ。",
+  "options": [
+   "旅感",
+   "旅館",
+   "旅漢",
+   "旅寒"
+  ],
+  "answer": 1,
+  "explanation": "りょかん is written 旅館 (Japanese hotel). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I went on the trip, leaving the house in her care.",
+  "refs": [
+   "0989d94de1"
+  ],
+  "id": "n4-or-0989d94de1",
+  "type": "orthography",
+  "stem": "{彼女|かのじょ}に[[るす]]を{頼|たの}んで{外出|がいしゅつ}しました。",
+  "options": [
+   "留吸",
+   "留主",
+   "留直",
+   "留守"
+  ],
+  "answer": 3,
+  "explanation": "るす is written 留守 (absence). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How do I fix the air-conditioner?",
+  "refs": [
+   "8ff4f12975"
+  ],
+  "id": "n4-or-8ff4f12975",
+  "type": "orthography",
+  "stem": "[[れいぼう]]が{効|き}きすぎているのですが。",
+  "options": [
+   "冷夢",
+   "冷房",
+   "冷忘",
+   "冷忙"
+  ],
+  "answer": 1,
+  "explanation": "れいぼう is written 冷房 (air conditioning). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I prefer history to geography.",
+  "refs": [
+   "bcb7922671"
+  ],
+  "id": "n4-or-bcb7922671",
+  "type": "orthography",
+  "stem": "{私|わたし}は{地理|ちり}より[[れきし]]が{好|す}きだ。",
+  "options": [
+   "歴姉",
+   "歴始",
+   "歴史",
+   "歴私"
+  ],
+  "answer": 2,
+  "explanation": "れきし is written 歴史 (history). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The proportion of girls to boys in our class is three to two.",
+  "refs": [
+   "44a2bc7c32"
+  ],
+  "id": "n4-or-44a2bc7c32",
+  "type": "orthography",
+  "stem": "クラスの{女生徒|じょせいと}の{男生徒|だんせいと}に{対|たい}する[[わりあい]]は３{対|たい}２だ。",
+  "options": [
+   "割存",
+   "割当",
+   "割空",
+   "割合"
+  ],
+  "answer": 3,
+  "explanation": "わりあい is written 割合 (rate; ratio). The other options swap in a kanji with a similar reading.",
+  "status": "verified"
+ }
+]

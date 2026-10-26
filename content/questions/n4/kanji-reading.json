@@ -1,0 +1,3702 @@
+[
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The baby is not capable of walking yet.",
+  "refs": [
+   "e877021bf4"
+  ],
+  "id": "n4-kr-e877021bf4",
+  "type": "kanji-reading",
+  "stem": "[[赤ん坊]]はまだ{歩|ある}くことができない。",
+  "options": [
+   "あかんほう",
+   "あかんぼう",
+   "あかんぼ",
+   "あがんぼう"
+  ],
+  "answer": 1,
+  "explanation": "赤ん坊 is read あかんぼう (baby). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Our next trip is for pleasure, not for work.",
+  "refs": [
+   "7fe5e36942"
+  ],
+  "id": "n4-kr-7fe5e36942",
+  "type": "kanji-reading",
+  "stem": "{今度|こんど}の{旅行|りょこう}は{仕事|しごと}じゃなくて[[遊び]]です。",
+  "options": [
+   "あそうび",
+   "あそび",
+   "あぞび",
+   "あっそび"
+  ],
+  "answer": 1,
+  "explanation": "遊び is read あそび (play). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Is that all?",
+  "refs": [
+   "13ab63d79a"
+  ],
+  "id": "n4-kr-13ab63d79a",
+  "type": "kanji-reading",
+  "stem": "[[以上]]ですか？",
+  "options": [
+   "いじょ",
+   "いしょう",
+   "いじよう",
+   "いじょう"
+  ],
+  "answer": 3,
+  "explanation": "以上 is read いじょう (more than; this is all). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You should have worked harder.",
+  "refs": [
+   "cf69ef2274"
+  ],
+  "id": "n4-kr-cf69ef2274",
+  "type": "kanji-reading",
+  "stem": "もっと[[一生懸命]]{勉強|べんきょう}すべきだったのに。",
+  "options": [
+   "いっじょうけんめい",
+   "いっしょけんめい",
+   "いしょうけんめい",
+   "いっしょうけんめい"
+  ],
+  "answer": 3,
+  "explanation": "一生懸命 is read いっしょうけんめい (with utmost effort). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You have to fill out an application for admission to the hospital at the front desk.",
+  "refs": [
+   "4bdd43130b"
+  ],
+  "id": "n4-kr-4bdd43130b",
+  "type": "kanji-reading",
+  "stem": "[[受付]]で{入院|にゅういん}の{手続|てつづ}きをしてください。",
+  "options": [
+   "うけっつけ",
+   "うけつけ",
+   "うけつげ",
+   "うげつけ"
+  ],
+  "answer": 1,
+  "explanation": "受付 is read うけつけ (receipt). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I should sell it while it still runs.",
+  "refs": [
+   "e54d4fef93"
+  ],
+  "id": "n4-kr-e54d4fef93",
+  "type": "kanji-reading",
+  "stem": "まだ[[動く]]うちに{売|う}ってしまわなきゃ。",
+  "options": [
+   "うごうく",
+   "うこく",
+   "うごぐ",
+   "うごく"
+  ],
+  "answer": 3,
+  "explanation": "動く is read うごく (to move). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We admired the beautiful sunset.",
+  "refs": [
+   "0dd54894db"
+  ],
+  "id": "n4-kr-0dd54894db",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}たちは[[美しい]]{入|い}り{日|ひ}に{見|み}とれた。",
+  "options": [
+   "うつくっしい",
+   "うつくじい",
+   "うつくしい",
+   "うつぐしい"
+  ],
+  "answer": 2,
+  "explanation": "美しい is read うつくしい (beautiful). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The driver accelerated his car.",
+  "refs": [
+   "9f6e25d5e2"
+  ],
+  "id": "n4-kr-9f6e25d5e2",
+  "type": "kanji-reading",
+  "stem": "[[運転手]]は{車|くるま}のスピードを{上|あ}げた。",
+  "options": [
+   "うんてんしゅ",
+   "うんてんしゆ",
+   "うんてんじゅ",
+   "うんでんしゅ"
+  ],
+  "answer": 0,
+  "explanation": "運転手 is read うんてんしゅ (driver). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How can I become rich?",
+  "refs": [
+   "a58874b751"
+  ],
+  "id": "n4-kr-a58874b751",
+  "type": "kanji-reading",
+  "stem": "どうしたら[[お金持ち]]になれるのかしら？",
+  "options": [
+   "おかねもち",
+   "おかねもうち",
+   "おがねもち",
+   "おっかねもち"
+  ],
+  "answer": 0,
+  "explanation": "お金持ち is read おかねもち (rich man). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "There is an advertising balloon flying above the department store.",
+  "refs": [
+   "1065d7145c"
+  ],
+  "id": "n4-kr-1065d7145c",
+  "type": "kanji-reading",
+  "stem": "デパートの[[屋上]]にアドバルーンが{上|あ}がっている。",
+  "options": [
+   "おくしょう",
+   "おくじょう",
+   "おくじょ",
+   "おっくじょう"
+  ],
+  "answer": 1,
+  "explanation": "屋上 is read おくじょう (rooftop). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was given a nice present by my uncle.",
+  "refs": [
+   "ba001e2f36"
+  ],
+  "id": "n4-kr-ba001e2f36",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}はおじによい[[贈り物]]をもらった。",
+  "options": [
+   "おっくりもの",
+   "おくりもの",
+   "おくりもうの",
+   "おぐりもの"
+  ],
+  "answer": 1,
+  "explanation": "贈り物 is read おくりもの (gift). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "To say is one thing, and to do quite another.",
+  "refs": [
+   "2139fab218"
+  ],
+  "id": "n4-kr-2139fab218",
+  "type": "kanji-reading",
+  "stem": "いう{事|こと}と[[行う]]{事|こと}はまったく{別|べつ}だ。",
+  "options": [
+   "おこうなう",
+   "おっこなう",
+   "おこなう",
+   "おごなう"
+  ],
+  "answer": 2,
+  "explanation": "行う is read おこなう (to do). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Your daughter passed the examination, I hear.",
+  "refs": [
+   "1f5a7d8e07"
+  ],
+  "id": "n4-kr-1f5a7d8e07",
+  "type": "kanji-reading",
+  "stem": "[[お嬢さん]]は{試験|しけん}に{合格|ごうかく}なさったそうですね。",
+  "options": [
+   "おじょうさん",
+   "おじようさん",
+   "おじょさん",
+   "おじょうざん"
+  ],
+  "answer": 0,
+  "explanation": "お嬢さん is read おじょうさん (young lady). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We'll visit you one of these days.",
+  "refs": [
+   "6693b4e9f7"
+  ],
+  "id": "n4-kr-6693b4e9f7",
+  "type": "kanji-reading",
+  "stem": "{近|ちか}いうちに[[お宅]]にうかがいます。",
+  "options": [
+   "おたぐ",
+   "おたく",
+   "おだく",
+   "おったく"
+  ],
+  "answer": 1,
+  "explanation": "お宅 is read おたく ((polite) your house). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Wives usually outlive husbands.",
+  "refs": [
+   "b8630e0875"
+  ],
+  "id": "n4-kr-b8630e0875",
+  "type": "kanji-reading",
+  "stem": "妻は[[夫]]より{長生|ながい}きするものだ。",
+  "options": [
+   "おと",
+   "おっと",
+   "おっど",
+   "おっとう"
+  ],
+  "answer": 1,
+  "explanation": "夫 is read おっと (husband). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'll tell you how to swim.",
+  "refs": [
+   "d9cf4f541d"
+  ],
+  "id": "n4-kr-d9cf4f541d",
+  "type": "kanji-reading",
+  "stem": "{君|きみ}に[[泳ぎ方]]を{教|おし}えよう。",
+  "options": [
+   "およぎかだ",
+   "おようぎかた",
+   "およぎがた",
+   "およぎかた"
+  ],
+  "answer": 3,
+  "explanation": "泳ぎ方 is read およぎかた (way of swimming). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The club members assembled in the meeting room.",
+  "refs": [
+   "93ff1a80c2"
+  ],
+  "id": "n4-kr-93ff1a80c2",
+  "type": "kanji-reading",
+  "stem": "クラブの{会員|かいいん}は[[会議室]]に{集|あつ}まった。",
+  "options": [
+   "かいきしつ",
+   "がいぎしつ",
+   "かいぎっしつ",
+   "かいぎしつ"
+  ],
+  "answer": 3,
+  "explanation": "会議室 is read かいぎしつ (meeting room). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We sat at the back of the hall.",
+  "refs": [
+   "7508a7d366"
+  ],
+  "id": "n4-kr-7508a7d366",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}たちは[[会場]]の{後|うし}ろに{座|すわ}った。",
+  "options": [
+   "かいじょう",
+   "かいじよう",
+   "かいしょう",
+   "かいじょ"
+  ],
+  "answer": 0,
+  "explanation": "会場 is read かいじょう (assembly hall or meeting place). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I have been learning a science.",
+  "refs": [
+   "ea150f3d48"
+  ],
+  "id": "n4-kr-ea150f3d48",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は、ずっと[[科学]]を{習|なら}っている。",
+  "options": [
+   "ががく",
+   "かがぐ",
+   "かがく",
+   "かかく"
+  ],
+  "answer": 2,
+  "explanation": "科学 is read かがく (science). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Matter changes its form according to temperature.",
+  "refs": [
+   "26f2ddd0a2"
+  ],
+  "id": "n4-kr-26f2ddd0a2",
+  "type": "kanji-reading",
+  "stem": "{物質|ぶっしつ}は{温度|おんど}によって[[形]]を{変|か}える。",
+  "options": [
+   "かったち",
+   "かだち",
+   "かたち",
+   "がたち"
+  ],
+  "answer": 2,
+  "explanation": "形 is read かたち (shape). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was appointed to section chief.",
+  "refs": [
+   "26a19196b7"
+  ],
+  "id": "n4-kr-26a19196b7",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は[[課長]]に{任命|にんめい}された。",
+  "options": [
+   "かちょう",
+   "かちょ",
+   "かっちょう",
+   "がちょう"
+  ],
+  "answer": 0,
+  "explanation": "課長 is read かちょう (section manager). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Don't give me such a sad look.",
+  "refs": [
+   "3153705f1f"
+  ],
+  "id": "n4-kr-3153705f1f",
+  "type": "kanji-reading",
+  "stem": "そんな[[悲しい]]{目|め}で{見|み}ないで。",
+  "options": [
+   "かなっしい",
+   "がなしい",
+   "かなしい",
+   "かなじい"
+  ],
+  "answer": 2,
+  "explanation": "悲しい is read かなしい (sad). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The point is whether she will come or not.",
+  "refs": [
+   "be3dacfc93"
+  ],
+  "id": "n4-kr-be3dacfc93",
+  "type": "kanji-reading",
+  "stem": "{問題|もんだい}は[[彼女]]が{来|く}るかどうかである。",
+  "options": [
+   "かのじょう",
+   "かのうじょ",
+   "かのじょ",
+   "かのじよ"
+  ],
+  "answer": 2,
+  "explanation": "彼女 is read かのじょ (she; girlfriend). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How is this connected to that?",
+  "refs": [
+   "f960d43119"
+  ],
+  "id": "n4-kr-f960d43119",
+  "type": "kanji-reading",
+  "stem": "これとあれはどういう[[関係]]があるの。",
+  "options": [
+   "かんけい",
+   "かんけ",
+   "かんげい",
+   "がんけい"
+  ],
+  "answer": 0,
+  "explanation": "関係 is read かんけい (relationship). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Why do you want to be a nurse?",
+  "refs": [
+   "374a0aa749"
+  ],
+  "id": "n4-kr-374a0aa749",
+  "type": "kanji-reading",
+  "stem": "なぜ[[看護婦]]になりたいのですか。",
+  "options": [
+   "がんごふ",
+   "かんこふ",
+   "かんごふ",
+   "かんごぶ"
+  ],
+  "answer": 2,
+  "explanation": "看護婦 is read かんごふ (female nurse). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Let's make it some other time.",
+  "refs": [
+   "3f4f3a3b9d"
+  ],
+  "id": "n4-kr-3f4f3a3b9d",
+  "type": "kanji-reading",
+  "stem": "またの[[機会]]にしましょう。",
+  "options": [
+   "きがい",
+   "きっかい",
+   "ぎかい",
+   "きかい"
+  ],
+  "answer": 3,
+  "explanation": "機会 is read きかい (opportunity). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Danger comes soonest when it is despised.",
+  "refs": [
+   "8bbbe3a9e8"
+  ],
+  "id": "n4-kr-8bbbe3a9e8",
+  "type": "kanji-reading",
+  "stem": "[[危険]]は{見|み}くびるとすぐやってくる。",
+  "options": [
+   "きっけん",
+   "きけん",
+   "ぎけん",
+   "きげん"
+  ],
+  "answer": 1,
+  "explanation": "危険 is read きけん (danger). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The train has not arrived yet.",
+  "refs": [
+   "a0c815188f"
+  ],
+  "id": "n4-kr-a0c815188f",
+  "type": "kanji-reading",
+  "stem": "[[汽車]]はまだ{着|つ}きません。",
+  "options": [
+   "きじゃ",
+   "きっしゃ",
+   "きしや",
+   "きしゃ"
+  ],
+  "answer": 3,
+  "explanation": "汽車 is read きしゃ (steam train). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Modern technology gives us many things.",
+  "refs": [
+   "bbf69b64f8"
+  ],
+  "id": "n4-kr-bbf69b64f8",
+  "type": "kanji-reading",
+  "stem": "{近代|きんだい}[[技術]]は{多|おお}くの{物|もの}を{与|あた}えてくれる。",
+  "options": [
+   "きじゅつ",
+   "ぎじゆつ",
+   "ぎじゅつ",
+   "ぎしゅつ"
+  ],
+  "answer": 2,
+  "explanation": "技術 is read ぎじゅつ (art; technology). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Fall is a good season for reading.",
+  "refs": [
+   "a1afb31e7b"
+  ],
+  "id": "n4-kr-a1afb31e7b",
+  "type": "kanji-reading",
+  "stem": "{秋|あき}は{読書|どくしょ}にもってこいの[[季節]]だ。",
+  "options": [
+   "ぎせつ",
+   "きせつ",
+   "きぜつ",
+   "きっせつ"
+  ],
+  "answer": 1,
+  "explanation": "季節 is read きせつ (season). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This rule applies to you, too.",
+  "refs": [
+   "fcca18b129"
+  ],
+  "id": "n4-kr-fcca18b129",
+  "type": "kanji-reading",
+  "stem": "この[[規則]]はあなたにも{当|あ}てはまる。",
+  "options": [
+   "きぞく",
+   "きそく",
+   "きそぐ",
+   "きっそく"
+  ],
+  "answer": 1,
+  "explanation": "規則 is read きそく (regulations). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "They say we are going to have a severe winter.",
+  "refs": [
+   "d90ee2957c"
+  ],
+  "id": "n4-kr-d90ee2957c",
+  "type": "kanji-reading",
+  "stem": "[[厳しい]]{冬|ふゆ}になるという{話|はなし}です。",
+  "options": [
+   "ぎびしい",
+   "きびじい",
+   "きびしい",
+   "きびっしい"
+  ],
+  "answer": 2,
+  "explanation": "厳しい is read きびしい (strict). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She looks odd in those clothes.",
+  "refs": [
+   "a2a012c05f"
+  ],
+  "id": "n4-kr-a2a012c05f",
+  "type": "kanji-reading",
+  "stem": "{彼女|かのじょ}はその[[着物]]を{着|き}ると{変|へん}に{見|み}える。",
+  "options": [
+   "ぎもの",
+   "きものう",
+   "きもうの",
+   "きもの"
+  ],
+  "answer": 3,
+  "explanation": "着物 is read きもの (kimono). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "It was early spring, so there weren't many customers.",
+  "refs": [
+   "cb029e617e"
+  ],
+  "id": "n4-kr-cb029e617e",
+  "type": "kanji-reading",
+  "stem": "{春先|はるさき}だから[[客]]もあまりいませんでした。",
+  "options": [
+   "きゃぐ",
+   "きゃく",
+   "きやく",
+   "ぎゃく"
+  ],
+  "answer": 1,
+  "explanation": "客 is read きゃく (guest; customer). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The current of this river is rapid.",
+  "refs": [
+   "a02c2a6790"
+  ],
+  "id": "n4-kr-a02c2a6790",
+  "type": "kanji-reading",
+  "stem": "この{川|かわ}の{流|なが}れは[[急]]だ。",
+  "options": [
+   "きゅ",
+   "きゆう",
+   "きゅう",
+   "ぎゅう"
+  ],
+  "answer": 2,
+  "explanation": "急 is read きゅう (urgent; steep). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How much is the express?",
+  "refs": [
+   "b6027b4099"
+  ],
+  "id": "n4-kr-b6027b4099",
+  "type": "kanji-reading",
+  "stem": "[[急行]]の{料金|りょうきん}は{幾|いく}らですか。",
+  "options": [
+   "ぎゅうこう",
+   "きゅうこう",
+   "きゆうこう",
+   "きゅこう"
+  ],
+  "answer": 1,
+  "explanation": "急行 is read きゅうこう (speedy; express). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Education in this world disappoints me.",
+  "refs": [
+   "319186af72"
+  ],
+  "id": "n4-kr-319186af72",
+  "type": "kanji-reading",
+  "stem": "この{世界|せかい}の[[教育]]にはがっかりしてしまう。",
+  "options": [
+   "きょういく",
+   "ぎょういく",
+   "きょういぐ",
+   "きょいく"
+  ],
+  "answer": 0,
+  "explanation": "教育 is read きょういく (education). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The church dates back to 1173.",
+  "refs": [
+   "7a7b79370f"
+  ],
+  "id": "n4-kr-7a7b79370f",
+  "type": "kanji-reading",
+  "stem": "その[[教会]]は１１７３{年|ねん}までさかのぼる。",
+  "options": [
+   "きょかい",
+   "きょうかい",
+   "きょうがい",
+   "きようかい"
+  ],
+  "answer": 1,
+  "explanation": "教会 is read きょうかい (church). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We raced our beetles.",
+  "refs": [
+   "a9dcbea815"
+  ],
+  "id": "n4-kr-a9dcbea815",
+  "type": "kanji-reading",
+  "stem": "みんなでカブトムシを[[競争]]させた。",
+  "options": [
+   "きょうそう",
+   "きょうぞう",
+   "きょそう",
+   "ぎょうそう"
+  ],
+  "answer": 0,
+  "explanation": "競争 is read きょうそう (competition). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Are you interested in flowers?",
+  "refs": [
+   "23ea485338"
+  ],
+  "id": "n4-kr-23ea485338",
+  "type": "kanji-reading",
+  "stem": "あなたは{花|はな}に[[興味]]がありますか。",
+  "options": [
+   "きょみ",
+   "きようみ",
+   "ぎょうみ",
+   "きょうみ"
+  ],
+  "answer": 3,
+  "explanation": "興味 is read きょうみ (an interest). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He moved into my neighborhood.",
+  "refs": [
+   "a6d55823a0"
+  ],
+  "id": "n4-kr-a6d55823a0",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}が[[近所]]に{越|こ}してきた。",
+  "options": [
+   "ぎんじょ",
+   "きんじょ",
+   "きんじょう",
+   "きんしょ"
+  ],
+  "answer": 1,
+  "explanation": "近所 is read きんじょ (neighbourhood). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The air is very pure in the mountains.",
+  "refs": [
+   "a70d257a61"
+  ],
+  "id": "n4-kr-a70d257a61",
+  "type": "kanji-reading",
+  "stem": "{山|やま}の{中|なか}では[[空気]]がとてもきれいだ。",
+  "options": [
+   "ぐうき",
+   "くき",
+   "くうき",
+   "くうぎ"
+  ],
+  "answer": 2,
+  "explanation": "空気 is read くうき (air; atmosphere). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Which airport do I leave from?",
+  "refs": [
+   "0f74a8f3a4"
+  ],
+  "id": "n4-kr-0f74a8f3a4",
+  "type": "kanji-reading",
+  "stem": "どの[[空港]]から{出発|しゅっぱつ}しますか。",
+  "options": [
+   "くうこ",
+   "くうこう",
+   "くうごう",
+   "ぐうこう"
+  ],
+  "answer": 1,
+  "explanation": "空港 is read くうこう (airport). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We went with him on that plan.",
+  "refs": [
+   "836311c7d4"
+  ],
+  "id": "n4-kr-836311c7d4",
+  "type": "kanji-reading",
+  "stem": "その[[計画]]では{彼|かれ}に{同調|どうちょう}できました。",
+  "options": [
+   "けいかく",
+   "けいがく",
+   "げいかく",
+   "けかく"
+  ],
+  "answer": 0,
+  "explanation": "計画 is read けいかく (to plan). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I think a part-time job is a good experience.",
+  "refs": [
+   "9746b57413"
+  ],
+  "id": "n4-kr-9746b57413",
+  "type": "kanji-reading",
+  "stem": "アルバイトはいい[[経験]]になるの。",
+  "options": [
+   "げいけん",
+   "けけん",
+   "けいけん",
+   "けいげん"
+  ],
+  "answer": 2,
+  "explanation": "経験 is read けいけん (to experience). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The country is famous for the rapid growth of its economy.",
+  "refs": [
+   "5079fc5daf"
+  ],
+  "id": "n4-kr-5079fc5daf",
+  "type": "kanji-reading",
+  "stem": "その{国|くに}は[[経済]]の{急成長|きゅうせいちょう}で{有名|ゆうめい}だ。",
+  "options": [
+   "けいざい",
+   "げいざい",
+   "けざい",
+   "けいさい"
+  ],
+  "answer": 0,
+  "explanation": "経済 is read けいざい (finance; economy). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "In that case, call the police.",
+  "refs": [
+   "25550955b0"
+  ],
+  "id": "n4-kr-25550955b0",
+  "type": "kanji-reading",
+  "stem": "その{場合|ばあい}には[[警察]]を{呼|よ}びなさい。",
+  "options": [
+   "けさつ",
+   "げいさつ",
+   "けいさつ",
+   "けいざつ"
+  ],
+  "answer": 2,
+  "explanation": "警察 is read けいさつ (police). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The landscape is unfamiliar to me.",
+  "refs": [
+   "a200494cec"
+  ],
+  "id": "n4-kr-a200494cec",
+  "type": "kanji-reading",
+  "stem": "それは{私|わたし}が{見|み}たことのない[[景色]]だ。",
+  "options": [
+   "けしぎ",
+   "けしき",
+   "けっしき",
+   "げしき"
+  ],
+  "answer": 1,
+  "explanation": "景色 is read けしき (scene; landscape). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Can I borrow your eraser for a moment?",
+  "refs": [
+   "ba1b3c0d13"
+  ],
+  "id": "n4-kr-ba1b3c0d13",
+  "type": "kanji-reading",
+  "stem": "ちょっと[[消しゴム]]をかしてくれませんか。",
+  "options": [
+   "けしこむ",
+   "けしごうむ",
+   "けしごむ",
+   "けっしごむ"
+  ],
+  "answer": 2,
+  "explanation": "消しゴム is read けしゴム (eraser). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She boards students.",
+  "refs": [
+   "c3da539389"
+  ],
+  "id": "n4-kr-c3da539389",
+  "type": "kanji-reading",
+  "stem": "{彼女|かのじょ}は{学生|がくせい}を[[下宿]]させている。",
+  "options": [
+   "げじゅく",
+   "げしゅぐ",
+   "げしゅく",
+   "けしゅく"
+  ],
+  "answer": 2,
+  "explanation": "下宿 is read げしゅく (lodging). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "It's no small matter.",
+  "refs": [
+   "511cbf9eee"
+  ],
+  "id": "n4-kr-511cbf9eee",
+  "type": "kanji-reading",
+  "stem": "これは[[決して]]{小|ちい}さなことではない。",
+  "options": [
+   "けして",
+   "けっして",
+   "けっしで",
+   "げっして"
+  ],
+  "answer": 1,
+  "explanation": "決して is read けっして (never). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How are your studies going?",
+  "refs": [
+   "607f3c4430"
+  ],
+  "id": "n4-kr-607f3c4430",
+  "type": "kanji-reading",
+  "stem": "あなたのご[[研究]]は、いかがですか。",
+  "options": [
+   "げんきゅう",
+   "けんぎゅう",
+   "けんきゅう",
+   "けんきゆう"
+  ],
+  "answer": 2,
+  "explanation": "研究 is read けんきゅう (research). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We have made use of the laboratory.",
+  "refs": [
+   "912c269668"
+  ],
+  "id": "n4-kr-912c269668",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}たちはその[[研究室]]を{利用|りよう}した。",
+  "options": [
+   "けんきゅしつ",
+   "けんぎゅうしつ",
+   "けんきゅうじつ",
+   "けんきゅうしつ"
+  ],
+  "answer": 3,
+  "explanation": "研究室 is read けんきゅうしつ (study room; laboratory). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I live on the outskirts of Tokyo.",
+  "refs": [
+   "aa95e437a0"
+  ],
+  "id": "n4-kr-aa95e437a0",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は{東京|とうきょう}の[[郊外]]に{住|す}んでいる。",
+  "options": [
+   "ごうがい",
+   "こうかい",
+   "こうがい",
+   "こがい"
+  ],
+  "answer": 2,
+  "explanation": "郊外 is read こうがい (outskirts). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Few people came to the lecture.",
+  "refs": [
+   "8063587e53"
+  ],
+  "id": "n4-kr-8063587e53",
+  "type": "kanji-reading",
+  "stem": "その[[講義]]へ{来|き}た{人|ひと}はほとんどいなかった。",
+  "options": [
+   "ごうぎ",
+   "こうぎ",
+   "こうき",
+   "こぎ"
+  ],
+  "answer": 1,
+  "explanation": "講義 is read こうぎ (lecture). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "More students are interested in finance than in industry.",
+  "refs": [
+   "baaaf1524a"
+  ],
+  "id": "n4-kr-baaaf1524a",
+  "type": "kanji-reading",
+  "stem": "[[工業]]よりも{金融|きんゆう}に{関心|かんしん}のある{学生|がくせい}のほうが{多|おお}い。",
+  "options": [
+   "こうきょう",
+   "こうぎょう",
+   "ごうぎょう",
+   "こうぎょ"
+  ],
+  "answer": 1,
+  "explanation": "工業 is read こうぎょう (the manufacturing industry). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "On leaving high school, I went to Tokyo.",
+  "refs": [
+   "22ba4ea959"
+  ],
+  "id": "n4-kr-22ba4ea959",
+  "type": "kanji-reading",
+  "stem": "[[高校]]を{出|で}るとすぐ、{私|わたし}は{上京|じょうきょう}した。",
+  "options": [
+   "ごうこう",
+   "こうこう",
+   "こうごう",
+   "ここう"
+  ],
+  "answer": 1,
+  "explanation": "高校 is read こうこう (high school). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I am corresponding with an American high school student.",
+  "refs": [
+   "795156bbfe"
+  ],
+  "id": "n4-kr-795156bbfe",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}はアメリカの[[高校生]]と{文通|ぶんつう}をしている。",
+  "options": [
+   "こうごうせい",
+   "こうこうせい",
+   "ここうせい",
+   "こうこうせ"
+  ],
+  "answer": 1,
+  "explanation": "高校生 is read こうこうせい (high school student). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The principal came in after the teacher.",
+  "refs": [
+   "0c49fbf17c"
+  ],
+  "id": "n4-kr-0c49fbf17c",
+  "type": "kanji-reading",
+  "stem": "[[校長]]が{先生|せんせい}の{後|うし}ろから{入|はい}ってきた。",
+  "options": [
+   "こうちよう",
+   "ごうちょう",
+   "こうちょう",
+   "こうちょ"
+  ],
+  "answer": 2,
+  "explanation": "校長 is read こうちょう (headmaster). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You must take care driving.",
+  "refs": [
+   "d64432f194"
+  ],
+  "id": "n4-kr-d64432f194",
+  "type": "kanji-reading",
+  "stem": "[[交通]]に{注意|ちゅうい}しなければいけない。",
+  "options": [
+   "こうつう",
+   "こうつ",
+   "こつう",
+   "ごうつう"
+  ],
+  "answer": 0,
+  "explanation": "交通 is read こうつう (traffic; transportation). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The teacher assembled the students in the hall.",
+  "refs": [
+   "8786f4e971"
+  ],
+  "id": "n4-kr-8786f4e971",
+  "type": "kanji-reading",
+  "stem": "その{教師|きょうし}は[[講堂]]に{学生|がくせい}を{集|あつ}めた。",
+  "options": [
+   "こうどう",
+   "こうど",
+   "ごうどう",
+   "こどう"
+  ],
+  "answer": 0,
+  "explanation": "講堂 is read こうどう (auditorium). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He is not a high school student.",
+  "refs": [
+   "9593b3e04f"
+  ],
+  "id": "n4-kr-9593b3e04f",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}は[[高等学校]]の{生徒|せいと}ではありません。",
+  "options": [
+   "こうとうがっこ",
+   "こうどうがっこう",
+   "こうとうがっこう",
+   "こうとうがこう"
+  ],
+  "answer": 2,
+  "explanation": "高等学校 is read こうとうがっこう (high school). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "English is an international language.",
+  "refs": [
+   "8fd9bc63e8"
+  ],
+  "id": "n4-kr-8fd9bc63e8",
+  "type": "kanji-reading",
+  "stem": "{英語|えいご}は[[国際]]{言語|げんご}である。",
+  "options": [
+   "こうくさい",
+   "こっくさい",
+   "こくっさい",
+   "こくさい"
+  ],
+  "answer": 3,
+  "explanation": "国際 is read こくさい (international). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I have a good idea in my mind.",
+  "refs": [
+   "be527b9f9d"
+  ],
+  "id": "n4-kr-be527b9f9d",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は[[心]]によい{考|かんが}えを{持|も}っている。",
+  "options": [
+   "こごろ",
+   "こころ",
+   "こころう",
+   "こっころ"
+  ],
+  "answer": 1,
+  "explanation": "心 is read こころ (core; heart). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was late because my car broke down.",
+  "refs": [
+   "ce133477e7"
+  ],
+  "id": "n4-kr-ce133477e7",
+  "type": "kanji-reading",
+  "stem": "{車|くるま}が[[故障]]したので{遅|おく}れました。",
+  "options": [
+   "こうしょう",
+   "こっしょう",
+   "こしよう",
+   "こしょう"
+  ],
+  "answer": 3,
+  "explanation": "故障 is read こしょう (to break-down). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Do you know about Singapore?",
+  "refs": [
+   "5bb88bc7a4"
+  ],
+  "id": "n4-kr-5bb88bc7a4",
+  "type": "kanji-reading",
+  "stem": "シンガポールについて[[ご存じ]]ですか。",
+  "options": [
+   "ごぞんし",
+   "ごぞんじ",
+   "ごそんじ",
+   "ごうぞんじ"
+  ],
+  "answer": 1,
+  "explanation": "ご存じ is read ごぞんじ (knowing; acquaintance). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The birds are singing merrily.",
+  "refs": [
+   "0ae014e274"
+  ],
+  "id": "n4-kr-0ae014e274",
+  "type": "kanji-reading",
+  "stem": "[[小鳥]]たちはたのしそうにさえずっています。",
+  "options": [
+   "こっとり",
+   "ことうり",
+   "ことり",
+   "こうとり"
+  ],
+  "answer": 2,
+  "explanation": "小鳥 is read ことり (small bird). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He is very careful with his money.",
+  "refs": [
+   "286e978a7d"
+  ],
+  "id": "n4-kr-286e978a7d",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}はひどく{金|かね}に[[細かい]]。",
+  "options": [
+   "こうまかい",
+   "こまっかい",
+   "こまかい",
+   "こまがい"
+  ],
+  "answer": 2,
+  "explanation": "細かい is read こまかい (small; fine). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How about playing tennis next Saturday?",
+  "refs": [
+   "cbb63150b8"
+  ],
+  "id": "n4-kr-cbb63150b8",
+  "type": "kanji-reading",
+  "stem": "[[今度]]の{土曜日|どようび}、テニスをしませんか。",
+  "options": [
+   "ごんど",
+   "こんど",
+   "こうんど",
+   "こんどう"
+  ],
+  "answer": 1,
+  "explanation": "今度 is read こんど (now; next time). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We're giving a party tonight.",
+  "refs": [
+   "bdad768057"
+  ],
+  "id": "n4-kr-bdad768057",
+  "type": "kanji-reading",
+  "stem": "[[今夜]]、パーティーを{開|ひら}きます。",
+  "options": [
+   "こうんや",
+   "こんゃ",
+   "こんや",
+   "ごんや"
+  ],
+  "answer": 2,
+  "explanation": "今夜 is read こんや (tonight). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The final exams will probably carry over into next month.",
+  "refs": [
+   "c54201ce25"
+  ],
+  "id": "n4-kr-c54201ce25",
+  "type": "kanji-reading",
+  "stem": "[[最後]]の{試験|しけん}は{来月|らいげつ}にまたがるだろう。",
+  "options": [
+   "ざいご",
+   "さいごう",
+   "さいこ",
+   "さいご"
+  ],
+  "answer": 3,
+  "explanation": "最後 is read さいご (last; end). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I knew that all along.",
+  "refs": [
+   "f5c169269f"
+  ],
+  "id": "n4-kr-f5c169269f",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は[[最初]]からその{事|こと}は{知|し}っていた。",
+  "options": [
+   "さいしょう",
+   "さいしょ",
+   "さいしよ",
+   "ざいしょ"
+  ],
+  "answer": 1,
+  "explanation": "最初 is read さいしょ (beginning; first). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How about two weeks from Thursday?",
+  "refs": [
+   "a6678a1d99"
+  ],
+  "id": "n4-kr-a6678a1d99",
+  "type": "kanji-reading",
+  "stem": "[[再来週]]の{木曜日|もくようび}はどう？",
+  "options": [
+   "さらいじゅう",
+   "さらいしゅ",
+   "さらいしゅう",
+   "さらいしゆう"
+  ],
+  "answer": 2,
+  "explanation": "再来週 is read さらいしゅう (the week after next). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The country is supported by industry.",
+  "refs": [
+   "28faf8f7a3"
+  ],
+  "id": "n4-kr-28faf8f7a3",
+  "type": "kanji-reading",
+  "stem": "その{国|くに}は[[産業]]によって{支|ささ}えられている。",
+  "options": [
+   "さんぎょう",
+   "さんぎょ",
+   "さんぎよう",
+   "さんきょう"
+  ],
+  "answer": 0,
+  "explanation": "産業 is read さんぎょう (industry). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Do you know how to play chess?",
+  "refs": [
+   "88125cd960"
+  ],
+  "id": "n4-kr-88125cd960",
+  "type": "kanji-reading",
+  "stem": "あなたはチェスの[[仕方]]を{知|し}っていますか。",
+  "options": [
+   "しがた",
+   "じかた",
+   "しかた",
+   "しかだ"
+  ],
+  "answer": 2,
+  "explanation": "仕方 is read しかた (method). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Anyhow, I'm relieved the test is over.",
+  "refs": [
+   "7855de335f"
+  ],
+  "id": "n4-kr-7855de335f",
+  "type": "kanji-reading",
+  "stem": "とにかく、[[試験]]が{終|お}わってほっとしたよ。",
+  "options": [
+   "しげん",
+   "しっけん",
+   "じけん",
+   "しけん"
+  ],
+  "answer": 3,
+  "explanation": "試験 is read しけん (examination). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I asked him about the accident.",
+  "refs": [
+   "7f6ffe3432"
+  ],
+  "id": "n4-kr-7f6ffe3432",
+  "type": "kanji-reading",
+  "stem": "その[[事故]]について{彼|かれ}に{質問|しつもん}した。",
+  "options": [
+   "じこう",
+   "しこ",
+   "じご",
+   "じこ"
+  ],
+  "answer": 3,
+  "explanation": "事故 is read じこ (accident). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "In case of an earthquake, turn off the gas.",
+  "refs": [
+   "ba8831572d"
+  ],
+  "id": "n4-kr-ba8831572d",
+  "type": "kanji-reading",
+  "stem": "[[地震]]のときにはガスを{止|と}めなさい。",
+  "options": [
+   "じじん",
+   "ししん",
+   "じしん",
+   "じっしん"
+  ],
+  "answer": 2,
+  "explanation": "地震 is read じしん (earthquake). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm pleased with my new underwear.",
+  "refs": [
+   "0c0fb94d28"
+  ],
+  "id": "n4-kr-0c0fb94d28",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は{新|あたら}しい[[下着]]が{気|き}に{入|い}っている。",
+  "options": [
+   "したぎ",
+   "したき",
+   "しったぎ",
+   "しだぎ"
+  ],
+  "answer": 0,
+  "explanation": "下着 is read したぎ (underwear). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Get ready for the trip at once.",
+  "refs": [
+   "ecb83e16fd"
+  ],
+  "id": "n4-kr-ecb83e16fd",
+  "type": "kanji-reading",
+  "stem": "すぐに{旅|たび}の[[支度]]をしなさい。",
+  "options": [
+   "したく",
+   "したぐ",
+   "しだく",
+   "じたく"
+  ],
+  "answer": 0,
+  "explanation": "支度 is read したく (to prepare). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "These articles are not for sale.",
+  "refs": [
+   "17af6092db"
+  ],
+  "id": "n4-kr-17af6092db",
+  "type": "kanji-reading",
+  "stem": "これらの[[品物]]は{非売品|ひばいひん}です。",
+  "options": [
+   "じなもの",
+   "しなものう",
+   "しなもの",
+   "しなもうの"
+  ],
+  "answer": 2,
+  "explanation": "品物 is read しなもの (goods). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Put on me to the office.",
+  "refs": [
+   "9690043102"
+  ],
+  "id": "n4-kr-9690043102",
+  "type": "kanji-reading",
+  "stem": "[[事務所]]の{方|ほう}につないでください。",
+  "options": [
+   "じむっしょ",
+   "じむしょ",
+   "じむしょう",
+   "じむじょ"
+  ],
+  "answer": 1,
+  "explanation": "事務所 is read じむしょ (office). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He lived and died in obscurity.",
+  "refs": [
+   "a7dc742b01"
+  ],
+  "id": "n4-kr-a7dc742b01",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}の{一生|いっしょう}は[[社会]]の{下積|したづ}みで{終|お}わった。",
+  "options": [
+   "じゃかい",
+   "しやかい",
+   "しゃがい",
+   "しゃかい"
+  ],
+  "answer": 3,
+  "explanation": "社会 is read しゃかい (society; public). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Who is the boss of this company?",
+  "refs": [
+   "a40ee6e509"
+  ],
+  "id": "n4-kr-a40ee6e509",
+  "type": "kanji-reading",
+  "stem": "この{会社|かいしゃ}の[[社長]]は{誰|だれ}ですか。",
+  "options": [
+   "しやちょう",
+   "しゃちょう",
+   "しゃちょ",
+   "じゃちょう"
+  ],
+  "answer": 1,
+  "explanation": "社長 is read しゃちょう (company president). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You may spend or save at will.",
+  "refs": [
+   "d1805965ec"
+  ],
+  "id": "n4-kr-d1805965ec",
+  "type": "kanji-reading",
+  "stem": "お{金|かね}を{使|つか}うも{貯|た}めるも[[自由]]にしなさい。",
+  "options": [
+   "じゅう",
+   "しゆう",
+   "じゆ",
+   "じゆう"
+  ],
+  "answer": 3,
+  "explanation": "自由 is read じゆう (freedom). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The custom originated in China.",
+  "refs": [
+   "eacd8a5221"
+  ],
+  "id": "n4-kr-eacd8a5221",
+  "type": "kanji-reading",
+  "stem": "その[[習慣]]は{中国|ちゅうごく}で{始|はじ}まった。",
+  "options": [
+   "しゅかん",
+   "しゅうかん",
+   "じゅうかん",
+   "しゅうがん"
+  ],
+  "answer": 1,
+  "explanation": "習慣 is read しゅうかん (custom; manners). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Fill in your name and address.",
+  "refs": [
+   "47593d1123"
+  ],
+  "id": "n4-kr-47593d1123",
+  "type": "kanji-reading",
+  "stem": "あなたの{名前|なまえ}と[[住所]]を{記入|きにゅう}しなさい。",
+  "options": [
+   "しゅうしょ",
+   "じゅうじょ",
+   "じゅうしょ",
+   "じゅうしよ"
+  ],
+  "answer": 2,
+  "explanation": "住所 is read じゅうしょ (an address; a residence). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "In judo, technique is more important than strength.",
+  "refs": [
+   "dcfb33317b"
+  ],
+  "id": "n4-kr-dcfb33317b",
+  "type": "kanji-reading",
+  "stem": "[[柔道]]では{力|ちから}より{技|わざ}のほうが{大切|たいせつ}である。",
+  "options": [
+   "じゅうど",
+   "じゅどう",
+   "しゅうどう",
+   "じゅうどう"
+  ],
+  "answer": 3,
+  "explanation": "柔道 is read じゅうどう (judo). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Have a good supply of drinking water.",
+  "refs": [
+   "ab6fd5bdbb"
+  ],
+  "id": "n4-kr-ab6fd5bdbb",
+  "type": "kanji-reading",
+  "stem": "{飲|の}み{水|みず}を[[十分]]{用意|ようい}しておきなさい。",
+  "options": [
+   "しゅうぶん",
+   "じゅうぶん",
+   "じゆうぶん",
+   "じゅうふん"
+  ],
+  "answer": 1,
+  "explanation": "十分 is read じゅうぶん (enough). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You can't attend? Why not?",
+  "refs": [
+   "93f910e281"
+  ],
+  "id": "n4-kr-93f910e281",
+  "type": "kanji-reading",
+  "stem": "[[出席]]できないんですか。どうして？",
+  "options": [
+   "しゅっぜき",
+   "しゆっせき",
+   "しゅっせぎ",
+   "しゅっせき"
+  ],
+  "answer": 3,
+  "explanation": "出席 is read しゅっせき (to attend). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You had better depart at once.",
+  "refs": [
+   "c614552d23"
+  ],
+  "id": "n4-kr-c614552d23",
+  "type": "kanji-reading",
+  "stem": "すぐに[[出発]]した{方|ほう}がいいですよ。",
+  "options": [
+   "しゅぱつ",
+   "しゆっぱつ",
+   "しゅっぱつ",
+   "じゅっぱつ"
+  ],
+  "answer": 2,
+  "explanation": "出発 is read しゅっぱつ (to depart). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Hang on a bit until I'm ready.",
+  "refs": [
+   "6ce523bcb6"
+  ],
+  "id": "n4-kr-6ce523bcb6",
+  "type": "kanji-reading",
+  "stem": "[[準備]]ができるまでちょっと{待|ま}ってくれ。",
+  "options": [
+   "じゅんひ",
+   "じゅんび",
+   "しゅんび",
+   "じゆんび"
+  ],
+  "answer": 1,
+  "explanation": "準備 is read じゅんび (to prepare). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'd like you to meet my brother, Tom.",
+  "refs": [
+   "c151fe4163"
+  ],
+  "id": "n4-kr-c151fe4163",
+  "type": "kanji-reading",
+  "stem": "{兄|あに}のトムを[[紹介]]させていただきます。",
+  "options": [
+   "じょうかい",
+   "しょうかい",
+   "しょうがい",
+   "しようかい"
+  ],
+  "answer": 1,
+  "explanation": "紹介 is read しょうかい (introduction). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Do you go to an elementary school?",
+  "refs": [
+   "b04bf40187"
+  ],
+  "id": "n4-kr-b04bf40187",
+  "type": "kanji-reading",
+  "stem": "あなたは[[小学校]]に{通|かよ}っているの？",
+  "options": [
+   "しようがっこう",
+   "しょうがっごう",
+   "しょうがっこう",
+   "しょうかっこう"
+  ],
+  "answer": 2,
+  "explanation": "小学校 is read しょうがっこう (elementary school). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Tom is reading a novel.",
+  "refs": [
+   "689dc7a66e"
+  ],
+  "id": "n4-kr-689dc7a66e",
+  "type": "kanji-reading",
+  "stem": "トムは[[小説]]を{読|よ}んでいる。",
+  "options": [
+   "しょせつ",
+   "しようせつ",
+   "じょうせつ",
+   "しょうせつ"
+  ],
+  "answer": 3,
+  "explanation": "小説 is read しょうせつ (novel). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Thank you for your invitation.",
+  "refs": [
+   "6111e87e72"
+  ],
+  "id": "n4-kr-6111e87e72",
+  "type": "kanji-reading",
+  "stem": "ご[[招待]]をありがとうございます。",
+  "options": [
+   "しょうたい",
+   "じょうたい",
+   "しょたい",
+   "しょうだい"
+  ],
+  "answer": 0,
+  "explanation": "招待 is read しょうたい (to invite). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We know that all men are mortal.",
+  "refs": [
+   "b377c7b2ea"
+  ],
+  "id": "n4-kr-b377c7b2ea",
+  "type": "kanji-reading",
+  "stem": "{人|ひと}はすべて{死|し}すべきものと[[承知]]している。",
+  "options": [
+   "しょち",
+   "じょうち",
+   "しょうち",
+   "しようち"
+  ],
+  "answer": 2,
+  "explanation": "承知 is read しょうち (to consent). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I can't help thinking of the future.",
+  "refs": [
+   "0e3ecb7665"
+  ],
+  "id": "n4-kr-0e3ecb7665",
+  "type": "kanji-reading",
+  "stem": "[[将来]]の{事|こと}を{考|かんが}えずにはいられない。",
+  "options": [
+   "しようらい",
+   "しょうらい",
+   "じょうらい",
+   "しょらい"
+  ],
+  "answer": 1,
+  "explanation": "将来 is read しょうらい (future; prospects). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm cooked meals by my mother.",
+  "refs": [
+   "1ad2f6d941"
+  ],
+  "id": "n4-kr-1ad2f6d941",
+  "type": "kanji-reading",
+  "stem": "[[食事]]は{母|はは}に{作|つく}ってもらっています。",
+  "options": [
+   "しょぐじ",
+   "しょくじ",
+   "じょくじ",
+   "しょうくじ"
+  ],
+  "answer": 1,
+  "explanation": "食事 is read しょくじ (to have a meal). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "They sell good foods at that shop.",
+  "refs": [
+   "2ae7b1cb3b"
+  ],
+  "id": "n4-kr-2ae7b1cb3b",
+  "type": "kanji-reading",
+  "stem": "あの{店|みせ}では{良質|りょうしつ}の[[食料品]]を{売|う}っている。",
+  "options": [
+   "しよくりょうひん",
+   "しょうくりょうひん",
+   "しょくりょうひん",
+   "しょくりょひん"
+  ],
+  "answer": 2,
+  "explanation": "食料品 is read しょくりょうひん (groceries). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The girl has grown into a slender woman.",
+  "refs": [
+   "8410c15b44"
+  ],
+  "id": "n4-kr-8410c15b44",
+  "type": "kanji-reading",
+  "stem": "その{少女|しょうじょ}は{大|おお}きくなってすらりとした[[女性]]になった。",
+  "options": [
+   "じよせい",
+   "じょせい",
+   "じょうせい",
+   "じょぜい"
+  ],
+  "answer": 1,
+  "explanation": "女性 is read じょせい (woman). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "What is the population of India?",
+  "refs": [
+   "7962f0cea1"
+  ],
+  "id": "n4-kr-7962f0cea1",
+  "type": "kanji-reading",
+  "stem": "インドの[[人口]]はどのくらいですか。",
+  "options": [
+   "じんごう",
+   "しんこう",
+   "じんこ",
+   "じんこう"
+  ],
+  "answer": 3,
+  "explanation": "人口 is read じんこう (population). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "There are many shrines in Kyoto.",
+  "refs": [
+   "40c673da45"
+  ],
+  "id": "n4-kr-40c673da45",
+  "type": "kanji-reading",
+  "stem": "{京都|きょうと}には{多|おお}くの[[神社]]がある。",
+  "options": [
+   "じんしゃ",
+   "しんじゃ",
+   "じんじや",
+   "じんじゃ"
+  ],
+  "answer": 3,
+  "explanation": "神社 is read じんじゃ (Shinto shrine). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Which newspaper do you work for?",
+  "refs": [
+   "f7e69f5427"
+  ],
+  "id": "n4-kr-f7e69f5427",
+  "type": "kanji-reading",
+  "stem": "どちらの[[新聞社]]にお{勤|つと}めですか。",
+  "options": [
+   "しんぶんしや",
+   "しんぶんしゃ",
+   "しんぶんじゃ",
+   "しんふんしゃ"
+  ],
+  "answer": 1,
+  "explanation": "新聞社 is read しんぶんしゃ (newspaper company). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Most Japanese drink water from the tap.",
+  "refs": [
+   "2070f21eae"
+  ],
+  "id": "n4-kr-2070f21eae",
+  "type": "kanji-reading",
+  "stem": "たいていの{日本人|にほんじん}は[[水道]]の{水|みず}を{飲|の}みます。",
+  "options": [
+   "ずいどう",
+   "すいど",
+   "すいどう",
+   "すいとう"
+  ],
+  "answer": 2,
+  "explanation": "水道 is read すいどう (water supply). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This math problem beats me.",
+  "refs": [
+   "48341cc3a0"
+  ],
+  "id": "n4-kr-48341cc3a0",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}にはこの[[数学]]の{問題|もんだい}はわからない。",
+  "options": [
+   "すうがく",
+   "すうかく",
+   "すうがぐ",
+   "すがく"
+  ],
+  "answer": 0,
+  "explanation": "数学 is read すうがく (mathematics; arithmetic). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "A great light was diffused over the baseball stadium.",
+  "refs": [
+   "ded62a84d0"
+  ],
+  "id": "n4-kr-ded62a84d0",
+  "type": "kanji-reading",
+  "stem": "[[凄い]]{明|あ}かりが{野球場|やきゅうじょう}にあたっていた。",
+  "options": [
+   "ずごい",
+   "すごうい",
+   "すごい",
+   "すこい"
+  ],
+  "answer": 2,
+  "explanation": "凄い is read すごい (terrific). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How are you getting along?",
+  "refs": [
+   "7817c4eed6"
+  ],
+  "id": "n4-kr-7817c4eed6",
+  "type": "kanji-reading",
+  "stem": "どのようにして[[生活]]していきますか。",
+  "options": [
+   "せいがつ",
+   "ぜいかつ",
+   "せかつ",
+   "せいかつ"
+  ],
+  "answer": 3,
+  "explanation": "生活 is read せいかつ (to live). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Production of this automobile started in 1980.",
+  "refs": [
+   "75acde1d68"
+  ],
+  "id": "n4-kr-75acde1d68",
+  "type": "kanji-reading",
+  "stem": "この{自動車|じどうしゃ}の[[生産]]は１９８０{年|ねん}に{始|はじ}まった。",
+  "options": [
+   "せいさん",
+   "せさん",
+   "ぜいさん",
+   "せいざん"
+  ],
+  "answer": 0,
+  "explanation": "生産 is read せいさん (to produce). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'd rather not say anything about politics.",
+  "refs": [
+   "75b0305c60"
+  ],
+  "id": "n4-kr-75b0305c60",
+  "type": "kanji-reading",
+  "stem": "[[政治]]については{語|かた}りたくない。",
+  "options": [
+   "せじ",
+   "せいじ",
+   "せいし",
+   "ぜいじ"
+  ],
+  "answer": 1,
+  "explanation": "政治 is read せいじ (politics; government). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "They are much better than Western baths.",
+  "refs": [
+   "1e4db2ac9d"
+  ],
+  "id": "n4-kr-1e4db2ac9d",
+  "type": "kanji-reading",
+  "stem": "それらは[[西洋]]の{風呂|ふろ}よりずっといいです。",
+  "options": [
+   "せいょう",
+   "せよう",
+   "せいよう",
+   "ぜいよう"
+  ],
+  "answer": 2,
+  "explanation": "西洋 is read せいよう (western countries). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Love makes the world go round.",
+  "refs": [
+   "bfe54303cd"
+  ],
+  "id": "n4-kr-bfe54303cd",
+  "type": "kanji-reading",
+  "stem": "{愛|あい}の{力|ちから}は[[世界]]を{動|うご}かす。",
+  "options": [
+   "せかい",
+   "せがい",
+   "せっかい",
+   "ぜかい"
+  ],
+  "answer": 0,
+  "explanation": "世界 is read せかい (the world). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How do you account for that?",
+  "refs": [
+   "123ee74d43"
+  ],
+  "id": "n4-kr-123ee74d43",
+  "type": "kanji-reading",
+  "stem": "あなたはそれをどう[[説明]]しますか。",
+  "options": [
+   "ぜつめい",
+   "せっつめい",
+   "せつめい",
+   "せつめ"
+  ],
+  "answer": 2,
+  "explanation": "説明 is read せつめい (explanation). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I hope war doesn't break out.",
+  "refs": [
+   "8c83cac81c"
+  ],
+  "id": "n4-kr-8c83cac81c",
+  "type": "kanji-reading",
+  "stem": "[[戦争]]が{起|お}こらなければいいと{思|おも}う。",
+  "options": [
+   "せんそ",
+   "せんそう",
+   "せんぞう",
+   "ぜんそう"
+  ],
+  "answer": 1,
+  "explanation": "戦争 is read せんそう (war). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I have something to talk over with you.",
+  "refs": [
+   "aa663833e4"
+  ],
+  "id": "n4-kr-aa663833e4",
+  "type": "kanji-reading",
+  "stem": "あなたに[[相談]]したいことがあるの。",
+  "options": [
+   "そうたん",
+   "そだん",
+   "そうだん",
+   "ぞうだん"
+  ],
+  "answer": 2,
+  "explanation": "相談 is read そうだん (to discuss). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I feel I'm growing out of pop music.",
+  "refs": [
+   "6a89d1feee"
+  ],
+  "id": "n4-kr-6a89d1feee",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}はポップ・ミュージックはそろそろ[[卒業]]しようと{思|おも}っているの。",
+  "options": [
+   "そつぎよう",
+   "そつぎょう",
+   "そうつぎょう",
+   "そっつぎょう"
+  ],
+  "answer": 1,
+  "explanation": "卒業 is read そつぎょう (graduation). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "My grandfather cannot walk without a stick.",
+  "refs": [
+   "14363682cb"
+  ],
+  "id": "n4-kr-14363682cb",
+  "type": "kanji-reading",
+  "stem": "[[祖父]]はステッキがないと{歩|ある}けない。",
+  "options": [
+   "そぶ",
+   "そふ",
+   "ぞふ",
+   "そうふ"
+  ],
+  "answer": 1,
+  "explanation": "祖父 is read そふ (grandfather). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I love my grandmother very much.",
+  "refs": [
+   "0f0ed38b4c"
+  ],
+  "id": "n4-kr-0f0ed38b4c",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は[[祖母]]が{大好|だいす}きです。",
+  "options": [
+   "ぞぼ",
+   "そぼ",
+   "そほ",
+   "そぼう"
+  ],
+  "answer": 1,
+  "explanation": "祖母 is read そぼ (grandmother). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "That college student is studying engineering.",
+  "refs": [
+   "138dee4a26"
+  ],
+  "id": "n4-kr-138dee4a26",
+  "type": "kanji-reading",
+  "stem": "その[[大学生]]は{工学|こうがく}を{学|まな}んでいます。",
+  "options": [
+   "だいかくせい",
+   "だいがくぜい",
+   "だいがくせい",
+   "だいがぐせい"
+  ],
+  "answer": 2,
+  "explanation": "大学生 is read だいがくせい (university student). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We had no school on account of the typhoon.",
+  "refs": [
+   "14d52a91d3"
+  ],
+  "id": "n4-kr-14d52a91d3",
+  "type": "kanji-reading",
+  "stem": "[[台風]]のため{学校|がっこう}が{休|やす}みになった。",
+  "options": [
+   "たいふう",
+   "たいぶう",
+   "たいふ",
+   "だいふう"
+  ],
+  "answer": 0,
+  "explanation": "台風 is read たいふう (typhoon). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "It is certain that he is wrong.",
+  "refs": [
+   "2b610cb1a7"
+  ],
+  "id": "n4-kr-2b610cb1a7",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}が{間違|まちが}っているのは[[確か]]です。",
+  "options": [
+   "だしか",
+   "たしが",
+   "たしか",
+   "たっしか"
+  ],
+  "answer": 2,
+  "explanation": "確か is read たしか (definite). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'm not sure if this is correct.",
+  "refs": [
+   "abb49cd233"
+  ],
+  "id": "n4-kr-abb49cd233",
+  "type": "kanji-reading",
+  "stem": "これが[[正しい]]かどうか{自信|じしん}がないんだ。",
+  "options": [
+   "ただしい",
+   "ただじい",
+   "だだしい",
+   "ただっしい"
+  ],
+  "answer": 0,
+  "explanation": "正しい is read ただしい (correct). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He lay on the mat at full length.",
+  "refs": [
+   "b5579bc4a6"
+  ],
+  "id": "n4-kr-b5579bc4a6",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}は[[畳]]の{上|うえ}に{大|だい}の{字|じ}になった。",
+  "options": [
+   "だたみ",
+   "ただみ",
+   "たたみ",
+   "たったみ"
+  ],
+  "answer": 2,
+  "explanation": "畳 is read たたみ (Japanese straw mat). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "It took many years to build it.",
+  "refs": [
+   "c5741f54d6"
+  ],
+  "id": "n4-kr-c5741f54d6",
+  "type": "kanji-reading",
+  "stem": "それを[[建てる]]のに{何年|なんねん}もかかった。",
+  "options": [
+   "だてる",
+   "たってる",
+   "たでる",
+   "たてる"
+  ],
+  "answer": 3,
+  "explanation": "建てる is read たてる (to build). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "For example, it is 7:00 a.m. in London now.",
+  "refs": [
+   "1cda12dd3f"
+  ],
+  "id": "n4-kr-1cda12dd3f",
+  "type": "kanji-reading",
+  "stem": "[[例えば]]、ロンドンは{今|いま}は{朝|あさ}７{時|じ}です。",
+  "options": [
+   "だとえば",
+   "たどえば",
+   "たとえば",
+   "たとえは"
+  ],
+  "answer": 2,
+  "explanation": "例えば is read たとえば (for example). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Jackets are requested for men.",
+  "refs": [
+   "73a3e59782"
+  ],
+  "id": "n4-kr-73a3e59782",
+  "type": "kanji-reading",
+  "stem": "[[男性]]の{方|かた}は{上着|うわぎ}を{着用|ちゃくよう}してください。",
+  "options": [
+   "たんせい",
+   "だんせ",
+   "だんせい",
+   "だんぜい"
+  ],
+  "answer": 2,
+  "explanation": "男性 is read だんせい (male). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How do you heat the house?",
+  "refs": [
+   "aaac8221c9"
+  ],
+  "id": "n4-kr-aaac8221c9",
+  "type": "kanji-reading",
+  "stem": "お{宅|たく}の[[暖房]]はどのようにしていますか。",
+  "options": [
+   "だんぼ",
+   "たんぼう",
+   "だんぼう",
+   "だんほう"
+  ],
+  "answer": 2,
+  "explanation": "暖房 is read だんぼう (heating). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "He entered junior high school.",
+  "refs": [
+   "4b99b4673b"
+  ],
+  "id": "n4-kr-4b99b4673b",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}は[[中学校]]に{入|はい}った。",
+  "options": [
+   "ちゅがっこう",
+   "ちゅうかっこう",
+   "ちゅうがっこう",
+   "ちゅうがっごう"
+  ],
+  "answer": 2,
+  "explanation": "中学校 is read ちゅうがっこう (junior high school; middle school). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I'll give you a shot.",
+  "refs": [
+   "3f26d1cef7"
+  ],
+  "id": "n4-kr-3f26d1cef7",
+  "type": "kanji-reading",
+  "stem": "[[注射]]をしましょう。",
+  "options": [
+   "ちゅしゃ",
+   "ちゅうじゃ",
+   "ちゅうしや",
+   "ちゅうしゃ"
+  ],
+  "answer": 3,
+  "explanation": "注射 is read ちゅうしゃ (injection). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Not a soul was to be seen in the parking lot.",
+  "refs": [
+   "36f583c207"
+  ],
+  "id": "n4-kr-36f583c207",
+  "type": "kanji-reading",
+  "stem": "[[駐車場]]には{人|ひと}ひとり{見|み}えなかった。",
+  "options": [
+   "ちゅうしやじょう",
+   "ちゅうしゃじょ",
+   "ちゅうしゃじよう",
+   "ちゅうしゃじょう"
+  ],
+  "answer": 3,
+  "explanation": "駐車場 is read ちゅうしゃじょう (parking lot). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She made a polite bow to me.",
+  "refs": [
+   "aa30940947"
+  ],
+  "id": "n4-kr-aa30940947",
+  "type": "kanji-reading",
+  "stem": "{彼女|かのじょ}は{私|わたし}に[[丁寧]]におじぎをした。",
+  "options": [
+   "てねい",
+   "ていね",
+   "でいねい",
+   "ていねい"
+  ],
+  "answer": 3,
+  "explanation": "丁寧 is read ていねい (polite). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Read whatever books you think proper.",
+  "refs": [
+   "fa043680e3"
+  ],
+  "id": "n4-kr-fa043680e3",
+  "type": "kanji-reading",
+  "stem": "あなたが[[適当]]だと{思|おも}う{本|ほん}なら{何|なん}でも{読|よ}みなさい。",
+  "options": [
+   "てきとう",
+   "てきっとう",
+   "てぎとう",
+   "てっきとう"
+  ],
+  "answer": 0,
+  "explanation": "適当 is read てきとう (suitability). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Their gloves are not in pairs.",
+  "refs": [
+   "be7c090b8e"
+  ],
+  "id": "n4-kr-be7c090b8e",
+  "type": "kanji-reading",
+  "stem": "この[[手袋]]は{両方|りょうほう}がそろっていない。",
+  "options": [
+   "てぶくろう",
+   "てぶくろ",
+   "てぶぐろ",
+   "でぶくろ"
+  ],
+  "answer": 1,
+  "explanation": "手袋 is read てぶくろ (glove). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The weather forecast was right.",
+  "refs": [
+   "5fd0c77ef5"
+  ],
+  "id": "n4-kr-5fd0c77ef5",
+  "type": "kanji-reading",
+  "stem": "[[天気予報]]が{当|あ}たったよ。",
+  "options": [
+   "てんきよほう",
+   "てんきようほう",
+   "てんぎよほう",
+   "てんきょほう"
+  ],
+  "answer": 0,
+  "explanation": "天気予報 is read てんきよほう (weather forecast). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Lucy turned on the light switch.",
+  "refs": [
+   "db2fc03fcf"
+  ],
+  "id": "n4-kr-db2fc03fcf",
+  "type": "kanji-reading",
+  "stem": "ルーシーは[[電灯]]のスイッチをつけた。",
+  "options": [
+   "でんとう",
+   "でんと",
+   "てんとう",
+   "でんどう"
+  ],
+  "answer": 0,
+  "explanation": "電灯 is read でんとう (electric light). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "When did man start to use tools?",
+  "refs": [
+   "c64697ccaa"
+  ],
+  "id": "n4-kr-c64697ccaa",
+  "type": "kanji-reading",
+  "stem": "{人間|にんげん}はいつ[[道具]]を{使|つか}い{始|はじ}めたのか。",
+  "options": [
+   "どぐ",
+   "とうぐ",
+   "どうぐ",
+   "どうく"
+  ],
+  "answer": 2,
+  "explanation": "道具 is read どうぐ (tool; means). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Condors have never bred in zoos.",
+  "refs": [
+   "69678bc04e"
+  ],
+  "id": "n4-kr-69678bc04e",
+  "type": "kanji-reading",
+  "stem": "コンドルは[[動物園]]では{決|けっ}して{育|そだ}たない。",
+  "options": [
+   "どうふつえん",
+   "どぶつえん",
+   "とうぶつえん",
+   "どうぶつえん"
+  ],
+  "answer": 3,
+  "explanation": "動物園 is read どうぶつえん (zoo). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We saw a dim light in the distance.",
+  "refs": [
+   "fc60a66d5c"
+  ],
+  "id": "n4-kr-fc60a66d5c",
+  "type": "kanji-reading",
+  "stem": "[[遠く]]にぼんやりした{明|あ}かりが{見|み}えた。",
+  "options": [
+   "とおく",
+   "どおく",
+   "とうおく",
+   "とおぐ"
+  ],
+  "answer": 0,
+  "explanation": "遠く is read とおく (distant). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I love music, especially rock.",
+  "refs": [
+   "0b2acf3460"
+  ],
+  "id": "n4-kr-0b2acf3460",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は{音楽|おんがく}、[[特に]]ロックが{大好|だいす}きだ。",
+  "options": [
+   "とくに",
+   "とぐに",
+   "どくに",
+   "とうくに"
+  ],
+  "answer": 0,
+  "explanation": "特に is read とくに (particularly; especially). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "We have something special for you, sir.",
+  "refs": [
+   "cc2bd01f0a"
+  ],
+  "id": "n4-kr-cc2bd01f0a",
+  "type": "kanji-reading",
+  "stem": "[[特別]]{料理|りょうり}がございますが。",
+  "options": [
+   "どくべつ",
+   "とぐべつ",
+   "とくへつ",
+   "とくべつ"
+  ],
+  "answer": 3,
+  "explanation": "特別 is read とくべつ (special). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Don't give up halfway.",
+  "refs": [
+   "9b799806d8"
+  ],
+  "id": "n4-kr-9b799806d8",
+  "type": "kanji-reading",
+  "stem": "[[途中]]であきらめるな。",
+  "options": [
+   "とちゅう",
+   "どちゅう",
+   "とうちゅう",
+   "とっちゅう"
+  ],
+  "answer": 0,
+  "explanation": "途中 is read とちゅう (on the way). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "As my watch was slow, I missed the special express.",
+  "refs": [
+   "3753f20423"
+  ],
+  "id": "n4-kr-3753f20423",
+  "type": "kanji-reading",
+  "stem": "{時計|とけい}がおくれていたので、{私|わたし}は[[特急]]にのりそこねた。",
+  "options": [
+   "とっぎゅう",
+   "ときゅう",
+   "どっきゅう",
+   "とっきゅう"
+  ],
+  "answer": 3,
+  "explanation": "特急 is read とっきゅう (limited express train (faster than an express train)). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The beggar turned out to be a thief.",
+  "refs": [
+   "76d7890e5d"
+  ],
+  "id": "n4-kr-76d7890e5d",
+  "type": "kanji-reading",
+  "stem": "そこの{乞食|こじき}が[[泥棒]]である{事|こと}がわかった。",
+  "options": [
+   "どろぼう",
+   "どろぼ",
+   "どろうぼう",
+   "とろぼう"
+  ],
+  "answer": 0,
+  "explanation": "泥棒 is read どろぼう (thief). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I entered this school two years ago.",
+  "refs": [
+   "433da13afb"
+  ],
+  "id": "n4-kr-433da13afb",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}はこの{学校|がっこう}に２{年|ねん}前に[[入学]]した。",
+  "options": [
+   "にゆうがく",
+   "にゅがく",
+   "にゅうかく",
+   "にゅうがく"
+  ],
+  "answer": 3,
+  "explanation": "入学 is read にゅうがく (to enter school or university). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Mary gave me an American doll.",
+  "refs": [
+   "5cda324083"
+  ],
+  "id": "n4-kr-5cda324083",
+  "type": "kanji-reading",
+  "stem": "メアリーは{私|わたし}にアメリカの[[人形]]をくれた。",
+  "options": [
+   "にんぎよう",
+   "にんぎょう",
+   "にんぎょ",
+   "にんきょう"
+  ],
+  "answer": 1,
+  "explanation": "人形 is read にんぎょう (doll; figure). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Rides in the cars are for kids.",
+  "refs": [
+   "0787fd5472"
+  ],
+  "id": "n4-kr-0787fd5472",
+  "type": "kanji-reading",
+  "stem": "[[乗り物]]は{子供|こども}{向|む}けである。",
+  "options": [
+   "のりもうの",
+   "のりもの",
+   "のりものう",
+   "のうりもの"
+  ],
+  "answer": 1,
+  "explanation": "乗り物 is read のりもの (vehicle). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You'd better see a dentist at once.",
+  "refs": [
+   "9bb337edc6"
+  ],
+  "id": "n4-kr-9bb337edc6",
+  "type": "kanji-reading",
+  "stem": "すぐ[[歯医者]]に{見|み}てもらいなさい。",
+  "options": [
+   "はいじゃ",
+   "ばいしゃ",
+   "はいしゃ",
+   "はいしや"
+  ],
+  "answer": 2,
+  "explanation": "歯医者 is read はいしゃ (dentist). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This sofa takes too much room.",
+  "refs": [
+   "32ca6422d6"
+  ],
+  "id": "n4-kr-32ca6422d6",
+  "type": "kanji-reading",
+  "stem": "このソファーは[[場所]]を{取|と}りすぎる。",
+  "options": [
+   "ばしよ",
+   "ばしょ",
+   "はしょ",
+   "ばじょ"
+  ],
+  "answer": 1,
+  "explanation": "場所 is read ばしょ (location). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I feel ashamed of having lost my temper.",
+  "refs": [
+   "847b1b7535"
+  ],
+  "id": "n4-kr-847b1b7535",
+  "type": "kanji-reading",
+  "stem": "ついかっとなったことが[[恥ずかしい]]。",
+  "options": [
+   "はずかっしい",
+   "はずかじい",
+   "はずかしい",
+   "ばずかしい"
+  ],
+  "answer": 2,
+  "explanation": "恥ずかしい is read はずかしい (embarrassed). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Bamboo stands out in the woods.",
+  "refs": [
+   "a2962b07bc"
+  ],
+  "id": "n4-kr-a2962b07bc",
+  "type": "kanji-reading",
+  "stem": "[[林]]に{竹|たけ}が{目立|めだ}つ。",
+  "options": [
+   "ばやし",
+   "はやじ",
+   "はゃし",
+   "はやし"
+  ],
+  "answer": 3,
+  "explanation": "林 is read はやし (woods; forester). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Light has come into the world.",
+  "refs": [
+   "c8a0e96a6a"
+  ],
+  "id": "n4-kr-c8a0e96a6a",
+  "type": "kanji-reading",
+  "stem": "[[光]]が{世|よ}にやって{来|き}た。",
+  "options": [
+   "ひかり",
+   "ひがり",
+   "びかり",
+   "ひっかり"
+  ],
+  "answer": 0,
+  "explanation": "光 is read ひかり (light). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "All that glitters is not gold.",
+  "refs": [
+   "8b7dab271d"
+  ],
+  "id": "n4-kr-8b7dab271d",
+  "type": "kanji-reading",
+  "stem": "[[光る]]ものすべてが{金|きん}ではない。",
+  "options": [
+   "びかる",
+   "ひがる",
+   "ひっかる",
+   "ひかる"
+  ],
+  "answer": 3,
+  "explanation": "光る is read ひかる (to shine; to glitter). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The clean towels are in the drawer.",
+  "refs": [
+   "916e92f3da"
+  ],
+  "id": "n4-kr-916e92f3da",
+  "type": "kanji-reading",
+  "stem": "きれいなタオルは[[引き出し]]にありますよ。",
+  "options": [
+   "びきだし",
+   "ひきだじ",
+   "ひきだし",
+   "ひぎだし"
+  ],
+  "answer": 2,
+  "explanation": "引き出し is read ひきだし (drawer; drawing out). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Try to bring out the best in him.",
+  "refs": [
+   "5d8e0ae01f"
+  ],
+  "id": "n4-kr-5d8e0ae01f",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}のいいところを[[引き出す]]ようにしなさい。",
+  "options": [
+   "びきだす",
+   "ひぎだす",
+   "ひきだす",
+   "ひっきだす"
+  ],
+  "answer": 2,
+  "explanation": "引き出す is read ひきだす (to withdraw). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The airfield on the island is now covered with weeds.",
+  "refs": [
+   "546e786cde"
+  ],
+  "id": "n4-kr-546e786cde",
+  "type": "kanji-reading",
+  "stem": "その{島|しま}の[[飛行場]]は、{今|いま}では{草|くさ}がぼうぼうだ。",
+  "options": [
+   "ひごうじょう",
+   "ひこうじょう",
+   "ひこじょう",
+   "びこうじょう"
+  ],
+  "answer": 1,
+  "explanation": "飛行場 is read ひこうじょう (airport). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I had a call from her for the first time in a long time.",
+  "refs": [
+   "8c813519f4"
+  ],
+  "id": "n4-kr-8c813519f4",
+  "type": "kanji-reading",
+  "stem": "{彼女|かのじょ}から[[久しぶり]]に{電話|でんわ}があった。",
+  "options": [
+   "ひさしぶり",
+   "ひさしふり",
+   "ひざしぶり",
+   "ひさっしぶり"
+  ],
+  "answer": 0,
+  "explanation": "久しぶり is read ひさしぶり (after a long time). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Admission to the museum is thirty dollars.",
+  "refs": [
+   "eced3a159f"
+  ],
+  "id": "n4-kr-eced3a159f",
+  "type": "kanji-reading",
+  "stem": "この[[美術館]]の{入場料|にゅうじょうりょう}は30ドルです。",
+  "options": [
+   "びじゅつかん",
+   "びじゅつがん",
+   "びじゆつかん",
+   "びしゅつかん"
+  ],
+  "answer": 0,
+  "explanation": "美術館 is read びじゅつかん (art gallery). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "It is a lot of fun to drive a car.",
+  "refs": [
+   "be23bfe1f6"
+  ],
+  "id": "n4-kr-be23bfe1f6",
+  "type": "kanji-reading",
+  "stem": "{車|くるま}を{運転|うんてん}することは[[非常に]]{楽|たの}しい。",
+  "options": [
+   "ひじょに",
+   "ひしょうに",
+   "ひじょうに",
+   "びじょうに"
+  ],
+  "answer": 2,
+  "explanation": "非常に is read ひじょうに (extremely). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "If necessary, I will come soon.",
+  "refs": [
+   "6907fc706d"
+  ],
+  "id": "n4-kr-6907fc706d",
+  "type": "kanji-reading",
+  "stem": "[[必要]]なら、すぐにまいりましょう。",
+  "options": [
+   "ひっつよう",
+   "ひつょう",
+   "ひつよ",
+   "ひつよう"
+  ],
+  "answer": 3,
+  "explanation": "必要 is read ひつよう (necessary). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The water is deepest here.",
+  "refs": [
+   "de718a81e9"
+  ],
+  "id": "n4-kr-de718a81e9",
+  "type": "kanji-reading",
+  "stem": "{水|みず}はここがいちばん[[深い]]。",
+  "options": [
+   "ぶかい",
+   "ふっかい",
+   "ふがい",
+   "ふかい"
+  ],
+  "answer": 3,
+  "explanation": "深い is read ふかい (deep). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How complex?",
+  "refs": [
+   "1d83ae6a5a"
+  ],
+  "id": "n4-kr-1d83ae6a5a",
+  "type": "kanji-reading",
+  "stem": "どのぐらい[[複雑]]なのだろうか。",
+  "options": [
+   "ふくさつ",
+   "ふくざつ",
+   "ふぐざつ",
+   "ふっくざつ"
+  ],
+  "answer": 1,
+  "explanation": "複雑 is read ふくざつ (complexity; complication). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Have you gone over the lesson?",
+  "refs": [
+   "c00788993b"
+  ],
+  "id": "n4-kr-c00788993b",
+  "type": "kanji-reading",
+  "stem": "その{課|か}の[[復習]]をしましたか。",
+  "options": [
+   "ふくっしゅう",
+   "ふぐしゅう",
+   "ふくしゅう",
+   "ふくしゅ"
+  ],
+  "answer": 2,
+  "explanation": "復習 is read ふくしゅう (revision). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The president appointed a new manager.",
+  "refs": [
+   "346a5da3c2"
+  ],
+  "id": "n4-kr-346a5da3c2",
+  "type": "kanji-reading",
+  "stem": "{社長|しゃちょう}は{新|あたら}しい[[部長]]を{任命|にんめい}した。",
+  "options": [
+   "ぶちょう",
+   "ふちょう",
+   "ぶちょ",
+   "ぶっちょう"
+  ],
+  "answer": 0,
+  "explanation": "部長 is read ぶちょう (head of a section). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Fold up your bedding.",
+  "refs": [
+   "f1ef6228cb"
+  ],
+  "id": "n4-kr-f1ef6228cb",
+  "type": "kanji-reading",
+  "stem": "[[布団]]をたたみなさい。",
+  "options": [
+   "ふっとん",
+   "ふとうん",
+   "ふどん",
+   "ふとん"
+  ],
+  "answer": 3,
+  "explanation": "布団 is read ふとん (Japanese bedding; futon). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "She is well versed in Spanish literature.",
+  "refs": [
+   "452083ca3c"
+  ],
+  "id": "n4-kr-452083ca3c",
+  "type": "kanji-reading",
+  "stem": "{彼女|かのじょ}はスペイン[[文学]]に{明|あか}るいです。",
+  "options": [
+   "ふんがく",
+   "ぶんかく",
+   "ぶんがく",
+   "ぶんがぐ"
+  ],
+  "answer": 2,
+  "explanation": "文学 is read ぶんがく (literature). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The English entered into the tea trade at that time.",
+  "refs": [
+   "3597362058"
+  ],
+  "id": "n4-kr-3597362058",
+  "type": "kanji-reading",
+  "stem": "イギリス{人|じん}はそのころ{茶|ちゃ}の[[貿易]]を{始|はじ}めた。",
+  "options": [
+   "ぼえき",
+   "ほうえき",
+   "ぼうえぎ",
+   "ぼうえき"
+  ],
+  "answer": 3,
+  "explanation": "貿易 is read ぼうえき (trade). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The show will be on the air at 7 p.m.",
+  "refs": [
+   "96799b1b11"
+  ],
+  "id": "n4-kr-96799b1b11",
+  "type": "kanji-reading",
+  "stem": "そのショーは{午後|ごご}７{時|じ}に[[放送]]される。",
+  "options": [
+   "ほうぞう",
+   "ほうそ",
+   "ほそう",
+   "ほうそう"
+  ],
+  "answer": 3,
+  "explanation": "放送 is read ほうそう (to broadcast). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You take me for a sucker, don't you?",
+  "refs": [
+   "1587d6fbcf"
+  ],
+  "id": "n4-kr-1587d6fbcf",
+  "type": "kanji-reading",
+  "stem": "[[僕]]をかもだと{思|おも}っているんだろう。",
+  "options": [
+   "ぼぐ",
+   "ぼく",
+   "ほく",
+   "ぼうく"
+  ],
+  "answer": 1,
+  "explanation": "僕 is read ぼく (I (used by males)). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The stars look dim because of the city lights.",
+  "refs": [
+   "72df46ea9c"
+  ],
+  "id": "n4-kr-72df46ea9c",
+  "type": "kanji-reading",
+  "stem": "[[星]]は{町|まち}の{明|あ}かりでかすんで{見|み}える。",
+  "options": [
+   "ほじ",
+   "ぼし",
+   "ほし",
+   "ほうし"
+  ],
+  "answer": 2,
+  "explanation": "星 is read ほし (star). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Will you translate this into French?",
+  "refs": [
+   "36dc0ccd26"
+  ],
+  "id": "n4-kr-36dc0ccd26",
+  "type": "kanji-reading",
+  "stem": "これをフランス{語|ご}に[[翻訳]]してくれないか。",
+  "options": [
+   "ぼんやく",
+   "ほんゃく",
+   "ほんやく",
+   "ほんやぐ"
+  ],
+  "answer": 2,
+  "explanation": "翻訳 is read ほんやく (translation). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I never read this book without being reminded of my old days.",
+  "refs": [
+   "58cd37c48b"
+  ],
+  "id": "n4-kr-58cd37c48b",
+  "type": "kanji-reading",
+  "stem": "この{本|ほん}を{読|よ}むたびに[[昔]]を{思|おも}い{出|だ}す。",
+  "options": [
+   "むっかし",
+   "むかし",
+   "むかじ",
+   "むがし"
+  ],
+  "answer": 1,
+  "explanation": "昔 is read むかし (olden days; former). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "My son asks for the moon.",
+  "refs": [
+   "88be7d523a"
+  ],
+  "id": "n4-kr-88be7d523a",
+  "type": "kanji-reading",
+  "stem": "[[息子]]はないものねだりをしている。",
+  "options": [
+   "むずこ",
+   "むすご",
+   "むすこ",
+   "むすこう"
+  ],
+  "answer": 2,
+  "explanation": "息子 is read むすこ ((humble) son). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "This is a strange kind of fish.",
+  "refs": [
+   "6307098126"
+  ],
+  "id": "n4-kr-6307098126",
+  "type": "kanji-reading",
+  "stem": "これは[[珍しい]]{種類|しゅるい}の{魚|さかな}です。",
+  "options": [
+   "めすらしい",
+   "めずらっしい",
+   "めずらしい",
+   "めずらじい"
+  ],
+  "answer": 2,
+  "explanation": "珍しい is read めずらしい (rare). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I must remind you of your promise.",
+  "refs": [
+   "2ef2e06612"
+  ],
+  "id": "n4-kr-2ef2e06612",
+  "type": "kanji-reading",
+  "stem": "[[約束]]したことを{思|おも}い{出|だ}して{下|くだ}さい。",
+  "options": [
+   "やぐそく",
+   "やくそうく",
+   "やくそく",
+   "やくっそく"
+  ],
+  "answer": 2,
+  "explanation": "約束 is read やくそく (promise). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Every little bit helps.",
+  "refs": [
+   "8011fa51a8"
+  ],
+  "id": "n4-kr-8011fa51a8",
+  "type": "kanji-reading",
+  "stem": "どんなに{少|すこ}しでもすべて[[役に立つ]]。",
+  "options": [
+   "やくにたつ",
+   "やくにだつ",
+   "やっくにたつ",
+   "やぐにたつ"
+  ],
+  "answer": 0,
+  "explanation": "役に立つ is read やくにたつ (to be helpful). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "My mother gazed at me fondly.",
+  "refs": [
+   "427a618271"
+  ],
+  "id": "n4-kr-427a618271",
+  "type": "kanji-reading",
+  "stem": "{母|はは}は[[優しい]]{目|め}で{私|わたし}を{見|み}た。",
+  "options": [
+   "やさしい",
+   "やさじい",
+   "やっさしい",
+   "やさっしい"
+  ],
+  "answer": 0,
+  "explanation": "優しい is read やさしい (kind). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The cheap dollar is charging up exports.",
+  "refs": [
+   "ad11ce072b"
+  ],
+  "id": "n4-kr-ad11ce072b",
+  "type": "kanji-reading",
+  "stem": "ドル{安|やす}は[[輸出]]にはずみをつけています。",
+  "options": [
+   "ゆしゆつ",
+   "ゆしゅつ",
+   "ゆじゅつ",
+   "ゆっしゅつ"
+  ],
+  "answer": 1,
+  "explanation": "輸出 is read ゆしゅつ (to export). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "You may as well begin to prepare your lessons.",
+  "refs": [
+   "de815ae4e6"
+  ],
+  "id": "n4-kr-de815ae4e6",
+  "type": "kanji-reading",
+  "stem": "[[予習]]を{始|はじ}めた{方|ほう}がいいですよ。",
+  "options": [
+   "ようしゅう",
+   "よしゅ",
+   "よしゆう",
+   "よしゅう"
+  ],
+  "answer": 3,
+  "explanation": "予習 is read よしゅう (preparation for a lesson). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I was meeting Bob at six.",
+  "refs": [
+   "a9fe0e98c1"
+  ],
+  "id": "n4-kr-a9fe0e98c1",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は６{時|じ}にボブに{会|あ}う[[予定]]だった。",
+  "options": [
+   "よてい",
+   "ようてい",
+   "よて",
+   "よでい"
+  ],
+  "answer": 0,
+  "explanation": "予定 is read よてい (arrangement). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "\"Have you reserved a hotel room?\" \"Sorry, not yet.\"",
+  "refs": [
+   "ed37fe04b5"
+  ],
+  "id": "n4-kr-ed37fe04b5",
+  "type": "kanji-reading",
+  "stem": "「ホテルの[[予約]]はしてありますか」「すみませんが、まだなんです」",
+  "options": [
+   "ようやく",
+   "よやく",
+   "よやぐ",
+   "よゃく"
+  ],
+  "answer": 1,
+  "explanation": "予約 is read よやく (reservation). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "Their gloves are not in pairs.",
+  "refs": [
+   "520cc83d87"
+  ],
+  "id": "n4-kr-520cc83d87",
+  "type": "kanji-reading",
+  "stem": "この{手袋|てぶくろ}は[[両方]]がそろっていない。",
+  "options": [
+   "りょうほう",
+   "りようほう",
+   "りょうほ",
+   "りょほう"
+  ],
+  "answer": 0,
+  "explanation": "両方 is read りょうほう (both sides). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "The hotel has a homey atmosphere.",
+  "refs": [
+   "cd95253850"
+  ],
+  "id": "n4-kr-cd95253850",
+  "type": "kanji-reading",
+  "stem": "あの[[旅館]]は{家庭的|かていてき}だ。",
+  "options": [
+   "りょがん",
+   "りょかん",
+   "りょうかん",
+   "りよかん"
+  ],
+  "answer": 1,
+  "explanation": "旅館 is read りょかん (Japanese hotel). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "How do I fix the air-conditioner?",
+  "refs": [
+   "8ff4f12975"
+  ],
+  "id": "n4-kr-8ff4f12975",
+  "type": "kanji-reading",
+  "stem": "[[冷房]]が{効|き}きすぎているのですが。",
+  "options": [
+   "れいぼ",
+   "れぼう",
+   "れいぼう",
+   "れいほう"
+  ],
+  "answer": 2,
+  "explanation": "冷房 is read れいぼう (air conditioning). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "I prefer history to geography.",
+  "refs": [
+   "bcb7922671"
+  ],
+  "id": "n4-kr-bcb7922671",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は{地理|ちり}より[[歴史]]が{好|す}きだ。",
+  "options": [
+   "れっきし",
+   "れきし",
+   "れぎし",
+   "れきじ"
+  ],
+  "answer": 1,
+  "explanation": "歴史 is read れきし (history). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N4",
+  "source": "data",
+  "translation": "My sister is always in such a hurry that she often leaves things behind.",
+  "refs": [
+   "12abb2a2c6"
+  ],
+  "id": "n4-kr-12abb2a2c6",
+  "type": "kanji-reading",
+  "stem": "{妹|いもうと}はせっかちだからよく[[忘れ物]]をする。",
+  "options": [
+   "わすれもの",
+   "わすれものう",
+   "わすれもうの",
+   "わずれもの"
+  ],
+  "answer": 0,
+  "explanation": "忘れ物 is read わすれもの (lost article). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ }
+]

@@ -15,7 +15,8 @@ export type Question = {
   passageId?: string;
   audio?: string;
   source: "data" | "ai";
-  status: "verified" | "reviewed";
+  /** draft: passed the code checks only; verified: also blind-solved or unambiguous by construction; reviewed: a person checked it. */
+  status: "draft" | "verified" | "reviewed";
   refs?: string[];
 };
 

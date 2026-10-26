@@ -1,0 +1,3042 @@
+[
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Bill often plays with toys by himself.",
+  "refs": [
+   "2d55571300"
+  ],
+  "id": "n5-kr-2d55571300",
+  "type": "kanji-reading",
+  "stem": "ビルはよく{一人|ひとり}でおもちゃで[[遊ぶ]]。",
+  "options": [
+   "あぞぶ",
+   "あそふ",
+   "あそぶ",
+   "あそうぶ"
+  ],
+  "answer": 2,
+  "explanation": "遊ぶ is read あそぶ (to play; to make a visit). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Our teacher likes his new car.",
+  "refs": [
+   "8ae27e3b51"
+  ],
+  "id": "n5-kr-8ae27e3b51",
+  "type": "kanji-reading",
+  "stem": "{先生|せんせい}は[[新しい]]{車|くるま}が{気|き}に{入|い}っている。",
+  "options": [
+   "あったらしい",
+   "あだらしい",
+   "あたらっしい",
+   "あたらしい"
+  ],
+  "answer": 3,
+  "explanation": "新しい is read あたらしい (new). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "\"May I go with you?\" \"Of course.\"",
+  "refs": [
+   "2dc7289c82"
+  ],
+  "id": "n5-kr-2dc7289c82",
+  "type": "kanji-reading",
+  "stem": "「ご[[一緒]]してもいいですか」「もちろんです」",
+  "options": [
+   "いっしょう",
+   "いっじょ",
+   "いっしよ",
+   "いっしょ"
+  ],
+  "answer": 3,
+  "explanation": "一緒 is read いっしょ (together). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Boys tend to look down on their younger sisters.",
+  "refs": [
+   "12047d019b"
+  ],
+  "id": "n5-kr-12047d019b",
+  "type": "kanji-reading",
+  "stem": "{男|おとこ}の{子|こ}は[[妹]]を{見下|みお}ろしがちである。",
+  "options": [
+   "いもと",
+   "いもうとう",
+   "いもうど",
+   "いもうと"
+  ],
+  "answer": 3,
+  "explanation": "妹 is read いもうと ((humble) younger sister). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The cinema was filled with people.",
+  "refs": [
+   "8a88cfbcb8"
+  ],
+  "id": "n5-kr-8a88cfbcb8",
+  "type": "kanji-reading",
+  "stem": "その[[映画館]]は{人々|ひとびと}でいっぱいだった。",
+  "options": [
+   "えいががん",
+   "えいがかん",
+   "えいがっかん",
+   "えいかかん"
+  ],
+  "answer": 1,
+  "explanation": "映画館 is read えいがかん (cinema). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Don't answer your mother back.",
+  "refs": [
+   "2007947770"
+  ],
+  "id": "n5-kr-2007947770",
+  "type": "kanji-reading",
+  "stem": "[[お母さん]]に{口答|くちごた}えしてはいけませんよ。",
+  "options": [
+   "おっかあさん",
+   "おかあさん",
+   "おがあさん",
+   "おかあっさん"
+  ],
+  "answer": 1,
+  "explanation": "お母さん is read おかあさん ((honorable) mother). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Will you have some more cake?",
+  "refs": [
+   "669019c625"
+  ],
+  "id": "n5-kr-669019c625",
+  "type": "kanji-reading",
+  "stem": "もうすこし[[お菓子]]を{食|た}べませんか。",
+  "options": [
+   "おかし",
+   "おかじ",
+   "おっかし",
+   "おがし"
+  ],
+  "answer": 0,
+  "explanation": "お菓子 is read おかし (sweets; candy). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I think his wife is going out of town.",
+  "refs": [
+   "6c4661d672"
+  ],
+  "id": "n5-kr-6c4661d672",
+  "type": "kanji-reading",
+  "stem": "[[奥さん]]がどこかに{出|で}かけているらしいから。",
+  "options": [
+   "おくさん",
+   "おくっさん",
+   "おぐさん",
+   "おっくさん"
+  ],
+  "answer": 0,
+  "explanation": "奥さん is read おくさん ((honorable) wife). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Is Mike off the bottle?",
+  "refs": [
+   "f843b00173"
+  ],
+  "id": "n5-kr-f843b00173",
+  "type": "kanji-reading",
+  "stem": "マイクは[[お酒]]をやめたの？",
+  "options": [
+   "おっさけ",
+   "おざけ",
+   "おさけ",
+   "おさげ"
+  ],
+  "answer": 2,
+  "explanation": "お酒 is read おさけ (alcohol; rice wine). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I have a message for you from your father.",
+  "refs": [
+   "89807c7c22"
+  ],
+  "id": "n5-kr-89807c7c22",
+  "type": "kanji-reading",
+  "stem": "[[お父さん]]からことづけがあります。",
+  "options": [
+   "おとうさん",
+   "おとうざん",
+   "おっとうさん",
+   "おどうさん"
+  ],
+  "answer": 0,
+  "explanation": "お父さん is read おとうさん ((honorable) father). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Leave him alone.",
+  "refs": [
+   "db32745bbc"
+  ],
+  "id": "n5-kr-db32745bbc",
+  "type": "kanji-reading",
+  "stem": "[[弟]]のことなんかほっときなさい。",
+  "options": [
+   "おとうと",
+   "おっとうと",
+   "おとと",
+   "おどうと"
+  ],
+  "answer": 0,
+  "explanation": "弟 is read おとうと (younger brother). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "You must have nothing to do with the man.",
+  "refs": [
+   "2fd7d45c8d"
+  ],
+  "id": "n5-kr-2fd7d45c8d",
+  "type": "kanji-reading",
+  "stem": "その[[男]]とつきあってはいけないよ。",
+  "options": [
+   "おとこう",
+   "おっとこ",
+   "おとこ",
+   "おとご"
+  ],
+  "answer": 2,
+  "explanation": "男 is read おとこ (man). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Look at that good-looking boy.",
+  "refs": [
+   "6f664d3ded"
+  ],
+  "id": "n5-kr-6f664d3ded",
+  "type": "kanji-reading",
+  "stem": "あのハンサムな[[男の子]]を{見|み}て。",
+  "options": [
+   "おとこのこう",
+   "おとこうのこ",
+   "おとこのこ",
+   "おとっこのこ"
+  ],
+  "answer": 2,
+  "explanation": "男の子 is read おとこのこ (boy). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He may have absented himself from school the day before yesterday.",
+  "refs": [
+   "f0f3826045"
+  ],
+  "id": "n5-kr-f0f3826045",
+  "type": "kanji-reading",
+  "stem": "[[一昨日]]、{彼|かれ}は{学校|がっこう}を{休|やす}んだかもしれない。",
+  "options": [
+   "おとうとい",
+   "おっととい",
+   "おととい",
+   "おどとい"
+  ],
+  "answer": 2,
+  "explanation": "一昨日 is read おととい (day before yesterday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Only adults can see this film.",
+  "refs": [
+   "6f5049e2d4"
+  ],
+  "id": "n5-kr-6f5049e2d4",
+  "type": "kanji-reading",
+  "stem": "[[大人]]だけこの{映画|えいが}が{見|み}える。",
+  "options": [
+   "おとうな",
+   "おっとな",
+   "おとな",
+   "おどな"
+  ],
+  "answer": 2,
+  "explanation": "大人 is read おとな (adult). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I'd like to travel first-class.",
+  "refs": [
+   "4df6eda2a2"
+  ],
+  "id": "n5-kr-4df6eda2a2",
+  "type": "kanji-reading",
+  "stem": "ファーストクラスで[[お願いします]]。",
+  "options": [
+   "おねがいじます",
+   "おねがいしまず",
+   "おねがいします",
+   "おねかいします"
+  ],
+  "answer": 2,
+  "explanation": "お願いします is read おねがいします (please). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Almost all girls are kind.",
+  "refs": [
+   "e6afab391a"
+  ],
+  "id": "n5-kr-e6afab391a",
+  "type": "kanji-reading",
+  "stem": "[[女の子]]はほとんどみんなやさしい。",
+  "options": [
+   "おんなのうこ",
+   "おんなのこ",
+   "おんなのご",
+   "おんなのこう"
+  ],
+  "answer": 1,
+  "explanation": "女の子 is read おんなのこ (girl). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Do you have any foreign books?",
+  "refs": [
+   "31a803c7f5"
+  ],
+  "id": "n5-kr-31a803c7f5",
+  "type": "kanji-reading",
+  "stem": "あなたは[[外国]]の{本|ほん}を{持|も}っていますか。",
+  "options": [
+   "がいこうく",
+   "がいこく",
+   "がいこぐ",
+   "かいこく"
+  ],
+  "answer": 1,
+  "explanation": "外国 is read がいこく (foreign country). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The foreigner speaks Japanese fairly well.",
+  "refs": [
+   "70f1678111"
+  ],
+  "id": "n5-kr-70f1678111",
+  "type": "kanji-reading",
+  "stem": "その[[外国人]]はかなりうまく{日本語|にほんご}を{話|はな}す。",
+  "options": [
+   "かいこくじん",
+   "がいこっくじん",
+   "がいこくじん",
+   "がいこくしん"
+  ],
+  "answer": 2,
+  "explanation": "外国人 is read がいこくじん (foreigner). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Bill joined our company three years ago.",
+  "refs": [
+   "2120ff505c"
+  ],
+  "id": "n5-kr-2120ff505c",
+  "type": "kanji-reading",
+  "stem": "ビルは{三年|さんねん}前にこの[[会社]]に{入|はい}った。",
+  "options": [
+   "がいしゃ",
+   "かいじゃ",
+   "かいしや",
+   "かいしゃ"
+  ],
+  "answer": 3,
+  "explanation": "会社 is read かいしゃ (company). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Jane is out shopping.",
+  "refs": [
+   "a771d4f949"
+  ],
+  "id": "n5-kr-a771d4f949",
+  "type": "kanji-reading",
+  "stem": "ジェーンは[[買い物]]に{出|で}かけている。",
+  "options": [
+   "かいものう",
+   "かいもうの",
+   "がいもの",
+   "かいもの"
+  ],
+  "answer": 3,
+  "explanation": "買い物 is read かいもの (shopping). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Half the students were absent.",
+  "refs": [
+   "452102ad0a"
+  ],
+  "id": "n5-kr-452102ad0a",
+  "type": "kanji-reading",
+  "stem": "[[学生]]の{半数|はんすう}が{休|やす}んでいた。",
+  "options": [
+   "がくせい",
+   "かくせい",
+   "がぐせい",
+   "がっくせい"
+  ],
+  "answer": 0,
+  "explanation": "学生 is read がくせい (student). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Your family must be very nice.",
+  "refs": [
+   "1c9db63bdc"
+  ],
+  "id": "n5-kr-1c9db63bdc",
+  "type": "kanji-reading",
+  "stem": "あなたの[[家族]]はきっと{親切|しんせつ}でしょう。",
+  "options": [
+   "かぞく",
+   "かぞぐ",
+   "かそく",
+   "がぞく"
+  ],
+  "answer": 0,
+  "explanation": "家族 is read かぞく (family). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "This school has many students.",
+  "refs": [
+   "dd8ac16bd2"
+  ],
+  "id": "n5-kr-dd8ac16bd2",
+  "type": "kanji-reading",
+  "stem": "この[[学校]]はたくさんの{生徒|せいと}がいます。",
+  "options": [
+   "がっこ",
+   "がっこう",
+   "かっこう",
+   "がこう"
+  ],
+  "answer": 1,
+  "explanation": "学校 is read がっこう (school). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Do you eat at home or eat out?",
+  "refs": [
+   "66eeeb818b"
+  ],
+  "id": "n5-kr-66eeeb818b",
+  "type": "kanji-reading",
+  "stem": "{食事|しょくじ}は[[家庭]]で{食|た}べますか、{外食|がいしょく}ですか。",
+  "options": [
+   "がてい",
+   "かてい",
+   "かて",
+   "かってい"
+  ],
+  "answer": 1,
+  "explanation": "家庭 is read かてい (household). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Could we have a table in the corner?",
+  "refs": [
+   "4092bfd9bb"
+  ],
+  "id": "n5-kr-4092bfd9bb",
+  "type": "kanji-reading",
+  "stem": "[[角]]のテーブルがいいのですが。",
+  "options": [
+   "かと",
+   "かど",
+   "がど",
+   "かどう"
+  ],
+  "answer": 1,
+  "explanation": "角 is read かど (a corner). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The Diet will meet on Tuesday.",
+  "refs": [
+   "0dbf9ef8ca"
+  ],
+  "id": "n5-kr-0dbf9ef8ca",
+  "type": "kanji-reading",
+  "stem": "[[火曜日]]に{国会|こっかい}が{開|ひら}かれる。",
+  "options": [
+   "かよび",
+   "がようび",
+   "かようひ",
+   "かようび"
+  ],
+  "answer": 3,
+  "explanation": "火曜日 is read かようび (Tuesday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Jack played a dirty trick on me.",
+  "refs": [
+   "7d1cf1538b"
+  ],
+  "id": "n5-kr-7d1cf1538b",
+  "type": "kanji-reading",
+  "stem": "ジャックは{私|わたし}に[[汚い]]いたずらをした。",
+  "options": [
+   "きったない",
+   "ぎたない",
+   "きたない",
+   "きだない"
+  ],
+  "answer": 2,
+  "explanation": "汚い is read きたない (dirty). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "We ate lunch in a coffee lounge.",
+  "refs": [
+   "5620a00afc"
+  ],
+  "id": "n5-kr-5620a00afc",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}たちは[[喫茶店]]で{昼食|ちゅうしょく}をとった。",
+  "options": [
+   "きっさでん",
+   "きっさってん",
+   "きっさてん",
+   "ぎっさてん"
+  ],
+  "answer": 2,
+  "explanation": "喫茶店 is read きっさてん (coffee lounge). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Sign across the stamp.",
+  "refs": [
+   "e101e41f54"
+  ],
+  "id": "n5-kr-e101e41f54",
+  "type": "kanji-reading",
+  "stem": "[[切手]]の{上|うえ}からサインをしてください。",
+  "options": [
+   "ぎって",
+   "きて",
+   "きっで",
+   "きって"
+  ],
+  "answer": 3,
+  "explanation": "切手 is read きって (postage stamp). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The Japanese eat more beef than the British do.",
+  "refs": [
+   "b4faf372f3"
+  ],
+  "id": "n5-kr-b4faf372f3",
+  "type": "kanji-reading",
+  "stem": "{日本人|にほんじん}はイギリス{人|じん}より[[牛肉]]を{食|た}べる。",
+  "options": [
+   "ぎゅにく",
+   "ぎゅうにく",
+   "きゅうにく",
+   "ぎゆうにく"
+  ],
+  "answer": 1,
+  "explanation": "牛肉 is read ぎゅうにく (beef). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Milk is made into butter and cheese.",
+  "refs": [
+   "797ae8d562"
+  ],
+  "id": "n5-kr-797ae8d562",
+  "type": "kanji-reading",
+  "stem": "[[牛乳]]はバターやチーズになります。",
+  "options": [
+   "ぎゅうにゆう",
+   "ぎゅうにゅ",
+   "きゅうにゅう",
+   "ぎゅうにゅう"
+  ],
+  "answer": 3,
+  "explanation": "牛乳 is read ぎゅうにゅう (milk). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "What would you like to do today?",
+  "refs": [
+   "0400a204bd"
+  ],
+  "id": "n5-kr-0400a204bd",
+  "type": "kanji-reading",
+  "stem": "[[今日]]は{何|なに}をしたいですか。",
+  "options": [
+   "きょ",
+   "ぎょう",
+   "きよう",
+   "きょう"
+  ],
+  "answer": 3,
+  "explanation": "今日 is read きょう (today). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "May we use the language lab?",
+  "refs": [
+   "85eb994887"
+  ],
+  "id": "n5-kr-85eb994887",
+  "type": "kanji-reading",
+  "stem": "ＬＬ[[教室]]を{使|つか}ってもよいですか。",
+  "options": [
+   "きょうじつ",
+   "きょうしつ",
+   "きようしつ",
+   "ぎょうしつ"
+  ],
+  "answer": 1,
+  "explanation": "教室 is read きょうしつ (classroom). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He must be Tom's brother.",
+  "refs": [
+   "976c4f7174"
+  ],
+  "id": "n5-kr-976c4f7174",
+  "type": "kanji-reading",
+  "stem": "あの{人|ひと}はトムの[[兄弟]]にちがいない。",
+  "options": [
+   "きょうだい",
+   "きょだい",
+   "きょうたい",
+   "きようだい"
+  ],
+  "answer": 0,
+  "explanation": "兄弟 is read きょうだい ((humble) siblings). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Bill came to see me last autumn.",
+  "refs": [
+   "ec4e1dfc87"
+  ],
+  "id": "n5-kr-ec4e1dfc87",
+  "type": "kanji-reading",
+  "stem": "ビルは[[去年]]の{秋|あき}に{私|わたし}に{会|あ}いに{来|き}た。",
+  "options": [
+   "ぎょねん",
+   "きょうねん",
+   "きよねん",
+   "きょねん"
+  ],
+  "answer": 3,
+  "explanation": "去年 is read きょねん (last year). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "How much money do you have in the bank?",
+  "refs": [
+   "a59efa3057"
+  ],
+  "id": "n5-kr-a59efa3057",
+  "type": "kanji-reading",
+  "stem": "[[銀行]]にどれだけお{金|かね}がありますか。",
+  "options": [
+   "ぎんこ",
+   "ぎんごう",
+   "ぎんこう",
+   "きんこう"
+  ],
+  "answer": 2,
+  "explanation": "銀行 is read ぎんこう (bank). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "What will you do on Friday?",
+  "refs": [
+   "b00c4af0a2"
+  ],
+  "id": "n5-kr-b00c4af0a2",
+  "type": "kanji-reading",
+  "stem": "あなたは[[金曜日]]に{何|なに}をするつもりですか。",
+  "options": [
+   "きんようび",
+   "きんょうび",
+   "きんよび",
+   "ぎんようび"
+  ],
+  "answer": 0,
+  "explanation": "金曜日 is read きんようび (Friday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Take this medicine every four hours.",
+  "refs": [
+   "95ccaa32f5"
+  ],
+  "id": "n5-kr-95ccaa32f5",
+  "type": "kanji-reading",
+  "stem": "４{時間|じかん}おきにこの[[薬]]をのみなさい。",
+  "options": [
+   "くずり",
+   "くっすり",
+   "ぐすり",
+   "くすり"
+  ],
+  "answer": 3,
+  "explanation": "薬 is read くすり (medicine). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "My father doesn't eat all that much fruit.",
+  "refs": [
+   "6b454b895e"
+  ],
+  "id": "n5-kr-6b454b895e",
+  "type": "kanji-reading",
+  "stem": "{父|ちち}はそんなに[[果物]]を{食|た}べないんです。",
+  "options": [
+   "くだものう",
+   "くだもうの",
+   "ぐだもの",
+   "くだもの"
+  ],
+  "answer": 3,
+  "explanation": "果物 is read くだもの (fruit). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "These socks do not match.",
+  "refs": [
+   "20a1278928"
+  ],
+  "id": "n5-kr-20a1278928",
+  "type": "kanji-reading",
+  "stem": "この[[靴下]]はちぐはぐだ。",
+  "options": [
+   "くっつした",
+   "くつした",
+   "くつじた",
+   "ぐつした"
+  ],
+  "answer": 1,
+  "explanation": "靴下 is read くつした (socks). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The two policemen were exhausted, too.",
+  "refs": [
+   "e1634cb3e9"
+  ],
+  "id": "n5-kr-e1634cb3e9",
+  "type": "kanji-reading",
+  "stem": "{二人|ふたり}の[[警官]]もへとへとになった。",
+  "options": [
+   "げいかん",
+   "けかん",
+   "けいがん",
+   "けいかん"
+  ],
+  "answer": 3,
+  "explanation": "警官 is read けいかん (policeman). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "No more, thank you. I'm full.",
+  "refs": [
+   "dd34250740"
+  ],
+  "id": "n5-kr-dd34250740",
+  "type": "kanji-reading",
+  "stem": "いや[[結構]]です。たくさんいただきました。",
+  "options": [
+   "けこう",
+   "けっごう",
+   "けっこ",
+   "けっこう"
+  ],
+  "answer": 3,
+  "explanation": "結構 is read けっこう (splendid; enough). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "John was married to Jane.",
+  "refs": [
+   "2eb252da72"
+  ],
+  "id": "n5-kr-2eb252da72",
+  "type": "kanji-reading",
+  "stem": "ジョンはジェーンと[[結婚]]していた。",
+  "options": [
+   "けこん",
+   "けっこうん",
+   "けっこん",
+   "げっこん"
+  ],
+  "answer": 2,
+  "explanation": "結婚 is read けっこん (marriage). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I'll be here by Monday.",
+  "refs": [
+   "04e80a2ba1"
+  ],
+  "id": "n5-kr-04e80a2ba1",
+  "type": "kanji-reading",
+  "stem": "[[月曜日]]までにここに{来|き}ています。",
+  "options": [
+   "げつよび",
+   "げつょうび",
+   "げっつようび",
+   "げつようび"
+  ],
+  "answer": 3,
+  "explanation": "月曜日 is read げつようび (Monday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "What happened at that crossing?",
+  "refs": [
+   "8699b8bec2"
+  ],
+  "id": "n5-kr-8699b8bec2",
+  "type": "kanji-reading",
+  "stem": "あの[[交差点]]で{何|なに}が{起|お}こったのか。",
+  "options": [
+   "こうざてん",
+   "ごうさてん",
+   "こうさてん",
+   "こうさってん"
+  ],
+  "answer": 2,
+  "explanation": "交差点 is read こうさてん (intersection). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Care for tea or coffee?",
+  "refs": [
+   "1288e600be"
+  ],
+  "id": "n5-kr-1288e600be",
+  "type": "kanji-reading",
+  "stem": "[[紅茶]]かコーヒーはいかがですか。",
+  "options": [
+   "こうちや",
+   "こうちゃ",
+   "こちゃ",
+   "ごうちゃ"
+  ],
+  "answer": 1,
+  "explanation": "紅茶 is read こうちゃ (black tea). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Ask at the police station over there.",
+  "refs": [
+   "402eb0d21f"
+  ],
+  "id": "n5-kr-402eb0d21f",
+  "type": "kanji-reading",
+  "stem": "{向|む}こうの[[交番]]で{聞|き}いてください。",
+  "options": [
+   "こうはん",
+   "こばん",
+   "ごうばん",
+   "こうばん"
+  ],
+  "answer": 3,
+  "explanation": "交番 is read こうばん (police box). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "When shall I call on you this afternoon?",
+  "refs": [
+   "9a7c962266"
+  ],
+  "id": "n5-kr-9a7c962266",
+  "type": "kanji-reading",
+  "stem": "[[午後]]{何時|なんじ}ごろうかがいましょうか。",
+  "options": [
+   "ごご",
+   "ごうご",
+   "ごごう",
+   "こご"
+  ],
+  "answer": 0,
+  "explanation": "午後 is read ごご (afternoon). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The train departs here at 9:00 a.m.",
+  "refs": [
+   "c92dbe626a"
+  ],
+  "id": "n5-kr-c92dbe626a",
+  "type": "kanji-reading",
+  "stem": "その{電車|でんしゃ}は[[午前]]９{時|じ}にここを{出発|しゅっぱつ}します。",
+  "options": [
+   "ごうぜん",
+   "ごせん",
+   "ごぜん",
+   "こぜん"
+  ],
+  "answer": 2,
+  "explanation": "午前 is read ごぜん (morning). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "May the new year bring you happiness!",
+  "refs": [
+   "0020b9ee4e"
+  ],
+  "id": "n5-kr-0020b9ee4e",
+  "type": "kanji-reading",
+  "stem": "[[今年]]もよい{年|とし}でありますように。",
+  "options": [
+   "こっとし",
+   "ごとし",
+   "こうとし",
+   "ことし"
+  ],
+  "answer": 3,
+  "explanation": "今年 is read ことし (this year). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Words failed me.",
+  "refs": [
+   "491cfa69be"
+  ],
+  "id": "n5-kr-491cfa69be",
+  "type": "kanji-reading",
+  "stem": "[[言葉]]が{出|で}てこなかった。",
+  "options": [
+   "ことば",
+   "こどば",
+   "ことは",
+   "こっとば"
+  ],
+  "answer": 0,
+  "explanation": "言葉 is read ことば (word; language). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Sales have been off this month.",
+  "refs": [
+   "3793173687"
+  ],
+  "id": "n5-kr-3793173687",
+  "type": "kanji-reading",
+  "stem": "[[今月]]の{売|う}り{上|あ}げはよくない。",
+  "options": [
+   "こんけつ",
+   "こんげつ",
+   "こうんげつ",
+   "ごんげつ"
+  ],
+  "answer": 1,
+  "explanation": "今月 is read こんげつ (this month). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Where have you been this week?",
+  "refs": [
+   "7a27eadef1"
+  ],
+  "id": "n5-kr-7a27eadef1",
+  "type": "kanji-reading",
+  "stem": "[[今週]]はどちらにいらしゃいましたか。",
+  "options": [
+   "こんしゅう",
+   "こうんしゅう",
+   "こんしゅ",
+   "こんしゆう"
+  ],
+  "answer": 0,
+  "explanation": "今週 is read こんしゅう (this week). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Is there going to be a party tonight?",
+  "refs": [
+   "eb1c9a5df9"
+  ],
+  "id": "n5-kr-eb1c9a5df9",
+  "type": "kanji-reading",
+  "stem": "[[今晩]]はパーティーがあるのかなあ。",
+  "options": [
+   "こうんばん",
+   "ごんばん",
+   "こんはん",
+   "こんばん"
+  ],
+  "answer": 3,
+  "explanation": "今晩 is read こんばん (this evening). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Do Japanese eat a lot of fish?",
+  "refs": [
+   "dbd7cd319c"
+  ],
+  "id": "n5-kr-dbd7cd319c",
+  "type": "kanji-reading",
+  "stem": "{日本人|にほんじん}は[[魚]]をたくさん{食|た}べますか。",
+  "options": [
+   "さがな",
+   "さかな",
+   "ざかな",
+   "さっかな"
+  ],
+  "answer": 1,
+  "explanation": "魚 is read さかな (fish). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Have you finished writing your composition?",
+  "refs": [
+   "c10cb3070d"
+  ],
+  "id": "n5-kr-c10cb3070d",
+  "type": "kanji-reading",
+  "stem": "[[作文]]は{書|か}いてしまいましたか。",
+  "options": [
+   "さくぶん",
+   "さぐぶん",
+   "さくふん",
+   "さっくぶん"
+  ],
+  "answer": 0,
+  "explanation": "作文 is read さくぶん (composition; writing). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Where can I buy that magazine?",
+  "refs": [
+   "a371cc6a54"
+  ],
+  "id": "n5-kr-a371cc6a54",
+  "type": "kanji-reading",
+  "stem": "その[[雑誌]]はどこで{買|か}えますか。",
+  "options": [
+   "ざっし",
+   "ざっじ",
+   "ざし",
+   "さっし"
+  ],
+  "answer": 0,
+  "explanation": "雑誌 is read ざっし (magazine). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "There wasn't much sugar in the pot.",
+  "refs": [
+   "8af5030b7a"
+  ],
+  "id": "n5-kr-8af5030b7a",
+  "type": "kanji-reading",
+  "stem": "ポットにはあまり[[砂糖]]がなかった。",
+  "options": [
+   "さとう",
+   "さどう",
+   "さっとう",
+   "ざとう"
+  ],
+  "answer": 0,
+  "explanation": "砂糖 is read さとう (sugar). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "We can always find time for reading.",
+  "refs": [
+   "d5c916ca85"
+  ],
+  "id": "n5-kr-d5c916ca85",
+  "type": "kanji-reading",
+  "stem": "いつだって{読書|どくしょ}の[[時間]]は{見|み}つけられる。",
+  "options": [
+   "じがん",
+   "じかん",
+   "じっかん",
+   "しかん"
+  ],
+  "answer": 1,
+  "explanation": "時間 is read じかん (time). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He got the sack for slacking off at work.",
+  "refs": [
+   "573bc15b1d"
+  ],
+  "id": "n5-kr-573bc15b1d",
+  "type": "kanji-reading",
+  "stem": "[[仕事]]をサボったからクビになった。",
+  "options": [
+   "しごとう",
+   "しごうと",
+   "しごと",
+   "じごと"
+  ],
+  "answer": 2,
+  "explanation": "仕事 is read しごと (job). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "You find it in any dictionary.",
+  "refs": [
+   "8ec35978bd"
+  ],
+  "id": "n5-kr-8ec35978bd",
+  "type": "kanji-reading",
+  "stem": "それはどの[[辞書]]にもでています。",
+  "options": [
+   "じっしょ",
+   "じしょ",
+   "じしよ",
+   "じしょう"
+  ],
+  "answer": 1,
+  "explanation": "辞書 is read じしょ (dictionary). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The captain commanded silence.",
+  "refs": [
+   "178469ba7a"
+  ],
+  "id": "n5-kr-178469ba7a",
+  "type": "kanji-reading",
+  "stem": "キャプテンは[[静か]]にするように{命|めい}じた。",
+  "options": [
+   "しずか",
+   "しずが",
+   "じずか",
+   "しすか"
+  ],
+  "answer": 0,
+  "explanation": "静か is read しずか (quiet). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "You may ask a question of that teacher.",
+  "refs": [
+   "2c5c99977c"
+  ],
+  "id": "n5-kr-2c5c99977c",
+  "type": "kanji-reading",
+  "stem": "あの{先生|せんせい}に[[質問]]してもいいですよ。",
+  "options": [
+   "しつもん",
+   "しつもうん",
+   "しっつもん",
+   "じつもん"
+  ],
+  "answer": 0,
+  "explanation": "質問 is read しつもん (question). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "My bicycle has a flat tire.",
+  "refs": [
+   "ebf194a316"
+  ],
+  "id": "n5-kr-ebf194a316",
+  "type": "kanji-reading",
+  "stem": "ぼくの[[自転車]]はパンクしている。",
+  "options": [
+   "してんしゃ",
+   "じてんしゃ",
+   "じてんしや",
+   "じってんしゃ"
+  ],
+  "answer": 1,
+  "explanation": "自転車 is read じてんしゃ (bicycle). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Wasn't he killed by a car?",
+  "refs": [
+   "78fd1a0e8a"
+  ],
+  "id": "n5-kr-78fd1a0e8a",
+  "type": "kanji-reading",
+  "stem": "[[自動車]]にひかれたのではないですか。",
+  "options": [
+   "じとうしゃ",
+   "じどしゃ",
+   "じどうしゃ",
+   "じどうしや"
+  ],
+  "answer": 2,
+  "explanation": "自動車 is read じどうしゃ (automobile). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Mr Johnson is, as it were, a walking dictionary.",
+  "refs": [
+   "6156bfb418"
+  ],
+  "id": "n5-kr-6156bfb418",
+  "type": "kanji-reading",
+  "stem": "ジョンソンさんはまるで{生|い}き[[字引]]です。",
+  "options": [
+   "じひき",
+   "じびぎ",
+   "じびき",
+   "しびき"
+  ],
+  "answer": 2,
+  "explanation": "字引 is read じびき (dictionary). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "What a beautiful picture!",
+  "refs": [
+   "5101640e7e"
+  ],
+  "id": "n5-kr-5101640e7e",
+  "type": "kanji-reading",
+  "stem": "なんてキレイな[[写真]]なんでしょう。",
+  "options": [
+   "じゃしん",
+   "しゃじん",
+   "しゃしん",
+   "しやしん"
+  ],
+  "answer": 2,
+  "explanation": "写真 is read しゃしん (photograph). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "That was the end of the class.",
+  "refs": [
+   "5bae559507"
+  ],
+  "id": "n5-kr-5bae559507",
+  "type": "kanji-reading",
+  "stem": "それは[[授業]]の{終|お}わりだった。",
+  "options": [
+   "じゅぎよう",
+   "じゅぎょう",
+   "じゆぎょう",
+   "じゅぎょ"
+  ],
+  "answer": 1,
+  "explanation": "授業 is read じゅぎょう (lesson; class work). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Have you done your assignment yet?",
+  "refs": [
+   "4daa103d7d"
+  ],
+  "id": "n5-kr-4daa103d7d",
+  "type": "kanji-reading",
+  "stem": "[[宿題]]はもうやってしまいましたか。",
+  "options": [
+   "しゅくたい",
+   "じゅくだい",
+   "しゅぐだい",
+   "しゅくだい"
+  ],
+  "answer": 3,
+  "explanation": "宿題 is read しゅくだい (homework). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Mike speaks good Japanese.",
+  "refs": [
+   "1763fc412a"
+  ],
+  "id": "n5-kr-1763fc412a",
+  "type": "kanji-reading",
+  "stem": "マイクは{日本語|にほんご}を{話|はな}すのが[[上手]]だ。",
+  "options": [
+   "じょうす",
+   "じょうず",
+   "じょず",
+   "じようず"
+  ],
+  "answer": 1,
+  "explanation": "上手 is read じょうず (skillful). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He is said to have been strong.",
+  "refs": [
+   "50525927ee"
+  ],
+  "id": "n5-kr-50525927ee",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}は[[丈夫]]だったそうです。",
+  "options": [
+   "じょうぶ",
+   "じょうふ",
+   "じようぶ",
+   "じょぶ"
+  ],
+  "answer": 0,
+  "explanation": "丈夫 is read じょうぶ (strong; durable). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The cafeteria was self-service.",
+  "refs": [
+   "dcc87a37fb"
+  ],
+  "id": "n5-kr-dcc87a37fb",
+  "type": "kanji-reading",
+  "stem": "[[食堂]]はセルフサービスでした。",
+  "options": [
+   "しよくどう",
+   "しょくとう",
+   "しょくど",
+   "しょくどう"
+  ],
+  "answer": 3,
+  "explanation": "食堂 is read しょくどう (dining hall). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Next Wednesday will be fine.",
+  "refs": [
+   "44d9d70862"
+  ],
+  "id": "n5-kr-44d9d70862",
+  "type": "kanji-reading",
+  "stem": "{今度|こんど}の[[水曜日]]ならいいですよ。",
+  "options": [
+   "すいようひ",
+   "すいようび",
+   "すいよび",
+   "すいょうび"
+  ],
+  "answer": 1,
+  "explanation": "水曜日 is read すいようび (Wednesday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "There are few, if any, such men.",
+  "refs": [
+   "0d38b01113"
+  ],
+  "id": "n5-kr-0d38b01113",
+  "type": "kanji-reading",
+  "stem": "たとえそんな{人|ひと}はいるとしてもごく[[少ない]]。",
+  "options": [
+   "ずくない",
+   "すっくない",
+   "すくない",
+   "すぐない"
+  ],
+  "answer": 2,
+  "explanation": "少ない is read すくない (a few). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Do you mind if I watch TV for a while?",
+  "refs": [
+   "c373555102"
+  ],
+  "id": "n5-kr-c373555102",
+  "type": "kanji-reading",
+  "stem": "[[少し]]テレビを{見|み}てもいいですか。",
+  "options": [
+   "ずこし",
+   "すこし",
+   "すっこし",
+   "すごし"
+  ],
+  "answer": 1,
+  "explanation": "少し is read すこし (few). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "This school has many students.",
+  "refs": [
+   "af7459ef1e"
+  ],
+  "id": "n5-kr-af7459ef1e",
+  "type": "kanji-reading",
+  "stem": "この{学校|がっこう}はたくさんの[[生徒]]がいます。",
+  "options": [
+   "せと",
+   "せいど",
+   "せいと",
+   "せいとう"
+  ],
+  "answer": 2,
+  "explanation": "生徒 is read せいと (pupil). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I bought a new suit of clothes.",
+  "refs": [
+   "9d432ac114"
+  ],
+  "id": "n5-kr-9d432ac114",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は{新|あたら}しい[[背広]]を{買|か}った。",
+  "options": [
+   "せひろ",
+   "ぜびろ",
+   "せびろう",
+   "せびろ"
+  ],
+  "answer": 3,
+  "explanation": "背広 is read せびろ (business suit). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He's the man that was here last week.",
+  "refs": [
+   "b8c4cd80db"
+  ],
+  "id": "n5-kr-b8c4cd80db",
+  "type": "kanji-reading",
+  "stem": "あの{人|ひと}は[[先週]]ここにいた{人|ひと}です。",
+  "options": [
+   "せんしゆう",
+   "ぜんしゅう",
+   "せんじゅう",
+   "せんしゅう"
+  ],
+  "answer": 3,
+  "explanation": "先週 is read せんしゅう (last week). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The principal came in after the teacher.",
+  "refs": [
+   "814bdc2cec"
+  ],
+  "id": "n5-kr-814bdc2cec",
+  "type": "kanji-reading",
+  "stem": "{校長|こうちょう}が[[先生]]の{後|うし}ろから{入|はい}ってきた。",
+  "options": [
+   "ぜんせい",
+   "せんせい",
+   "せんぜい",
+   "せんせ"
+  ],
+  "answer": 1,
+  "explanation": "先生 is read せんせい (teacher; doctor). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Can I use the laundry any time?",
+  "refs": [
+   "4d0ca7b320"
+  ],
+  "id": "n5-kr-4d0ca7b320",
+  "type": "kanji-reading",
+  "stem": "[[洗濯]]はいつやってもいいですか。",
+  "options": [
+   "ぜんたく",
+   "せんたぐ",
+   "せんだく",
+   "せんたく"
+  ],
+  "answer": 3,
+  "explanation": "洗濯 is read せんたく (washing). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "My father is sweeping the garage.",
+  "refs": [
+   "501df34d31"
+  ],
+  "id": "n5-kr-501df34d31",
+  "type": "kanji-reading",
+  "stem": "{父|ちち}はガレージを[[掃除]]している。",
+  "options": [
+   "そじ",
+   "ぞうじ",
+   "そうし",
+   "そうじ"
+  ],
+  "answer": 3,
+  "explanation": "掃除 is read そうじ (to clean; to sweep). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Could you let him out?",
+  "refs": [
+   "68ad5f4363"
+  ],
+  "id": "n5-kr-68ad5f4363",
+  "type": "kanji-reading",
+  "stem": "[[外]]に{出|だ}してやってくれませんか。",
+  "options": [
+   "そとう",
+   "そと",
+   "ぞと",
+   "そうと"
+  ],
+  "answer": 1,
+  "explanation": "外 is read そと (outside). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "What are you going to do in college?",
+  "refs": [
+   "5b303264b9"
+  ],
+  "id": "n5-kr-5b303264b9",
+  "type": "kanji-reading",
+  "stem": "[[大学]]で{何|なに}をするつもりですか。",
+  "options": [
+   "だいがく",
+   "たいがく",
+   "だいかく",
+   "だいがぐ"
+  ],
+  "answer": 0,
+  "explanation": "大学 is read だいがく (university). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "No, no, that's okay.",
+  "refs": [
+   "2f62b9db5e"
+  ],
+  "id": "n5-kr-2f62b9db5e",
+  "type": "kanji-reading",
+  "stem": "いや、[[大丈夫]]だ。",
+  "options": [
+   "たいじょうぶ",
+   "だいじょうぶ",
+   "だいじょうふ",
+   "だいじようぶ"
+  ],
+  "answer": 1,
+  "explanation": "大丈夫 is read だいじょうぶ (all right). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Roger is a party animal.",
+  "refs": [
+   "9ee7cd3382"
+  ],
+  "id": "n5-kr-9ee7cd3382",
+  "type": "kanji-reading",
+  "stem": "ロジャーはパーティーが[[大好き]]だ。",
+  "options": [
+   "だいすき",
+   "だいすぎ",
+   "たいすき",
+   "だいずき"
+  ],
+  "answer": 0,
+  "explanation": "大好き is read だいすき (to be very likeable). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Lucy should be in the kitchen now.",
+  "refs": [
+   "1c0b0f77b6"
+  ],
+  "id": "n5-kr-1c0b0f77b6",
+  "type": "kanji-reading",
+  "stem": "ルーシーは{今|いま}[[台所]]にいるでしょう。",
+  "options": [
+   "だいどころう",
+   "だいところ",
+   "だいどころ",
+   "だいどっころ"
+  ],
+  "answer": 2,
+  "explanation": "台所 is read だいどころ (kitchen). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Which is the more expensive of the two?",
+  "refs": [
+   "c74892f565"
+  ],
+  "id": "n5-kr-c74892f565",
+  "type": "kanji-reading",
+  "stem": "{二|ふた}つのうちでどちらが[[高い]]ですか。",
+  "options": [
+   "たかい",
+   "たがい",
+   "だかい",
+   "たっかい"
+  ],
+  "answer": 0,
+  "explanation": "高い is read たかい (tall; expensive). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The buildings look so tiny.",
+  "refs": [
+   "372b08211e"
+  ],
+  "id": "n5-kr-372b08211e",
+  "type": "kanji-reading",
+  "stem": "[[建物]]がとっても{小|ちい}さく{見|み}えるよ。",
+  "options": [
+   "たでもの",
+   "たてものう",
+   "たてもうの",
+   "たてもの"
+  ],
+  "answer": 3,
+  "explanation": "建物 is read たてもの (building). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "All the food was gone.",
+  "refs": [
+   "5c89b3094a"
+  ],
+  "id": "n5-kr-5c89b3094a",
+  "type": "kanji-reading",
+  "stem": "[[食べ物]]はすべてなくなってしまった。",
+  "options": [
+   "だべもの",
+   "たへもの",
+   "たべもの",
+   "たべものう"
+  ],
+  "answer": 2,
+  "explanation": "食べ物 is read たべもの (food). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He gets hives when he eats eggs.",
+  "refs": [
+   "4d66739694"
+  ],
+  "id": "n5-kr-4d66739694",
+  "type": "kanji-reading",
+  "stem": "[[卵]]を{食|た}べるとじんましんが{出|で}ます。",
+  "options": [
+   "だまご",
+   "たまこ",
+   "たまご",
+   "たまごう"
+  ],
+  "answer": 2,
+  "explanation": "卵 is read たまご (egg). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The birthday is the day on which a person was born.",
+  "refs": [
+   "2e610178ae"
+  ],
+  "id": "n5-kr-2e610178ae",
+  "type": "kanji-reading",
+  "stem": "[[誕生日]]とは{人|ひと}が{生|う}まれた{日|ひ}のことだ。",
+  "options": [
+   "たんじょうひ",
+   "たんじょうび",
+   "たんじようび",
+   "たんしょうび"
+  ],
+  "answer": 1,
+  "explanation": "誕生日 is read たんじょうび (birthday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Mr Smith is within shouting distance.",
+  "refs": [
+   "6d7293f7cf"
+  ],
+  "id": "n5-kr-6d7293f7cf",
+  "type": "kanji-reading",
+  "stem": "スミスさんはすぐ[[近く]]にいます。",
+  "options": [
+   "ちかく",
+   "ちがく",
+   "ちかぐ",
+   "ちっかく"
+  ],
+  "answer": 0,
+  "explanation": "近く is read ちかく (near). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I struggled to get out of the subway.",
+  "refs": [
+   "3134199c25"
+  ],
+  "id": "n5-kr-3134199c25",
+  "type": "kanji-reading",
+  "stem": "[[地下鉄]]から{出|で}るのに{私|わたし}はもがいた。",
+  "options": [
+   "ちかてつ",
+   "ちかってつ",
+   "ちっかてつ",
+   "ちがてつ"
+  ],
+  "answer": 0,
+  "explanation": "地下鉄 is read ちかてつ (underground train). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I would sooner stay than go.",
+  "refs": [
+   "375cfbefdd"
+  ],
+  "id": "n5-kr-375cfbefdd",
+  "type": "kanji-reading",
+  "stem": "[[出かける]]よりもじっとしていたい。",
+  "options": [
+   "でかっける",
+   "でっかける",
+   "でかける",
+   "でがける"
+  ],
+  "answer": 2,
+  "explanation": "出かける is read でかける (to go out). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I had my pocket picked on the train.",
+  "refs": [
+   "62b5c13164"
+  ],
+  "id": "n5-kr-62b5c13164",
+  "type": "kanji-reading",
+  "stem": "[[電車]]の{中|なか}ですりにやられちゃったんだ。",
+  "options": [
+   "でんじゃ",
+   "てんしゃ",
+   "でんしゃ",
+   "でんしや"
+  ],
+  "answer": 2,
+  "explanation": "電車 is read でんしゃ (electric train). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I know the name of this animal.",
+  "refs": [
+   "03d03cf25d"
+  ],
+  "id": "n5-kr-03d03cf25d",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}はその[[動物]]の{名前|なまえ}を{知|し}っている。",
+  "options": [
+   "どぶつ",
+   "どうふつ",
+   "どうぶつ",
+   "とうぶつ"
+  ],
+  "answer": 2,
+  "explanation": "動物 is read どうぶつ (animal). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Great! Let's get together sometime.",
+  "refs": [
+   "978a2cefa5"
+  ],
+  "id": "n5-kr-978a2cefa5",
+  "type": "kanji-reading",
+  "stem": "すごい！じゃこれから[[時々]]あえるわね。",
+  "options": [
+   "ときどき",
+   "ときとき",
+   "どきどき",
+   "とうきどき"
+  ],
+  "answer": 0,
+  "explanation": "時々 is read ときどき (sometimes). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "What time is it by your watch?",
+  "refs": [
+   "e3ad76810f"
+  ],
+  "id": "n5-kr-e3ad76810f",
+  "type": "kanji-reading",
+  "stem": "あなたの[[時計]]では{何時|なんじ}ですか。",
+  "options": [
+   "とうけい",
+   "とけ",
+   "とけい",
+   "とげい"
+  ],
+  "answer": 2,
+  "explanation": "時計 is read とけい (watch; clock). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Where can you get a part-time job?",
+  "refs": [
+   "ca332ac7b4"
+  ],
+  "id": "n5-kr-ca332ac7b4",
+  "type": "kanji-reading",
+  "stem": "どんな[[所]]でアルバイトできるの。",
+  "options": [
+   "とこうろ",
+   "ところ",
+   "とごろ",
+   "どころ"
+  ],
+  "answer": 1,
+  "explanation": "所 is read ところ (place). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "We must not speak in the library.",
+  "refs": [
+   "de5a452667"
+  ],
+  "id": "n5-kr-de5a452667",
+  "type": "kanji-reading",
+  "stem": "[[図書館]]の{中|なか}で{話|はなし}をしてはいけない。",
+  "options": [
+   "とっしょかん",
+   "としょがん",
+   "としょかん",
+   "とうしょかん"
+  ],
+  "answer": 2,
+  "explanation": "図書館 is read としょかん (library). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He frequently jumps from one topic to another while he is talking.",
+  "refs": [
+   "397b682fa7"
+  ],
+  "id": "n5-kr-397b682fa7",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}の{話|はなし}はいろいろなところへ[[飛ぶ]]。",
+  "options": [
+   "とふ",
+   "とぶ",
+   "どぶ",
+   "とうぶ"
+  ],
+  "answer": 1,
+  "explanation": "飛ぶ is read とぶ (to fly; to hop). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I am happy to have so many good friends.",
+  "refs": [
+   "72c525f37a"
+  ],
+  "id": "n5-kr-72c525f37a",
+  "type": "kanji-reading",
+  "stem": "よい[[友達]]がたくさんいてうれしい。",
+  "options": [
+   "とうもだち",
+   "どもだち",
+   "ともだち",
+   "ともたち"
+  ],
+  "answer": 2,
+  "explanation": "友達 is read ともだち (friend). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I've been here since Saturday.",
+  "refs": [
+   "86e7fb81c6"
+  ],
+  "id": "n5-kr-86e7fb81c6",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は[[土曜日]]からここにいます。",
+  "options": [
+   "どよび",
+   "どうようび",
+   "どようび",
+   "どょうび"
+  ],
+  "answer": 2,
+  "explanation": "土曜日 is read どようび (Saturday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I'd like three pounds of chicken.",
+  "refs": [
+   "3669c65744"
+  ],
+  "id": "n5-kr-3669c65744",
+  "type": "kanji-reading",
+  "stem": "[[鶏肉]]を３ポンド{分|ぶん}ください。",
+  "options": [
+   "とりにく",
+   "とうりにく",
+   "どりにく",
+   "とりにぐ"
+  ],
+  "answer": 0,
+  "explanation": "鶏肉 is read とりにく (chicken meat). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I like summer holidays better than school.",
+  "refs": [
+   "e09167a3d4"
+  ],
+  "id": "n5-kr-e09167a3d4",
+  "type": "kanji-reading",
+  "stem": "{学校|がっこう}より[[夏休み]]のほうがいいです。",
+  "options": [
+   "なつやっすみ",
+   "なっつやすみ",
+   "なつやずみ",
+   "なつやすみ"
+  ],
+  "answer": 3,
+  "explanation": "夏休み is read なつやすみ (summer holiday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "This street is lively.",
+  "refs": [
+   "c17f97fafc"
+  ],
+  "id": "n5-kr-c17f97fafc",
+  "type": "kanji-reading",
+  "stem": "この{通|とお}りは[[賑やか]]だ。",
+  "options": [
+   "にきやか",
+   "にぎゃか",
+   "にぎやか",
+   "にぎやが"
+  ],
+  "answer": 2,
+  "explanation": "賑やか is read にぎやか (bustling; busy). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "It falls on Sunday.",
+  "refs": [
+   "d8c3a3f0d0"
+  ],
+  "id": "n5-kr-d8c3a3f0d0",
+  "type": "kanji-reading",
+  "stem": "ちょうど[[日曜日]]にぶつかりますね。",
+  "options": [
+   "にちよび",
+   "にちようび",
+   "にちようひ",
+   "にちょうび"
+  ],
+  "answer": 1,
+  "explanation": "日曜日 is read にちようび (Sunday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Give me something nice to drink.",
+  "refs": [
+   "5e8fc8669c"
+  ],
+  "id": "n5-kr-5e8fc8669c",
+  "type": "kanji-reading",
+  "stem": "なにかおいしい[[飲み物]]をください。",
+  "options": [
+   "のうみもの",
+   "のみもうの",
+   "のみものう",
+   "のみもの"
+  ],
+  "answer": 3,
+  "explanation": "飲み物 is read のみもの (a drink). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "There are many postcards in this store.",
+  "refs": [
+   "645e1e3b4d"
+  ],
+  "id": "n5-kr-645e1e3b4d",
+  "type": "kanji-reading",
+  "stem": "この{店|みせ}に[[葉書]]がたくさんある。",
+  "options": [
+   "はがぎ",
+   "はがき",
+   "ばがき",
+   "はかき"
+  ],
+  "answer": 1,
+  "explanation": "葉書 is read はがき (postcard). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The box was almost full.",
+  "refs": [
+   "658b912df8"
+  ],
+  "id": "n5-kr-658b912df8",
+  "type": "kanji-reading",
+  "stem": "その[[箱]]はほとんどいっぱいでした。",
+  "options": [
+   "はこう",
+   "ばこ",
+   "はご",
+   "はこ"
+  ],
+  "answer": 3,
+  "explanation": "箱 is read はこ (box). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I ate durian for the first time.",
+  "refs": [
+   "3f18999e09"
+  ],
+  "id": "n5-kr-3f18999e09",
+  "type": "kanji-reading",
+  "stem": "[[初めて]]ドリアンを{食|た}べました。",
+  "options": [
+   "はしめて",
+   "はじめて",
+   "はじめで",
+   "ばじめて"
+  ],
+  "answer": 1,
+  "explanation": "初めて is read はじめて (for the first time). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I expect to be back by the 20th.",
+  "refs": [
+   "153de06669"
+  ],
+  "id": "n5-kr-153de06669",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は[[二十日]]までに{帰|かえ}るつもりです。",
+  "options": [
+   "はっつか",
+   "はつが",
+   "はつか",
+   "ばつか"
+  ],
+  "answer": 2,
+  "explanation": "二十日 is read はつか (twenty days; twentieth). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I'm afraid you have got the wrong number.",
+  "refs": [
+   "67775e3b25"
+  ],
+  "id": "n5-kr-67775e3b25",
+  "type": "kanji-reading",
+  "stem": "[[番号]]をまちがえじゃありませんか。",
+  "options": [
+   "はんごう",
+   "ばんごう",
+   "ばんこう",
+   "ばんご"
+  ],
+  "answer": 1,
+  "explanation": "番号 is read ばんごう (number). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Thank you for the wonderful dinner.",
+  "refs": [
+   "246b5ae84d"
+  ],
+  "id": "n5-kr-246b5ae84d",
+  "type": "kanji-reading",
+  "stem": "おいしい[[晩御飯]]をありがとうございました。",
+  "options": [
+   "ばんこはん",
+   "ばんごうはん",
+   "ばんごばん",
+   "ばんごはん"
+  ],
+  "answer": 3,
+  "explanation": "晩御飯 is read ばんごはん (evening meal). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The city lies east of London.",
+  "refs": [
+   "0a38c65004"
+  ],
+  "id": "n5-kr-0a38c65004",
+  "type": "kanji-reading",
+  "stem": "その{市|し}はロンドンの[[東]]にある。",
+  "options": [
+   "ひがし",
+   "ひがじ",
+   "ひかし",
+   "びがし"
+  ],
+  "answer": 0,
+  "explanation": "東 is read ひがし (east). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Have you ever traveled by air?",
+  "refs": [
+   "a81612169c"
+  ],
+  "id": "n5-kr-a81612169c",
+  "type": "kanji-reading",
+  "stem": "あなたは[[飛行機]]で{旅行|りょこう}したことがありますか。",
+  "options": [
+   "ひこき",
+   "ひこうぎ",
+   "ひこうき",
+   "ひっこうき"
+  ],
+  "answer": 2,
+  "explanation": "飛行機 is read ひこうき (aeroplane). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Anybody would be better than nobody.",
+  "refs": [
+   "d91ee7a9ed"
+  ],
+  "id": "n5-kr-d91ee7a9ed",
+  "type": "kanji-reading",
+  "stem": "どんな[[人]]でもいないよりはましだ。",
+  "options": [
+   "ひど",
+   "ひと",
+   "びと",
+   "ひとう"
+  ],
+  "answer": 1,
+  "explanation": "人 is read ひと (person). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "A car has one steering wheel.",
+  "refs": [
+   "537f8af3d6"
+  ],
+  "id": "n5-kr-537f8af3d6",
+  "type": "kanji-reading",
+  "stem": "{車|くるま}にはハンドルが[[一つ]]ある。",
+  "options": [
+   "ひどつ",
+   "ひとつ",
+   "びとつ",
+   "ひとうつ"
+  ],
+  "answer": 1,
+  "explanation": "一つ is read ひとつ (one). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "How did you end up on your own?",
+  "refs": [
+   "3fb1b70809"
+  ],
+  "id": "n5-kr-3fb1b70809",
+  "type": "kanji-reading",
+  "stem": "どうしてあなたは[[一人]]になったの？",
+  "options": [
+   "ひとうり",
+   "ひどり",
+   "びとり",
+   "ひとり"
+  ],
+  "answer": 3,
+  "explanation": "一人 is read ひとり (one person). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Is there a hospital near here?",
+  "refs": [
+   "734d275fd9"
+  ],
+  "id": "n5-kr-734d275fd9",
+  "type": "kanji-reading",
+  "stem": "この{近|ちか}くに[[病院]]はありますか。",
+  "options": [
+   "ひょういん",
+   "びょいん",
+   "びよういん",
+   "びょういん"
+  ],
+  "answer": 3,
+  "explanation": "病院 is read びょういん (hospital). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Can Bob be sick?",
+  "refs": [
+   "c551bc3f7c"
+  ],
+  "id": "n5-kr-c551bc3f7c",
+  "type": "kanji-reading",
+  "stem": "ボブはいったい[[病気]]なのだろうか。",
+  "options": [
+   "びょうき",
+   "びょうぎ",
+   "びょき",
+   "ひょうき"
+  ],
+  "answer": 0,
+  "explanation": "病気 is read びょうき (illness). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Who has torn the envelope open?",
+  "refs": [
+   "d156402900"
+  ],
+  "id": "n5-kr-d156402900",
+  "type": "kanji-reading",
+  "stem": "だれがこの[[封筒]]を{破|やぶ}って{開|あ}けたのか。",
+  "options": [
+   "ふうとう",
+   "ぶうとう",
+   "ふとう",
+   "ふうと"
+  ],
+  "answer": 0,
+  "explanation": "封筒 is read ふうとう (envelope). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Which is the more expensive of the two?",
+  "refs": [
+   "0c1dbd4838"
+  ],
+  "id": "n5-kr-0c1dbd4838",
+  "type": "kanji-reading",
+  "stem": "[[二つ]]のうちでどちらが{高|たか}いですか。",
+  "options": [
+   "ふたつ",
+   "ふだつ",
+   "ふったつ",
+   "ぶたつ"
+  ],
+  "answer": 0,
+  "explanation": "二つ is read ふたつ (two). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "How much is this pork a kilo?",
+  "refs": [
+   "c518fb9116"
+  ],
+  "id": "n5-kr-c518fb9116",
+  "type": "kanji-reading",
+  "stem": "この[[豚肉]]は１キロいくらですか。",
+  "options": [
+   "ふたにく",
+   "ぶったにく",
+   "ぶたにく",
+   "ぶだにく"
+  ],
+  "answer": 2,
+  "explanation": "豚肉 is read ぶたにく (pork). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "What are you two doing?",
+  "refs": [
+   "94c2076821"
+  ],
+  "id": "n5-kr-94c2076821",
+  "type": "kanji-reading",
+  "stem": "[[二人]]は{何|なに}をしているところですか。",
+  "options": [
+   "ふだり",
+   "ぶたり",
+   "ふたり",
+   "ふったり"
+  ],
+  "answer": 2,
+  "explanation": "二人 is read ふたり (two people). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The milk will keep for two days.",
+  "refs": [
+   "750786cc55"
+  ],
+  "id": "n5-kr-750786cc55",
+  "type": "kanji-reading",
+  "stem": "このミルクは[[二日]]はもつ。",
+  "options": [
+   "ふつか",
+   "ふつが",
+   "ふっつか",
+   "ぶつか"
+  ],
+  "answer": 0,
+  "explanation": "二日 is read ふつか (two days; second day of the month). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "He has a thick neck.",
+  "refs": [
+   "4162724f9a"
+  ],
+  "id": "n5-kr-4162724f9a",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}は[[太い]]{首|くび}をしている。",
+  "options": [
+   "ふとうい",
+   "ふっとい",
+   "ふとい",
+   "ぶとい"
+  ],
+  "answer": 2,
+  "explanation": "太い is read ふとい (fat). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Hemingway had a poor writing style.",
+  "refs": [
+   "79ddbb2b98"
+  ],
+  "id": "n5-kr-79ddbb2b98",
+  "type": "kanji-reading",
+  "stem": "ヘミングウェイの[[文章]]は{悪文|あくぶん}だった。",
+  "options": [
+   "ぶんしょ",
+   "ぶんしよう",
+   "ぶんしょう",
+   "ふんしょう"
+  ],
+  "answer": 2,
+  "explanation": "文章 is read ぶんしょう (sentence; text). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "How many hours have you been studying?",
+  "refs": [
+   "65783b95dd"
+  ],
+  "id": "n5-kr-65783b95dd",
+  "type": "kanji-reading",
+  "stem": "あなたは{何時間|なんじかん}[[勉強]]していますか。",
+  "options": [
+   "べんきよう",
+   "べんきょう",
+   "べんぎょう",
+   "へんきょう"
+  ],
+  "answer": 1,
+  "explanation": "勉強 is read べんきょう (to study). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "This hat is cheap at 1000 yen.",
+  "refs": [
+   "cfc75623ae"
+  ],
+  "id": "n5-kr-cfc75623ae",
+  "type": "kanji-reading",
+  "stem": "この[[帽子]]は１０００{円|えん}なら{安|やす}い。",
+  "options": [
+   "ぼし",
+   "ほうし",
+   "ぼうじ",
+   "ぼうし"
+  ],
+  "answer": 3,
+  "explanation": "帽子 is read ぼうし (hat). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Does anyone want some more pie?",
+  "refs": [
+   "418493d941"
+  ],
+  "id": "n5-kr-418493d941",
+  "type": "kanji-reading",
+  "stem": "もっとパイが[[欲しい]]{人|ひと}はいますか。",
+  "options": [
+   "ぼしい",
+   "ほうしい",
+   "ほしい",
+   "ほじい"
+  ],
+  "answer": 2,
+  "explanation": "欲しい is read ほしい (want). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "His voice is thin even though he is fat.",
+  "refs": [
+   "785adc4f9d"
+  ],
+  "id": "n5-kr-785adc4f9d",
+  "type": "kanji-reading",
+  "stem": "{彼|かれ}は{太|ふと}っているくせに{声|こえ}は[[細い]]。",
+  "options": [
+   "ほうそい",
+   "ぼそい",
+   "ほぞい",
+   "ほそい"
+  ],
+  "answer": 3,
+  "explanation": "細い is read ほそい (thin). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I haven't read all the books on the shelves.",
+  "refs": [
+   "3839786bac"
+  ],
+  "id": "n5-kr-3839786bac",
+  "type": "kanji-reading",
+  "stem": "{私|わたし}は[[本棚]]の{本|ほん}をすべて{読|よ}んだわけではない。",
+  "options": [
+   "ほうんだな",
+   "ぼんだな",
+   "ほんだな",
+   "ほんたな"
+  ],
+  "answer": 2,
+  "explanation": "本棚 is read ほんだな (bookshelves). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "My father plays golf every Sunday.",
+  "refs": [
+   "fd1c93832f"
+  ],
+  "id": "n5-kr-fd1c93832f",
+  "type": "kanji-reading",
+  "stem": "{父|ちち}は[[毎週]]{日曜日|にちようび}にゴルフをします。",
+  "options": [
+   "まいしゆう",
+   "まいしゅ",
+   "まいしゅう",
+   "まいじゅう"
+  ],
+  "answer": 2,
+  "explanation": "毎週 is read まいしゅう (every week). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "That dog has a short tail.",
+  "refs": [
+   "8568eded6e"
+  ],
+  "id": "n5-kr-8568eded6e",
+  "type": "kanji-reading",
+  "stem": "あの{犬|いぬ}はしっぽが[[短い]]。",
+  "options": [
+   "みじかい",
+   "みじがい",
+   "みしかい",
+   "みじっかい"
+  ],
+  "answer": 0,
+  "explanation": "短い is read みじかい (short). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The boy is over there.",
+  "refs": [
+   "8e862f05f0"
+  ],
+  "id": "n5-kr-8e862f05f0",
+  "type": "kanji-reading",
+  "stem": "その{男|おとこ}の{子|こ}は[[向こう]]にいます。",
+  "options": [
+   "むっこう",
+   "むこう",
+   "むごう",
+   "むこ"
+  ],
+  "answer": 1,
+  "explanation": "向こう is read むこう (over there). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "It is difficult for a foreigner to study Japanese.",
+  "refs": [
+   "0a3894175f"
+  ],
+  "id": "n5-kr-0a3894175f",
+  "type": "kanji-reading",
+  "stem": "{外国人|がいこくじん}が{日本語|にほんご}を{学|まな}ぶのは[[難しい]]。",
+  "options": [
+   "むずかしい",
+   "むすかしい",
+   "むずかじい",
+   "むずがしい"
+  ],
+  "answer": 0,
+  "explanation": "難しい is read むずかしい (difficult). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Could you please repeat it slowly?",
+  "refs": [
+   "3ae16ad93a"
+  ],
+  "id": "n5-kr-3ae16ad93a",
+  "type": "kanji-reading",
+  "stem": "[[もう一度]]ゆっくりお{話|はな}しください。",
+  "options": [
+   "もういちどう",
+   "もういちと",
+   "もういちど",
+   "もいちど"
+  ],
+  "answer": 2,
+  "explanation": "もう一度 is read もういちど (again). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Hi, Fred, how about badminton on Thursday?",
+  "refs": [
+   "d10bb92f3e"
+  ],
+  "id": "n5-kr-d10bb92f3e",
+  "type": "kanji-reading",
+  "stem": "やあ、フレッド。[[木曜日]]にバドミントンはどう。",
+  "options": [
+   "もっくようび",
+   "もうくようび",
+   "もくようび",
+   "もくょうび"
+  ],
+  "answer": 2,
+  "explanation": "木曜日 is read もくようび (Thursday). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Ask me something easier.",
+  "refs": [
+   "ead1ae2736"
+  ],
+  "id": "n5-kr-ead1ae2736",
+  "type": "kanji-reading",
+  "stem": "もっと[[易しい]]{事|こと}を{聞|き}いて{下|くだ}さい。",
+  "options": [
+   "やさしい",
+   "やっさしい",
+   "やざしい",
+   "やさじい"
+  ],
+  "answer": 0,
+  "explanation": "易しい is read やさしい (easy; simple). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "It might rain before evening.",
+  "refs": [
+   "285b008622"
+  ],
+  "id": "n5-kr-285b008622",
+  "type": "kanji-reading",
+  "stem": "ひょっとすると[[夕方]]前に{雨|あめ}になるかもしれない。",
+  "options": [
+   "ゆうがだ",
+   "ゆがた",
+   "ゆうがた",
+   "ゆうかた"
+  ],
+  "answer": 2,
+  "explanation": "夕方 is read ゆうがた (evening). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Uh..., where's the post office?",
+  "refs": [
+   "8b86921749"
+  ],
+  "id": "n5-kr-8b86921749",
+  "type": "kanji-reading",
+  "stem": "あの～[[郵便局]]はどちらでしょうか。",
+  "options": [
+   "ゆうびんぎょく",
+   "ゆうびんきょく",
+   "ゆうひんきょく",
+   "ゆうびんきょうく"
+  ],
+  "answer": 1,
+  "explanation": "郵便局 is read ゆうびんきょく (post office). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I will make a new suit for you.",
+  "refs": [
+   "1907b6fc38"
+  ],
+  "id": "n5-kr-1907b6fc38",
+  "type": "kanji-reading",
+  "stem": "お{前|まえ}に{新|あたら}しい[[洋服]]を{作|つく}ってあげよう。",
+  "options": [
+   "ようふぐ",
+   "ようふく",
+   "ようぶく",
+   "よふく"
+  ],
+  "answer": 1,
+  "explanation": "洋服 is read ようふく (western-style clothes). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "The mother laid her baby on the bed.",
+  "refs": [
+   "4cb7c969c4"
+  ],
+  "id": "n5-kr-4cb7c969c4",
+  "type": "kanji-reading",
+  "stem": "{母親|ははおや}は{赤|あか}ん{坊|ぼう}をベッドに[[横]]にした。",
+  "options": [
+   "よこう",
+   "ようこ",
+   "よこ",
+   "よご"
+  ],
+  "answer": 2,
+  "explanation": "横 is read よこ (beside; side). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Won't you come and see me next week?",
+  "refs": [
+   "7a4ef637be"
+  ],
+  "id": "n5-kr-7a4ef637be",
+  "type": "kanji-reading",
+  "stem": "[[来週]]はうちへいらしゃいませんか。",
+  "options": [
+   "らいしゅ",
+   "らいしゆう",
+   "らいしゅう",
+   "らいじゅう"
+  ],
+  "answer": 2,
+  "explanation": "来週 is read らいしゅう (next week). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Can foreign students be in the club?",
+  "refs": [
+   "dc7d39c7af"
+  ],
+  "id": "n5-kr-dc7d39c7af",
+  "type": "kanji-reading",
+  "stem": "[[留学生]]も{入|い}れるのかしら。",
+  "options": [
+   "りゅうがぐせい",
+   "りゅうがくせい",
+   "りゅうがくせ",
+   "りゆうがくせい"
+  ],
+  "answer": 1,
+  "explanation": "留学生 is read りゅうがくせい (overseas student). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "Both the parents are still living.",
+  "refs": [
+   "0139a208fe"
+  ],
+  "id": "n5-kr-0139a208fe",
+  "type": "kanji-reading",
+  "stem": "[[両親]]は{二人|ふたり}ともまだ{生|い}きています。",
+  "options": [
+   "りょしん",
+   "りょうしん",
+   "りょうじん",
+   "りようしん"
+  ],
+  "answer": 1,
+  "explanation": "両親 is read りょうしん (both parents). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "When will you go on a journey?",
+  "refs": [
+   "2ba96bef9a"
+  ],
+  "id": "n5-kr-2ba96bef9a",
+  "type": "kanji-reading",
+  "stem": "いつ[[旅行]]においでになりますか。",
+  "options": [
+   "りょうこう",
+   "りょこう",
+   "りょごう",
+   "りよこう"
+  ],
+  "answer": 1,
+  "explanation": "旅行 is read りょこう (travel). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "There are two pounds of butter in the icebox.",
+  "refs": [
+   "f7a15687a1"
+  ],
+  "id": "n5-kr-f7a15687a1",
+  "type": "kanji-reading",
+  "stem": "[[冷蔵庫]]の{中|なか}にバターが２ポンドある。",
+  "options": [
+   "れいそうこ",
+   "れいぞこ",
+   "れぞうこ",
+   "れいぞうこ"
+  ],
+  "answer": 3,
+  "explanation": "冷蔵庫 is read れいぞうこ (refrigerator). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "When do you practice the piano?",
+  "refs": [
+   "d23f06249a"
+  ],
+  "id": "n5-kr-d23f06249a",
+  "type": "kanji-reading",
+  "stem": "あなたはいつピアノの[[練習]]をしますか。",
+  "options": [
+   "れんしゅ",
+   "れんしゆう",
+   "れんじゅう",
+   "れんしゅう"
+  ],
+  "answer": 3,
+  "explanation": "練習 is read れんしゅう (to practice). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ },
+ {
+  "level": "N5",
+  "source": "data",
+  "translation": "I don't know how to swim.",
+  "refs": [
+   "d5c2e69813"
+  ],
+  "id": "n5-kr-d5c2e69813",
+  "type": "kanji-reading",
+  "stem": "[[私]]は{泳|およ}げません。",
+  "options": [
+   "わたくし",
+   "わたっくし",
+   "わったくし",
+   "わだくし"
+  ],
+  "answer": 0,
+  "explanation": "私 is read わたくし ((humble) I; myself). The other options change a long vowel, a small っ or a voiced sound.",
+  "status": "verified"
+ }
+]
