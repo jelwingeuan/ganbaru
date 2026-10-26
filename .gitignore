@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# official JLPT workbooks: personal study only, redistribution not permitted (jlpt.jp Site Policy)
+/jlpt-official/
