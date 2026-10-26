@@ -46,4 +46,5 @@ test("furigana notation splits into ruby parts", () => {
     { text: "読", ruby: "よ" },
     { text: "む。" },
   ]);
+  assert.deepEqual(furiganaParts("{前|#1392580}に"), [{ text: "前" }, { text: "に" }]);
 });

@@ -90,6 +90,7 @@ export const posLabel = (code: string) => POS_LABELS[code] ?? (code.startsWith("
 export function furiganaParts(furigana: string): { text: string; ruby?: string }[] {
   return furigana.split(/(\{[^|{}]+\|[^{}]+\})/).filter(Boolean).map((part) => {
     const m = part.match(/^\{([^|]+)\|(.+)\}$/);
-    return m ? { text: m[1], ruby: m[2] } : { text: part };
+    // OpenJLPT 0.3.0 has ~95 groups holding a JMdict id instead of a reading ({前|#1392580}); show those as plain text.
+    return m && /^[ぁ-ゖァ-ヺー]+$/.test(m[2]) ? { text: m[1], ruby: m[2] } : { text: m ? m[1] : part };
   });
 }
