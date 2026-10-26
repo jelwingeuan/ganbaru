@@ -7,6 +7,7 @@
 //   npm run content:ai -- --test 1 --dry-run  shows the plan and prompt sizes without calling the API
 import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
+import { ApiError, GoogleGenAI } from "@google/genai";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
@@ -15,9 +16,12 @@ import { grammarPoints, kanjiList, words } from "../lib/dictionary.ts";
 import { LEVELS, type Level } from "../lib/openjlpt.ts";
 import { checkQuestion, type Passage, type Question, type Test } from "../lib/questions.ts";
 
-const GEN_MODEL = "claude-opus-5-5";
-const CHECK_MODEL = "claude-sonnet-5-5";
-// $ per million tokens (first-party API, 2026-10). Cache writes are 1.25x input.
+// Gemini's free tier when a Gemini key is set, otherwise Claude. Writer and checker are different models,
+// so the blind solve doesn't share the writer's blind spots.
+const GEMINI = Boolean(process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY);
+const GEN_MODEL = GEMINI ? "gemini-3.8-flash" : "claude-opus-5-5";
+const CHECK_MODEL = GEMINI ? "gemini-3.6-flash" : "claude-sonnet-5-5";
+// $ per million tokens (first-party API, 2026-10). Cache writes are 1.25x input. Gemini free tier costs nothing.
 const PRICES: Record<string, { in: number; out: number; cacheRead: number; cacheWrite: number }> = {
   "claude-opus-5-5": { in: 4, out: 20, cacheRead: 0.2, cacheWrite: 5 },
   "claude-sonnet-5-5": { in: 2, out: 10, cacheRead: 0.2, cacheWrite: 2.5 },
@@ -88,13 +92,13 @@ type Verdict = z.infer<typeof VerdictSchema>["verdicts"][number];
 
 // ── cost tracking ────────────────────────────────────────────────────────────
 const spend = new Map<string, { calls: number; in: number; out: number; cacheRead: number; cacheWrite: number }>();
-function track(model: string, u: Anthropic.Beta.BetaUsage) {
+function track(model: string, u: { in: number; out: number; cacheRead?: number; cacheWrite?: number }) {
   const s = spend.get(model) ?? { calls: 0, in: 0, out: 0, cacheRead: 0, cacheWrite: 0 };
   s.calls++;
-  s.in += u.input_tokens;
-  s.out += u.output_tokens;
-  s.cacheRead += u.cache_read_input_tokens ?? 0;
-  s.cacheWrite += u.cache_creation_input_tokens ?? 0;
+  s.in += u.in;
+  s.out += u.out;
+  s.cacheRead += u.cacheRead ?? 0;
+  s.cacheWrite += u.cacheWrite ?? 0;
   spend.set(model, s);
 }
 const dollars = (model: string) => {
@@ -104,9 +108,41 @@ const dollars = (model: string) => {
   return (s.in * p.in + s.out * p.out + s.cacheRead * p.cacheRead + s.cacheWrite * p.cacheWrite) / 1e6;
 };
 
-const client = new Anthropic();
+let anthropic: Anthropic | undefined;
+let gemini: GoogleGenAI | undefined;
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function ask<T extends z.ZodType>(model: string, system: string, user: string, schema: T, effort: "medium" | "high") {
+  return GEMINI ? askGemini(model, system, user, schema, effort) : askClaude(model, system, user, schema, effort);
+}
+
+async function askGemini<T extends z.ZodType>(model: string, system: string, user: string, schema: T, effort: "medium" | "high") {
+  gemini ??= new GoogleGenAI({});
+  // The free tier allows only a few requests a minute, so rate-limit and overload errors wait and retry.
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const interaction = await gemini.interactions.create({
+        model,
+        system_instruction: system,
+        input: user,
+        response_format: { type: "text", mime_type: "application/json", schema: z.toJSONSchema(schema) },
+        generation_config: { thinking_level: effort },
+      });
+      track(model, { in: interaction.usage?.total_input_tokens ?? 0, out: (interaction.usage?.total_output_tokens ?? 0) + (interaction.usage?.total_thought_tokens ?? 0) });
+      if (!interaction.output_text) throw new Error(`${model} returned no text (status ${interaction.status})`);
+      return schema.parse(JSON.parse(interaction.output_text)) as z.infer<T>;
+    } catch (err) {
+      const retryable = err instanceof ApiError && (err.status === 429 || err.status >= 500);
+      if (!retryable || attempt >= 8) throw err;
+      const wait = Math.min(120, 15 * attempt);
+      console.log(`  ${model}: HTTP ${(err as ApiError).status}, waiting ${wait}s (try ${attempt}/8)`);
+      await sleep(wait * 1000);
+    }
+  }
+}
+
+async function askClaude<T extends z.ZodType>(model: string, system: string, user: string, schema: T, effort: "medium" | "high") {
+  const client = (anthropic ??= new Anthropic());
   const stream = client.beta.messages.stream({
     model,
     max_tokens: 64000,
@@ -118,7 +154,8 @@ async function ask<T extends z.ZodType>(model: string, system: string, user: str
     output_config: { effort, format: betaZodOutputFormat(schema) },
   });
   const message = await stream.finalMessage();
-  track(message.model, message.usage);
+  const u = message.usage;
+  track(message.model, { in: u.input_tokens, out: u.output_tokens, cacheRead: u.cache_read_input_tokens ?? 0, cacheWrite: u.cache_creation_input_tokens ?? 0 });
   if (message.stop_reason === "refusal") throw new Error(`${model} declined: ${message.stop_details?.explanation ?? "no reason given"}`);
   if (message.stop_reason === "max_tokens") throw new Error(`${model} hit max_tokens`);
   if (!message.parsed_output) throw new Error(`${model} returned no parseable output`);
@@ -390,18 +427,23 @@ if (import.meta.main) {
   const testNo = Number(arg("--test") ?? 1);
   const dryRun = args.includes("--dry-run");
   const levels = args.includes("--level") ? [arg("--level") as Level] : [...LEVELS];
-  if (!dryRun && !process.env.ANTHROPIC_API_KEY) throw new Error("ANTHROPIC_API_KEY is not set. Put it in .env.local.");
+  if (!dryRun && !GEMINI && !process.env.ANTHROPIC_API_KEY) throw new Error("No API key. Put GEMINI_API_KEY (free) or ANTHROPIC_API_KEY in .env.local.");
+  console.log(`Writer ${GEN_MODEL}, checker ${CHECK_MODEL}`);
 
   const started = Date.now();
-  // Levels run in parallel; types within a level run in order so later types avoid earlier sentences.
-  const results = await Promise.allSettled(levels.map((level) => buildTest(level, testNo, dryRun)));
+  // Types within a level run in order so later types avoid earlier sentences. Claude runs levels in parallel;
+  // Gemini's free tier runs them one at a time, and each finished level is saved before the next starts.
+  const results: PromiseSettledResult<{ reports: TypeReport[] }>[] = [];
+  if (GEMINI) {
+    for (const level of levels) results.push(...(await Promise.allSettled([buildTest(level, testNo, dryRun)])));
+  } else results.push(...(await Promise.allSettled(levels.map((level) => buildTest(level, testNo, dryRun)))));
   const reports = results.flatMap((r) => (r.status === "fulfilled" ? r.value.reports : []));
   results.forEach((r, i) => r.status === "rejected" && console.error(`${levels[i]} failed: ${r.reason}`));
   if (dryRun) process.exit(0);
 
   const total = reports.reduce((n, r) => n + r.firstPass + r.firstFail, 0);
   const failed = reports.reduce((n, r) => n + r.firstFail, 0);
-  const cost = [...spend.keys()].reduce((sum, m) => sum + dollars(m), 0);
+  const cost = [...spend.keys()].reduce((sum, m) => sum + dollars(m), 0); // 0 on the Gemini free tier
   const summary = {
     testNo,
     minutes: Math.round((Date.now() - started) / 60000),
