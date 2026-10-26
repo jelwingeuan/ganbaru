@@ -7,11 +7,11 @@ Red sheet peek and typed answers (romaji or kana),study,must,ganbaru,no,signatur
 Grade buttons with next interval and 1-4 keys,study,must,ganbaru,no,
 Repeat missed cards before the session ends,study,must,3anet,no,
 Undo last grade,study,must,ganbaru,no,
-Dictionary search kana kanji romaji English,dictionary,must,jisho,no,
-Search tags #n3 #verb #common,dictionary,must,jisho,no,
-Search modes exact starts contains ends,dictionary,must,weblio,no,
-Word detail with furigana examples,dictionary,must,jisho,no,Tatoeba sentences
-Kanji detail with readings strokes components,dictionary,must,jisho,no,KANJIDIC2 + KanjiVG
+Dictionary search kana kanji romaji English,dictionary,must,jisho,yes,
+Search tags #n3 #verb #common,dictionary,must,jisho,yes,#n5–#n1 #verb #noun #adj #adv; no #common (every OpenJLPT word is a JLPT word)
+Search modes exact starts contains ends,dictionary,must,weblio,yes,
+Word detail with furigana examples,dictionary,must,jisho,yes,Tatoeba sentences
+Kanji detail with readings strokes components,dictionary,must,jisho,partial,"readings, stroke count, radical, words; stroke-order diagrams (KanjiVG) and components (KRADFILE) still to do"
 Add word or kanji to my deck,dictionary,must,ganbaru,no,
 JLPT level browser in units of 10,levels,must,ganbaru,no,
 Mock test mistakes go into SRS,quiz,must,ganbaru,no,
@@ -25,7 +25,7 @@ Peek toggles JP furigana romaji EN on examples,dictionary,should,jlptsensei,no,
 Kanji pivots starts ends contains,dictionary,should,jisho,no,
 Wildcard search,dictionary,should,jisho,no,
 Command palette and keyboard shortcuts,global,should,ganbaru,no,
-Dark mode,global,should,ganbaru,no,
+Dark mode,global,should,ganbaru,yes,
 Core word fast track,levels,should,3anet,no,
 Grammar point page (card explanation examples practice),grammar,could,tufs,no,original content; deferred after v1
 N5 and N4 grammar content,grammar,could,ganbaru,no,~170 points; deferred after v1
