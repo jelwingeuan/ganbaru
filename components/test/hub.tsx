@@ -22,6 +22,46 @@ export function HubTabs({ panels, initial }: { panels: Record<Tab, ReactNode>; i
   );
 }
 
+type TestStatus = { phase: "ticket" | "exam" | "done"; best?: number };
+
+/** Full mock tests with this browser's status: not taken, in progress, or best score. */
+export function TestList({ tests }: { tests: { id: string; title: string; href: string; questions: number; minutes: number; note?: string }[] }) {
+  const [status, setStatus] = useState<Record<string, TestStatus | null>>({});
+  useEffect(() => {
+    const read = (id: string): TestStatus | null => {
+      try {
+        const raw = localStorage.getItem(`ganbaru:v1:test:${id}`);
+        return raw ? (JSON.parse(raw) as TestStatus) : null;
+      } catch {
+        return null;
+      }
+    };
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- read browser storage after mount
+    setStatus(Object.fromEntries(tests.map((t) => [t.id, read(t.id)])));
+  }, [tests]);
+
+  return (
+    <ul className="divide-y divide-edge border-y border-edge">
+      {tests.map((t) => {
+        const st = status[t.id];
+        const label = st?.phase === "exam" ? "In progress" : st?.best !== undefined ? `Best ${st.best} of ${t.questions}` : "Not taken";
+        return (
+          <li key={t.id}>
+            <Link href={t.href} className="flex flex-wrap items-center gap-x-4 gap-y-1 px-1 py-4 hover:bg-grid">
+              <span className="font-medium">{t.title}</span>
+              <span className="text-sm text-ink-2 tabular-nums">
+                {t.questions} questions, {t.minutes} min
+              </span>
+              <span className="ml-auto text-sm tabular-nums">{label}</span>
+              {t.note && <span className="w-full text-xs text-ink-2">{t.note}</span>}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 /** Numbered drill sets with each one's status from this browser: untried, in progress, or best score. */
 export function DrillGrid({ level, href, sets }: { level: string; href: string; sets: { id: string; number: number; size: number }[] }) {
   const [progress, setProgress] = useState<Record<string, DrillProgress | null>>({});

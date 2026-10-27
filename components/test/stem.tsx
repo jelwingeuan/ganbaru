@@ -18,8 +18,8 @@ export function Stem({ text, furigana }: { text: string; furigana: boolean }) {
   return text.split(/(\[\[.+?\]\]|（　）)/).map((piece, i) => {
     if (piece === "（　）")
       return (
-        <span key={i} className="mx-1 inline-block w-[4em] border-b-2 border-ink align-baseline" aria-label="blank">
-          &nbsp;
+        <span key={i} className="mx-1 inline-block w-[4em] border-b-2 border-ink align-baseline">
+          <span className="sr-only">blank</span>&nbsp;
         </span>
       );
     if (piece.startsWith("[["))

@@ -3,9 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { Belt } from "@/components/desk/belt";
-import { DrillGrid, HubTabs } from "@/components/test/hub";
+import { DrillGrid, HubTabs, TestList } from "@/components/test/hub";
 import { BLUEPRINTS, INSTRUCTIONS, QUESTION_TYPES } from "@/content/blueprints";
-import { drillSets, levelFromParam } from "@/lib/content";
+import { drillSets, levelFromParam, testsFor } from "@/lib/content";
 import { LEVELS, type Level } from "@/lib/openjlpt";
 
 export async function generateStaticParams() {
@@ -57,7 +57,7 @@ function Hub({ param }: { param: string }) {
 
       <div className="mt-8">
         <HubTabs
-          initial="skill"
+          initial={testsFor(level).length ? "full" : "skill"}
           panels={{
             full: <FullTestPanel level={level} />,
             mini: (
@@ -98,11 +98,18 @@ function Hub({ param }: { param: string }) {
 
 function FullTestPanel({ level }: { level: Level }) {
   const bp = BLUEPRINTS[level];
+  const list = testsFor(level).map((t) => ({
+    id: t.id,
+    title: t.title,
+    href: `/test/${level.toLowerCase()}/full/${t.id}`,
+    questions: t.sections.reduce((n, s) => n + s.questionIds.length, 0),
+    minutes: t.sections.reduce((n, s) => n + (bp.sections.find((b) => b.id === s.id)?.minutes ?? 0), 0),
+    note: t.note,
+  }));
   return (
     <>
-      <p className="text-ink-2">
-        Full {level} mock tests are being written and checked. Each one will follow the real test exactly:
-      </p>
+      {list.length > 0 ? <TestList tests={list} /> : <p className="text-ink-2">Full {level} mock tests are being written and checked.</p>}
+      <p className="mt-8 text-ink-2">Every mock test follows the real {level} test:</p>
       <ol className="mt-4 space-y-5">
         {bp.sections.map((s) => (
           <li key={s.id} className="rounded-lg border border-edge bg-paper-raised p-4">

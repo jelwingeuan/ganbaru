@@ -4,7 +4,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { QUESTION_TYPES, type QuestionType } from "../content/blueprints.ts";
 import { LEVELS, type Level } from "./openjlpt.ts";
-import type { Question, Test } from "./questions.ts";
+import type { Passage, Question, Test } from "./questions.ts";
 
 const DIR = join(process.cwd(), "content", "questions");
 const SET_SIZE = 10;
@@ -24,6 +24,15 @@ export const tests: Test[] = existsSync(TESTS_DIR)
       .filter((f) => /-test-\d+\.json$/.test(f))
       .map((f) => JSON.parse(readFileSync(join(TESTS_DIR, f), "utf8")) as Test)
   : [];
+const PASSAGES_DIR = join(process.cwd(), "content", "passages");
+export const passageById = new Map(
+  (existsSync(PASSAGES_DIR) ? readdirSync(PASSAGES_DIR).filter((f) => f.endsWith(".json")) : [])
+    .flatMap((f) => JSON.parse(readFileSync(join(PASSAGES_DIR, f), "utf8")) as Passage[])
+    .map((p) => [p.id, p]),
+);
+export const testsFor = (level: Level) => tests.filter((t) => t.level === level).sort((a, b) => a.id.localeCompare(b.id, "en", { numeric: true }));
+export const testById = (id: string) => tests.find((t) => t.id === id);
+
 // Mock-test questions stay out of drills so a learner meets them for the first time under test conditions.
 const inTests = new Set(tests.flatMap((t) => t.sections.flatMap((s) => s.questionIds)));
 const drillable = all.filter((q) => !inTests.has(q.id) && !q.passageId);
