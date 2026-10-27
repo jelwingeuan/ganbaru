@@ -11,7 +11,8 @@
     "test": "node --test lib/*.test.ts scripts/*.test.ts",
     "data:openjlpt": "node scripts/openjlpt.ts",
     "content:data": "node scripts/gen-data-questions.ts",
-    "content:ai": "node --env-file=.env.local scripts/gen-ai-questions.ts"
+    "content:ai": "node --env-file=.env.local scripts/gen-ai-questions.ts",
+    "content:audio": "node scripts/gen-audio.ts"
   },
   "dependencies": {
     "@hugeicons/core-free-icons": "^4.3.5",

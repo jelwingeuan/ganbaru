@@ -14,7 +14,7 @@ import { z } from "zod";
 import { BLUEPRINTS, QUESTION_TYPES, type QuestionType } from "../content/blueprints.ts";
 import { grammarPoints, kanjiList, words } from "../lib/dictionary.ts";
 import { LEVELS, type Level } from "../lib/openjlpt.ts";
-import { checkQuestion, type Passage, type Question, type Test } from "../lib/questions.ts";
+import { THREE_OPTIONS, checkQuestion, type Passage, type Question, type Test } from "../lib/questions.ts";
 
 // Gemini's free tier when a Gemini key is set, otherwise Claude. Writer and checker are different models,
 // so the blind solve doesn't share the writer's blind spots.
@@ -59,6 +59,20 @@ const SPECS: Partial<Record<QuestionType, string>> = {
   "thematic-reading": "One long argumentative essay. Questions ask about the writer's claim and how it is supported.",
   "info-search":
     "One information sheet (a notice, timetable, price list or set of rules) laid out with line breaks. Questions ask the reader to find what meets given conditions.",
+  // Listening: script holds every spoken line. N is the narrator (who sets the scene and asks the question, before and
+  // after the talk); F, M, F2, M2 are the people speaking. stem is the question as the narrator asks it.
+  task:
+    "Narrator sets the scene and asks what someone will do next; a conversation (4-10 turns) follows; the narrator repeats the question. Four printed options: actions or items. The answer depends on details that change during the talk.",
+  point:
+    "Narrator sets the scene and asks a question about a reason, feeling or key point; a conversation or short monologue follows; the narrator repeats the question. Four printed options. A distractor should be mentioned in the talk but not be the answer.",
+  summary:
+    "Narrator sets the scene; one person speaks (a talk, announcement or message) without the question being given first; then the narrator asks about the speaker's main point or purpose. Four options that are only spoken: put them in options AND as narrator lines 「1、…」「2、…」 at the end of the script.",
+  utterance:
+    "Narrator describes a situation in one or two sentences and asks what the person should say (e.g. 何と言いますか). Three short spoken options: put them in options AND as narrator lines 「1、…」「2、…」「3、…」 at the end of the script.",
+  "quick-response":
+    "One speaker says a short line (a request, greeting or question); three short spoken replies follow. Put the line in the script, then the replies as narrator lines 「1、…」「2、…」「3、…」, and also in options. Exactly one reply is natural.",
+  "integrated-listening":
+    "A longer conversation among two or three people comparing options (plans, products, classes); the narrator then asks which one a person chose. Four printed options. The answer combines information from several speakers.",
 };
 const LENGTHS: Record<Level, Partial<Record<QuestionType, string>>> = {
   N5: { "reading-short": "80-150", "reading-mid": "250-350", "info-search": "150-250", "text-grammar": "200-300" },
@@ -75,6 +89,10 @@ const QuestionSchema = z.object({
   explanation: z.string(),
   translation: z.string(),
   passage: z.number().nullable().describe("0-based index into passages, or null"),
+  script: z
+    .array(z.object({ speaker: z.string(), text: z.string() }))
+    .nullable()
+    .describe("listening only: spoken lines in order (speaker N, F, M, F2 or M2); null otherwise"),
 });
 export const UnitSchema = z.object({
   passages: z.array(z.object({ text: z.string(), translation: z.string() })),
@@ -224,7 +242,7 @@ export function unitPrompt(level: Level, type: QuestionType, count: number, pass
   return `Write ${count} question${count > 1 ? "s" : ""} of type ${t.ja} (${t.en}) for ${level}.
 
 Format: ${SPECS[type]}
-${PASSAGE_TYPES.includes(type) ? `Write ${passages} passage${passages > 1 ? "s" : ""}${length ? ` of about ${length} characters each` : ""}, and set each question's passage field to the 0-based index of its passage. Put the passage's English translation in its translation field. Give every question exactly four options.` : "Set passage to null and leave passages empty. Give every question exactly four options."}
+${PASSAGE_TYPES.includes(type) ? `Write ${passages} passage${passages > 1 ? "s" : ""}${length ? ` of about ${length} characters each` : ""}, and set each question's passage field to the 0-based index of its passage. Put the passage's English translation in its translation field. Give every question exactly four options.` : QUESTION_TYPES[type].area === "listening" ? `Set passage to null and leave passages empty. Put every spoken line in script, and the English translation of the whole script in translation. Give every question exactly ${THREE_OPTIONS.includes(type) ? "three" : "four"} options. Write furigana {漢字|かな} on kanji above the level in options, since they are printed.` : "Set passage to null and leave passages empty. Give every question exactly four options."}
 Number the answer 1-4.${avoid.length ? `\n\nAlready used in this test, so don't repeat these sentences or targets:\n${avoid.slice(0, 40).map((s) => `- ${s}`).join("\n")}` : ""}`;
 }
 
@@ -239,7 +257,7 @@ Furigana is written {漢字|かな}; [[ ]] marks an underlined part; （　） i
 ${usedPassages.map((p) => `\nPassage ${p.id}:\n${p.text}`).join("\n")}
 
 Questions:
-${questions.map((q) => `\nid: ${q.id}${q.passageId ? ` (passage ${q.passageId})` : ""}\n${q.stem}\n${q.options.map((o, i) => `${i + 1}. ${o}`).join("\n")}`).join("\n")}
+${questions.map((q) => `\nid: ${q.id}${q.passageId ? ` (passage ${q.passageId})` : ""}${q.script ? `\nAudio transcript (the learner only hears this):\n${q.script.map((l) => `${l.speaker}: ${l.text}`).join("\n")}` : ""}\n${q.stem}\n${q.options.map((o, i) => `${i + 1}. ${o}`).join("\n")}`).join("\n")}
 
 Return one verdict per question, using the ids above.`;
 }
@@ -291,6 +309,7 @@ export function toUnit(level: Level, type: QuestionType, prefix: string, raw: z.
       explanation: r.explanation,
       translation: r.translation,
       ...(r.passage !== null && passages[r.passage] ? { passageId: passages[r.passage].id } : {}),
+      ...(r.script?.length ? { script: r.script } : {}),
       source: "ai",
       status: "draft",
     };

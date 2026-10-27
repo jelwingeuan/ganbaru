@@ -1,6 +1,7 @@
 // One format for every question, whether built from data or written by AI.
 // Text fields use OpenJLPT's {漢字|かな} furigana notation; [[...]] marks the underlined part and （　） a blank.
-import { QUESTION_TYPES, type QuestionType } from "../content/blueprints.ts";
+import { QUESTION_TYPES, THREE_OPTIONS, type QuestionType } from "../content/blueprints.ts";
+export { SPOKEN_OPTIONS, THREE_OPTIONS } from "../content/blueprints.ts";
 import { LEVELS, type Level } from "./openjlpt.ts";
 
 export type Question = {
@@ -13,6 +14,8 @@ export type Question = {
   explanation: string;
   translation?: string;
   passageId?: string;
+  /** Listening: the spoken lines in order. Speaker N is the narrator; F, M, F2, M2 are the people talking. */
+  script?: { speaker: string; text: string }[];
   audio?: string;
   source: "data" | "ai";
   /** draft: passed the code checks only; verified: also blind-solved or unambiguous by construction; reviewed: a person checked it. */
@@ -40,7 +43,9 @@ export function checkQuestion(q: Question): string[] {
   if (!LEVELS.includes(q.level)) problems.push(`bad level ${q.level}`);
   if (!(q.type in QUESTION_TYPES)) problems.push(`bad type ${q.type}`);
   if (!q.stem.trim()) problems.push("empty stem");
-  if (q.options.length !== 4) problems.push(`${q.options.length} options, need 4`);
+  const want = THREE_OPTIONS.includes(q.type) ? 3 : 4;
+  if (q.options.length !== want) problems.push(`${q.options.length} options, need ${want}`);
+  if (QUESTION_TYPES[q.type]?.area === "listening" && !q.script?.length) problems.push("listening question without a script");
   const plain = q.options.map((o) => stripFurigana(o).trim());
   if (plain.some((o) => !o)) problems.push("empty option");
   if (new Set(plain).size !== plain.length) problems.push("duplicate options");

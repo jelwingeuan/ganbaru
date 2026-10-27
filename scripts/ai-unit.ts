@@ -37,10 +37,10 @@ const out = (data: unknown) => console.log(JSON.stringify(data, null, 1));
 type Accepted = { questions: Question[]; passages: Passage[]; firstPass: number; firstFail: number; failures: string[] };
 const countFor = (level: Level, type: QuestionType) =>
   BLUEPRINTS[level].sections.flatMap((s) => s.parts).find((p) => p.type === type)?.count ?? 0;
-const writtenTypes = (level: Level) =>
+const writtenTypes = (level: Level, listening = false) =>
   BLUEPRINTS[level].sections
     .flatMap((s) => s.parts)
-    .filter((p) => QUESTION_TYPES[p.type].area !== "listening" && !DATA_TYPES.includes(p.type));
+    .filter((p) => (QUESTION_TYPES[p.type].area === "listening") === listening && !DATA_TYPES.includes(p.type));
 
 async function usedInTests(level: Level) {
   const { readdir } = await import("node:fs/promises");
@@ -52,11 +52,11 @@ async function usedInTests(level: Level) {
 }
 const contextFile = (level: Level) => join(process.cwd(), "content", "questions", level.toLowerCase(), "context.json");
 
-async function jobs(test: number) {
+async function jobs(test: number, listening: boolean) {
   const todo = [];
   for (const level of LEVELS) {
     await write(join(C, "prompts", `${name(level, test, "system")}.txt`), systemPrompt(level, test));
-    for (const p of writtenTypes(level)) {
+    for (const p of writtenTypes(level, listening)) {
       if (DRAFT_TYPES.includes(p.type)) {
         const used = await usedInTests(level);
         const ready = (await read<Question[]>(contextFile(level), [])).filter((q) => q.status === "verified" && !used.has(q.id)).length;
@@ -163,13 +163,37 @@ async function collect(test: number) {
   out(summary);
 }
 
+/** Adds each level's passed listening questions to ai.json and a listening section to the existing test file. */
+async function attachListening(test: number) {
+  const summary = [];
+  for (const level of LEVELS) {
+    const types = writtenTypes(level, true);
+    const accepted = (await Promise.all(types.map((p) => read<Accepted | null>(paths(level, test, p.type, 0).accepted, null)))).flatMap((a) => a?.questions ?? []);
+    if (!accepted.length) continue;
+    const aiFile = join(process.cwd(), "content", "questions", level.toLowerCase(), "ai.json");
+    const ai = await read<Question[]>(aiFile, []);
+    const ids = new Set(accepted.map((q) => q.id));
+    await write(aiFile, JSON.stringify([...ai.filter((q) => !ids.has(q.id)), ...accepted], null, 1) + "\n");
+    const testFile = join(process.cwd(), "content", "tests", `${level.toLowerCase()}-test-${test}.json`);
+    const t = await read<Test | null>(testFile, null);
+    if (!t) continue;
+    const order = types.flatMap((p) => accepted.filter((q) => q.type === p.type).map((q) => q.id));
+    t.sections = [...t.sections.filter((s) => s.id !== "listening"), { id: "listening", questionIds: order }];
+    t.note = undefined;
+    await write(testFile, JSON.stringify(t, null, 1) + "\n");
+    summary.push({ level, listening: order.length, wanted: types.reduce((n, p) => n + p.count, 0) });
+  }
+  out(summary);
+}
+
 const [cmd, ...a] = process.argv.slice(2);
 const lvl = (s: string) => {
   const l = LEVELS.find((x) => x.toLowerCase() === s?.toLowerCase());
   if (!l) throw new Error(`unknown level ${s}`);
   return l;
 };
-if (cmd === "jobs") await jobs(Number(a[0]));
+if (cmd === "jobs") await jobs(Number(a[0]), a.includes("--listening"));
+else if (cmd === "attach-listening") await attachListening(Number(a[0]));
 else if (cmd === "check") await check(lvl(a[0]), a[1] as QuestionType, Number(a[2]), Number(a[3]));
 else if (cmd === "grade") await grade(lvl(a[0]), a[1] as QuestionType, Number(a[2]), Number(a[3]));
 else if (cmd === "context-blind") await contextBlind(lvl(a[0]), Number(a[1]));

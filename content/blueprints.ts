@@ -31,6 +31,11 @@ export const QUESTION_TYPES = {
 
 export type QuestionType = keyof typeof QUESTION_TYPES;
 
+/** The real test gives three spoken choices for these. */
+export const THREE_OPTIONS: QuestionType[] = ["quick-response", "utterance"];
+/** Listening types whose choices are only spoken, so the screen shows just the numbers. */
+export const SPOKEN_OPTIONS: QuestionType[] = ["quick-response", "utterance", "summary"];
+
 /** One-line task shown above each question, in Ganbaru's own words. */
 export const INSTRUCTIONS: Partial<Record<QuestionType, string>> = {
   "kanji-reading": "Choose the reading of the underlined word.",
