@@ -1,0 +1,643 @@
+[
+ {
+  "id": "n4-t1-pa1-1",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "このへやは[[せまい]]です。",
+  "options": [
+   "明るくない",
+   "新しくない",
+   "{静|しず}かじゃない",
+   "広くない"
+  ],
+  "answer": 3,
+  "explanation": "せまい means 'small, cramped (in space)', which is the same as 広くない 'not spacious'. 明るくない means 'not bright', 新しくない 'not new', and 静かじゃない 'not quiet', none of which describe the room's size.",
+  "translation": "This room is small (cramped).",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-pa1-2",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "弟は今、[[食堂]]にいます。",
+  "options": [
+   "本を読むところ",
+   "ごはんを食べるところ",
+   "服を買うところ",
+   "お金を出すところ"
+  ],
+  "answer": 1,
+  "explanation": "食堂 is a dining hall or cafeteria, a place where you eat meals, so ごはんを食べるところ is correct. A place to read books is a library, a place to buy clothes is a shop, and a place to take out money is a bank or ATM.",
+  "translation": "My younger brother is in the cafeteria now.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-pa1-3",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "姉は休みの日、[[ちっとも]]勉強しません。",
+  "options": [
+   "あまり",
+   "ときどき",
+   "ぜんぜん",
+   "たまに"
+  ],
+  "answer": 2,
+  "explanation": "ちっとも with a negative means 'not at all', the same as ぜんぜん. あまり〜ない means 'not much', so she would still study a little; ときどき and たまに mean 'sometimes' and 'occasionally', which change the meaning.",
+  "translation": "My older sister doesn't study at all on her days off.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-pa1-4",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "[[さっき]]、山田さんから電話がありました。",
+  "options": [
+   "少し前に",
+   "きのうの夜",
+   "けさ早く",
+   "先週"
+  ],
+  "answer": 0,
+  "explanation": "さっき means 'a little while ago', so 少し前に is correct. きのうの夜 'last night', けさ早く 'early this morning' and 先週 'last week' all point to a specific, more distant time.",
+  "translation": "There was a phone call from Mr. Yamada a little while ago.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-ua1-1",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{間に合う|まにあう}",
+  "options": [
+   "新しいくつは私の足によく{間に合います|まにあいます}。",
+   "急いで駅まで走ったので、電車に{間に合いました|まにあいました}。",
+   "この本はとても{間に合った|まにあった}ので、友だちにも貸しました。",
+   "弟は先生の質問にすぐ{間に合いました|まにあいました}。"
+  ],
+  "answer": 1,
+  "explanation": "間に合う means to be in time for something, so catching the train after running is correct. Option 1 needs あいます (fits), option 3 needs something like おもしろかった or 役に立った, and option 4 needs 答えました (answered).",
+  "translation": "間に合う (to be in time for)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-ua1-2",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{珍しい|めずらしい}",
+  "options": [
+   "この料理は{塩|しお}が多すぎて、少し{珍しい|めずらしい}です。",
+   "時間がないので、{珍しい|めずらしい}電車で行きましょう。",
+   "このかばんは重くて、持つのがとても{珍しい|めずらしい}です。",
+   "兄が朝早く起きるのは{珍しい|めずらしい}ので、母はびっくりしました。"
+  ],
+  "answer": 3,
+  "explanation": "珍しい means rare or unusual, so an older brother getting up early being unusual fits. Option 1 needs からい (salty), option 2 needs 速い (fast), and option 3 needs 大変 (hard).",
+  "translation": "珍しい (rare, unusual)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-ua1-3",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{拾う|ひろう}",
+  "options": [
+   "道に{落ちて|おちて}いたさいふを{拾って|ひろって}、{交番|こうばん}に持っていきました。",
+   "花に水を{拾って|ひろって}から、学校へ行きました。",
+   "先生の話をよく{拾って|ひろって}、ノートに書きました。",
+   "友だちに電話をかけて、パーティーに{拾いました|ひろいました}。"
+  ],
+  "answer": 0,
+  "explanation": "拾う means to pick something up from the ground, so picking up a wallet lying on the street is correct. Option 2 needs やって (gave water), option 3 needs 聞いて (listened), and option 4 needs さそいました (invited).",
+  "translation": "拾う (to pick up)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-ua1-4",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{寄る|よる}",
+  "options": [
+   "{寒い|さむい}ので、{窓|まど}を{寄って|よって}ください。",
+   "毎日、{日記|にっき}を{寄る|よる}ようにしています。",
+   "会社から帰るとき、スーパーに{寄って|よって}{牛乳|ぎゅうにゅう}を買いました。",
+   "友だちの{誕生日|たんじょうび}に、花を{寄りました|よりました}。"
+  ],
+  "answer": 2,
+  "explanation": "寄る means to stop by a place on the way, so stopping at a supermarket on the way home is correct. Option 1 needs 閉めて (close), option 2 needs 書く (write), and option 4 needs あげました or おくりました (gave).",
+  "translation": "寄る (to drop in, to stop by)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-1",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "大切な　かさを　電車に　わすれて（　）。",
+  "options": [
+   "おきました",
+   "しまいました",
+   "みました",
+   "ありました"
+  ],
+  "answer": 1,
+  "explanation": "〜てしまう expresses doing something by accident with regret, which fits forgetting an umbrella. 〜ておく means doing in advance on purpose, 〜てみる means trying something, and 〜てある needs a transitive verb with が for a deliberate resulting state.",
+  "translation": "I accidentally left my precious umbrella on the train.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-2",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "あした　友だちが　家に　来るので、私は　ケーキを　買って（　）つもりです。",
+  "options": [
+   "ある",
+   "くれる",
+   "いる",
+   "おく"
+  ],
+  "answer": 3,
+  "explanation": "〜ておく means doing something in advance to prepare, here buying cake before a friend visits. 〜てある describes a resulting state and cannot follow つもり with 私は as the doer, 〜てくれる is used when someone else does something for me, and 〜ている describes an ongoing action, which does not fit a plan.",
+  "translation": "My friend is coming to my house tomorrow, so I plan to buy a cake in advance.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-3",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "わあ、この　ケーキ、とても　おいし（　）ですね。",
+  "options": [
+   "そう",
+   "らしい",
+   "よう",
+   "みたい"
+  ],
+  "answer": 0,
+  "explanation": "〜そうだ (appearance) attaches to the stem of an i-adjective (おいし-) to mean 'looks delicious'. らしい, よう and みたい all need the full form おいしい, so they cannot follow おいし.",
+  "translation": "Wow, this cake looks really delicious.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-4",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "この　ボタンを　（　）、ドアが　開きます。",
+  "options": [
+   "おしても",
+   "おしたり",
+   "おすと",
+   "おしながら"
+  ],
+  "answer": 2,
+  "explanation": "〜と shows a natural, automatic result: whenever you press the button, the door opens. 〜ても means 'even if', which contradicts the result, 〜たり is for listing actions, and 〜ながら means doing two things at once.",
+  "translation": "When you press this button, the door opens.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-5",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "あした　雨が　ふる（　）、まだ　わかりません。",
+  "options": [
+   "と",
+   "かどうか",
+   "ので",
+   "のに"
+  ],
+  "answer": 1,
+  "explanation": "〜かどうか means 'whether or not' and fits before わかりません. と would give an automatic-result meaning, ので gives a reason, and のに means 'although', none of which make sense with 'I don't know yet'.",
+  "translation": "I don't know yet whether it will rain tomorrow.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-6",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "弟に　大切な　本を　（　）、とても　こまりました。",
+  "options": [
+   "やぶって",
+   "やぶれて",
+   "やぶろうと",
+   "やぶられて"
+  ],
+  "answer": 3,
+  "explanation": "The passive やぶられる with 弟に means 'had my book torn by my brother', which explains why the speaker was troubled. やぶって would make the speaker the one tearing it, やぶれて is intransitive and cannot take 本を, and やぶろうと means 'trying to tear', which does not fit.",
+  "translation": "My little brother tore my precious book, and I was really troubled.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-7",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "わからない　ところを　先生に　教えて（　）。",
+  "options": [
+   "もらいました",
+   "くれました",
+   "あげました",
+   "ありました"
+  ],
+  "answer": 0,
+  "explanation": "〜てもらう with 先生に means 'I had the teacher explain it to me'. 〜てくれる would need 先生が as the subject, 〜てあげる would mean I taught the teacher, and 〜てある describes a resulting state, not a favor.",
+  "translation": "I had my teacher explain the parts I didn't understand.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-8",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "きのうの　夜、ごはんを　食べ（　）、おなかが　いたいです。",
+  "options": [
+   "すぎると",
+   "すぎて",
+   "すぎても",
+   "すぎたら"
+  ],
+  "answer": 1,
+  "explanation": "食べすぎて uses the て-form to give the reason: I ate too much last night, so my stomach hurts. すぎると and すぎたら are conditionals that don't fit a past event, and すぎても means 'even if', which makes no sense here.",
+  "translation": "I ate too much last night, so my stomach hurts.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-9",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "日本の　大学に　入る（　）、毎日　日本語を　勉強して　います。",
+  "options": [
+   "けど",
+   "ながら",
+   "ために",
+   "のに"
+  ],
+  "answer": 2,
+  "explanation": "〜ために with a dictionary-form verb shows a purpose: studying every day in order to enter a Japanese university. けど and のに mean 'but' or 'although', which don't fit, and ながら must follow the masu-stem (入りながら), not 入る.",
+  "translation": "I study Japanese every day in order to get into a Japanese university.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-10",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "この　くつは　先週　買った（　）なので、まだ　新しいです。",
+  "options": [
+   "こと",
+   "はず",
+   "つもり",
+   "ばかり"
+  ],
+  "answer": 3,
+  "explanation": "〜たばかり means 'have just done', so the shoes are still new because they were bought only last week. こと does not form a natural predicate here, はず means 'should be', and つもり after a past verb means 'believe I did', neither of which explains why the shoes are new.",
+  "translation": "I only just bought these shoes last week, so they are still new.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-11",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "毎日　れんしゅうしたので、ピアノが　ひける（　）なりました。",
+  "options": [
+   "ように",
+   "ために",
+   "ことに",
+   "そうに"
+  ],
+  "answer": 0,
+  "explanation": "〜ようになる shows a change in ability: thanks to daily practice, I became able to play the piano. ためになる means 'be beneficial' and does not follow a potential verb, ことになる means 'it was decided', and そう cannot follow the dictionary form in this way.",
+  "translation": "Because I practiced every day, I became able to play the piano.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-12",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "母は　私に　早く　家に　帰って（　）と　言いました。",
+  "options": [
+   "あげたい",
+   "ほしい",
+   "いたい",
+   "しまいたい"
+  ],
+  "answer": 1,
+  "explanation": "〜てほしい means 'want someone to do', so my mother said she wanted me to come home early. 帰ってあげたい means she wants to go home for someone, 帰っていたい means 'want to stay home', and 帰ってしまいたい means 'want to just go home', none of which fit 私に.",
+  "translation": "My mother told me she wanted me to come home early.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-gfa1-13",
+  "level": "N4",
+  "type": "grammar-form",
+  "stem": "体に　悪いので、来月から　たばこを　やめる（　）しました。",
+  "options": [
+   "ところに",
+   "ために",
+   "ことに",
+   "はずに"
+  ],
+  "answer": 2,
+  "explanation": "〜ことにする means 'decide to', so the speaker decided to quit smoking from next month. ところにする, ためにする and はずにする are not grammatical patterns.",
+  "translation": "Because it's bad for my health, I decided to quit smoking from next month.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-soa1-1",
+  "level": "N4",
+  "type": "sentence-order",
+  "stem": "{昨日|きのう} ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 、とても おいしかったです。",
+  "options": [
+   "作って",
+   "ケーキは",
+   "くれた",
+   "母が"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is {昨日|きのう} 母が 作って くれた ケーキは、とても おいしかったです。 母が is the subject of 作って, 作って くれた forms the 〜てくれる favor, and the whole clause modifies ケーキは, so くれた lands in the ★ slot. Any other order breaks the clause, e.g. ending with くれた leaves the sentence without a topic.",
+  "translation": "The cake my mother made for me yesterday was very delicious.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-soa1-2",
+  "level": "N4",
+  "type": "sentence-order",
+  "stem": "弟は ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ います。",
+  "options": [
+   "ばかり",
+   "{遊んで|あそんで}",
+   "{宿題|しゅくだい}を",
+   "しないで"
+  ],
+  "answer": 1,
+  "explanation": "The correct sentence is 弟は {宿題|しゅくだい}を しないで {遊んで|あそんで} ばかり います。 {宿題|しゅくだい}を is the object of しないで ('without doing'), and 〜てばかりいる needs {遊んで|あそんで} directly before ばかり, so {遊んで|あそんで} is in the ★ slot. ばかり, {宿題|しゅくだい}を and しないで cannot go third without breaking these patterns.",
+  "translation": "My younger brother does nothing but play without doing his homework.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-soa1-3",
+  "level": "N4",
+  "type": "sentence-order",
+  "stem": "あした 雨が ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ わかりません。",
+  "options": [
+   "ある",
+   "{降ったら|ふったら}",
+   "かどうか",
+   "{試合|しあい}が"
+  ],
+  "answer": 0,
+  "explanation": "The correct sentence is あした 雨が {降ったら|ふったら} {試合|しあい}が ある かどうか わかりません。 雨が must be followed by {降ったら|ふったら}, then the embedded question {試合|しあい}が ある かどうか comes before わかりません, so ある is in the ★ slot. {降ったら|ふったら} belongs first, {試合|しあい}が second and かどうか last.",
+  "translation": "I don't know whether the match will be held if it rains tomorrow.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-soa1-4",
+  "level": "N4",
+  "type": "sentence-order",
+  "stem": "先生に ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ おもしろかったです。",
+  "options": [
+   "いただいた",
+   "とても",
+   "貸して",
+   "本は"
+  ],
+  "answer": 3,
+  "explanation": "The correct sentence is 先生に 貸して いただいた 本は とても おもしろかったです。 先生に goes with 貸して いただいた (humble 〜ていただく), that clause modifies 本は, and とても comes right before おもしろかった, so 本は is in the ★ slot. 貸して and いただいた come first and second, and とても must be last.",
+  "translation": "The book my teacher kindly lent me was very interesting.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-tga1-1",
+  "level": "N4",
+  "type": "text-grammar",
+  "stem": "（1）",
+  "options": [
+   "あげました",
+   "もらいました",
+   "くれました",
+   "しまいました"
+  ],
+  "answer": 2,
+  "explanation": "The friend (marked by が) did the favor of saying encouraging words to the writer, so 〜てくれました is correct. あげました would mean the friend did it for someone else, もらいました needs the friend marked with に (友だちに言ってもらいました), and しまいました adds a sense of regret or accident that does not fit.",
+  "translation": "But my friend said \"Just a little more. Let's keep going\" (for me).",
+  "passageId": "n4-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-tga1-2",
+  "level": "N4",
+  "type": "text-grammar",
+  "stem": "（2）",
+  "options": [
+   "だから",
+   "それに",
+   "たとえば",
+   "でも"
+  ],
+  "answer": 3,
+  "explanation": "The sentence before is negative (windy and cold) and the next is positive (the view was beautiful), so the contrastive でも is correct. だから would make the beautiful view a result of the cold, それに adds a point in the same direction, and たとえば introduces an example, none of which fits.",
+  "translation": "However, the view was very beautiful, so we stayed there for about an hour.",
+  "passageId": "n4-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-tga1-3",
+  "level": "N4",
+  "type": "text-grammar",
+  "stem": "（3）",
+  "options": [
+   "より",
+   "ほど",
+   "まで",
+   "だけ"
+  ],
+  "answer": 0,
+  "explanation": "The sentence compares two things with ずっとおいしかった, so より (\"than\") is correct. ほど is used for comparison only with a negative (〜ほどおいしくなかった), まで means \"until/as far as\", and だけ means \"only\", which do not make sense here.",
+  "translation": "Rice balls eaten outdoors tasted much better than ones eaten at home.",
+  "passageId": "n4-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-tga1-4",
+  "level": "N4",
+  "type": "text-grammar",
+  "stem": "（4）",
+  "options": [
+   "行ったことがあります",
+   "行こうと思っています",
+   "行ってしまいました",
+   "行くはずがありません"
+  ],
+  "answer": 1,
+  "explanation": "今度は秋に points to a future plan, so 行こうと思っています (\"I'm thinking of going\") is correct. 行ったことがあります and 行ってしまいました describe the past, and 行くはずがありません (\"there's no way I'll go\") contradicts the writer's happy feelings about the trip.",
+  "translation": "Next time, I'm thinking of going again in autumn, together with my other friends too.",
+  "passageId": "n4-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-rsa1-1",
+  "level": "N4",
+  "type": "reading-short",
+  "stem": "田中さんは、{会議|かいぎ}の前に何をしなければなりませんか。",
+  "options": [
+   "午前十時までに{三階|さんがい}の{会議室|かいぎしつ}へ行く。",
+   "先週もらった{資料|しりょう}を読んでおく。",
+   "今日の五時までに山下さんに{資料|しりょう}を送る。",
+   "山下さんに新しい{資料|しりょう}をもらいに行く。"
+  ],
+  "answer": 1,
+  "explanation": "The email asks everyone to read the materials sent last week before the meeting (読んでおいてください), so 2 is correct. The meeting now starts at 2 p.m., not 10 a.m. (1); the 5 o'clock deadline is only for telling Yamashita if you lack the materials, not for sending them (3); and nobody is asked to go and get new materials (4).",
+  "translation": "What does Mr. Tanaka have to do before the meeting?",
+  "passageId": "n4-t1-rsa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-rsa1-2",
+  "level": "N4",
+  "type": "reading-short",
+  "stem": "このお知らせについて、正しいものはどれですか。",
+  "options": [
+   "七月十日から、またプールを使うことができる。",
+   "七月からは、小学生はプールに入ることができない。",
+   "夜は九時までプールに入ることができる。",
+   "小学生は、大人といっしょならプールに入ることができる。"
+  ],
+  "answer": 3,
+  "explanation": "The notice says elementary school children must come with an adult, so they can swim if an adult is with them (4). The pool reopens on the 11th, not the 10th (1); children are only banned from coming on their own, not banned completely (2); and although the facility is open until 9, swimming ends at 8:30 (3).",
+  "translation": "Which statement matches the content of this notice?",
+  "passageId": "n4-t1-rsa1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-rsa1-3",
+  "level": "N4",
+  "type": "reading-short",
+  "stem": "この人は、どうして料理を習うことにしましたか。",
+  "options": [
+   "お金がかかるし、体にもよくないと思ったから。",
+   "コンビニのお{弁当|べんとう}がおいしくなかったから。",
+   "自分で作った料理のほうがおいしいから。",
+   "料理を習うのが楽しそうだったから。"
+  ],
+  "answer": 0,
+  "explanation": "The writer says buying convenience-store lunches cost money and was bad for their health, so they decided to learn to cook (1). The writer never says the lunches tasted bad (2); thinking home-made food tastes better is a feeling they have now, after starting, not the reason (3); and nothing is said about cooking classes looking fun (4).",
+  "translation": "Why did this person decide to learn to cook?",
+  "passageId": "n4-t1-rsa1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-rma1-1",
+  "level": "N4",
+  "type": "reading-mid",
+  "stem": "「私」は、どうして{初|はじ}めて駅まで歩いて行きましたか。",
+  "options": [
+   "体の{調子|ちょうし}が悪かったから",
+   "バスがなかなか来なかったから",
+   "いつもより早く家を出たから",
+   "町をゆっくり見たかったから"
+  ],
+  "answer": 1,
+  "explanation": "The writer says the bus just would not come, so they had no choice but to walk (しかたなく歩いて). Poor health is not mentioned as a reason (their health improved later), leaving home early began only after that day, and enjoying the town was a result of walking, not the reason.",
+  "translation": "Why did the writer walk to the station for the first time?",
+  "passageId": "n4-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-rma1-2",
+  "level": "N4",
+  "type": "reading-mid",
+  "stem": "歩き始めてから、「私」が気がついたことは何ですか。",
+  "options": [
+   "バスより歩くほうが早く駅に着くこと",
+   "{公園|こうえん}の花は一年中同じだということ",
+   "駅まで歩くと一時間ぐらいかかること",
+   "駅の近くに新しいパン屋ができたこと"
+  ],
+  "answer": 3,
+  "explanation": "The writer noticed that a small bakery had newly opened near the station. The passage never says walking is faster than the bus, it says the park flowers change with the seasons (not that they stay the same), and the walk takes about twenty minutes, not an hour.",
+  "translation": "What did the writer notice after starting to walk?",
+  "passageId": "n4-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-rma1-3",
+  "level": "N4",
+  "type": "reading-mid",
+  "stem": "「私」は今、どのように駅まで行っていますか。",
+  "options": [
+   "天気がいい日は歩いて、雨の日はバスに{乗|の}る。",
+   "天気に{関係|かんけい}なく、毎日かならず歩いて行く。",
+   "雨の日も天気がいい日も、バスに{乗|の}って行く。",
+   "雨の日だけ歩いて、天気がいい日はバスに{乗|の}る。"
+  ],
+  "answer": 0,
+  "explanation": "The writer still takes the bus on rainy days but walks as much as possible when the weather is good. They do not walk every day regardless of weather, they no longer take the bus every day, and option 4 reverses the actual pattern.",
+  "translation": "How does the writer get to the station now?",
+  "passageId": "n4-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-isa1-1",
+  "level": "N4",
+  "type": "info-search",
+  "stem": "山田さんは 土曜日の 午後、70{歳|さい}の お母さんと 中学生の 子どもと 3人で プールに 行きます。3人で いくら はらいますか。",
+  "options": [
+   "750円",
+   "1,000円",
+   "1,250円",
+   "1,500円"
+  ],
+  "answer": 1,
+  "explanation": "In the afternoon Yamada pays the adult price of 500 yen, his 70-year-old mother pays half of that (250 yen), and the junior high school child pays the child price of 250 yen, so the total is 1,000 yen. 1,250 yen forgets the discount for people 65 and over, 1,500 yen charges everyone the adult price, and 750 yen charges Yamada a half price as well.",
+  "translation": "On Saturday afternoon, Mr. Yamada is going to the pool with his 70-year-old mother and his child, who is in junior high school, three people in all. How much do the three of them pay?",
+  "passageId": "n4-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-isa1-2",
+  "level": "N4",
+  "type": "info-search",
+  "stem": "ジョンさんは 25{歳|さい}の 男の人です。会社の 仕事は 月曜日から 金曜日まで、午前9時から 午後6時までです。来週、仕事の 後で プールに 行きたいと 思って います。ジョンさんが 行けるのは いつですか。",
+  "options": [
+   "月曜日の 夜",
+   "水曜日の 夜",
+   "木曜日の 午後",
+   "金曜日の 夜"
+  ],
+  "answer": 3,
+  "explanation": "John finishes work at 6 p.m., so he can only go in the evening, and Friday evening is open to everyone. The pool is closed on Mondays, Wednesday evenings are for women only, and Thursday afternoon sessions end at 5 p.m., while he is still at work.",
+  "translation": "John is a 25-year-old man. He works at his company from Monday to Friday, 9 a.m. to 6 p.m. Next week he wants to go to the pool after work. When can John go?",
+  "passageId": "n4-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ }
+]

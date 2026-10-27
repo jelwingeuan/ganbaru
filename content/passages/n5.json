@@ -1,0 +1,37 @@
+[
+ {
+  "id": "n5-t1-tga1-p1",
+  "level": "N5",
+  "type": "text-grammar",
+  "text": "わたしは {先週|せんしゅう}の {日曜日|にちようび}に、友だちの マリアさんと 山へ 行きました。その 山に 行くのは はじめてでした。{朝|あさ} 七時（1）{駅|えき}で {会|あ}って、電車に {乗|の}りました。山の 上は とても {寒|さむ}かったです。（2）、けしきは とても きれいでした。わたしたちは 山の 上で おべんとうを 食べ（3）、しゃしんを とったり しました。{帰|かえ}る 前に、マリアさんは 「また いっしょに 来（4）。」と {言|い}いました。わたしも また 行きたいです。",
+  "translation": "Last Sunday I went to the mountains with my friend Maria. It was the first time I had been to that mountain. We met at the station at seven in the morning and got on the train. It was very cold at the top of the mountain. But the view was very beautiful. At the top we did things like eat our packed lunches and take photos. Before going home, Maria said, \"Let's come here together again.\" I want to go again too."
+ },
+ {
+  "id": "n5-t1-rsa1-p2",
+  "level": "N5",
+  "type": "reading-short",
+  "text": "としょかんの　おしらせ\nとしょかんは　{月曜日|げつようび}が　休みです。{火曜日|かようび}から　{金曜日|きんようび}までは　午前九時から　午後七時まで、{土曜日|どようび}と　{日曜日|にちようび}は　午前十時から　午後五時まで　あいて　います。としょかんの　中で　食べたり　のんだり　しないで　ください。",
+  "translation": "Library notice\nThe library is closed on Mondays. From Tuesday to Friday it is open from 9 a.m. to 7 p.m., and on Saturdays and Sundays from 10 a.m. to 5 p.m. Please do not eat or drink inside the library."
+ },
+ {
+  "id": "n5-t1-rsa2-p1",
+  "level": "N5",
+  "type": "reading-short",
+  "text": "リンさんへ\nあしたの 日本語の じゅぎょうは 十時からでは なくて、十一時からです。先生が 電話で そう いいました。じゅぎょうの 前に、いっしょに {図書館|としょかん}で しゅくだいを しませんか。わたしは 十時に {図書館|としょかん}の 前で まって います。\nキム",
+  "translation": "To Lin,\nTomorrow's Japanese class doesn't start at ten; it starts at eleven. The teacher said so on the phone. Shall we do our homework together at the library before class? I'll be waiting in front of the library at ten.\nKim"
+ },
+ {
+  "id": "n5-t1-rma1-p1",
+  "level": "N5",
+  "type": "reading-mid",
+  "text": "わたしは大学生です。今年の四月から、一人でアパートに{住|す}んでいます。\n前は毎日、学校の{近|ちか}くの{店|みせ}でお{弁当|べんとう}を{買|か}って食べていました。でも、お{弁当|べんとう}は高いですから、先月から{自分|じぶん}で{料理|りょうり}を{作|つく}っています。\nはじめは{全然|ぜんぜん}{上手|じょうず}にできませんでした。{肉|にく}も{魚|さかな}も{黒|くろ}くなりました。それで、{毎週|まいしゅう}{日曜日|にちようび}に母に電話をして、{料理|りょうり}を{習|なら}っています。母はいつもゆっくり話します。今、わたしの{卵|たまご}{料理|りょうり}とカレーはとてもおいしいです。\n{来週|らいしゅう}の{土曜日|どようび}、{友達|ともだち}が三人、わたしのアパートに来ます。みんなでわたしのカレーを食べたいです。{少|すこ}し{心配|しんぱい}ですが、とても{楽|たの}しみです。",
+  "translation": "I am a university student. Since April this year, I have been living alone in an apartment. Before, every day I bought a boxed lunch at a shop near school and ate it. But boxed lunches are expensive, so since last month I have been cooking for myself. At first I couldn't do it well at all. Both the meat and the fish turned black. So every Sunday I call my mother and learn cooking from her. My mother always speaks slowly. Now my egg dishes and my curry are very tasty. Next Saturday, three friends are coming to my apartment. I want us all to eat my curry together. I'm a little worried, but I'm really looking forward to it."
+ },
+ {
+  "id": "n5-t1-isa1-p1",
+  "level": "N5",
+  "type": "info-search",
+  "text": "さくら日本語学校　{土曜日|どようび}の クラス\n\nA　ひらがな　　　　午前9時～10時　　　500円\nB　かんじ　　　　　午前10時半～12時　　800円\nC　日本の うた　　　午後1時～2時　　　　500円\nD　日本の りょうり　午後2時～4時半　　1,200円\n\n・りょうりの クラスは、エプロンを もって きて ください。\n・クラスに 入りたい 人は、ここに 名前を 書いて ください。",
+  "translation": "Sakura Japanese Language School: Saturday classes\n\nA  Hiragana  9:00-10:00 a.m.  500 yen\nB  Kanji  10:30 a.m.-12:00 noon  800 yen\nC  Japanese songs  1:00-2:00 p.m.  500 yen\nD  Japanese cooking  2:00-4:30 p.m.  1,200 yen\n\n- For the cooking class, please bring an apron.\n- If you want to join a class, please write your name here."
+ }
+]

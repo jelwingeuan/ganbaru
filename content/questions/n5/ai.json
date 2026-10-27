@@ -1,0 +1,436 @@
+[
+ {
+  "id": "n5-t1-pa1-1",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "きのうは [[とても]] さむかったです。",
+  "options": [
+   "すこし",
+   "たいへん",
+   "あまり",
+   "ときどき"
+  ],
+  "answer": 1,
+  "explanation": "とても means 'very', and たいへん also means 'very' when it comes before an adjective. すこし means 'a little', あまり needs a negative and means 'not very', and ときどき means 'sometimes', so they all change the meaning.",
+  "translation": "Yesterday it was very cold.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-pa1-2",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "この へやは [[せまいです]]。",
+  "options": [
+   "あかるくないです",
+   "ふるくないです",
+   "しずかじゃないです",
+   "ひろくないです"
+  ],
+  "answer": 3,
+  "explanation": "せまい means 'small (in space), narrow', which is the same as ひろくない, 'not spacious'. あかるくない means 'not bright', ふるくない means 'not old', and しずかじゃない means 'not quiet', so they describe something different.",
+  "translation": "This room is small.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-pa1-3",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "[[おととい]]、友だちと えいがを 見ました。",
+  "options": [
+   "二日前",
+   "二日後",
+   "三日前",
+   "四日前"
+  ],
+  "answer": 0,
+  "explanation": "おととい means 'the day before yesterday', which is 二日前, 'two days ago'. 二日後 is 'two days later', and 三日前 and 四日前 are 'three days ago' and 'four days ago', so they are different days.",
+  "translation": "I saw a movie with a friend the day before yesterday.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-1",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "{毎朝|まいあさ}、七時（　）おきます。",
+  "options": [
+   "で",
+   "に",
+   "を",
+   "が"
+  ],
+  "answer": 1,
+  "explanation": "に marks a specific point in time, so 七時に means 'at seven o'clock'. で marks a place or means, を marks an object, and が marks a subject, so none of them can mark a clock time.",
+  "translation": "I get up at seven o'clock every morning.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-2",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "ここに 名前を（　）ください。",
+  "options": [
+   "書く",
+   "書き",
+   "書いた",
+   "書いて"
+  ],
+  "answer": 3,
+  "explanation": "A polite request is made with the te-form plus ください, so 書いてください is correct. The dictionary form 書く, the stem 書き and the past form 書いた cannot come directly before ください.",
+  "translation": "Please write your name here.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-3",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "わたしは 外国へ 行った（　）が ありません。",
+  "options": [
+   "こと",
+   "もの",
+   "ところ",
+   "とき"
+  ],
+  "answer": 0,
+  "explanation": "The pattern 'past form + ことがある' talks about experience, so 行ったことがありません means 'I have never been'. もの, ところ and とき do not form this experience pattern and make the sentence unnatural.",
+  "translation": "I have never been to a foreign country.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-4",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "{兄|あに}は わたし（　）せが 高いです。",
+  "options": [
+   "まで",
+   "から",
+   "より",
+   "と"
+  ],
+  "answer": 2,
+  "explanation": "より marks the standard of comparison: 'my brother is taller than me'. まで means 'until', から means 'from', and と means 'and/with', none of which make a comparison here.",
+  "translation": "My older brother is taller than me.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-5",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "この {部屋|へや}では たばこを（　）ください。",
+  "options": [
+   "すわない",
+   "すわないで",
+   "すわなくて",
+   "すわなかった"
+  ],
+  "answer": 1,
+  "explanation": "'Please don't do' is the nai-form plus でください, so すわないでください is correct. すわない and すわなかった cannot come directly before ください, and すわなくてください is not a correct form.",
+  "translation": "Please don't smoke in this room.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-6",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "{弟|おとうと}は いつも {音楽|おんがく}を 聞き（　）{勉強|べんきょう}します。",
+  "options": [
+   "ながら",
+   "たり",
+   "て",
+   "まで"
+  ],
+  "answer": 0,
+  "explanation": "Verb stem + ながら means doing two things at the same time, so 聞きながら means 'while listening'. たり and て attach to the te/ta-form (聞いたり, 聞いて), not to the stem 聞き, and まで does not follow a verb stem.",
+  "translation": "My younger brother always studies while listening to music.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-7",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "あした テストが ありますから、今日は {勉強|べんきょう}し（　）。",
+  "options": [
+   "なくてもいいです",
+   "ないでください",
+   "ませんでした",
+   "なければなりません"
+  ],
+  "answer": 3,
+  "explanation": "Because there is a test tomorrow, the speaker must study, so しなければなりません ('have to study') fits. 'Don't have to study', 'please don't study' and 'didn't study' all contradict the reason given with から.",
+  "translation": "There is a test tomorrow, so I have to study today.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-8",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "{果物|くだもの}の 中（　）りんごが {一番|いちばん} {好き|すき}です。",
+  "options": [
+   "に",
+   "を",
+   "で",
+   "へ"
+  ],
+  "answer": 2,
+  "explanation": "The pattern 'X の中で Y が一番' means 'among X, Y is the most', so で is correct. に, を and へ cannot be used in this comparison pattern.",
+  "translation": "Among fruits, I like apples the most.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-gfa1-9",
+  "level": "N5",
+  "type": "grammar-form",
+  "stem": "A「もう {昼|ひる}ごはんを 食べましたか。」B「いいえ、まだ（　）。」",
+  "options": [
+   "食べました",
+   "食べていません",
+   "食べませんでした",
+   "食べましょう"
+  ],
+  "answer": 1,
+  "explanation": "'Not yet' is まだ + ～ていません, so まだ食べていません is correct. 食べました contradicts いいえ, 食べませんでした is a common mistake that is not used with まだ for 'not yet', and 食べましょう ('let's eat') does not answer the question.",
+  "translation": "A: Have you eaten lunch yet? B: No, not yet.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-soa1-1",
+  "level": "N5",
+  "type": "sentence-order",
+  "stem": "これは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ です。",
+  "options": [
+   "ケーキ",
+   "{作|つく}った",
+   "母",
+   "が"
+  ],
+  "answer": 1,
+  "explanation": "The correct sentence is これは 母が 作った ケーキです (This is a cake my mother made). The clause 母が作った must come directly before the noun ケーキ it describes, so 作った is in the ★ slot; 母 and が come first and ケーキ last.",
+  "translation": "This is a cake that my mother made.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-soa1-2",
+  "level": "N5",
+  "type": "sentence-order",
+  "stem": "わたしは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ りんごが {好|す}きです。",
+  "options": [
+   "中で",
+   "くだもの",
+   "{一番|いちばん}",
+   "の"
+  ],
+  "answer": 0,
+  "explanation": "The correct sentence is わたしは くだものの 中で 一番 りんごが 好きです (Of all fruits, I like apples the most). The pattern is Nの中で一番, so 中で is in the ★ slot; くだもの and の come before it and 一番 after it.",
+  "translation": "Of all fruits, I like apples the best.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-soa1-3",
+  "level": "N5",
+  "type": "sentence-order",
+  "stem": "ここに ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 書いて ください。",
+  "options": [
+   "を",
+   "の",
+   "名前",
+   "あなた"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is ここに あなたの 名前を 書いて ください (Please write your name here). あなたの must come before 名前, and を marks 名前 as the object of 書いて, so 名前 is in the ★ slot.",
+  "translation": "Please write your name here.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-soa1-4",
+  "level": "N5",
+  "type": "sentence-order",
+  "stem": "あには {東京|とうきょう}の ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ います。",
+  "options": [
+   "はたらいて",
+   "大きい",
+   "ぎんこう",
+   "で"
+  ],
+  "answer": 3,
+  "explanation": "The correct sentence is あには 東京の 大きい ぎんこうで はたらいて います (My older brother works at a big bank in Tokyo). 大きい describes ぎんこう, で marks the place of work, and はたらいて must come right before います, so で is in the ★ slot.",
+  "translation": "My older brother works at a big bank in Tokyo.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-tga1-1",
+  "level": "N5",
+  "type": "text-grammar",
+  "stem": "（1）",
+  "options": [
+   "で",
+   "に",
+   "を",
+   "が"
+  ],
+  "answer": 1,
+  "explanation": "に marks a specific point in time, so 七時に means 'at seven o'clock'. で marks a place or means, not a clock time; を marks an object; が marks a subject, and none of these fit a time expression.",
+  "translation": "We met at the station (1) seven in the morning.",
+  "passageId": "n5-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-tga1-2",
+  "level": "N5",
+  "type": "text-grammar",
+  "stem": "（2）",
+  "options": [
+   "だから",
+   "それから",
+   "では",
+   "でも"
+  ],
+  "answer": 3,
+  "explanation": "The writer contrasts the bad point (it was cold) with a good point (the view was beautiful), so でも 'but' is correct. だから 'so' wrongly makes the cold the reason for the view, それから 'after that' shows a time order that is not meant here, and では 'well then' does not link these two sentences.",
+  "translation": "It was very cold at the top of the mountain. (2), the view was very beautiful.",
+  "passageId": "n5-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-tga1-3",
+  "level": "N5",
+  "type": "text-grammar",
+  "stem": "（3）",
+  "options": [
+   "たり",
+   "た",
+   "ない",
+   "ても"
+  ],
+  "answer": 0,
+  "explanation": "The sentence ends with とったり しました, so the pattern 〜たり〜たりする needs 食べたり to list examples of what they did. 食べた cannot be followed by a comma and another clause like this, 食べない means 'don't eat', and 食べても means 'even if we eat', which do not fit.",
+  "translation": "At the top of the mountain we (3) our packed lunches, took photos and so on.",
+  "passageId": "n5-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-tga1-4",
+  "level": "N5",
+  "type": "text-grammar",
+  "stem": "（4）",
+  "options": [
+   "ました",
+   "ませんでした",
+   "ましょう",
+   "ています"
+  ],
+  "answer": 2,
+  "explanation": "Maria is suggesting they come again together, so 来ましょう 'let's come' is correct. 来ました and 来ませんでした talk about the past, which makes no sense since it was their first visit, and 来ています 'are coming' does not make a suggestion.",
+  "translation": "Before going home, Maria said, \"(4) here together again.\"",
+  "passageId": "n5-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-rsa1-2",
+  "level": "N5",
+  "type": "reading-short",
+  "stem": "{土曜日|どようび}、としょかんは　何時まで　あいて　いますか。",
+  "options": [
+   "午後七時まで",
+   "午後五時まで",
+   "午前十時まで",
+   "午前九時まで"
+  ],
+  "answer": 1,
+  "explanation": "On Saturdays and Sundays the library is open from 10 a.m. until 5 p.m. 7 p.m. is the weekday closing time, 10 a.m. is the weekend opening time, and 9 a.m. is the weekday opening time.",
+  "translation": "On Saturday, until what time is the library open?",
+  "passageId": "n5-t1-rsa1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-rsa2-1",
+  "level": "N5",
+  "type": "reading-short",
+  "stem": "キムさんは あした 何時に どこで リンさんを まちますか。",
+  "options": [
+   "十一時に {図書館|としょかん}の 前で まちます。",
+   "十時に きょうしつで まちます。",
+   "十時に {図書館|としょかん}の 前で まちます。",
+   "十一時に きょうしつで まちます。"
+  ],
+  "answer": 2,
+  "explanation": "Kim writes that she will wait in front of the library at ten, before the class. Eleven o'clock is when the class starts, not the meeting time, so options 1 and 4 are wrong, and the memo never mentions waiting in the classroom, so option 2 is wrong.",
+  "translation": "Tomorrow, at what time and where will Kim wait for Lin?",
+  "passageId": "n5-t1-rsa2-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-rma1-1",
+  "level": "N5",
+  "type": "reading-mid",
+  "stem": "どうして「わたし」は{自分|じぶん}で{料理|りょうり}を{作|つく}っていますか。",
+  "options": [
+   "{近|ちか}くの{店|みせ}が{閉|し}まったから",
+   "母に{料理|りょうり}を{習|なら}いたかったから",
+   "お{弁当|べんとう}が高いから",
+   "{料理|りょうり}が{上手|じょうず}だったから"
+  ],
+  "answer": 2,
+  "explanation": "The writer says boxed lunches are expensive (お弁当は高いですから), so they started cooking. The shop closing is never mentioned, learning from mother came later as a result of cooking badly, and the writer was not good at cooking at first.",
+  "translation": "Why does the writer cook for themselves?",
+  "passageId": "n5-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-rma1-2",
+  "level": "N5",
+  "type": "reading-mid",
+  "stem": "「わたし」は{毎週|まいしゅう}{日曜日|にちようび}に何をしていますか。",
+  "options": [
+   "母のうちへ行って、{料理|りょうり}を{作|つく}っています。",
+   "母に電話で{料理|りょうり}を{習|なら}っています。",
+   "{友達|ともだち}といっしょにカレーを{作|つく}っています。",
+   "{店|みせ}でお{弁当|べんとう}を{買|か}っています。"
+  ],
+  "answer": 1,
+  "explanation": "Every Sunday the writer phones their mother and learns cooking (母に電話をして、料理を習っています). The writer does not visit the mother's home, the friends are only coming next Saturday, and buying boxed lunches is what the writer did before.",
+  "translation": "What does the writer do every Sunday?",
+  "passageId": "n5-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-isa1-1",
+  "level": "N5",
+  "type": "info-search",
+  "stem": "マリアさんは {土曜日|どようび}に クラスに 一つ 入りたいです。午前10時まで うちで しごとを します。午後は 1時から アルバイトが あります。どの クラスが いいですか。",
+  "options": [
+   "ひらがな",
+   "かんじ",
+   "日本の うた",
+   "日本の りょうり"
+  ],
+  "answer": 1,
+  "explanation": "Maria is busy until 10 a.m. and works from 1 p.m., so only the kanji class (10:30 a.m. to 12:00) fits. The hiragana class (9 to 10 a.m.) overlaps her work at home, and the song class (1 to 2 p.m.) and cooking class (2 to 4:30 p.m.) clash with her part-time job.",
+  "translation": "Maria wants to join one class on Saturday. She works at home until 10 a.m. In the afternoon she has her part-time job from 1:00. Which class is good for her?",
+  "passageId": "n5-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ }
+]

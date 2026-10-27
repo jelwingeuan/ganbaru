@@ -1,0 +1,65 @@
+[
+ {
+  "id": "n3-t1-tga1-p1",
+  "level": "N3",
+  "type": "text-grammar",
+  "text": "私は去年の春から一人で生活している。それまでは毎日母が食事を作ってくれていたので、自分で料理をしたことはほとんどなかった。（1）、最初の一か月はコンビニのお{弁当|べんとう}ばかり食べていた。\nところが、ある日、体の調子が悪くなって病院へ行くと、医者に{野菜|やさい}をもっと食べる（2）言われた。それで、料理を始めることにした。\n初めは失敗（3）だった。ご飯を黒くしてしまったり、味が{濃|こ}すぎたりして、とても食べられないこともあった。でも、インターネットで作り方を調べて、その（4）に作ってみたら、少しずつおいしくできるようになった。先週は友達に料理を作ってあげたら、とても喜んでくれた。\n今では、料理は私にとって一番の楽しみだ。自分で作ったものを食べるようになってから、体の調子もいい（5）。これからも続けていきたい。",
+  "translation": "I have been living on my own since last spring. Until then my mother cooked meals for me every day, so I had hardly ever cooked for myself. (1) Because of that, for the first month I ate nothing but boxed lunches from the convenience store.\nHowever, one day I felt unwell and went to the hospital, and the doctor told me (2) to eat more vegetables. So I decided to start cooking.\nAt first it was (3) full of failures. I burned the rice, made things too salty, and sometimes the food was simply inedible. But when I looked up recipes online and tried cooking (4) exactly as they said, I gradually became able to make tasty food. Last week I cooked for a friend, and they were really pleased.\nNow cooking is my greatest pleasure. Since I started eating food I make myself, I (5) feel that my health is better too. I want to keep it up."
+ },
+ {
+  "id": "n3-t1-rsa1-p1",
+  "level": "N3",
+  "type": "reading-short",
+  "text": "住民の皆様へ\n来月から、{燃|も}えるごみを出す日が変わります。今までは月曜日と木曜日でしたが、来月からは火曜日と金曜日になります。また、ごみは当日の朝8時までに出すこと。前の日の夜に出すと、鳥や猫がごみ{袋|ぶくろ}を破ってしまうことがあるので、ご{協力|きょうりょく}をお願いします。なお、びんや{缶|かん}を出す日は今までどおり水曜日です。\nさくら町内会",
+  "translation": "To all residents: From next month, the days for putting out burnable garbage will change. Until now they were Monday and Thursday, but from next month they will be Tuesday and Friday. Also, put garbage out by 8 a.m. on the day itself. If you put it out the night before, birds and cats sometimes tear the garbage bags, so we ask for your cooperation. Note that the day for bottles and cans remains Wednesday, as before. — Sakura Neighborhood Association"
+ },
+ {
+  "id": "n3-t1-rsa1-p2",
+  "level": "N3",
+  "type": "reading-short",
+  "text": "件名：来週の{授業|じゅぎょう}について\n学生の皆さん\n来週の水曜日は、私が学会に出るため、{授業|じゅぎょう}は休みになります。その代わりに、次の土曜日の午前10時から{補講|ほこう}を行います。教室はいつもと同じ302教室です。土曜日に都合が悪い人は、金曜日までにメールで知らせてください。その人には、別の{課題|かだい}を出します。また、来週出す予定だったレポートの{締|し}め切りは、土曜日の{補講|ほこう}の日に変更します。\n山田",
+  "translation": "Subject: About next week's class. Dear students, next Wednesday I will be attending an academic conference, so there will be no class. Instead, I will hold a make-up class from 10 a.m. the following Saturday. The classroom is the usual one, Room 302. If Saturday is inconvenient for you, please let me know by email by Friday. I will give those students a different assignment. Also, the deadline for the report that was due next week will be moved to the day of the Saturday make-up class. — Yamada"
+ },
+ {
+  "id": "n3-t1-rsa1-p3",
+  "level": "N3",
+  "type": "reading-short",
+  "text": "去年から、会社まで歩いて通うことにしている。家から会社までは歩いて40分ほどかかるので、初めは大変だと思っていた。しかし、毎日歩いているうちに、体が{軽|かる}くなっただけでなく、{季節|きせつ}の変化にも気がつくようになった。電車に乗っていたころは、スマートフォンばかり見ていて、町の木の色が変わったことにも気づかなかった。今では、朝の40分が一日の中で一番好きな時間だ。",
+  "translation": "Since last year, I have made a point of walking to the office. It takes about 40 minutes on foot from my home to the office, so at first I thought it would be hard. However, as I walked every day, not only did my body feel lighter, but I also started to notice the changing seasons. When I was taking the train, I only looked at my smartphone and didn't even notice the trees in town changing color. Now, those 40 minutes in the morning are my favorite time of the day."
+ },
+ {
+  "id": "n3-t1-rsa1-p4",
+  "level": "N3",
+  "type": "reading-short",
+  "text": "田中さん\n2時ごろ、みどり商事の山本さんから電話がありました。明日の会議の時間を、10時から11時に変更してほしいそうです。山本さんは今日は5時まで会社にいるそうなので、それまでに電話をしてください。11時が無理な場合は、ほかの時間を相談したいとのことです。11時でよければ、会議室の予約は私が直しておきます。\n4月10日　2時15分　小川",
+  "translation": "Mr./Ms. Tanaka, around 2 o'clock there was a call from Mr./Ms. Yamamoto of Midori Trading. They would like to change the time of tomorrow's meeting from 10 to 11. Yamamoto will be at the office until 5 today, so please call before then. If 11 is not possible, they would like to discuss another time. If 11 is fine, I will change the meeting room booking. April 10, 2:15, Ogawa"
+ },
+ {
+  "id": "n3-t1-rma1-p1",
+  "level": "N3",
+  "type": "reading-mid",
+  "text": "私は毎晩、寝る前に日記を書くことにしている。始めたのは三年前、仕事が忙しくて、一日があっという間に終わってしまう気がしていたころだ。\n\n最初はスマートフォンに書いていたが、なかなか続かなかった。画面を開くと、ついニュースや友達のメッセージを見てしまい、気がつくと三十分も過ぎていたからだ。そこで、小さなノートとペンを買って、手で書くことにした。\n\n手で書くのは時間がかかるし、字もあまりきれいではない。しかし、ゆっくり書いているうちに、その日にあったことを落ち着いて思い出せるようになった。「昼ご飯がおいしかった」「{同僚|どうりょう}に手伝ってもらった」など、小さなことばかりだが、書いてみると、思っていたより良い一日だったと感じることが多い。\n\n最近、昔のノートを読み返してみた。そのころ心配していたことのほとんどは、今ではもう覚えていなかった。日記は、私にとって、その日をきちんと終わらせるための大切な時間なのだと思う。",
+  "translation": "Every night before going to bed, I make a point of writing in my diary. I started three years ago, around the time when work was so busy that I felt each day was over in the blink of an eye.\n\nAt first I wrote on my smartphone, but I couldn't keep it up. Whenever I opened the screen, I would end up looking at the news or messages from friends, and before I knew it thirty minutes had gone by. So I bought a small notebook and a pen and decided to write by hand.\n\nWriting by hand takes time, and my handwriting isn't very neat. But while writing slowly, I became able to calmly recall what had happened that day. They are only small things, like \"lunch was delicious\" or \"a colleague helped me,\" but when I write them down, I often feel that it was a better day than I had thought.\n\nRecently I read back through my old notebooks. I no longer remembered most of the things I had been worried about at the time. I think that for me, the diary is an important time for properly bringing the day to a close."
+ },
+ {
+  "id": "n3-t1-rma2-p1",
+  "level": "N3",
+  "type": "reading-mid",
+  "text": "私の会社は、ビルの八{階|かい}にある。以前は毎朝エレベーターを使っていたが、半年前から、なるべく{階段|かいだん}を使うことにしている。\n\nきっかけは、会社の{健康診断|けんこうしんだん}だった。医者に「もう少し体を動かしたほうがいいですね」と言われたのだ。しかし、仕事が終わるのは毎日夜遅く、ジムに通う時間はない。そこで、通勤の中でできることを考えて、{階段|かいだん}を選んだ。\n\n最初の一週間は本当に苦しかった。五{階|かい}あたりで足が重くなり、八{階|かい}に着くころには息が切れて、しばらく席で休まなければならなかった。それでも続けているうちに、少しずつ楽になり、今では途中で止まらずに上れるようになった。\n\n意外だったのは、朝の{階段|かいだん}で、ほかの部の人とよく会うようになったことだ。エレベーターの中ではだれも話さないが、{階段|かいだん}では「おはようございます」「今日も上りますね」と、自然に声をかけ合う。そこから仕事の相談が始まったこともある。\n\n体のためだけに始めたことが、思っていなかった形で毎日を楽しくしてくれている。",
+  "translation": "My company is on the eighth floor of a building. I used to take the elevator every morning, but for the past six months I have made a point of using the stairs as much as possible.\n\nIt started with a health checkup at work. The doctor told me, \"You should move your body a little more.\" But I finish work late every night, and I have no time to go to a gym. So I thought about what I could do during my commute, and chose the stairs.\n\nThe first week was really hard. Around the fifth floor my legs would get heavy, and by the time I reached the eighth floor I was out of breath and had to rest at my desk for a while. Even so, as I kept it up it gradually got easier, and now I can climb all the way without stopping.\n\nWhat surprised me was that I started running into people from other departments on the stairs in the morning. In the elevator nobody talks, but on the stairs we naturally greet each other with \"Good morning\" or \"Climbing again today, I see.\" Once, a work discussion even started from there.\n\nSomething I began only for my body has made every day more enjoyable in a way I never expected."
+ },
+ {
+  "id": "n3-t1-rla1-p1",
+  "level": "N3",
+  "type": "reading-long",
+  "text": "去年の冬、五年間使っていた電気ストーブが急に動かなくなった。私はすぐに新しいものを買うつもりで、インターネットで値段を調べ始めた。ところが、それを見た祖母が「買う前に、駅前の店に持っていってごらん」と言った。その店は、古い電気{製品|せいひん}を直してくれる小さな店だという。\n\n正直に言うと、私はあまり期待していなかった。今の電気{製品|せいひん}は{複雑|ふくざつ}で、直すより新しいものを買ったほうが安いと聞いていたからだ。しかし、店の主人は十分ほどストーブを調べると、「中の部品が一つ古くなっているだけですよ」と言って、その場で直してくれた。料金は新しいストーブの値段の五分の一ぐらいだった。\n\n{驚いた|おどろいた}私に、主人はこう話してくれた。「最近のお客さんは、{壊れたら|こわれたら}すぐ{捨てて|すてて}しまう人が多いんです。でも、物というのは、大事に使えば使うほど、その人に合ってくるものなんですよ。」\n\nそれ以来、私は物が{壊れて|こわれて}も、すぐに{捨てる|すてる}ことはしなくなった。まず自分で原因を調べ、自分で直すのが無理なら店に相談するようにしている。もちろん、全部の物が直せるわけではない。直すのに時間がかかって、不便な思いをすることもある。それでも、一度直した物には、新しい物にはない愛着がわく。あのストーブは、今年の冬もまだ元気に部屋を{暖めて|あたためて}くれている。",
+  "translation": "Last winter, the electric heater I had used for five years suddenly stopped working. I planned to buy a new one right away and started checking prices online. However, my grandmother saw this and said, \"Before you buy one, try taking it to the shop in front of the station.\" Apparently it was a small shop that repairs old electrical appliances.\n\nTo be honest, I didn't expect much. I had heard that today's appliances are complicated and that buying a new one is cheaper than repairing. But the owner examined the heater for about ten minutes, said, \"Just one part inside has worn out,\" and fixed it on the spot. The fee was about one fifth of the price of a new heater.\n\nWhen I was surprised, the owner told me: \"These days many customers throw things away as soon as they break. But things become more suited to a person the more carefully they are used.\"\n\nSince then, I no longer throw things away right away when they break. First I look into the cause myself, and if I can't fix it myself, I consult a shop. Of course, not everything can be repaired. Sometimes repairs take time and I have to put up with inconvenience. Even so, I feel an attachment to things I have repaired that new things don't have. That heater is still warming my room well this winter too."
+ },
+ {
+  "id": "n3-t1-isa1-p1",
+  "level": "N3",
+  "type": "info-search",
+  "text": "みどり市民センター　秋の教室　参加者{募集|ぼしゅう}\n\n① 親子料理教室\n　毎週土曜日　10:00〜12:00（全4回）\n　参加できる人：小学生とその親\n　参加費：1組3,000円（{材料|ざいりょう}代を{含|ふく}みます）\n\n② 英会話（初めての方向け）\n　毎週水曜日　19:00〜20:30（全8回）\n　参加できる人：中学生以上\n　参加費：4,000円\n\n③ 書道教室\n　毎週日曜日　14:00〜16:00（全4回）\n　参加できる人：中学生以上\n　参加費：2,000円（{筆|ふで}と紙は貸し出します）\n\n④ 写真教室\n　毎週火曜日　10:00〜12:00（全6回）\n　参加できる人：18歳以上\n　参加費：3,500円（カメラは自分で持ってきてください）\n\n⑤ ヨガ教室\n　毎週金曜日　19:00〜20:00（全6回）\n　参加できる人：16歳以上\n　参加費：3,000円\n\n※申し込みは10月15日（金）までに、センターの窓口か電話でお願いします。\n※どの教室も、人数がいっぱいになったら受付を終わります。",
+  "translation": "Midori Civic Center: Autumn Classes - Participants Wanted\n\n(1) Parent-and-Child Cooking Class\nEvery Saturday, 10:00-12:00 (4 sessions)\nWho can join: elementary school children and their parent\nFee: 3,000 yen per pair (ingredients included)\n\n(2) English Conversation (for beginners)\nEvery Wednesday, 19:00-20:30 (8 sessions)\nWho can join: junior high school students and older\nFee: 4,000 yen\n\n(3) Calligraphy Class\nEvery Sunday, 14:00-16:00 (4 sessions)\nWho can join: junior high school students and older\nFee: 2,000 yen (brushes and paper are lent)\n\n(4) Photography Class\nEvery Tuesday, 10:00-12:00 (6 sessions)\nWho can join: 18 and older\nFee: 3,500 yen (please bring your own camera)\n\n(5) Yoga Class\nEvery Friday, 19:00-20:00 (6 sessions)\nWho can join: 16 and older\nFee: 3,000 yen\n\n* Please apply at the center's counter or by phone by Friday, October 15.\n* Each class stops taking applications once it is full."
+ }
+]

@@ -1,0 +1,1014 @@
+[
+ {
+  "id": "n2-t1-wfa1-1",
+  "level": "N2",
+  "type": "word-formation",
+  "stem": "この書類はまだ（　）記入の部分があるので、{提出|ていしゅつ}できません。",
+  "options": [
+   "不",
+   "未",
+   "非",
+   "反"
+  ],
+  "answer": 1,
+  "explanation": "未 means 'not yet', so 未記入 is 'not yet filled in', which fits a form that cannot be submitted. 不記入, 非記入 and 反記入 are not words.",
+  "translation": "This document still has parts that are not filled in, so it cannot be submitted.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-wfa1-2",
+  "level": "N2",
+  "type": "word-formation",
+  "stem": "日本では少子（　）が進み、学校の数が減っている。",
+  "options": [
+   "性",
+   "的",
+   "感",
+   "化"
+  ],
+  "answer": 3,
+  "explanation": "化 turns a noun into a process, and 少子化 means 'declining birth rate', which matches 進む. 少子性, 少子的 and 少子感 are not real words.",
+  "translation": "In Japan the birth rate keeps declining, and the number of schools is decreasing.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-wfa1-3",
+  "level": "N2",
+  "type": "word-formation",
+  "stem": "彼の意見は（　）現実的で、実行するのは難しいだろう。",
+  "options": [
+   "非",
+   "未",
+   "無",
+   "副"
+  ],
+  "answer": 0,
+  "explanation": "非 negates adjectival words like 現実的, giving 非現実的 'unrealistic', which explains why it would be hard to carry out. 未現実的, 無現実的 and 副現実的 are not words.",
+  "translation": "His idea is unrealistic, so it will probably be difficult to carry out.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-wfa1-4",
+  "level": "N2",
+  "type": "word-formation",
+  "stem": "この美術館の入場（　）は、大人千円、子ども五百円です。",
+  "options": [
+   "費",
+   "金",
+   "料",
+   "額"
+  ],
+  "answer": 2,
+  "explanation": "料 is the suffix for a fee paid for a service, so 入場料 means 'admission fee'. 入場費, 入場金 and 入場額 are not used; 費 goes with words like 交通費, not with 入場.",
+  "translation": "Admission to this art museum is 1,000 yen for adults and 500 yen for children.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-wfa1-5",
+  "level": "N2",
+  "type": "word-formation",
+  "stem": "私たちのチームは、今年の大会で（　）優勝した。",
+  "options": [
+   "前",
+   "副",
+   "次",
+   "準"
+  ],
+  "answer": 3,
+  "explanation": "準 means 'semi-' or 'next to', and 準優勝 means 'runner-up, second place'. 前優勝, 副優勝 and 次優勝 are not words.",
+  "translation": "Our team finished as runner-up in this year's tournament.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-pa1-1",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "会議の資料は[[あらかじめ]]用意しておいてください。",
+  "options": [
+   "すぐに",
+   "必ず",
+   "前もって",
+   "全部"
+  ],
+  "answer": 2,
+  "explanation": "あらかじめ means 'in advance, beforehand', which is the same as 前もって. すぐに means 'right away', 必ず means 'without fail', and 全部 means 'all of it', so none of them mean 'beforehand'.",
+  "translation": "Please prepare the meeting materials in advance.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-pa1-2",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "彼の説明は[[あいまいで]]、よくわからなかった。",
+  "options": [
+   "はっきりしなくて",
+   "長すぎて",
+   "早口で",
+   "難しくて"
+  ],
+  "answer": 0,
+  "explanation": "あいまい means 'vague, unclear', so はっきりしなくて ('not clear') is the closest. 長すぎて ('too long'), 早口で ('speaking fast') and 難しくて ('difficult') give other reasons for not understanding, but none of them mean 'vague'.",
+  "translation": "His explanation was vague, and I couldn't really understand it.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-pa1-3",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "駅前の店のパンは、[[たちまち]]売り切れてしまった。",
+  "options": [
+   "少しずつ",
+   "あっという間に",
+   "やっと",
+   "思ったとおり"
+  ],
+  "answer": 1,
+  "explanation": "たちまち means 'instantly, in no time', the same as あっという間に. 少しずつ means 'little by little', やっと means 'finally (after a long wait)', and 思ったとおり means 'as expected', so they change the meaning.",
+  "translation": "The bread at the shop in front of the station sold out in no time.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-pa1-4",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "気が進まなかったが、この仕事は[[やむをえず]]引き受けた。",
+  "options": [
+   "喜んで",
+   "急いで",
+   "迷いながら",
+   "仕方なく"
+  ],
+  "answer": 3,
+  "explanation": "やむをえず means 'unavoidably, because there was no other choice', which is 仕方なく. 喜んで means 'gladly', 急いで means 'in a hurry', and 迷いながら means 'while hesitating', which does not say there was no choice.",
+  "translation": "I didn't feel like it, but I reluctantly accepted this job because there was no other option.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-pa1-5",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "待ち合わせの間、田中さんは[[しきりに]]時計を見ていた。",
+  "options": [
+   "ときどき",
+   "何度も",
+   "一度だけ",
+   "じっと"
+  ],
+  "answer": 1,
+  "explanation": "しきりに means 'frequently, over and over', so 何度も ('many times') is the closest. ときどき means only 'sometimes', 一度だけ means 'just once', and じっと means 'steadily, without moving', which describes one long look rather than repeated ones.",
+  "translation": "While waiting to meet someone, Tanaka kept looking at the clock again and again.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-ua1-1",
+  "level": "N2",
+  "type": "usage",
+  "stem": "ぎっしり",
+  "options": [
+   "試験に合格したと聞いて、彼はぎっしり喜んだ。",
+   "引っ越しの箱の中には、古い本がぎっしり詰まっていた。",
+   "一日中歩き回ったので、足がぎっしり疲れてしまった。",
+   "朝から外では雨がぎっしり降っている。"
+  ],
+  "answer": 1,
+  "explanation": "ぎっしり describes something packed tightly with no gaps, so 'books packed tightly in a box' is correct. It cannot describe the degree of joy (option 1), tiredness (option 3), or heavy rain (option 4, which would be ざあざあ or 激しく).",
+  "translation": "ぎっしり (tightly packed; crammed)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-ua1-2",
+  "level": "N2",
+  "type": "usage",
+  "stem": "せっかく",
+  "options": [
+   "今日は朝寝坊したので、せっかく電車に乗り遅れた。",
+   "彼はせっかく時間を守らない人なので、みんな困っている。",
+   "試験に落ちたのは、せっかく勉強しなかったからだ。",
+   "せっかく作った料理なのに、誰も食べてくれなかった。"
+  ],
+  "answer": 3,
+  "explanation": "せっかく expresses that effort was made or a valuable chance existed, often followed by disappointment, so 'the meal I went to the trouble of making' is correct. Options 1, 2 and 3 use it as if it meant 'as a result', 'always' or 'at all', none of which it means.",
+  "translation": "せっかく (with much trouble; taking the trouble to)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-ua1-3",
+  "level": "N2",
+  "type": "usage",
+  "stem": "治す",
+  "options": [
+   "{風邪|かぜ}を早く治すために、今日は早めに寝ることにした。",
+   "{故障|こしょう}した自転車を、父が一日かけて治してくれた。",
+   "作文の中の間違った漢字を、先生に治してもらった。",
+   "止まっていた時計の時間を、正しく治しておいた。"
+  ],
+  "answer": 0,
+  "explanation": "治す means to cure an illness or injury, so curing a cold is correct. Repairing a bicycle (option 2), correcting mistaken kanji (option 3) and resetting a clock (option 4) all require 直す instead.",
+  "translation": "治す (to cure; to heal)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-ua1-4",
+  "level": "N2",
+  "type": "usage",
+  "stem": "見学",
+  "options": [
+   "毎晩、寝る前にテレビのニュースを見学している。",
+   "週末は友達の家で、一緒に映画を見学した。",
+   "学校の行事で、近くにある食品の工場を見学した。",
+   "毎朝、窓から外の天気を見学してから出かける。"
+  ],
+  "answer": 2,
+  "explanation": "見学 means visiting a place such as a factory or facility to observe and learn, so a school trip to a factory is correct. Watching the news (option 1) or a film (option 2) uses 見る, and checking the weather (option 4) uses 確かめる or 見る.",
+  "translation": "見学 (observational visit; field trip; tour)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-ua1-5",
+  "level": "N2",
+  "type": "usage",
+  "stem": "募集",
+  "options": [
+   "夏休みに家族と海へ行って、きれいな貝を募集した。",
+   "駅前のパン屋では、今アルバイトを募集している。",
+   "道に落ちていたごみを募集して、ごみ箱に捨てた。",
+   "毎月の給料から少しずつお金を募集している。"
+  ],
+  "answer": 1,
+  "explanation": "募集 means publicly recruiting people or inviting applications, so a shop recruiting part-time workers is correct. Gathering shells (option 1) or rubbish (option 3) uses 集める or 拾う, and saving money (option 4) uses 貯める or 貯金する.",
+  "translation": "募集 (recruiting; inviting applications)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-1",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "新しいシステムの導入（　）、社員向けの説明会が開かれた。",
+  "options": [
+   "に際して",
+   "に反して",
+   "に限って",
+   "にかけては"
+  ],
+  "answer": 0,
+  "explanation": "に際して means 'on the occasion of', fitting a briefing held when a new system is introduced. に反して (contrary to), に限って (of all times) and にかけては (when it comes to skill) do not make sense here.",
+  "translation": "On the occasion of introducing the new system, a briefing session was held for employees.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-2",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "台風で講師が来られなくなったため、今日の講座は中止（　）。",
+  "options": [
+   "せずにはいられなかった",
+   "せざるを得なかった",
+   "しっぱなしだった",
+   "するものか"
+  ],
+  "answer": 1,
+  "explanation": "せざるを得なかった means 'had no choice but to', matching a cancellation forced by the typhoon. せずにはいられなかった expresses an emotional urge, しっぱなし means leaving something as is, and するものか is a strong refusal, none of which fit.",
+  "translation": "Because the lecturer could not come due to the typhoon, today's course had no choice but to be cancelled.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-3",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "わたしが余計なことを言った（　）、二人はけんかを始めてしまった。",
+  "options": [
+   "くせに",
+   "どころか",
+   "ばかりに",
+   "ものの"
+  ],
+  "answer": 2,
+  "explanation": "ばかりに means 'simply because', used when one cause leads to a bad result, as here. くせに criticizes someone's behaviour, どころか means 'far from', and ものの means 'although', so they do not link cause and result.",
+  "translation": "Just because I said something unnecessary, the two of them started arguing.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-4",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "彼は十年間、一日も休む（　）練習を続けてきた。",
+  "options": [
+   "ことから",
+   "ことに",
+   "ことだから",
+   "ことなく"
+  ],
+  "answer": 3,
+  "explanation": "ことなく means 'without (doing)', so the sentence says he practiced without missing a single day. ことから gives a reason, ことに expresses the speaker's emotion, and ことだから means 'knowing someone', none of which fit after 休む here.",
+  "translation": "For ten years, he has kept practicing without taking even a single day off.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-5",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "実際に使ってみ（　）、この機械が便利かどうかはわからない。",
+  "options": [
+   "ないことには",
+   "ないばかりか",
+   "ないものの",
+   "ないどころか"
+  ],
+  "answer": 0,
+  "explanation": "ないことには means 'unless', followed by a statement that something cannot happen, as with わからない. ないばかりか (not only not), ないものの (although not) and ないどころか (far from not) do not create the needed condition.",
+  "translation": "Unless you actually try using it, you can't tell whether this machine is convenient.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-6",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "この店では、客の好み（　）料理の味を変えてくれる。",
+  "options": [
+   "にわたって",
+   "に{応|おう}じて",
+   "に先立って",
+   "に反して"
+  ],
+  "answer": 1,
+  "explanation": "に応じて means 'according to', so the restaurant adjusts the flavour according to each customer's taste. にわたって refers to a span of time or area, に先立って means 'prior to', and に反して means 'contrary to', which clashes with the kind てくれる.",
+  "translation": "At this restaurant, they adjust the flavour of the food according to the customer's preferences.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-7",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "こんなに難しい問題、一時間で解け（　）よ。",
+  "options": [
+   "っぱなしだ",
+   "かねる",
+   "っこない",
+   "がたい"
+  ],
+  "answer": 2,
+  "explanation": "っこない attaches to a verb stem and means 'there's no way', so 解けっこない means it can't possibly be solved. っぱなし means leaving something as is, and かねる and がたい attach to the masu-stem 解き, not 解け, and do not fit this casual statement.",
+  "translation": "There's no way anyone can solve such a difficult problem in one hour.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-8",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "さんざん迷った（　）、{結局|けっきょく}その服は買わなかった。",
+  "options": [
+   "以上",
+   "{次第|しだい}",
+   "とたん",
+   "あげく"
+  ],
+  "answer": 3,
+  "explanation": "あげく means 'after a long, troublesome process, in the end', matching さんざん迷った and 結局. 以上 (since) needs a conclusion of duty or judgment, 次第 (as soon as) attaches to the masu-stem, and とたん (the moment) does not fit a long period of hesitation.",
+  "translation": "After hesitating for a long time, in the end I didn't buy those clothes.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-9",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "旅行に行くときは、荷物は少ない（　）。",
+  "options": [
+   "に越したことはない",
+   "にほかならない",
+   "に過ぎない",
+   "に相違ない"
+  ],
+  "answer": 0,
+  "explanation": "に越したことはない means 'it's best to', giving advice that less luggage is better. にほかならない (nothing other than), に過ぎない (merely) and に相違ない (must surely be) state facts or guesses rather than advice.",
+  "translation": "When you go on a trip, it's best to have as little luggage as possible.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-10",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "新しい駅の場所（　）、住民の間で意見が分かれている。",
+  "options": [
+   "をこめて",
+   "をめぐって",
+   "を問わず",
+   "を通じて"
+  ],
+  "answer": 1,
+  "explanation": "をめぐって means 'over' an issue of dispute, which fits opinions being divided about the station's location. をこめて (with feeling), を問わず (regardless of) and を通じて (through) do not express the topic of a disagreement.",
+  "translation": "Residents are divided in their opinions over the location of the new station.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-11",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "さすが十年もフランスに住んでいた（　）、彼女のフランス語は本当に自然だ。",
+  "options": [
+   "くせに",
+   "にもかかわらず",
+   "だけあって",
+   "わりに"
+  ],
+  "answer": 2,
+  "explanation": "だけあって means 'as might be expected since', matching さすが and her natural French. にもかかわらず and わりに express a result contrary to expectation, and くせに carries criticism, so none fit this praise.",
+  "translation": "As you'd expect from someone who lived in France for ten years, her French is really natural.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-gfa1-12",
+  "level": "N2",
+  "type": "grammar-form",
+  "stem": "引き受けた（　）、最後まで責任を持ってやるつもりだ。",
+  "options": [
+   "からして",
+   "ところで",
+   "ばかりに",
+   "からには"
+  ],
+  "answer": 3,
+  "explanation": "からには means 'now that (I have done this), I must', which fits taking responsibility after accepting a task. からして means 'judging from', ところで means 'even if (it is useless)', and ばかりに gives a cause of a bad result.",
+  "translation": "Now that I have taken it on, I intend to do it responsibly until the end.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-soa1-1",
+  "level": "N2",
+  "type": "sentence-order",
+  "stem": "新しい制度を ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 聞く必要がある。",
+  "options": [
+   "意見を",
+   "導入する",
+   "社員の",
+   "に際して"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is 新しい制度を導入するに際して社員の意見を聞く必要がある。 に際して follows the plain verb 導入する, and 社員の must modify 意見を, which is the object of 聞く, so 社員の lands in the ★ slot. Putting 意見を or 導入する in the ★ slot breaks the に際して clause or leaves 社員の with nothing to modify.",
+  "translation": "When introducing the new system, it is necessary to listen to the employees' opinions.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-soa1-2",
+  "level": "N2",
+  "type": "sentence-order",
+  "stem": "この機械は、実際に ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ わからない。",
+  "options": [
+   "ことには",
+   "その良さは",
+   "使って",
+   "みない"
+  ],
+  "answer": 0,
+  "explanation": "The correct sentence is この機械は、実際に使ってみないことにはその良さはわからない。 The pattern 〜てみないことには (unless you try) needs 使って → みない → ことには in that order, followed by the subject その良さは of わからない, so ことには is third. その良さは cannot come before the ことには clause because 実際に must directly modify 使って, and 使って or みない in the ★ slot breaks the て+みない sequence.",
+  "translation": "You can't tell how good this machine is unless you actually try using it.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-soa1-3",
+  "level": "N2",
+  "type": "sentence-order",
+  "stem": "このアルバイトは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ でも{応募|おうぼ}できます。",
+  "options": [
+   "だれ",
+   "問わず",
+   "年齢や",
+   "経験を"
+  ],
+  "answer": 1,
+  "explanation": "The correct sentence is このアルバイトは年齢や経験を問わずだれでも応募できます。 年齢や links to 経験を, which is the object of 問わず (regardless of), and だれ must sit directly before でも to make だれでも, so 問わず is third. だれ in the ★ slot would separate it from でも, and 年齢や or 経験を there would leave 問わず without its object.",
+  "translation": "Anyone can apply for this part-time job, regardless of age or experience.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-soa1-4",
+  "level": "N2",
+  "type": "sentence-order",
+  "stem": "外食で高いお金を ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ がましだ。",
+  "options": [
+   "くらいなら",
+   "ほう",
+   "払う",
+   "自分で作った"
+  ],
+  "answer": 3,
+  "explanation": "The correct sentence is 外食で高いお金を払うくらいなら自分で作ったほうがましだ。 お金を needs its verb 払う, くらいなら follows the plain verb, and 自分で作った must come right before ほう to form 〜たほうがましだ, so 自分で作った is third. ほう must be last before が, and 払う or くらいなら cannot come after the comparison they introduce.",
+  "translation": "Rather than paying a lot of money to eat out, it would be better to make it yourself.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-soa1-5",
+  "level": "N2",
+  "type": "sentence-order",
+  "stem": "料理の ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ いないだろう。",
+  "options": [
+   "かけては",
+   "勝てる人は",
+   "彼女に",
+   "腕に"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is 料理の腕にかけては彼女に勝てる人はいないだろう。 料理の modifies 腕に, which forms 腕にかけては (when it comes to skill), and then 彼女に勝てる人は is the subject of いない, so 彼女に is third. 勝てる人は must be last before いない, and 腕に or かけては cannot be third because 料理の must attach directly to 腕.",
+  "translation": "When it comes to cooking skill, there is probably nobody who can beat her.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tga1-1",
+  "level": "N2",
+  "type": "text-grammar",
+  "stem": "（1）",
+  "options": [
+   "めぐって",
+   "きっかけに",
+   "除いて",
+   "こめて"
+  ],
+  "answer": 1,
+  "explanation": "〜をきっかけに means 'prompted by / taking the occasion of', which fits: the health checkup comment led the writer to start something new. めぐって is used for issues of dispute, 除いて means 'except', and こめて means 'putting feeling into', none of which make sense here.",
+  "translation": "Being told I wasn't getting enough exercise at the company health checkup (1), I decided to start something new.",
+  "passageId": "n2-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tga1-2",
+  "level": "N2",
+  "type": "text-grammar",
+  "stem": "（2）",
+  "options": [
+   "ものの",
+   "ところで",
+   "とたんに",
+   "からには"
+  ],
+  "answer": 3,
+  "explanation": "〜からには means 'now that / since (one has done X, one must…)', matching 'since I decided it myself, I can't give up easily'. ものの ('although') and ところで ('even if, it's no use') set up a contrast that contradicts the writer's resolve, and とたんに ('the moment that') describes a sudden event, not a reason.",
+  "translation": "Even so, telling myself that (2) I had decided it myself once, I couldn't give up easily, I left the house every morning.",
+  "passageId": "n2-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tga1-3",
+  "level": "N2",
+  "type": "text-grammar",
+  "stem": "（3）",
+  "options": [
+   "ばかりか",
+   "にしろ",
+   "ものなら",
+   "あまり"
+  ],
+  "answer": 0,
+  "explanation": "〜ばかりか means 'not only… but also', and the following 〜にも気づくようになった shows a second good result added to the first. にしろ ('even if') and ものなら ('if it were possible') make the sentence hypothetical, and あまり ('so much that') would wrongly say the lightness caused the noticing in excess.",
+  "translation": "After about two months, (3) my body felt lighter, I also began to notice how pleasant the morning air is.",
+  "passageId": "n2-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tga1-4",
+  "level": "N2",
+  "type": "text-grammar",
+  "stem": "（4）",
+  "options": [
+   "に反して",
+   "にわたって",
+   "に合わせて",
+   "に際して"
+  ],
+  "answer": 2,
+  "explanation": "〜に合わせて means 'to match / in line with', fitting the idea of adjusting distance and route to the weather and one's condition. に反して ('contrary to'), にわたって ('over a span of'), and に際して ('on the occasion of') do not express adjusting to changing conditions.",
+  "translation": "Recently, I also take care not to overdo it, for example by changing my distance and route (4) the weather and how my body feels that day.",
+  "passageId": "n2-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tga1-5",
+  "level": "N2",
+  "type": "text-grammar",
+  "stem": "（5）",
+  "options": [
+   "ならない",
+   "いられない",
+   "たまらない",
+   "かぎらない"
+  ],
+  "answer": 1,
+  "explanation": "〜ずにはいられない means 'can't help doing', expressing that the writer now feels compelled to run. ならない, たまらない and かぎらない do not combine with 〜ずには to form a grammatical expression.",
+  "translation": "Once you have known that good feeling after finishing a run, you (5) running.",
+  "passageId": "n2-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rsa1-1",
+  "level": "N2",
+  "type": "reading-short",
+  "stem": "このお知らせで、居住者に求められていることは何か。",
+  "options": [
+   "{点検|てんけん}の当日、午前9時までに必要な水をためておくこと",
+   "断水の前日までに、必要な分の水を用意しておくこと",
+   "{点検|てんけん}が終わったら、管理事務所に水の{状態|じょうたい}を知らせること",
+   "{点検|てんけん}が終わったあと、しばらく水道を使わないでおくこと"
+  ],
+  "answer": 1,
+  "explanation": "The notice asks residents to store the water they need by the day before (前日までに), so option 2 is correct. Option 1 is wrong because the deadline is the previous day, not 9 a.m. on the day; option 3 is never requested; and option 4 is wrong because residents should run the water for a while before using it, not avoid using it.",
+  "translation": "What does this notice ask residents to do?",
+  "passageId": "n2-t1-rsa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rsa1-2",
+  "level": "N2",
+  "type": "reading-short",
+  "stem": "このメールを読んだ人は、まず何をしなければならないか。",
+  "options": [
+   "月曜日の会議に向けて、{第三会議室|だいさんかいぎしつ}を予約する",
+   "水曜日の会議の進め方を考えて、山本さんに{提案|ていあん}する",
+   "部長に、{出張|しゅっちょう}から戻る日を確認する",
+   "火曜日の正午までに、アイデアをまとめた資料を山本さんに送る"
+  ],
+  "answer": 3,
+  "explanation": "Readers must first email a one-page summary of their ideas to Yamamoto by Tuesday noon, so option 4 is correct. Option 1 is wrong because the meeting moved to Wednesday and the room is already set; option 2 is wrong because Yamamoto himself will decide how the meeting runs; option 3 is not asked of anyone.",
+  "translation": "What must the people who read this email do first?",
+  "passageId": "n2-t1-rsa1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rsa1-3",
+  "level": "N2",
+  "type": "reading-short",
+  "stem": "筆者は、手書きの手紙の良さはどこにあると考えているか。",
+  "options": [
+   "相手のために時間をかけて書いたことが伝わる点",
+   "メールよりも、字の美しさで気持ちを表せる点",
+   "書き直しができないので、言葉をよく選んで書く点",
+   "昔の友人との関係を、もう一度深められる点"
+  ],
+  "answer": 0,
+  "explanation": "The writer concludes that the value of a handwritten letter lies in the time spent on it, which the reader can feel, so option 1 is correct. Option 2 contradicts the writer, who says the value is not the beauty of the writing; options 3 and 4 are never given as the reason.",
+  "translation": "What does the writer think is good about handwritten letters?",
+  "passageId": "n2-t1-rsa1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rsa1-4",
+  "level": "N2",
+  "type": "reading-short",
+  "stem": "このお知らせの内容と合っているものはどれか。",
+  "options": [
+   "来月から、休館日にはCDやDVDも{返却|へんきゃく}ポストで返せるようになる。",
+   "ほかの図書館から取り寄せた本は、{返却|へんきゃく}ポストに入れてもよい。",
+   "{返却|へんきゃく}ポストに入れた本は、次に図書館が開く日に{返却|へんきゃく}の手続きがされる。",
+   "{返却|へんきゃく}ポストは、図書館が開いている時間だけ使うことができる。"
+  ],
+  "answer": 2,
+  "explanation": "The notice says books in the drop are checked in on the next opening day, so option 3 is correct. CDs and DVDs must go to the counter (1), books from other libraries can only be returned at the counter (2), and the drop exists precisely so that books can be returned on closed days (4).",
+  "translation": "Which of the following matches the content of this notice?",
+  "passageId": "n2-t1-rsa1-p4",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rsa1-5",
+  "level": "N2",
+  "type": "reading-short",
+  "stem": "筆者が最も言いたいことは何か。",
+  "options": [
+   "新しい仕事は、完全に理解してから始めるべきだ。",
+   "小さな失敗をおそれず、まず自分でやってみることが大切だ。",
+   "経験を積むために、わざと失敗してみるとよい。",
+   "準備に十分時間をかければ、失敗は防ぐことができる。"
+  ],
+  "answer": 1,
+  "explanation": "The writer argues that being afraid of small failures stops you from learning, so you should try things yourself first; option 2 is correct. Option 1 is the opposite of the writer's approach, option 3 is explicitly denied (わざと大きな失敗をするわけではない), and option 4 contradicts the warning about over-preparing.",
+  "translation": "What does the writer most want to say?",
+  "passageId": "n2-t1-rsa1-p5",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-1",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "筆者にとって料理が「重荷」になっていったのはなぜか。",
+  "options": [
+   "料理の腕が店でなかなか認められなかったから",
+   "客の好みや時間に合わせなければならず、自由に作れなくなったから",
+   "友人を家に招いて料理を作る時間がなくなったから",
+   "毎日同じ料理ばかり作らなければならなかったから"
+  ],
+  "answer": 1,
+  "explanation": "The writer says they had to match customers' tastes and cook dozens of servings within a set time, so the joy of cooking freely disappeared. Their skill was in fact recognized (1), and the passage never mentions losing time for friends (3) or making the same dish every day (4).",
+  "translation": "Why did cooking gradually become a \"burden\" for the writer?",
+  "passageId": "n2-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-2",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "筆者の考えに合うものはどれか。",
+  "options": [
+   "好きなことを仕事にすれば、どんな努力も楽しみに変わる。",
+   "好きなことを仕事にするのは間違いなので、やめるべきだ。",
+   "料理を仕事にするなら、まず会社員を経験したほうがいい。",
+   "好きなことをあえて仕事にしないほうが、長く楽しめる場合もある。"
+  ],
+  "answer": 3,
+  "explanation": "The writer concludes that keeping what you love separate from work can let some people enjoy both for longer. Option 1 is the popular view the writer doubts, option 2 contradicts the line saying it is not bad to make a hobby your job, and option 3 is never suggested.",
+  "translation": "Which of the following matches the writer's view?",
+  "passageId": "n2-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-3",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "店を辞めたあと、筆者にはどのような変化があったか。",
+  "options": [
+   "人のために料理をすることが、また楽しく感じられるようになった。",
+   "料理をすることがすっかり{嫌|きら}いになってしまった。",
+   "自分で新しいレストランを開く準備を始めた。",
+   "会社の仕事が忙しく、料理をする時間がなくなった。"
+  ],
+  "answer": 0,
+  "explanation": "The writer says that cooking for family and friends on weekends has become enjoyable again, as it used to be. This rules out options 2 and 4, and opening a new restaurant (3) is never mentioned.",
+  "translation": "What change happened to the writer after quitting the restaurant?",
+  "passageId": "n2-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-4",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "筆者が「少し考えさせられた」のはなぜか。",
+  "options": [
+   "{甥|おい}が調べて読み上げた答えが間違っていたから",
+   "{甥|おい}がスマートフォンの使い方をよく知らなかったから",
+   "{甥|おい}が自分で考えようとせず、すぐに調べた答えを読み上げたから",
+   "{甥|おい}が空について筆者よりも{詳|くわ}しく知っていたから"
+  ],
+  "answer": 2,
+  "explanation": "The nephew took out his smartphone without thinking at all and read out the answer, while the writer wanted to hear his own idea. The answer was actually correct (1), he used the phone easily (2), and nothing suggests he knew more than the writer (4).",
+  "translation": "Why was the writer \"made to think a little\"?",
+  "passageId": "n2-t1-rma1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-5",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "調べる前に考える時間には「それなりの意味がある」とあるが、筆者がそう考えるのはなぜか。",
+  "options": [
+   "自分で答えを探そうとした経験があると、調べた答えをより深く理解できるから",
+   "自分で考えた答えのほうが、調べた答えよりも正しいことが多いから",
+   "スマートフォンで調べた答えは、信用できないことが多いから",
+   "先に考えておけば、調べる時間を短くすることができるから"
+  ],
+  "answer": 0,
+  "explanation": "The writer says that only after trying to find the answer yourself can you deeply understand the answer you look up. The writer admits one's own idea may be wrong (2), says the looked-up answer was correct (3), and never mentions saving search time (4).",
+  "translation": "The writer says the time spent thinking before looking things up has \"a certain meaning.\" Why does the writer think so?",
+  "passageId": "n2-t1-rma1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-6",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "この文章で筆者が最も言いたいことは何か。",
+  "options": [
+   "子どもにはスマートフォンを使わせないほうがいい。",
+   "調べる前に、少しでも自分で考えてみる習慣を持つことが大切だ。",
+   "わからないことは、すぐに調べて正しい答えを知るべきだ。",
+   "間違った考えを持たないように、何でもすぐに調べたほうがいい。"
+  ],
+  "answer": 1,
+  "explanation": "The writer's closing point is the wish to stop and think for a moment before looking something up. The writer says they do not mean to forbid convenient tools (1), and options 3 and 4 recommend exactly the instant searching the writer questions.",
+  "translation": "What does the writer most want to say in this passage?",
+  "passageId": "n2-t1-rma1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-7",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "会議の時間を短くしたあと、会議の質が上がったのはなぜか。",
+  "options": [
+   "会議に参加する人の数を少なくしたから",
+   "一回の会議で話し合う問題を一つにしぼったから",
+   "時間を短くした分、会議の回数を増やしたから",
+   "参加者が前もって準備をしてから会議に出るようになったから"
+  ],
+  "answer": 3,
+  "explanation": "Because time was limited, participants began reading materials beforehand and organizing their opinions before attending. The passage says nothing about fewer participants (1), limiting meetings to one issue (2), or holding more meetings (3).",
+  "translation": "Why did the quality of the meetings improve after they were shortened?",
+  "passageId": "n2-t1-rma1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-8",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "「時間の長さと内容の濃さは必ずしも比例しない」とはどういう意味か。",
+  "options": [
+   "会議の時間が長ければ長いほど、内容は濃くなる。",
+   "会議の時間が短いと、内容は必ず薄くなってしまう。",
+   "会議の時間が長いからといって、内容が濃いとは限らない。",
+   "会議の内容が濃いと、時間はいつも長くかかる。"
+  ],
+  "answer": 2,
+  "explanation": "\"Not necessarily proportional\" means a longer meeting does not automatically have richer content, which the example of the shortened meetings shows. Options 1 and 4 state the very proportional relationship the writer denies, and option 2 contradicts the finding that short meetings improved.",
+  "translation": "What does \"the length of time and the richness of the content are not necessarily proportional\" mean?",
+  "passageId": "n2-t1-rma1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-rma1-9",
+  "level": "N2",
+  "type": "reading-mid",
+  "stem": "会議について、筆者の考えに合うものはどれか。",
+  "options": [
+   "どんな会議でも、三十分以内に終わらせるべきだ。",
+   "会議で何を決めたいかをはっきりさせたうえで、必要な時間を考えるべきだ。",
+   "会議を短くすれば、どんな問題でも早く解決できる。",
+   "進行役は、会議の前に{結論|けつろん}を決めておくべきだ。"
+  ],
+  "answer": 1,
+  "explanation": "The writer's conclusion is that what matters is to make clear what the meeting should decide and then consider the time needed. The writer explicitly says not every meeting should be shortened (1, 3), and deciding conclusions in advance (4) is never suggested.",
+  "translation": "Regarding meetings, which of the following matches the writer's view?",
+  "passageId": "n2-t1-rma1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-ira1-1",
+  "level": "N2",
+  "type": "integrated-reading",
+  "stem": "AとBのどちらの文章にも述べられていることは何か。",
+  "options": [
+   "アルバイトの経験は、自分に合った仕事を見つけるのに役に立つ。",
+   "学生のアルバイトの多くは、決まった作業をくり返すだけである。",
+   "アルバイトのために{授業|じゅぎょう}や課題がおろそかになるのは望ましくない。",
+   "学生が働かなくても済むように、{奨学金|しょうがくきん}を増やすべきだ。"
+  ],
+  "answer": 2,
+  "explanation": "A says it is a problem if students work so much they cannot attend class, and B describes students dozing in class or failing to finish assignments because of work, so both regard neglecting studies as undesirable. Option 1 appears only in A, option 2 only in B, and option 4 (expanding scholarships) only in B.",
+  "translation": "What is stated in both text A and text B?",
+  "passageId": "n2-t1-ira1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-ira1-2",
+  "level": "N2",
+  "type": "integrated-reading",
+  "stem": "学生のアルバイトについて、AとBはどのような立場をとっているか。",
+  "options": [
+   "Aは{授業|じゅぎょう}よりもアルバイトを優先すべきだと述べ、Bは経済的な理由がない限り働くべきではないと述べている。",
+   "Aは学生が成長する機会として{評価|ひょうか}し、Bは学業への{影響|えいきょう}を心配して、学生を支える仕組みの見直しを求めている。",
+   "Aは働きすぎに注意するよう学生に求め、Bは社会で必要な力が身につく点を高く{評価|ひょうか}している。",
+   "AもBも、アルバイトをするかどうかは学生個人が自分で決めるべき問題だと考えている。"
+  ],
+  "answer": 1,
+  "explanation": "A values part-time work as a chance to develop people skills and discover a suitable career, while B worries about its effect on studies and calls for better support systems such as scholarships. Option 1 is wrong because A never puts work before class and B does not forbid working; option 3 reverses B's view, which doubts that such skills are gained; option 4 contradicts B, which says it should not be treated as an individual matter.",
+  "translation": "What positions do A and B take on students' part-time jobs?",
+  "passageId": "n2-t1-ira1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tra1-1",
+  "level": "N2",
+  "type": "thematic-reading",
+  "stem": "筆者によると、答えがすぐに見つかる生活に慣れることで、失われつつあるものは何か。",
+  "options": [
+   "便利な道具を正しく使いこなす力",
+   "分からない{状態|じょうたい}のまま考え続ける力",
+   "必要な情報をすばやく見つけ出す力",
+   "人に質問して答えを教えてもらう力"
+  ],
+  "answer": 1,
+  "explanation": "The writer says the important thing being lost is the ability to stay in a state of 'not knowing' for a while, i.e. to keep thinking without an answer. Using tools well and finding information quickly are what the smartphone habit strengthens, not what is lost, and asking other people for answers is never presented as something being lost.",
+  "translation": "According to the writer, what is gradually being lost as we get used to a life where answers are found immediately?",
+  "passageId": "n2-t1-tra1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tra1-2",
+  "level": "N2",
+  "type": "thematic-reading",
+  "stem": "筆者が数学の先生の話を取り上げたのはなぜか。",
+  "options": [
+   "人に質問するより自分で調べるほうが早いことを示すため",
+   "難しい問題は一人で解けるまで考えるべきだということを示すため",
+   "答えをすぐに教えない先生のやり方は不親切だということを示すため",
+   "自分で考える時間があったからこそ、説明を深く理解できたことを示すため"
+  ],
+  "answer": 3,
+  "explanation": "The writer could not solve the problem alone, but after a week of thinking understood the explanation easily because he knew where he was stuck, which shows that the thinking time made deep understanding possible. Option 2 is wrong because he never solved it himself and does not claim one must; option 1 is unrelated to the story, and option 3 is wrong because the teacher's method is shown positively.",
+  "translation": "Why does the writer bring up the story about the math teacher?",
+  "passageId": "n2-t1-tra1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-tra1-3",
+  "level": "N2",
+  "type": "thematic-reading",
+  "stem": "この文章で筆者が最も言いたいことは何か。",
+  "options": [
+   "調べる前に自分で考える時間を持ち、考えることまで道具に任せないようにするべきだ。",
+   "答えがすぐに分かる道具は考える力を弱めるので、できるだけ使わないほうがいい。",
+   "分からないことは何でも、調べずに自分の力だけで解決するべきだ。",
+   "答えを得ることよりも、答えを人に分かりやすく説明できることのほうが大切だ。"
+  ],
+  "answer": 0,
+  "explanation": "The writer proposes pausing to predict an answer before looking it up and concludes that we must not leave even the thinking to our tools. Option 2 contradicts 'there is no need to give up convenient tools', option 3 contradicts the paragraph saying some things are better looked up at once, and option 4 talks about explaining to others, which the essay never discusses.",
+  "translation": "What is the writer's main point in this essay?",
+  "passageId": "n2-t1-tra1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-isa1-1",
+  "level": "N2",
+  "type": "info-search",
+  "stem": "会社員の田中さんは、平日も土曜日も仕事がある。一人で参加できて、材料費を含めて3,000円以内の講座に申し込みたい。田中さんの希望に合う講座はどれか。",
+  "options": [
+   "①はじめての和食",
+   "②子どもと作るおやつ",
+   "③働く人のための時短料理",
+   "④{季節|きせつ}の野菜でパン作り"
+  ],
+  "answer": 3,
+  "explanation": "Tanaka can only attend on Sundays, and course 4 is on a Sunday and costs 2,500 yen including ingredients. Course 1 is on Saturdays, course 2 is for an elementary school child with a guardian, not one adult alone, and course 3 is on Wednesdays (and costs well over 3,000 yen).",
+  "translation": "Mr. Tanaka, an office worker, works on weekdays and on Saturdays. He wants to apply for a course he can join on his own that costs 3,000 yen or less including ingredients. Which course matches what he wants?",
+  "passageId": "n2-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-isa1-2",
+  "level": "N2",
+  "type": "info-search",
+  "stem": "山本さんは③の講座に申し込んで、3回とも参加するつもりだ。山本さんが払う金額と、払う時について、正しいものはどれか。",
+  "options": [
+   "3,600円を、10月9日に払う。",
+   "5,100円を、10月9日に払う。",
+   "3,600円を、申し込みのときに払う。",
+   "5,100円を、申し込みのときに払う。"
+  ],
+  "answer": 1,
+  "explanation": "Course 3 costs 3,600 yen plus 500 yen of ingredients for each of the 3 sessions, so 5,100 yen in total, paid at reception on the first day, October 9. Options 1 and 3 leave out the ingredient costs, and options 3 and 4 are wrong because payment is not made when applying.",
+  "translation": "Ms. Yamamoto will apply for course 3 and plans to attend all three sessions. Which is correct about the amount she pays and when she pays it?",
+  "passageId": "n2-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ }
+]

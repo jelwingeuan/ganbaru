@@ -1,0 +1,44 @@
+[
+ {
+  "id": "n4-t1-tga1-p1",
+  "level": "N4",
+  "type": "text-grammar",
+  "text": "先週の土曜日、友だちと二人で山へ行きました。朝早く家を出たので、電車はすいていました。駅から山の上まで二時間ぐらい歩きました。道は思ったよりたいへんで、わたしは何度も休みたくなりました。でも、友だちが「もう少しだよ。がんばろう」と言って（1）。\n山の上は風が強くて、少しさむかったです。（2）、{景色|けしき}がとてもきれいだったので、一時間ぐらいそこにいました。家から持ってきたおにぎりも食べました。外で食べるおにぎりは、家で食べる（3）ずっとおいしかったです。\n今度は秋に、ほかの友だちもいっしょに、また（4）。",
+  "translation": "Last Saturday, my friend and I went to the mountains, just the two of us. We left home early in the morning, so the train was empty. We walked for about two hours from the station to the top of the mountain. The path was harder than I expected, and many times I wanted to rest. But my friend kept saying, \"Just a little more. Let's keep going,\" for me.\nAt the top of the mountain the wind was strong and it was a little cold. However, the view was very beautiful, so we stayed there for about an hour. We also ate the rice balls we had brought from home. Rice balls eaten outdoors tasted much better than ones eaten at home.\nNext time, I'm thinking of going again in autumn, together with my other friends too."
+ },
+ {
+  "id": "n4-t1-rsa1-p1",
+  "level": "N4",
+  "type": "reading-short",
+  "text": "田中さん\n明日の{会議|かいぎ}の時間が{変|か}わりました。午前十時からではなく、午後二時から始めます。{場所|ばしょ}は前と同じで、{三階|さんがい}の{会議室|かいぎしつ}です。{会議|かいぎ}の前に、先週送った{資料|しりょう}を読んでおいてください。{資料|しりょう}がない人は、今日の五時までに私に言ってください。\n山下",
+  "translation": "Mr. Tanaka,\nThe time of tomorrow's meeting has changed. Instead of starting at 10 a.m., it will start at 2 p.m. The place is the same as before: the meeting room on the third floor. Before the meeting, please read the materials I sent last week. Anyone who doesn't have the materials, please tell me by 5 o'clock today.\nYamashita"
+ },
+ {
+  "id": "n4-t1-rsa1-p2",
+  "level": "N4",
+  "type": "reading-short",
+  "text": "みどり町プールのお知らせ\n七月一日から十日まで、工事のため、プールは休みです。十一日からまた使うことができます。また、七月からは、子どもだけでプールに入ることはできません。小学生は、かならず大人といっしょに来てください。それから、夜は九時までやっていますが、プールに入れるのは八時半までです。",
+  "translation": "Notice from Midori Town Pool\nFrom July 1 to July 10, the pool will be closed for construction work. You can use it again from the 11th. Also, from July, children may not enter the pool on their own. Elementary school children must come with an adult. In addition, we are open until 9 p.m., but you can only be in the pool until 8:30."
+ },
+ {
+  "id": "n4-t1-rsa1-p3",
+  "level": "N4",
+  "type": "reading-short",
+  "text": "私は去年から一人で住んでいます。はじめは料理ができなかったので、毎日コンビニのお{弁当|べんとう}を買っていました。でも、お金がかかるし、体にもよくないと思って、料理を習うことにしました。今は週に{三回|さんかい}、自分で夕ご飯を作っています。まだ上手ではありませんが、自分で作った料理は、買ったものよりおいしいと思います。",
+  "translation": "I have been living alone since last year. At first I couldn't cook, so I bought a boxed lunch at the convenience store every day. But I thought it cost a lot of money and wasn't good for my health either, so I decided to learn to cook. Now I make dinner myself three times a week. I'm not good at it yet, but I think food I make myself tastes better than food I buy."
+ },
+ {
+  "id": "n4-t1-rma1-p1",
+  "level": "N4",
+  "type": "reading-mid",
+  "text": "私は去年の春から、毎朝駅まで歩いて行くようにしています。前はバスを使っていましたが、ある日、バスがなかなか来なくて、しかたなく歩いて駅まで行きました。二十分ぐらいかかりましたが、思ったより{大変|たいへん}ではありませんでした。それに、いつもはバスの{窓|まど}から見ている町を、ゆっくり見ることができて、とても楽しかったです。\nその日から、毎朝少し早く家を出て、歩くことにしました。歩き始めてから、いろいろなことに気がつきました。{例|たと}えば、駅の近くに小さいパン屋が新しく開いたことや、{公園|こうえん}の花が{季節|きせつ}によって{変|か}わることです。バスに{乗|の}っていたときは、ぜんぜん知りませんでした。\n雨の日は、今でもバスに{乗|の}ります。でも、天気がいい日は、できるだけ歩くようにしています。歩くようになってから、体の{調子|ちょうし}もよくなったし、夜もよく{寝|ね}られるようになりました。これからも{続|つづ}けていきたいと思います。",
+  "translation": "Since last spring, I have been making a point of walking to the station every morning. I used to take the bus, but one day the bus just would not come, so I had no choice but to walk to the station. It took about twenty minutes, but it was not as hard as I had thought. What's more, I could take my time looking at the town I usually see from the bus window, and it was a lot of fun.\nFrom that day on, I decided to leave home a little earlier every morning and walk. After I started walking, I noticed many things. For example, that a small bakery had newly opened near the station, and that the flowers in the park change with the seasons. When I was riding the bus, I had no idea at all.\nOn rainy days I still take the bus. But on days with good weather, I try to walk as much as possible. Since I started walking, my physical condition has improved, and I have also become able to sleep well at night. I want to keep it up from now on."
+ },
+ {
+  "id": "n4-t1-isa1-p1",
+  "level": "N4",
+  "type": "info-search",
+  "text": "みどり{市|し}スポーツセンター　プールの 料金\n\n　　　　　　　　　　　大人　　子ども（中学生まで）\n午前（9:00～12:00）　400円　　200円\n午後（13:00～17:00）　500円　　250円\n夜　（18:00～21:00）　600円　　子どもは 入れません\n\n・毎週 月曜日は 休みです。\n・65{歳|さい}以上の 方は、大人の 料金の 半分です。\n・水曜日の 夜は、{女性|じょせい}だけが {利用|りよう}できます。\n・プールに 入る ときは、{帽子|ぼうし}を かぶって ください。\n・タオルは 自分で 持って 来て ください。",
+  "translation": "Midori City Sports Center: Pool Prices\n\n                          Adults   Children (up to junior high school)\nMorning (9:00-12:00)      400 yen  200 yen\nAfternoon (13:00-17:00)   500 yen  250 yen\nEvening (18:00-21:00)     600 yen  Children may not enter\n\n- Closed every Monday.\n- People aged 65 and over pay half the adult price.\n- On Wednesday evenings, only women may use the pool.\n- Please wear a swimming cap when you enter the pool.\n- Please bring your own towel."
+ }
+]

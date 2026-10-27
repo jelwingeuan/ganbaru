@@ -1,0 +1,856 @@
+[
+ {
+  "id": "n3-t1-pa1-1",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "きのう駅で[[ばったり]]先生に会いました。",
+  "options": [
+   "約束して",
+   "{久|ひさ}しぶりに",
+   "偶然",
+   "急いで"
+  ],
+  "answer": 2,
+  "explanation": "ばったり describes meeting someone unexpectedly, so 偶然 (by chance) is closest. 約束して means by arrangement, the opposite; 久しぶりに means for the first time in a long while; 急いで means in a hurry.",
+  "translation": "Yesterday I ran into my teacher at the station.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-pa1-2",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "この仕事は朝が早くて、[[きつい]]です。",
+  "options": [
+   "楽",
+   "安全",
+   "つまらない",
+   "大変"
+  ],
+  "answer": 3,
+  "explanation": "きつい here means physically or mentally hard, which matches 大変 (tough, demanding). 楽 means easy, the opposite; 安全 means safe; つまらない means boring, not hard.",
+  "translation": "This job starts early in the morning, so it is tough.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-pa1-3",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "弟は[[しょっちゅう]]かぎをなくしている。",
+  "options": [
+   "よく",
+   "たまに",
+   "最近",
+   "また"
+  ],
+  "answer": 0,
+  "explanation": "しょっちゅう means very often, so よく (often) is closest. たまに means only occasionally; 最近 means recently, about time rather than frequency; また means again, about a single repetition.",
+  "translation": "My younger brother is always losing his keys.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-pa1-4",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "明日の予定を[[キャンセルしました]]。",
+  "options": [
+   "確認しました",
+   "取り消しました",
+   "変更しました",
+   "決めました"
+  ],
+  "answer": 1,
+  "explanation": "キャンセルする means to call off, which is 取り消す. 確認する means to confirm; 変更する means to change rather than cancel; 決める means to decide.",
+  "translation": "I cancelled tomorrow's plans.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-pa1-5",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "その話を聞いて、[[がっかりした]]。",
+  "options": [
+   "うれしく思った",
+   "おどろいた",
+   "残念に思った",
+   "腹が立った"
+  ],
+  "answer": 2,
+  "explanation": "がっかりする means to be disappointed, so 残念に思った (felt it was a pity) is closest. うれしく思った means felt happy; おどろいた means was surprised; 腹が立った means got angry.",
+  "translation": "I was disappointed when I heard that story.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-ua1-1",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{余裕|よゆう}",
+  "options": [
+   "駅に着いたら、電車はもう出た{余裕|よゆう}だった。",
+   "早く家を出たので、時間に{余裕|よゆう}を持って会場に着いた。",
+   "この料理は{余裕|よゆう}が多くて、とてもおいしい。",
+   "彼はいつも{余裕|よゆう}に話すので、みんなに好かれている。"
+  ],
+  "answer": 1,
+  "explanation": "余裕 means spare room or margin, and 時間に余裕を持って (with time to spare) is a natural collocation. Option 1 needs a word like あと (after), option 3 confuses it with an ingredient or amount, and 余裕に is not used as an adverb as in option 4.",
+  "translation": "yoyuu (margin; room to spare)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-ua1-2",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{修理|しゅうり}",
+  "options": [
+   "先生に作文の間違いを{修理|しゅうり}してもらった。",
+   "髪が長くなったので、店で{修理|しゅうり}した。",
+   "{壊れた|こわれた}自転車を店で{修理|しゅうり}してもらった。",
+   "病気が{修理|しゅうり}して、来週から学校に行ける。"
+  ],
+  "answer": 2,
+  "explanation": "修理 means repairing a machine or object, so having a broken bicycle repaired is correct. Mistakes in writing are corrected (直す), hair is cut (切る), and an illness gets better (治る), so the other options misuse the word.",
+  "translation": "shuuri (repair)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-ua1-3",
+  "level": "N3",
+  "type": "usage",
+  "stem": "諦める",
+  "options": [
+   "毎朝、駅まで走るのを諦めて、体が強くなった。",
+   "新しい仕事を諦めたので、来月から会社に通う。",
+   "電車に乗る前に、きっぷを諦めてください。",
+   "雨が強くなってきたので、山に登るのを諦めた。"
+  ],
+  "answer": 3,
+  "explanation": "諦める means to give up on something, so giving up climbing the mountain because of heavy rain is correct. Giving up running would not make you stronger (続ける fits), giving up a job contradicts starting to commute, and a ticket should be bought (買う), not given up.",
+  "translation": "akirameru (to give up)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-ua1-4",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{黙る|だまる}",
+  "options": [
+   "先生に理由を聞かれたが、彼は下を向いて{黙って|だまって}いた。",
+   "{冷蔵庫|れいぞうこ}に入れておいたので、{牛乳|ぎゅうにゅう}がよく{黙って|だまって}いる。",
+   "夜遅いので、テレビの音を{黙って|だまって}ください。",
+   "花に毎日水をやったら、きれいに{黙った|だまった}。"
+  ],
+  "answer": 0,
+  "explanation": "黙る means a person stops talking or stays silent, so a student keeping silent when asked for a reason is correct. Milk gets cold (冷えている), a TV's volume is turned down (小さくする), and flowers bloom (咲く), so the other options misuse the word.",
+  "translation": "damaru (to be silent)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-ua1-5",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{防ぐ|ふせぐ}",
+  "options": [
+   "試験を{防ぐ|ふせぐ}ために、毎日図書館で勉強している。",
+   "手をよく洗って、かぜを{防ぐ|ふせぐ}ようにしている。",
+   "大切な書類を{防いで|ふせいで}、かばんに入れた。",
+   "友だちの{誕生日|たんじょうび}を{防ぐ|ふせぐ}ために、プレゼントを買った。"
+  ],
+  "answer": 1,
+  "explanation": "防ぐ means to prevent or protect against something bad, so washing hands to prevent a cold is correct. One prepares for an exam (備える), folds or puts away documents rather than preventing them, and celebrates (祝う) a birthday, so the other options misuse the word.",
+  "translation": "fusegu (to prevent; to protect against)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-1",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "先生が{丁寧|ていねい}に教えてくださった（　）、試験に合格できました。",
+  "options": [
+   "せいで",
+   "くせに",
+   "おかげで",
+   "とたんに"
+  ],
+  "answer": 2,
+  "explanation": "おかげで expresses a cause that led to a good result, matching passing the exam thanks to the teacher. せいで is used for bad results, くせに criticises someone (\"even though\"), and とたんに means \"the moment\", which does not fit a cause-and-result sentence.",
+  "translation": "Thanks to my teacher explaining things carefully, I was able to pass the exam.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-2",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "明日は大事な会議があるので、熱があっても休む（　）。",
+  "options": [
+   "しかない",
+   "わけにはいかない",
+   "べきだ",
+   "ことにしている"
+  ],
+  "answer": 1,
+  "explanation": "わけにはいかない means \"can't very well\" for social reasons: the important meeting is why the speaker cannot take the day off. しかない and べきだ would mean the speaker must or should rest, which contradicts the reason given, and ことにしている describes a habit, which does not fit a one-time situation tomorrow.",
+  "translation": "I have an important meeting tomorrow, so I can't take the day off even if I have a fever.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-3",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "日本語は勉強すればする（　）おもしろくなると思う。",
+  "options": [
+   "さえ",
+   "まで",
+   "こそ",
+   "ほど"
+  ],
+  "answer": 3,
+  "explanation": "The pattern 〜ば〜ほど means \"the more ..., the more ...\", so すればするほど is correct. さえ, まで and こそ cannot complete the ば〜 repetition pattern and make the sentence ungrammatical.",
+  "translation": "I think the more you study Japanese, the more interesting it becomes.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-4",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "家を出た（　）、雨が降り出した。",
+  "options": [
+   "とたん",
+   "うちに",
+   "最中に",
+   "たびに"
+  ],
+  "answer": 0,
+  "explanation": "〜たとたん means \"the moment ...\" and describes something unexpected happening right after an action, here rain starting as soon as the speaker left. うちに, 最中に and たびに do not follow the past tense form 出た (they need ない/dictionary form or a noun), so they are ungrammatical here.",
+  "translation": "The moment I left the house, it started to rain.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-5",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "彼は初めて料理を作った（　）、とても上手にできた。",
+  "options": [
+   "からといって",
+   "として",
+   "にしては",
+   "によって"
+  ],
+  "answer": 2,
+  "explanation": "にしては means \"for (considering it's)\", expressing that the result was better than expected for a first attempt. からといって needs a negative conclusion (\"just because ... doesn't mean\"), として means \"as (a role)\", and によって means \"by / depending on\", none of which fit.",
+  "translation": "For someone cooking for the first time, he did it very well.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-6",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "この{量|りょう}なら、一人でも（　）が、少し多いと思う。",
+  "options": [
+   "食べられるわけがない",
+   "食べられそうにない",
+   "食べられることにしている",
+   "食べられないことはない"
+  ],
+  "answer": 3,
+  "explanation": "ないことはない means \"it's not that I can't\", which fits the following が clause saying it is still a bit much. わけがない and そうにない say it is impossible or unlikely, which does not contrast with が少し多い, and ことにしている (make it a rule) makes no sense with ability.",
+  "translation": "With this amount, it's not that I couldn't eat it by myself, but I think it's a little too much.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-7",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "医者に、お酒を飲みすぎない（　）言われました。",
+  "options": [
+   "ために",
+   "ように",
+   "ことに",
+   "そうに"
+  ],
+  "answer": 1,
+  "explanation": "〜ように言う reports an instruction or request, so the doctor told the speaker not to drink too much. ために (in order to), ことに and そうに (looks like) cannot be used to report what someone was told to do.",
+  "translation": "I was told by the doctor not to drink too much alcohol.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-8",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "昨日からずっと歯が痛く（　）。",
+  "options": [
+   "てたまらない",
+   "てはじめて",
+   "てばかりいる",
+   "てみる"
+  ],
+  "answer": 0,
+  "explanation": "〜てたまらない means \"unbearably\" and is used with feelings and sensations such as pain. てはじめて (only after) leaves the sentence unfinished, and てばかりいる and てみる attach to verbs, not to the adjective 痛い.",
+  "translation": "My tooth has been hurting unbearably since yesterday.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-9",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "「山田さんの{誕生日|たんじょうび}って、来週の金曜日だった（　）。」「ううん、木曜日だよ。」",
+  "options": [
+   "ことに",
+   "だらけ",
+   "っけ",
+   "ぶり"
+  ],
+  "answer": 2,
+  "explanation": "〜っけ is used when trying to recall or check something, and the friend's reply corrects the date. ことに, だらけ (full of) and ぶり (for the first time in) do not make a question and do not fit after だった.",
+  "translation": "\"Mr. Yamada's birthday is next Friday, right?\" \"No, it's Thursday.\"",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-10",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "今朝は時間がなかったので、朝ご飯を食べ（　）家を出た。",
+  "options": [
+   "てから",
+   "すぎて",
+   "やすく",
+   "ずに"
+  ],
+  "answer": 3,
+  "explanation": "〜ずに means \"without doing\", so the speaker left without eating because there was no time. 食べてから (after eating) and 食べすぎて (ate too much) contradict having no time, and 食べやすく (easy to eat) does not make sense here.",
+  "translation": "I didn't have time this morning, so I left home without eating breakfast.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-11",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "スープが冷めない（　）、早く食べてください。",
+  "options": [
+   "あいだ",
+   "うちに",
+   "までに",
+   "ところに"
+  ],
+  "answer": 1,
+  "explanation": "〜ないうちに means \"before (it changes)\", here before the soup gets cold. あいだ and までに are not used after ない in this way, and ところに (just when) does not fit an instruction like this.",
+  "translation": "Please eat it quickly, before the soup gets cold.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-12",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "私は{健康|けんこう}のために、毎朝30分歩く（　）。",
+  "options": [
+   "ことにしている",
+   "ところだった",
+   "わけがない",
+   "かけている"
+  ],
+  "answer": 0,
+  "explanation": "〜ことにしている means \"make it a rule to\", describing the speaker's own habit of walking every morning. ところだった (nearly happened) does not fit 毎朝, わけがない (no way) contradicts 健康のために, and かける attaches to the ます-stem, not the dictionary form.",
+  "translation": "For my health, I make it a rule to walk for 30 minutes every morning.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-gfa1-13",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "弟は自分では何もしない（　）、私のやり方に{文句|もんく}ばかり言う。",
+  "options": [
+   "おかげで",
+   "ついでに",
+   "とおりに",
+   "くせに"
+  ],
+  "answer": 3,
+  "explanation": "〜くせに means \"even though\" with a critical tone, fitting the complaint that the brother does nothing yet criticises. おかげで is for good results, ついでに means \"while at it\", and とおりに means \"in the way that\", none of which fit the contrast.",
+  "translation": "Even though my younger brother does nothing himself, he keeps complaining about the way I do things.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-soa1-1",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "母に ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 、まだ{片付|かたづ}けていない。",
+  "options": [
+   "言われたのに",
+   "ように",
+   "{片付|かたづ}ける",
+   "部屋を"
+  ],
+  "answer": 1,
+  "explanation": "The correct sentence is 母に部屋を片付けるように言われたのに、まだ片付けていない。 The reported command pattern is [object]を [verb dictionary form] ように言われた, so 部屋を → 片付ける → ように → 言われたのに, putting ように in the ★ slot. 言われたのに must come last before the comma, and 部屋を and 片付ける belong in the first two slots.",
+  "translation": "My mother told me to clean my room, but I still haven't cleaned it.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-soa1-2",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "日本語は ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 。",
+  "options": [
+   "なってきた",
+   "するほど",
+   "勉強すれば",
+   "おもしろく"
+  ],
+  "answer": 3,
+  "explanation": "The correct sentence is 日本語は勉強すればするほどおもしろくなってきた。 The pattern 〜ば〜ほど needs 勉強すれば followed by するほど, and おもしろく must come directly before なってきた, so おもしろく is in the ★ slot. なってきた ends the sentence, and the ば/ほど pair must come first.",
+  "translation": "The more I study Japanese, the more interesting it has become.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-soa1-3",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "明日は大事な会議があるので、少し熱があっても ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 。",
+  "options": [
+   "休む",
+   "会社を",
+   "わけには",
+   "いかない"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is 明日は大事な会議があるので、少し熱があっても会社を休むわけにはいかない。 The object 会社を comes before 休む, then the set phrase わけにはいかない follows, so わけには is in the ★ slot. いかない must end the sentence, and 休む must directly precede わけには.",
+  "translation": "I have an important meeting tomorrow, so I can't take the day off work even if I have a slight fever.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-soa1-4",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "先生が ていねいに ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ に合格できた。",
+  "options": [
+   "おかげで",
+   "試験",
+   "くださった",
+   "教えて"
+  ],
+  "answer": 0,
+  "explanation": "The correct sentence is 先生がていねいに教えてくださったおかげで試験に合格できた。 教えて + くださった forms the honorific giving expression, おかげで follows it to give the good reason, and 試験 attaches to に合格できた, so おかげで is in the ★ slot. 試験 must be last to connect with に, and 教えて must come before くださった.",
+  "translation": "Thanks to my teacher teaching me carefully, I was able to pass the exam.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-soa1-5",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "家を ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 。",
+  "options": [
+   "とたん",
+   "出た",
+   "雨が",
+   "降り出した"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is 家を出たとたん雨が降り出した。 家を needs the verb 出た, and 〜たとたん follows the past form, then the new event 雨が降り出した, so 雨が is in the ★ slot. 降り出した must end the sentence, and とたん can only follow 出た.",
+  "translation": "The moment I left the house, it started to rain.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-tga1-1",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（1）",
+  "options": [
+   "ところが",
+   "そのため",
+   "それとも",
+   "たとえば"
+  ],
+  "answer": 1,
+  "explanation": "そのため (because of that) links the cause (never having cooked) to the result (eating only convenience-store lunches). ところが signals a contrast, それとも offers an alternative in questions, and たとえば introduces an example, none of which fits.",
+  "translation": "Choose the word that best fills blank (1).",
+  "passageId": "n3-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-tga1-2",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（2）",
+  "options": [
+   "ことに",
+   "ために",
+   "ほどに",
+   "ように"
+  ],
+  "answer": 3,
+  "explanation": "〜ように言われた reports an instruction: the doctor told the writer to eat more vegetables. ことに言われた and ほどに言われた are not grammatical, and ために would mean 'for the purpose of eating', which does not fit with 言われた.",
+  "translation": "Choose the word that best fills blank (2).",
+  "passageId": "n3-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-tga1-3",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（3）",
+  "options": [
+   "だらけ",
+   "向け",
+   "気味",
+   "っぽい"
+  ],
+  "answer": 0,
+  "explanation": "失敗だらけ means 'full of failures', matching the list of mistakes that follows. 向け means 'aimed at', 気味 does not attach to 失敗 in this way, and 失敗っぽい would mean 'failure-like', not a run of many failures.",
+  "translation": "Choose the word that best fills blank (3).",
+  "passageId": "n3-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-tga1-4",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（4）",
+  "options": [
+   "代わり",
+   "最中",
+   "とおり",
+   "ついで"
+  ],
+  "answer": 2,
+  "explanation": "そのとおりに means 'exactly as it said', i.e. following the recipes the writer looked up. その代わりに (instead) contradicts using the recipes, その最中に (in the middle of it) and そのついでに (while at it) make no sense with cooking from a recipe.",
+  "translation": "Choose the word that best fills blank (4).",
+  "passageId": "n3-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-tga1-5",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（5）",
+  "options": [
+   "ことにする",
+   "気がする",
+   "ようにする",
+   "ふりをする"
+  ],
+  "answer": 1,
+  "explanation": "いい気がする means 'I feel that it is good', a natural way to describe the writer's sense that their health has improved. ことにする (decide to) and ようにする (make an effort to) do not attach naturally to an adjective describing one's health, and ふりをする (pretend) contradicts the positive, sincere tone.",
+  "translation": "Choose the phrase that best fills blank (5).",
+  "passageId": "n3-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rsa1-1",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "このお知らせで一番伝えたいことは何か。",
+  "options": [
+   "びんや{缶|かん}を出す日が水曜日に変わること",
+   "{燃|も}えるごみを出す日が変わり、朝8時までに出してほしいこと",
+   "鳥や猫にえさをやらないでほしいこと",
+   "ごみは前の日の夜に出してほしいこと"
+  ],
+  "answer": 1,
+  "explanation": "The notice announces that burnable garbage days change to Tuesday and Friday and asks residents to put garbage out by 8 a.m. on the day. Bottles and cans stay on Wednesday (not a change), feeding animals is never mentioned, and putting garbage out the night before is exactly what the notice asks people not to do.",
+  "translation": "What does this notice most want to communicate?",
+  "passageId": "n3-t1-rsa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rsa1-2",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "土曜日の{補講|ほこう}に出られない学生は、どうしなければならないか。",
+  "options": [
+   "来週の水曜日の{授業|じゅぎょう}に出る",
+   "302教室へ行ってレポートを出す",
+   "来週の水曜日までにレポートを出す",
+   "金曜日までに先生にメールで知らせる"
+  ],
+  "answer": 3,
+  "explanation": "The email says students for whom Saturday is inconvenient must tell the teacher by email by Friday. Wednesday's class is cancelled, Room 302 is just where the make-up class is held, and the report deadline was moved to Saturday, not Wednesday.",
+  "translation": "What must students who cannot attend the Saturday make-up class do?",
+  "passageId": "n3-t1-rsa1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rsa1-3",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "この{文章|ぶんしょう}を書いた人は、歩いて通うようになって、どう変わったと言っているか。",
+  "options": [
+   "体の調子がよくなり、{季節|きせつ}の変化に気づくようになった",
+   "電車の中でスマートフォンを見る時間が{増|ふ}えた",
+   "前より早く会社に着くようになった",
+   "40分も歩くのが大変で、朝が{嫌|きら}いになった"
+  ],
+  "answer": 0,
+  "explanation": "The writer says their body feels lighter and they now notice the changing seasons. They no longer ride the train, arriving earlier is never mentioned, and the writer says the morning walk is now their favorite time, not something they dislike.",
+  "translation": "How does the writer say they changed after starting to walk to work?",
+  "passageId": "n3-t1-rsa1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rsa1-4",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "このメモを読んで、田中さんはまず何をしなければならないか。",
+  "options": [
+   "会議室の予約を11時に直す",
+   "明日の10時に山本さんの会社へ行く",
+   "今日の5時までに山本さんに電話をする",
+   "山本さんにほかの時間を相談するメールを送る"
+  ],
+  "answer": 2,
+  "explanation": "The memo asks Tanaka to call Yamamoto before 5 today, while Yamamoto is still at the office. Ogawa will change the room booking, nobody is going to Yamamoto's office, and discussing another time happens only if 11 is impossible, and by phone, not email.",
+  "translation": "After reading this memo, what must Tanaka do first?",
+  "passageId": "n3-t1-rsa1-p4",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rma1-1",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "{筆者|ひっしゃ}がスマートフォンで日記を書くのをやめたのはなぜか。",
+  "options": [
+   "字を書くのに時間がかかったから",
+   "ほかのものを見てしまい、時間がなくなったから",
+   "画面が小さくて、書きにくかったから",
+   "書いたことを友達に読まれてしまったから"
+  ],
+  "answer": 1,
+  "explanation": "The writer says that on opening the screen they ended up looking at news and messages and thirty minutes passed, so option 2 is correct. Taking time to write is said of handwriting, not the phone (1), and a small screen (3) or friends reading the diary (4) are never mentioned.",
+  "translation": "Why did the writer stop writing the diary on a smartphone?",
+  "passageId": "n3-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rma1-2",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "手で日記を書くようになって、{筆者|ひっしゃ}はどう変わったか。",
+  "options": [
+   "字がきれいに書けるようになった",
+   "毎日の仕事が早く終わるようになった",
+   "その日のことを落ち着いて思い出せるようになった",
+   "大きな出来事だけを書くようになった"
+  ],
+  "answer": 2,
+  "explanation": "The passage says that while writing slowly the writer became able to calmly recall the day's events, so option 3 is correct. The writer says their handwriting is still not neat (1), work finishing earlier is never mentioned (2), and they write mostly small things, not only big events (4).",
+  "translation": "How did the writer change after starting to write the diary by hand?",
+  "passageId": "n3-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rma1-3",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "{筆者|ひっしゃ}は、日記についてどう考えているか。",
+  "options": [
+   "あとで読み返すために、毎日書くべきものだ",
+   "心配なことを忘れないように、書いておくものだ",
+   "忙しい人は、無理に書かなくてもいいものだ",
+   "一日をきちんと終えるために必要な、大切な時間だ"
+  ],
+  "answer": 3,
+  "explanation": "The last sentence says the diary is an important time for properly bringing the day to a close, so option 4 is correct. Reading back old notebooks is mentioned, but not as the reason to write (1); the writer had in fact forgotten past worries, which is not the purpose of the diary (2); and nothing suggests busy people need not write (3).",
+  "translation": "What does the writer think about keeping a diary?",
+  "passageId": "n3-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rma2-1",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "「{階段|かいだん}を選んだ」とあるが、なぜか。",
+  "options": [
+   "仕事が忙しくて、ほかに運動する時間がないから",
+   "ジムに通うより、お金がかからないから",
+   "エレベーターがいつも込んでいて、待つのがいやだから",
+   "同じ会社の人に、{階段|かいだん}を使うようにすすめられたから"
+  ],
+  "answer": 0,
+  "explanation": "The writer was told to exercise more but finishes work late and has no time for a gym, so chose something that fits into the commute. Cost is never mentioned, nothing is said about the elevator being crowded, and it was a doctor, not a coworker, who gave advice (and only to move more, not to use the stairs).",
+  "translation": "The writer says \"chose the stairs.\" Why?",
+  "passageId": "n3-t1-rma2-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rma2-2",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "{階段|かいだん}を使い始めた最初の一週間について、正しいものはどれか。",
+  "options": [
+   "五{階|かい}で足が重くなり、そこからはエレベーターに乗った",
+   "足が痛くなって、何日か{階段|かいだん}を使うのをやめた",
+   "八{階|かい}に着いたあと、しばらく休まなければならなかった",
+   "朝は苦しかったので、帰りだけ{階段|かいだん}を使った"
+  ],
+  "answer": 2,
+  "explanation": "The passage says that on reaching the eighth floor the writer was out of breath and had to rest at their desk for a while. The legs got heavy around the fifth floor, but the writer did not switch to the elevator; there is no mention of stopping for several days or of using the stairs only on the way home.",
+  "translation": "Which statement is true about the first week after the writer started using the stairs?",
+  "passageId": "n3-t1-rma2-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rma2-3",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "この{文章|ぶんしょう}で、書いた人が一番言いたいことは何か。",
+  "options": [
+   "体のためには、エレベーターより{階段|かいだん}を使うべきだ。",
+   "運動は苦しくても、毎日続けることが大切だ。",
+   "会社では、ほかの部の人とも話をしたほうがいい。",
+   "体のために始めた習慣が、思いがけない楽しみも生んだ。"
+  ],
+  "answer": 3,
+  "explanation": "The last paragraph says that something begun only for health has made each day enjoyable in an unexpected way, through chats with people on the stairs. The writer does not tell others they should use the stairs, does not draw a general lesson about persisting with exercise, and does not give advice about talking to other departments.",
+  "translation": "What does the writer most want to say in this passage?",
+  "passageId": "n3-t1-rma2-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rla1-1",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "祖母に店に持っていくように言われたとき、「私」はどう考えていたか。",
+  "options": [
+   "店の主人なら、すぐに直してくれるだろう。",
+   "祖母が、いっしょに店に行ってくれるだろう。",
+   "直すより、新しいものを買ったほうが安いだろう。",
+   "ストーブはまだ新しいので、直す必要はないだろう。"
+  ],
+  "answer": 2,
+  "explanation": "The writer says they didn't expect much because they had heard buying new is cheaper than repairing modern appliances. Option 1 is the opposite of their expectation, option 2 is never mentioned, and option 4 is wrong because the heater was five years old and had stopped working.",
+  "translation": "When their grandmother told them to take it to the shop, what did the writer think?",
+  "passageId": "n3-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rla1-2",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "店の主人が言いたかったことは何か。",
+  "options": [
+   "物は大切に長く使うほど、使う人にとってよい物になる。",
+   "古い{製品|せいひん}は部品が手に入らないので、早く新しいものを買ったほうがいい。",
+   "物が{壊れた|こわれた}ら、店に持ってくる前に自分で直してみるべきだ。",
+   "新しい{製品|せいひん}より古い{製品|せいひん}のほうが、{壊れ|こわれ}にくい。"
+  ],
+  "answer": 0,
+  "explanation": "The owner says that the more carefully you use things, the more they suit you, which matches option 1. Option 2 contradicts his repair of the heater, option 3 describes the writer's later habit rather than the owner's words, and option 4 is never claimed.",
+  "translation": "What did the shop owner want to say?",
+  "passageId": "n3-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rla1-3",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "「私」は今、物が{壊れた|こわれた}とき、どうしているか。",
+  "options": [
+   "すぐに駅前の店に持っていく。",
+   "直せない物でも、時間をかけて自分で直す。",
+   "新しい物を買う前に、インターネットで値段を調べる。",
+   "まず自分で原因を調べ、自分で直せなければ店に相談する。"
+  ],
+  "answer": 3,
+  "explanation": "The writer now first looks into the cause and consults a shop only if they can't fix it themselves. Option 1 skips the first step, option 2 ignores that the writer admits not everything can be fixed, and option 3 is what the writer did before the story.",
+  "translation": "What does the writer do now when something breaks?",
+  "passageId": "n3-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-rla1-4",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "この{文章|ぶんしょう}で「私」が一番言いたいことは何か。",
+  "options": [
+   "古い電気{製品|せいひん}は、新しい{製品|せいひん}より安全だ。",
+   "直して使い続けている物には、特別な気持ちが生まれる。",
+   "物を直すのは時間がかかって不便なので、あまりよくない。",
+   "祖母の言うことを聞けば、いつも正しい{結果|けっか}になる。"
+  ],
+  "answer": 1,
+  "explanation": "The writer concludes that, despite the trouble, they feel an attachment to things they have repaired, matching option 2. Safety (option 1) is never discussed, option 3 mentions an inconvenience the writer accepts rather than their conclusion, and option 4 overgeneralizes from one piece of advice.",
+  "translation": "What does the writer most want to say in this passage?",
+  "passageId": "n3-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-isa1-1",
+  "level": "N3",
+  "type": "info-search",
+  "stem": "会社員の山田さん（35歳）は、土曜日と日曜日も仕事があるので、平日の夜しか教室に行けない。参加費は3,500円以下にしたい。山田さんが参加できる教室はどれか。",
+  "options": [
+   "② 英会話",
+   "④ 写真教室",
+   "⑤ ヨガ教室",
+   "③ 書道教室"
+  ],
+  "answer": 2,
+  "explanation": "Yamada can only attend on weekday evenings, and only the English class (Wednesday 19:00) and the yoga class (Friday 19:00) meet then; the English class costs 4,000 yen, which is over his limit, so yoga (3,000 yen) is the answer. Photography meets on Tuesday mornings and calligraphy on Sundays, so he cannot go to either.",
+  "translation": "Mr. Yamada, an office worker (35), also works on Saturdays and Sundays, so he can only go to a class on weekday evenings. He wants the fee to be 3,500 yen or less. Which class can Mr. Yamada join?",
+  "passageId": "n3-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-isa1-2",
+  "level": "N3",
+  "type": "info-search",
+  "stem": "中学2年生のさくらさん（14歳）は、週末にある教室に一人で参加したい。さくらさんが参加できる教室はどれか。",
+  "options": [
+   "① 親子料理教室",
+   "③ 書道教室",
+   "④ 写真教室",
+   "⑤ ヨガ教室"
+  ],
+  "answer": 1,
+  "explanation": "The calligraphy class meets on Sundays and is open to junior high school students and older, so Sakura can join it alone. The cooking class is on the weekend but is for elementary school children with a parent, and the photography (18+) and yoga (16+) classes are on weekdays and have age limits she does not meet.",
+  "translation": "Sakura, a second-year junior high school student (14), wants to join a weekend class by herself. Which class can Sakura join?",
+  "passageId": "n3-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ }
+]

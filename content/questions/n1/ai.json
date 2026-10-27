@@ -1,0 +1,1019 @@
+[
+ {
+  "id": "n1-t1-pa1-1",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "彼の提案に[[異論]]を唱える人は一人もいなかった。",
+  "options": [
+   "賛成の意見",
+   "反対の意見",
+   "個人的な感想",
+   "新しい案"
+  ],
+  "answer": 1,
+  "explanation": "異論 means a differing opinion or objection, so 反対の意見 ('an opposing opinion') is closest. 賛成の意見 is the opposite, while 個人的な感想 ('a personal impression') and 新しい案 ('a new plan') do not express disagreement.",
+  "translation": "Not a single person raised an objection to his proposal.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-pa1-2",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "新しいシステムを導入してから、作業が[[はかどって]]いる。",
+  "options": [
+   "楽しくなって",
+   "丁寧になって",
+   "正確になって",
+   "順調に進んで"
+  ],
+  "answer": 3,
+  "explanation": "はかどる means that work makes good progress, the same as 順調に進む ('proceed smoothly'). 楽しくなる ('become enjoyable'), 丁寧になる ('become careful') and 正確になる ('become accurate') describe the quality of the work, not its progress.",
+  "translation": "Since the new system was introduced, the work has been making good progress.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-pa1-3",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "会議は[[きっかり]]三時に始まった。",
+  "options": [
+   "ちょうど",
+   "だいたい",
+   "ようやく",
+   "意外にも"
+  ],
+  "answer": 0,
+  "explanation": "きっかり means 'exactly, precisely (on time)', the same as ちょうど. だいたい means 'about', ようやく means 'at last', and 意外にも means 'unexpectedly', so they all change the meaning.",
+  "translation": "The meeting started at exactly three o'clock.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-pa1-4",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "参加者の意見は[[まちまち]]で、結論は出なかった。",
+  "options": [
+   "同じ",
+   "少数",
+   "ばらばら",
+   "あいまい"
+  ],
+  "answer": 2,
+  "explanation": "まちまち means 'varied, differing from one another', so ばらばら ('scattered, all different') is closest. 同じ ('the same') is the opposite, 少数 ('few') is about number, and あいまい ('vague') is about clarity, not variety.",
+  "translation": "The participants' opinions varied, so no conclusion was reached.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-pa1-5",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "兄は旅行中の苦労を[[大げさに]]話した。",
+  "options": [
+   "正直に",
+   "実際より大きく",
+   "静かに",
+   "簡単に"
+  ],
+  "answer": 1,
+  "explanation": "大げさに means 'in an exaggerated way', which is the same as 実際より大きく ('bigger than it really was'). 正直に ('honestly') suggests no exaggeration, 静かに means 'quietly', and 簡単に means 'briefly', so none of them mean exaggerating.",
+  "translation": "My older brother exaggerated the hardships he went through on his trip.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-pa1-6",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "両社は長い話し合いの末、ようやく[[妥協した]]。",
+  "options": [
+   "契約した",
+   "対立した",
+   "決裂した",
+   "歩み寄った"
+  ],
+  "answer": 3,
+  "explanation": "妥協する means 'to compromise', each side giving way a little, which matches 歩み寄る ('to meet each other halfway'). 契約する ('sign a contract') is a different act, while 対立する ('be in conflict') and 決裂する ('break down') are the opposite outcome.",
+  "translation": "After long negotiations, the two companies finally reached a compromise.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ua1-1",
+  "level": "N1",
+  "type": "usage",
+  "stem": "打開",
+  "options": [
+   "長年の研究の結果、ついに新しい薬が打開された。",
+   "朝早く店のシャッターを打開して、開店の準備をした。",
+   "交渉は行き詰まっていたが、新しい提案によって事態の打開が図られた。",
+   "彼は会議で自分の本音を打開して、みんなを驚かせた。"
+  ],
+  "answer": 2,
+  "explanation": "打開 means finding a way out of a deadlock or difficult situation, so 'the situation's breakthrough was sought through a new proposal' is correct. Option 1 needs 開発 (develop), option 2 needs 開けて (open), and option 4 needs 打ち明けて (confide).",
+  "translation": "打開 (breakthrough; overcoming a deadlock)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ua1-2",
+  "level": "N1",
+  "type": "usage",
+  "stem": "見合わせる",
+  "options": [
+   "大雨の影響で、電車は現在運転を見合わせている。",
+   "二人は駅前で見合わせて、一緒に映画を見に行った。",
+   "新しい服が自分に見合わせるかどうか、鏡で確かめた。",
+   "長い間の努力が、ついに大きな成果に見合わせた。"
+  ],
+  "answer": 0,
+  "explanation": "見合わせる means to suspend or hold off on an action, so 'trains are currently suspending operation' is correct. Option 2 needs 待ち合わせて (meet up), option 3 needs 似合う (suit), and option 4 needs something like 実を結んだ (bore fruit).",
+  "translation": "見合わせる (to postpone; to suspend; to refrain from)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ua1-3",
+  "level": "N1",
+  "type": "usage",
+  "stem": "手分け",
+  "options": [
+   "母はケーキを五つに手分けして、子供たちに配った。",
+   "彼は手分けが器用なので、細かい作業が得意だ。",
+   "先生の手分けのおかげで、無事に論文を書き上げることができた。",
+   "時間がないので、資料の準備は三人で手分けして進めよう。"
+  ],
+  "answer": 3,
+  "explanation": "手分け means dividing a task among several people, so 'let's split the preparation of materials among the three of us' is correct. Option 1 needs 切り分けて (cut into pieces), option 2 needs 手先 (fingers; dexterity), and option 3 needs 手助け or 指導 (help; guidance).",
+  "translation": "手分け (dividing work among people)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ua1-4",
+  "level": "N1",
+  "type": "usage",
+  "stem": "ほころびる",
+  "options": [
+   "長年使った机の脚がほころびて、ぐらぐらしている。",
+   "合格の知らせを聞いて、父の顔が思わずほころびた。",
+   "強い風が吹いて、窓ガラスがほころびてしまった。",
+   "朝から晩まで働いて、体がすっかりほころびてしまった。"
+  ],
+  "answer": 1,
+  "explanation": "ほころびる is used for seams coming undone, buds beginning to open, and a face breaking into a smile, so 'father's face broke into a smile' is correct. Option 1 needs がたついて (become wobbly), option 3 needs 割れて (break), and option 4 needs 疲れ果てて (be exhausted).",
+  "translation": "ほころびる (to come apart at the seams; to begin to bloom; to break into a smile)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ua1-5",
+  "level": "N1",
+  "type": "usage",
+  "stem": "秘める",
+  "options": [
+   "子供たちは庭の木の陰に秘めて、鬼が来るのを待った。",
+   "出かける前に、財布を引き出しの奥に秘めておいた。",
+   "会議の内容は、明日の新聞に秘められる予定だ。",
+   "この若い選手は、まだまだ大きな可能性を秘めている。"
+  ],
+  "answer": 3,
+  "explanation": "秘める means to hold something abstract (a talent, feeling or possibility) hidden inside, so 'this young athlete has great potential within' is correct. Option 1 needs 隠れて (hide oneself), option 2 needs しまって (put away), and option 3 needs 掲載される (be published).",
+  "translation": "秘める (to hold within; to keep hidden inside)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ua1-6",
+  "level": "N1",
+  "type": "usage",
+  "stem": "心得る",
+  "options": [
+   "彼女は客への接し方をよく心得ているので、安心して店を任せられる。",
+   "先週受けた試験の結果を、今日ようやく心得た。",
+   "友人のけがが一日も早く心得るように祈っている。",
+   "引っ越しをするので、古い家具を全部心得ることにした。"
+  ],
+  "answer": 0,
+  "explanation": "心得る means to know or understand something well, especially how to behave or handle things, so 'she knows well how to treat customers' is correct. Option 2 needs 知った (learned), option 3 needs 治る (heal), and option 4 needs 処分する (dispose of).",
+  "translation": "心得る (to know well; to understand how to)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-1",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "息子はゲームを始めた（　）、呼んでも返事すらしない。",
+  "options": [
+   "ものの",
+   "とはいえ",
+   "が最後",
+   "にせよ"
+  ],
+  "answer": 2,
+  "explanation": "〜たが最後 means 'once (something happens), there is no going back', which fits a son who becomes unreachable once he starts gaming. ものの and とはいえ ('although') and にせよ ('even if') set up a contrast that makes no sense with the second clause.",
+  "translation": "Once my son starts a game, he won't even answer when you call him.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-2",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "卒業生の皆さんのこれからのご活躍を心から願って（　）。",
+  "options": [
+   "やみません",
+   "かまいません",
+   "おきません",
+   "いられません"
+  ],
+  "answer": 0,
+  "explanation": "〜てやまない expresses a sincere, lasting wish, as in a graduation speech. てかまいません means 'it is all right to', ておきません is not a valid form here, and ていられません means 'cannot keep doing', none of which fit a heartfelt wish.",
+  "translation": "I sincerely wish all the graduates success in the years ahead.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-3",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "祖母はスマートフォン（　）、携帯電話すら使ったことがない。",
+  "options": [
+   "にひきかえ",
+   "ならでは",
+   "をよそに",
+   "はおろか"
+  ],
+  "answer": 3,
+  "explanation": "AはおろかBすら means 'not even B, let alone A', and a smartphone is the harder case compared with a basic mobile phone. にひきかえ ('in contrast to'), ならでは ('unique to') and をよそに ('ignoring') do not connect the two items logically.",
+  "translation": "My grandmother has never even used a mobile phone, let alone a smartphone.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-4",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "彼は医師になる（　）、毎日遅くまで勉強を続けている。",
+  "options": [
+   "ばかりに",
+   "べく",
+   "ものなら",
+   "そばから"
+  ],
+  "answer": 1,
+  "explanation": "〜べく means 'in order to', stating his goal of becoming a doctor. ばかりに means 'just because' and leads to a bad result, ものなら means 'if one could', and そばから means 'as soon as (repeatedly)', so none express purpose.",
+  "translation": "He keeps studying late every day in order to become a doctor.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-5",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "小学生のうちはともかく、高校生（　）、自分の進路について真剣に考えなければならない。",
+  "options": [
+   "にひきかえ",
+   "をよそに",
+   "ともなれば",
+   "ならでは"
+  ],
+  "answer": 2,
+  "explanation": "〜ともなれば means 'once one reaches (a certain stage)', contrasting high school with elementary school. にひきかえ needs a contrasting subject, をよそに ('ignoring') makes no sense, and ならでは ('unique to') must modify a noun or end in ならではだ.",
+  "translation": "Elementary school is one thing, but once you are a high school student you have to think seriously about your future path.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-6",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "九十歳を過ぎてなお新しい言語を学び続ける祖父の姿に、驚き（　）。",
+  "options": [
+   "を禁じ得ない",
+   "をものともしない",
+   "を余儀なくされる",
+   "をおいてほかにない"
+  ],
+  "answer": 0,
+  "explanation": "〜を禁じ得ない means 'cannot help feeling', which matches the emotion of surprise. をものともしない ('undaunted by'), を余儀なくされる ('be forced to') and をおいてほかにない ('no one/nothing other than') cannot take an emotion like 驚き in this way.",
+  "translation": "I cannot help being amazed at my grandfather, who is over ninety and still keeps learning new languages.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-7",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "旅行中は忙しくて、楽しみにしていた美術館には結局行か（　）。",
+  "options": [
+   "ないではおかなかった",
+   "ずにはすまなかった",
+   "ないものでもなかった",
+   "ずじまいだった"
+  ],
+  "answer": 3,
+  "explanation": "〜ずじまい means 'ended up never doing', fitting a museum the speaker looked forward to but missed because of a busy trip. ないではおかない expresses certainty or strong will, ずにはすまない means 'had no choice but to go', and ないものでもない means 'it is not impossible', none of which match 結局 and the missed plan.",
+  "translation": "I was busy during the trip, and in the end I never got to go to the art museum I had been looking forward to.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-8",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "私が説明を終えると、部長は「もう分かった」（　）手を振った。",
+  "options": [
+   "とあって",
+   "とばかりに",
+   "といえども",
+   "ともなく"
+  ],
+  "answer": 1,
+  "explanation": "〜とばかりに means 'as if to say', describing a gesture that conveys the quoted words. とあって gives a special reason, といえども means 'even though', and ともなく means 'without meaning to', none of which link a quote to a gesture.",
+  "translation": "When I finished explaining, the department head waved his hand as if to say, 'I get it already.'",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-9",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "彼は出張（　）、毎回のように地元の名物料理を食べ歩いている。",
+  "options": [
+   "をものともせず",
+   "に即して",
+   "にかこつけて",
+   "にひきかえ"
+  ],
+  "answer": 2,
+  "explanation": "〜にかこつけて means 'using (something) as a pretext', here using business trips as an excuse to tour local food. をものともせず ('undaunted by'), に即して ('in accordance with') and にひきかえ ('in contrast to') do not fit the relationship between the trip and the eating.",
+  "translation": "Using his business trips as an excuse, he goes around eating the local specialties almost every time.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-gfa1-10",
+  "level": "N1",
+  "type": "grammar-form",
+  "stem": "一度（　）、同じ間違いを三回も繰り返すのは不注意としか言いようがない。",
+  "options": [
+   "ならまだしも",
+   "とあって",
+   "にもまして",
+   "ともなく"
+  ],
+  "answer": 0,
+  "explanation": "〜ならまだしも means 'if it were only ..., it would be one thing', contrasting one mistake with three. とあって gives a special reason, にもまして means 'even more than', and ともなく means 'without meaning to', so none set up this contrast.",
+  "translation": "Once would be one thing, but repeating the same mistake three times can only be called carelessness.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-soa1-1",
+  "level": "N1",
+  "type": "sentence-order",
+  "stem": "彼は授業の終わりを ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 飛び出していった。",
+  "options": [
+   "教室を",
+   "鳴るが早いか",
+   "告げる",
+   "チャイムが"
+  ],
+  "answer": 1,
+  "explanation": "The correct sentence is 彼は授業の終わりを告げるチャイムが鳴るが早いか教室を飛び出していった。 告げる must follow 終わりを and modify チャイム, 鳴るが早いか ('no sooner had ... than') follows チャイムが, and 教室を is the object of 飛び出していった. So 鳴るが早いか lands in the ★ slot; 教室を, 告げる and チャイムが belong in the fourth, first and second slots.",
+  "translation": "No sooner had the bell signaling the end of class rung than he dashed out of the classroom.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-soa1-2",
+  "level": "N1",
+  "type": "sentence-order",
+  "stem": "選手たちは ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 最後まで走り抜いた。",
+  "options": [
+   "ものともせず",
+   "激しい",
+   "雨と風",
+   "を"
+  ],
+  "answer": 3,
+  "explanation": "The correct sentence is 選手たちは激しい雨と風をものともせず最後まで走り抜いた。 激しい modifies 雨と風, which takes を as the object of をものともせず ('undaunted by'). So を is in the ★ slot; 激しい, 雨と風 and ものともせず fill the first, second and fourth slots.",
+  "translation": "The athletes ran all the way to the finish, undaunted by the fierce rain and wind.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-soa1-3",
+  "level": "N1",
+  "type": "sentence-order",
+  "stem": "社長 ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 、休日でも気が休まらないだろう。",
+  "options": [
+   "責任の",
+   "重さから",
+   "ともなると",
+   "背負う"
+  ],
+  "answer": 0,
+  "explanation": "The correct sentence is 社長ともなると背負う責任の重さから、休日でも気が休まらないだろう。 ともなると ('once one becomes') attaches directly to 社長, 背負う modifies 責任, and 責任の重さから gives the reason. So 責任の is in the ★ slot; ともなると, 背負う and 重さから go in the first, second and fourth slots.",
+  "translation": "Once you become company president, the weight of the responsibility you carry probably means you can't relax even on your days off.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-soa1-4",
+  "level": "N1",
+  "type": "sentence-order",
+  "stem": "あの先生の授業に ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 注意されるので、みんな早めに教室に来る。",
+  "options": [
+   "厳しく",
+   "遅刻",
+   "しようものなら",
+   "少しでも"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is あの先生の授業に少しでも遅刻しようものなら厳しく注意されるので、みんな早めに教室に来る。 少しでも modifies 遅刻する, 遅刻 combines with しようものなら ('if one were to'), and 厳しく modifies 注意される. So しようものなら is in the ★ slot; 少しでも, 遅刻 and 厳しく fill the first, second and fourth slots.",
+  "translation": "If you are even a little late to that teacher's class, you get harshly reprimanded, so everyone comes to the classroom early.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-soa1-5",
+  "level": "N1",
+  "type": "sentence-order",
+  "stem": "日本語を学び始めたばかりの頃は、＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 読めなかった。",
+  "options": [
+   "すら",
+   "ひらがな",
+   "はおろか",
+   "漢字"
+  ],
+  "answer": 1,
+  "explanation": "The correct sentence is 日本語を学び始めたばかりの頃は、漢字はおろかひらがなすら読めなかった。 In AはおろかBすら, A is the harder case and B the easier extreme, so 漢字 comes before はおろか and ひらがな before すら; reversing them would make no sense. So ひらがな is in the ★ slot; 漢字, はおろか and すら fill the first, second and fourth slots.",
+  "translation": "When I had just started learning Japanese, I couldn't even read hiragana, let alone kanji.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tga1-1",
+  "level": "N1",
+  "type": "text-grammar",
+  "stem": "（1）",
+  "options": [
+   "よそに",
+   "限りに",
+   "機に",
+   "もって"
+  ],
+  "answer": 2,
+  "explanation": "〜を機に means 'taking the opportunity of', fitting a move that became the turning point for starting a class. 〜をよそに means 'ignoring', 〜を限りに marks something ending as of that point (the opposite of starting), and 〜をもって is a formal 'by means of / as of' that does not describe a life event prompting a new start.",
+  "translation": "Three years ago, taking the opportunity of moving from the city center to the suburbs, I started attending a pottery class in my neighborhood.",
+  "passageId": "n1-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tga1-2",
+  "level": "N1",
+  "type": "text-grammar",
+  "stem": "（2）",
+  "options": [
+   "かたわら",
+   "そばから",
+   "うえは",
+   "べく"
+  ],
+  "answer": 1,
+  "explanation": "〜そばから means 'as soon as (and repeatedly)', describing clay that keeps collapsing the moment the writer shapes it. かたわら describes doing something alongside a main occupation, うえは means 'now that (one must)', and べく expresses the speaker's purpose, which cannot link 'I shape it' to 'the clay collapses'.",
+  "translation": "In my hands, the clay collapsed as soon as I shaped it, again and again.",
+  "passageId": "n1-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tga1-3",
+  "level": "N1",
+  "type": "text-grammar",
+  "stem": "（3）",
+  "options": [
+   "それゆえ",
+   "なおかつ",
+   "すなわち",
+   "ところが"
+  ],
+  "answer": 3,
+  "explanation": "ところが introduces an unexpected turn: the writer thought the teacher unkind, but then things changed. それゆえ ('therefore') makes the change a result of thinking him unkind, なおかつ ('moreover') adds a similar point, and すなわち ('that is') restates, so none fit the contrast.",
+  "translation": "However, one day about half a year later, when I casually relaxed my shoulders, the clay began to follow the movement of my hands.",
+  "passageId": "n1-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tga1-4",
+  "level": "N1",
+  "type": "text-grammar",
+  "stem": "（4）",
+  "options": [
+   "分かっていればこそ",
+   "分かっていようものなら",
+   "分かっていたが最後",
+   "分かっていたとはいえ"
+  ],
+  "answer": 0,
+  "explanation": "〜ばこそ means 'precisely because', giving the teacher's reason for deliberately staying silent. 〜ようものなら warns of a terrible result of a hypothetical, 〜たが最後 means 'once ..., there's no going back', and 〜とはいえ ('although') wrongly makes his knowledge a concession rather than the reason for his silence.",
+  "translation": "Precisely because he knew that if he taught me the tricks in words I would come to depend on them and stop trying to grasp the feel with my own hands, he deliberately said nothing.",
+  "passageId": "n1-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tga1-5",
+  "level": "N1",
+  "type": "text-grammar",
+  "stem": "（5）",
+  "options": [
+   "しているきらいがある",
+   "するには当たらない",
+   "してやまない",
+   "するまでもない"
+  ],
+  "answer": 2,
+  "explanation": "〜てやまない expresses a deep, lasting feeling, so 感謝してやまない means 'I am deeply grateful', matching the warm ending. きらいがある marks a bad tendency, には当たらない means 'there is no need to', and までもない means 'needless to', all of which deny or belittle the gratitude the writer clearly feels.",
+  "translation": "I am deeply grateful to that class, which taught me the joy of working with my hands and the importance of finding answers myself.",
+  "passageId": "n1-t1-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rsa1-1",
+  "level": "N1",
+  "type": "reading-short",
+  "stem": "筆者の考えに合うのはどれか。",
+  "options": [
+   "手書きは打つより速いので、要点を逃さずに記録できる。",
+   "手書きは遅いため、要点を選ぶ過程で内容を整理することになる。",
+   "パソコンで記録すると検索できるので、内容を理解しやすくなる。",
+   "効率を考えれば、記録はすべてパソコンで取るべきだ。"
+  ],
+  "answer": 1,
+  "explanation": "The writer says that because handwriting is slow, you must decide on the spot what the key points are, which helps you organize the content. Option 1 contradicts the passage (typing is faster), option 3 is never claimed (search is only mentioned as a convenience), and option 4 is the view the writer goes on to question.",
+  "translation": "Which of the following matches the writer's view?",
+  "passageId": "n1-t1-rsa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rsa1-2",
+  "level": "N1",
+  "type": "reading-short",
+  "stem": "本館で予約した資料を11月9日までに受け取れなかった人は、どうすればよいか。",
+  "options": [
+   "12月1日以降に、本館の窓口で受け取る。",
+   "本館に連絡して、取り置きの期間を延ばしてもらう。",
+   "駅前分館で、改めて予約をし直す。",
+   "駅前分館の窓口で、利用カードを見せて受け取る。"
+  ],
+  "answer": 3,
+  "explanation": "The notice says uncollected reservations are moved to the Station Branch and held there, and to show your library card at the branch counter. Option 1 is wrong because the materials are moved to the branch, option 2 is unnecessary since they continue to be held automatically, and option 3 is unnecessary because no new reservation is required.",
+  "translation": "What should a person do if they could not collect, by November 9, materials they reserved at the main library?",
+  "passageId": "n1-t1-rsa1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rsa1-3",
+  "level": "N1",
+  "type": "reading-short",
+  "stem": "このメールで最も伝えたいことは何か。",
+  "options": [
+   "試作品を見てもらったうえで意見を聞きたいので、打ち合わせを延期してほしい。",
+   "試作品が完成しなかったので、打ち合わせを中止したい。",
+   "試作品について意見を聞きたいので、14日までに感想を送ってほしい。",
+   "打ち合わせの候補日を、こちらで三つ決めて知らせる。"
+  ],
+  "answer": 0,
+  "explanation": "The sender wants Tanaka to handle the prototype before giving feedback, so asks to push the meeting back about a week. Option 2 is wrong because the meeting is postponed, not cancelled; option 3 is wrong because no feedback is requested by the 14th; option 4 reverses the roles, since Tanaka is asked to propose three dates.",
+  "translation": "What does this email most want to convey?",
+  "passageId": "n1-t1-rsa1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rsa1-4",
+  "level": "N1",
+  "type": "reading-short",
+  "stem": "筆者によると、説明する人にとって大切なことは何か。",
+  "options": [
+   "細かい条件や例外は省いて、できるだけ単純に説明すること",
+   "最初に例外をすべて説明してから、大筋を伝えること",
+   "大筋をつかんでもらったあとで、例外についても説明すること",
+   "聞き手が例外に出会ったときに、改めて説明し直すこと"
+  ],
+  "answer": 2,
+  "explanation": "The writer says the important thing is the order: first the general outline, then the exceptions. Option 1 is the practice the writer criticizes, option 2 reverses the recommended order, and option 4 is never suggested.",
+  "translation": "According to the writer, what is important for a person giving an explanation?",
+  "passageId": "n1-t1-rsa1-p4",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma1-1",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "「大きな手直しを余儀なくされる」とあるが、そうなるとどのようなことが起こると筆者は述べているか。",
+  "options": [
+   "本人が、自分で調べる力を身につけられなくなる。",
+   "先輩が、最初に質問に答えるよりも多くの時間を使うことになる。",
+   "組織の中で、本人の評価が大きく下がってしまう。",
+   "先輩が忙しくなり、ほかの人の質問に答えられなくなる。"
+  ],
+  "answer": 1,
+  "explanation": "The passage says that if major rework is needed, you end up taking far more of your senior's time than if you had asked at the start. Losing the ability to research (1), a drop in one's evaluation (3), and the senior being unable to answer other people (4) are never mentioned.",
+  "translation": "The writer mentions 'being forced into major rework'. What does the writer say happens when that occurs?",
+  "passageId": "n1-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma1-2",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "筆者が、質問の前に自分の状況を整理しておくことを勧めているのはなぜか。",
+  "options": [
+   "整理しているうちに、自分で答えが見つかることが多いから。",
+   "よく調べていることを、先輩に評価してもらえるから。",
+   "何も考えずに質問すると、先輩に注意されるから。",
+   "相手が短い時間で答えられ、質問する側も気が楽になるから。"
+  ],
+  "answer": 3,
+  "explanation": "The writer says organizing first lets the other person answer precisely in a short time and spares the asker the guilt of relying on them without thinking. Finding the answer oneself (1), being praised (2) and being scolded (3) are not reasons given in the text.",
+  "translation": "Why does the writer recommend organizing your situation before asking a question?",
+  "passageId": "n1-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma1-3",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "質問することについて、筆者の考えに最も近いものはどれか。",
+  "options": [
+   "質問は、自分と相手の双方の時間を無駄にしないための手段である。",
+   "質問する前に、少なくとも半日は自分で調べるべきである。",
+   "忙しい先輩には、できるだけ質問しないほうがよい。",
+   "自分で調べる努力より、すぐに質問することのほうが大切である。"
+  ],
+  "answer": 0,
+  "explanation": "The last sentence states that asking is a means of saving each other's time, not taking it. The half day (2) was the writer's own regretted experience, avoiding busy seniors (3) is the attitude the writer argues against, and the writer explicitly says self-research is important, so (4) is wrong.",
+  "translation": "Which is closest to the writer's view about asking questions?",
+  "passageId": "n1-t1-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma1-7",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "「むしろ長所である」とあるが、何が長所なのか。",
+  "options": [
+   "店の点数が低く、客が少ないこと",
+   "料理の量が少ないこと",
+   "料理の種類が多いこと",
+   "知人がよく通っている店であること"
+  ],
+  "answer": 1,
+  "explanation": "Reviewers complained that the portions were small, but the writer, who likes tasting many dishes in small amounts, sees that as a strength. The number of customers (1), the variety of dishes on the menu (3) and the acquaintance's visits (4) are not what the phrase refers to.",
+  "translation": "The writer says 'that is actually a strength.' What is the strength?",
+  "passageId": "n1-t1-rma1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma1-8",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "筆者によると、私たちが点数を自分の判断の代わりにしてしまうのはなぜか。",
+  "options": [
+   "多くの人の感想が、正確にまとめられているから。",
+   "自分で店を探す時間がないから。",
+   "数字が、客観的な事実であるかのように見えるから。",
+   "何を重視するかは、人によってあまり違わないから。"
+  ],
+  "answer": 2,
+  "explanation": "The text says that because numbers look like objective facts, we tend to let them replace our own judgment. The writer says scores merely compress opinions (1) and ignore individual differences in what people value (4), and lack of time (2) is never mentioned.",
+  "translation": "According to the writer, why do we end up letting scores replace our own judgment?",
+  "passageId": "n1-t1-rma1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma1-9",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "インターネット上の評価の利用について、筆者の考えに合うものはどれか。",
+  "options": [
+   "点数は当てにならないので、見ないほうがよい。",
+   "知人に勧められた店を、点数より優先するべきだ。",
+   "点数の低い店のほうが、自分に合う可能性が高い。",
+   "点数の理由を読み、自分の基準に照らして考え直すべきだ。"
+  ],
+  "answer": 3,
+  "explanation": "The writer says what matters is reading why a score was given and re-measuring the comments by one's own yardstick. The writer explicitly says not to ignore numbers (1), and neither preferring friends' recommendations (2) nor low-rated places being better (3) is claimed.",
+  "translation": "Which matches the writer's view on using online ratings?",
+  "passageId": "n1-t1-rma1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma2-1",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "筆者がレシピどおりに作った料理が物足りなかったのは、なぜだと考えられるか。",
+  "options": [
+   "計量が不正確で、実際にはレシピの分量を守れていなかったから",
+   "レシピに書かれた分量そのものに誤りがあったから",
+   "素材や調理器具の違いを考えず、数字だけに頼って作っていたから",
+   "初心者向けのレシピで、基準となる味が示されていなかったから"
+  ],
+  "answer": 2,
+  "explanation": "The acquaintance explains that ingredients, pots and heat differ, so relying only on the numbers without checking the food itself falls short; that is why the writer's dishes were lacking. The writer measured very carefully (1), nothing says the recipe was wrong (2), and the passage never mentions recipes failing to show a standard taste (4).",
+  "translation": "Why does the writer's food, made exactly according to the recipe, seem to have been lacking something?",
+  "passageId": "n1-t1-rma2-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma2-2",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "「ただの当てずっぽうにすぎない」とあるが、どういうことか。",
+  "options": [
+   "基準となる味を知らないまま行う調整は、根拠のない思いつきでしかないということ",
+   "自己流で作った料理は、レシピどおりの料理より必ずまずくなるということ",
+   "経験を積んだ人の調整も、結局は偶然に頼っているということ",
+   "素材の状態に合わせて味を変えるのは、初心者には難しすぎるということ"
+  ],
+  "answer": 0,
+  "explanation": "The sentence says that going your own way without a standard is not ingenuity but mere guesswork, i.e. adjustments without a known baseline have no basis. The passage does not claim such food is always worse (2), says the opposite about experienced cooks, whose adjustments rest on a standard (3), and does not say adjusting is too hard for beginners (4).",
+  "translation": "The passage says \"that is nothing more than mere guesswork.\" What does this mean?",
+  "passageId": "n1-t1-rma2-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rma2-3",
+  "level": "N1",
+  "type": "reading-mid",
+  "stem": "この文章で筆者が最も言いたいことは何か。",
+  "options": [
+   "料理が上達したら、レシピは使わないほうがよい。",
+   "素材の違いはわずかなので、レシピの数字を守れば十分だ。",
+   "料理は感覚が大切なので、初心者のうちから自己流で作るべきだ。",
+   "レシピを基準として守りつつ、素材に応じて自分で判断することが大切だ。"
+  ],
+  "answer": 3,
+  "explanation": "The writer concludes that both keeping to the numbers and doubting them are needed for cooking to become one's own. The writer still keeps recipes (1), the passage stresses that ingredients do differ (2), and beginners are told to follow recipes first, not cook their own way (3).",
+  "translation": "What is the main point the writer wants to make in this passage?",
+  "passageId": "n1-t1-rma2-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rla1-1",
+  "level": "N1",
+  "type": "reading-long",
+  "stem": "「回り道ばかりしてきたけれど、そのおかげで今の自分がある」とあるが、先生はどのようなことを言いたいのか。",
+  "options": [
+   "辞書を引くのに時間がかかりすぎたことを、今では後悔している。",
+   "目当て以外の言葉にも触れてきたことが、自分の成長につながった。",
+   "若いころは辞書の使い方がわからず、苦労ばかりしていた。",
+   "紙の辞書のほうが正確なので、これからも使い続けるべきだ。"
+  ],
+  "answer": 1,
+  "explanation": "The teacher laughs as he says his detours made him who he is, meaning that reading the words next to the one he looked up helped him grow, so 2 is correct. He expresses no regret (1), never says he didn't know how to use a dictionary (3), and says nothing about paper dictionaries being more accurate (4).",
+  "translation": "Regarding the line \"I've taken nothing but detours, but that's what made me who I am,\" what does the teacher mean?",
+  "passageId": "n1-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rla1-2",
+  "level": "N1",
+  "type": "reading-long",
+  "stem": "筆者は、電子辞書や検索エンジンについてどのように述べているか。",
+  "options": [
+   "目当ての言葉を探す時間がかえって長くなり、不便である。",
+   "書き込みができる点で、紙の辞書よりも優れている。",
+   "新しい関心を生み出すきっかけになることが多い。",
+   "目当て以外のものに出会う機会をなくしてしまう。"
+  ],
+  "answer": 3,
+  "explanation": "The writer says these tools cut the time to reach the target word to almost zero, but that this also means losing chances to meet anything else, so 4 is correct. The passage says they are faster, not slower (1); it never compares writing notes in them (2); and new interests come from the 'wasted' time of paper dictionaries, not from these tools (3).",
+  "translation": "What does the writer say about electronic dictionaries and search engines?",
+  "passageId": "n1-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rla1-3",
+  "level": "N1",
+  "type": "reading-long",
+  "stem": "筆者は、問題はどこにあると考えているか。",
+  "options": [
+   "あらゆる場面を速さだけで判断してしまう私たちの姿勢",
+   "便利な道具が次から次へと生まれ、使い方を覚えきれないこと",
+   "急いでいるときにも時間のかかる方法を選んでしまうこと",
+   "道中そのものに意味がある場面がなくなってしまったこと"
+  ],
+  "answer": 0,
+  "explanation": "The writer states that the problem is not the tools but our attitude of applying the same yardstick (speed) to every situation, so 1 is correct. Learning to use new tools is never mentioned (2); choosing slow methods when in a hurry is called inefficient, not identified as what people actually do wrong (3); and the writer says situations where the journey matters still exist (4).",
+  "translation": "Where does the writer think the problem lies?",
+  "passageId": "n1-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-rla1-4",
+  "level": "N1",
+  "type": "reading-long",
+  "stem": "この文章で筆者が最も言いたいことは何か。",
+  "options": [
+   "効率を求める社会では、紙の辞書を使う習慣を取り戻すべきだ。",
+   "便利な道具は学びを妨げるので、できるだけ使わないほうがよい。",
+   "効率が重視される時代だからこそ、回り道を楽しむ余裕を意識して持ちたい。",
+   "学ぶ上では、決められた答えを最短距離で手に入れることが最も大切だ。"
+  ],
+  "answer": 2,
+  "explanation": "The final paragraph concludes that, precisely in an age that values efficiency, we should consciously keep room to enjoy detours, so 3 is correct. The writer explicitly denies wanting to go back to old ways or abandon convenient tools (1, 2), and says learning is not only about reaching set answers by the shortest route (4).",
+  "translation": "What is the writer's main point in this passage?",
+  "passageId": "n1-t1-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ira1-1",
+  "level": "N1",
+  "type": "integrated-reading",
+  "stem": "職場での雑談について、AとBが共通して述べていることは何か。",
+  "options": [
+   "雑談は業務に関係がないため、勤務時間中は控えるべきだ。",
+   "雑談は職場の人間関係や仕事の進め方によい影響を与える。",
+   "雑談の機会は、会社が制度として設けるべきだ。",
+   "雑談を求められることを負担に感じる社員が多い。"
+  ],
+  "answer": 1,
+  "explanation": "A calls small talk the foundation of a smoothly running organization, and B admits it eases relationships and makes work easier, so both see a positive effect. Neither says it should be avoided during work hours (1); only A wants the company to set it up (3); and only B mentions the burden, saying merely that some employees may feel it (4).",
+  "translation": "What do A and B both say about small talk at work?",
+  "passageId": "n1-t1-ira1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ira1-2",
+  "level": "N1",
+  "type": "integrated-reading",
+  "stem": "雑談の場を会社が用意することについて、AとBはどのように述べているか。",
+  "options": [
+   "AもBも、社員の負担を増やすので避けるべきだと述べている。",
+   "AもBも、在宅勤務の社員のためには必要だと述べている。",
+   "Aは個人の心がけに任せるべきだと述べ、Bは会社が積極的に関わるべきだと述べている。",
+   "Aは会社が意識的に用意すべきだと述べ、Bはかえって雑談の本来の性質を損なうと述べている。"
+  ],
+  "answer": 3,
+  "explanation": "A says companies should deliberately provide places for small talk, while B argues that fixing time and participants turns it into just another task, losing its natural character. Options 1 and 2 wrongly claim the writers agree, and option 3 reverses their positions.",
+  "translation": "How do A and B view companies providing places for small talk?",
+  "passageId": "n1-t1-ira1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-ira1-3",
+  "level": "N1",
+  "type": "integrated-reading",
+  "stem": "Bの筆者は、職場で何が大切だと考えているか。",
+  "options": [
+   "決まった時間に全員が参加できる雑談の場を設けること",
+   "業務に関係のない会話を勤務時間中に減らすこと",
+   "困ったときに気軽に声をかけられる雰囲気を、毎日の仕事の中で作ること",
+   "雑談の効用について、社員に十分に説明すること"
+  ],
+  "answer": 2,
+  "explanation": "B ends by saying what matters is building, through everyday work, an atmosphere where people can easily speak up when in trouble. Option 1 is the kind of fixed arrangement B criticizes, B never suggests reducing conversation (2), and explaining the benefits to staff (4) is not mentioned.",
+  "translation": "What does the writer of B think is important at work?",
+  "passageId": "n1-t1-ira1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tra1-1",
+  "level": "N1",
+  "type": "thematic-reading",
+  "stem": "筆者によると、手紙の返事を待つ時間にはどのような意味があったか。",
+  "options": [
+   "相手に失礼のないよう、返事の書き方を学ぶ時間だった。",
+   "特にすることがないので、ほかの用事を片付ける時間だった。",
+   "自分の気持ちを整理し、相手への理解を深める時間だった。",
+   "返事がなかなか来ないことに慣れ、我慢を覚える時間だった。"
+  ],
+  "answer": 2,
+  "explanation": "The third paragraph says that while waiting for a reply, writers' feelings became clearer and their understanding of the other person deepened, so option 3 is correct. The passage says nothing about learning how to write replies (1) or doing other chores (2), and it explicitly denies that waiting was mere empty time rather than a lesson in patience about late replies (4).",
+  "translation": "According to the writer, what meaning did the time spent waiting for a reply to a letter have?",
+  "passageId": "n1-t1-tra1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tra1-2",
+  "level": "N1",
+  "type": "thematic-reading",
+  "stem": "すぐに返事をすることが求められる現状について、筆者はどのように述べているか。",
+  "options": [
+   "立ち止まって考えることがなくなり、後悔するような発言が増えている。",
+   "相手とのやり取りが増えたため、誤解が生じにくくなっている。",
+   "返事が遅い相手に対して、不安を感じる人が少なくなっている。",
+   "礼儀についての考え方が人によって違うため、混乱が起きている。"
+  ],
+  "answer": 0,
+  "explanation": "The fourth paragraph says we give up the chance to stop and think, and so more often say whatever comes to mind and regret it later, which matches option 1. The writer never claims misunderstandings have decreased (2), says people actually become anxious when replies are slow (3), and does not mention differing views of manners causing confusion (4).",
+  "translation": "What does the writer say about the current situation in which people are expected to reply immediately?",
+  "passageId": "n1-t1-tra1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tra1-3",
+  "level": "N1",
+  "type": "thematic-reading",
+  "stem": "子どもの教育について、筆者が心配していることは何か。",
+  "options": [
+   "子どもが検索の仕方を十分に身につけていないこと",
+   "子どもが間違った答えをそのまま信じてしまうこと",
+   "子どもが周りの大人に質問をしなくなること",
+   "子どもがわからない状態に耐えられなくなること"
+  ],
+  "answer": 3,
+  "explanation": "The fifth paragraph warns that children used to getting answers at once may find it hard even to bear not knowing, so option 4 is correct. The writer does not worry about poor search skills (1), believing wrong answers (2), or children no longer asking adults questions (3).",
+  "translation": "Regarding children's education, what is the writer worried about?",
+  "passageId": "n1-t1-tra1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-tra1-4",
+  "level": "N1",
+  "type": "thematic-reading",
+  "stem": "この文章で筆者が最も言いたいことは何か。",
+  "options": [
+   "生活を便利にする道具は、できるだけ使わないようにするべきだ。",
+   "待つことの価値を見直し、必要な待ち時間は意識して残すべきだ。",
+   "無駄な待ち時間を減らすことが、社会にとって最も重要な課題だ。",
+   "昔のように、手紙で連絡を取り合う習慣を取り戻すべきだ。"
+  ],
+  "answer": 1,
+  "explanation": "The final paragraph argues that we should distinguish waiting to cut from waiting to keep and deliberately bring small acts of waiting back into our lives, which is option 2. The writer says convenient tools should be used freely (1), treats cutting pointless waiting as agreeable but not the main point (3), and explicitly says he is not calling for a return to the past such as letter writing (4).",
+  "translation": "What does the writer most want to say in this passage?",
+  "passageId": "n1-t1-tra1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-isa1-1",
+  "level": "N1",
+  "type": "info-search",
+  "stem": "山田さんは市外に住んでいるが、みなと市内の会社に勤めている。平日は18時まで仕事があるため、平日の夜か週末に行われる講座を受けたい。また、受講料は5,000円以内に抑えたいと考えている。山田さんの条件に合う講座はどれか。",
+  "options": [
+   "Aのみ",
+   "Dのみ",
+   "AとD",
+   "AとDとE"
+  ],
+  "answer": 2,
+  "explanation": "Yamada works in the city, so he pays the city rate. Of the evening and weekend courses (A, B, D, E), only A (4,800 yen) and D (3,000 yen) are within 5,000 yen, so the answer is A and D. 'D only' wrongly adds the 1,000-yen outside-city surcharge (which would push A to 5,800 yen), and 'A, D and E' ignores that E costs 5,500 yen; 'A only' overlooks the Sunday course D.",
+  "translation": "Mr. Yamada lives outside the city but works for a company in Minato City. He works until 6 p.m. on weekdays, so he wants a course held on a weekday evening or at the weekend. He also wants to keep the fee within 5,000 yen. Which courses meet his conditions?",
+  "passageId": "n1-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-isa1-2",
+  "level": "N1",
+  "type": "info-search",
+  "stem": "市外に住む70歳の鈴木さんは、「くらしの法律講座」を受講したいと思っていたが、申し込みをしないまま9月15日になってしまった。鈴木さんについて、正しいものはどれか。",
+  "options": [
+   "9月20日までにウェブサイトから申し込めば抽選の対象となり、受講料は3,400円である。",
+   "9月20日以降、定員に空きがあれば電話で申し込むことができ、受講料は3,400円である。",
+   "9月20日以降、定員に空きがあれば電話で申し込むことができ、受講料は3,200円である。",
+   "9月20日以降、往復はがきで申し込めば先着順で受講でき、受講料は2,400円である。"
+  ],
+  "answer": 1,
+  "explanation": "After the September 10 deadline, the only route is by phone or at the counter from September 20, and only if the course has places left. The fee is 3,000 yen minus 20% (2,400 yen) plus the undiscounted 1,000-yen surcharge, giving 3,400 yen. Option 1 is wrong because the lottery applies only to applications made by the deadline; option 3 wrongly discounts the surcharge too (4,000 x 0.8); option 4 names the wrong method (postcard) and forgets the surcharge.",
+  "translation": "Mr. Suzuki, aged 70, lives outside the city. He wanted to take 'Law in Everyday Life' but it is now September 15 and he has not applied. Which statement about him is correct?",
+  "passageId": "n1-t1-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ }
+]

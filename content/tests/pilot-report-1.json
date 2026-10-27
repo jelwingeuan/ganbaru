@@ -1,0 +1,424 @@
+{
+ "testNo": 1,
+ "minutes": 0,
+ "firstPassErrorRate": 0.013215859030837005,
+ "checked": 227,
+ "failedFirstPass": 3,
+ "costUSD": 0,
+ "byModel": {},
+ "byType": [
+  {
+   "level": "N5",
+   "type": "context",
+   "wanted": 6,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 6
+  },
+  {
+   "level": "N5",
+   "type": "paraphrase",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N5",
+   "type": "grammar-form",
+   "wanted": 9,
+   "firstPass": 9,
+   "firstFail": 0,
+   "shipped": 9
+  },
+  {
+   "level": "N5",
+   "type": "sentence-order",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N5",
+   "type": "text-grammar",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N5",
+   "type": "reading-short",
+   "wanted": 2,
+   "firstPass": 1,
+   "firstFail": 1,
+   "shipped": 2
+  },
+  {
+   "level": "N5",
+   "type": "reading-mid",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N5",
+   "type": "info-search",
+   "wanted": 1,
+   "firstPass": 1,
+   "firstFail": 0,
+   "shipped": 1
+  },
+  {
+   "level": "N4",
+   "type": "context",
+   "wanted": 8,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 8
+  },
+  {
+   "level": "N4",
+   "type": "paraphrase",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "usage",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "grammar-form",
+   "wanted": 13,
+   "firstPass": 13,
+   "firstFail": 0,
+   "shipped": 13
+  },
+  {
+   "level": "N4",
+   "type": "sentence-order",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "text-grammar",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "reading-short",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N4",
+   "type": "reading-mid",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N4",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N3",
+   "type": "context",
+   "wanted": 11,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 11
+  },
+  {
+   "level": "N3",
+   "type": "paraphrase",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "usage",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "grammar-form",
+   "wanted": 13,
+   "firstPass": 13,
+   "firstFail": 0,
+   "shipped": 13
+  },
+  {
+   "level": "N3",
+   "type": "sentence-order",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "text-grammar",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "reading-short",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N3",
+   "type": "reading-mid",
+   "wanted": 6,
+   "firstPass": 5,
+   "firstFail": 1,
+   "shipped": 6
+  },
+  {
+   "level": "N3",
+   "type": "reading-long",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N3",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N2",
+   "type": "word-formation",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "context",
+   "wanted": 7,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 7
+  },
+  {
+   "level": "N2",
+   "type": "paraphrase",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "usage",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "grammar-form",
+   "wanted": 12,
+   "firstPass": 12,
+   "firstFail": 0,
+   "shipped": 12
+  },
+  {
+   "level": "N2",
+   "type": "sentence-order",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "text-grammar",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "reading-short",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "reading-mid",
+   "wanted": 9,
+   "firstPass": 9,
+   "firstFail": 0,
+   "shipped": 9
+  },
+  {
+   "level": "N2",
+   "type": "integrated-reading",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N2",
+   "type": "thematic-reading",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N2",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N1",
+   "type": "context",
+   "wanted": 7,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 7
+  },
+  {
+   "level": "N1",
+   "type": "paraphrase",
+   "wanted": 6,
+   "firstPass": 6,
+   "firstFail": 0,
+   "shipped": 6
+  },
+  {
+   "level": "N1",
+   "type": "usage",
+   "wanted": 6,
+   "firstPass": 6,
+   "firstFail": 0,
+   "shipped": 6
+  },
+  {
+   "level": "N1",
+   "type": "grammar-form",
+   "wanted": 10,
+   "firstPass": 10,
+   "firstFail": 0,
+   "shipped": 10
+  },
+  {
+   "level": "N1",
+   "type": "sentence-order",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N1",
+   "type": "text-grammar",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N1",
+   "type": "reading-short",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N1",
+   "type": "reading-mid",
+   "wanted": 9,
+   "firstPass": 8,
+   "firstFail": 1,
+   "shipped": 9
+  },
+  {
+   "level": "N1",
+   "type": "reading-long",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N1",
+   "type": "integrated-reading",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N1",
+   "type": "thematic-reading",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N1",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  }
+ ],
+ "failures": [
+  "n5-t1-rsa1-1: unnatural Japanese. The note is addressed to マリアさん but signed 母より, which is unnatural because a mother would not call her own child 'さん' (and Maria asking 'お母さん' in option 4 implies the writer is Maria's mother).",
+  "n3-t1-rma1-4: unnatural Japanese. The passage says the umbrellas are all (どれも) left-behind ones from stations or trains, but later says some people bring their own unused umbrellas, so the passage contradicts itself; 「どれも」 should be softened (e.g. 「多くは」).",
+  "n1-t1-rma1-5: unnatural Japanese. The passage phrase 偶然出会うはずだったものとの機会 is awkward and unnatural (出会うはずだったものとの機会 should be something like 偶然の出会いの機会 or 出会うはずだったものと出会う機会)."
+ ]
+}
