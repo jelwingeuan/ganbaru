@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { ExamTicket, HoldToConfirm } from "@/components/desk/bits";
-import { QUESTION_TYPES, type QuestionType } from "@/content/blueprints";
+import { QUESTION_TYPES, SPOKEN_OPTIONS, type QuestionType } from "@/content/blueprints";
 import type { Level } from "@/lib/openjlpt";
 import { estimate } from "@/lib/scoring";
 import { Stem } from "./stem";
@@ -17,6 +17,8 @@ export type ExamQuestion = {
   explanation: string;
   translation?: string;
   passageId?: string;
+  script?: { speaker: string; text: string }[];
+  audio?: string;
   source: "data" | "ai";
 };
 export type ExamSection = { id: string; title: string; minutes: number; questions: ExamQuestion[] };
@@ -37,6 +39,8 @@ type Saved = {
   startedAt: number;
   answers: Record<string, number>;
   flagged: string[];
+  /** Listening questions whose audio has been played; the real test plays each recording once. */
+  played?: string[];
   best?: number;
 };
 const fresh = (): Saved => ({ phase: "ticket", section: 0, startedAt: 0, answers: {}, flagged: [] });
@@ -64,6 +68,54 @@ function PassageText({ text }: { text: string }) {
     <div lang="ja" className="font-jp text-lg leading-[2.2] whitespace-pre-line">
       <Stem text={text} furigana />
     </div>
+  );
+}
+
+const SPEAKER_NAMES: Record<string, string> = { N: "Narrator", F: "Woman", M: "Man", F2: "Woman 2", M2: "Man 2" };
+
+/** Exam audio: one play, no pause or seeking, like the recording in the exam room. */
+function OncePlayer({ src, played, onPlay }: { src: string; played: boolean; onPlay: () => void }) {
+  const [state, setState] = useState<"idle" | "playing" | "done">(played ? "done" : "idle");
+  return (
+    <div className="flex items-center gap-3 rounded-lg border border-edge bg-paper-raised p-3">
+      <button
+        type="button"
+        disabled={state !== "idle"}
+        onClick={() => {
+          const audio = new Audio(src);
+          audio.addEventListener("ended", () => setState("done"));
+          void audio.play();
+          setState("playing");
+          onPlay();
+        }}
+        className="h-11 rounded-lg bg-ink px-5 text-paper hover:opacity-90 disabled:opacity-40"
+      >
+        {state === "idle" ? "Play audio" : state === "playing" ? "Playing…" : "Played"}
+      </button>
+      <p className="text-sm text-ink-2" aria-live="polite">
+        {state === "idle" ? "The audio plays once. Read the choices first." : state === "playing" ? "Listen carefully." : "The audio has been played."}
+      </p>
+    </div>
+  );
+}
+
+/** Transcript and replayable audio for review. */
+function Transcript({ script, audio }: { script: { speaker: string; text: string }[]; audio?: string }) {
+  return (
+    <details className="mt-3 rounded-lg border border-edge bg-paper-raised px-4 py-3">
+      <summary className="cursor-pointer text-sm">Transcript</summary>
+      {audio && <audio controls src={audio} className="mt-3 w-full" />}
+      <dl className="mt-3 space-y-1.5">
+        {script.map((line, i) => (
+          <div key={i} className="flex gap-3">
+            <dt className="w-20 shrink-0 text-xs text-ink-2">{SPEAKER_NAMES[line.speaker] ?? line.speaker}</dt>
+            <dd lang="ja" className="font-jp">
+              {line.text}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </details>
   );
 }
 
@@ -111,7 +163,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
 
   const q = section?.questions[index];
   const choose = useCallback(
-    (option: number) => q && update({ ...s, answers: { ...s.answers, [q.id]: option } }),
+    (option: number) => q && option < q.options.length && update({ ...s, answers: { ...s.answers, [q.id]: option } }),
     [q, s, update],
   );
   const toggleFlag = useCallback(
@@ -249,9 +301,21 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           </span>{" "}
           {QUESTION_TYPES[q.type].en}
         </p>
-        <p lang="ja" className="font-jp mt-3 text-2xl leading-[2.2]">
-          <Stem text={q.stem} furigana={q.source === "ai"} />
-        </p>
+        {q.audio && (
+          <div className="mt-3">
+            <OncePlayer
+              key={q.id}
+              src={q.audio}
+              played={(s.played ?? []).includes(q.id)}
+              onPlay={() => update({ ...s, played: [...(s.played ?? []), q.id] })}
+            />
+          </div>
+        )}
+        {!SPOKEN_OPTIONS.includes(q.type) && (
+          <p lang="ja" className="font-jp mt-3 text-2xl leading-[2.2]">
+            <Stem text={q.stem} furigana={q.source === "ai"} />
+          </p>
+        )}
       </div>
 
       <ul className="mt-4 grid gap-2 sm:grid-cols-2" aria-label="Options">
@@ -270,7 +334,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
               >
                 <kbd className="rounded border border-edge px-1.5 text-xs text-ink-2">{i + 1}</kbd>
                 <span lang="ja" className="font-jp flex-1 text-lg">
-                  <Stem text={option} furigana={q.source === "ai"} />
+                  {SPOKEN_OPTIONS.includes(q.type) ? <span className="text-ink-2">Choice {i + 1}</span> : <Stem text={option} furigana={q.source === "ai"} />}
                 </span>
               </button>
             </li>
@@ -482,6 +546,7 @@ function Review({ sections, passages, answers, flagged }: { sections: ExamSectio
                         </li>
                       ))}
                     </ul>
+                    {q.script && <Transcript script={q.script} audio={q.audio} />}
                     <p className="mt-3 border-l-4 border-ink pl-3">{q.explanation}</p>
                     {q.translation && <p className="mt-1 pl-4 text-sm text-ink-2">{q.translation}</p>}
                   </li>

@@ -13,6 +13,10 @@ export default function TestLayout({ children }: LayoutProps<"/test">) {
           <a className="underline" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>). They are not
           real JLPT questions.
         </p>
+        <p className="mt-1">
+          Listening voices: VOICEVOX:九州そら, VOICEVOX:四国めたん, VOICEVOX:玄野武宏, VOICEVOX:青山龍星 (
+          <a className="underline" href="https://voicevox.hiroshiba.jp/">VOICEVOX</a>).
+        </p>
       </footer>
     </div>
   );

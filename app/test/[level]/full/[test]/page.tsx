@@ -43,6 +43,7 @@ function Exam({ param, id }: { param: string; id: string }) {
         return {
           id: q.id, type: q.type, stem: q.stem, options: q.options, answer: q.answer,
           explanation: q.explanation, translation: q.translation, passageId: q.passageId, source: q.source,
+          script: q.script, audio: q.audio,
         };
       }),
     };

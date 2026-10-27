@@ -1,107 +1,5 @@
 [
  {
-  "id": "n1-t1-pa1-1",
-  "level": "N1",
-  "type": "paraphrase",
-  "stem": "彼の提案に[[異論]]を唱える人は一人もいなかった。",
-  "options": [
-   "賛成の意見",
-   "反対の意見",
-   "個人的な感想",
-   "新しい案"
-  ],
-  "answer": 1,
-  "explanation": "異論 means a differing opinion or objection, so 反対の意見 ('an opposing opinion') is closest. 賛成の意見 is the opposite, while 個人的な感想 ('a personal impression') and 新しい案 ('a new plan') do not express disagreement.",
-  "translation": "Not a single person raised an objection to his proposal.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-pa1-2",
-  "level": "N1",
-  "type": "paraphrase",
-  "stem": "新しいシステムを導入してから、作業が[[はかどって]]いる。",
-  "options": [
-   "楽しくなって",
-   "丁寧になって",
-   "正確になって",
-   "順調に進んで"
-  ],
-  "answer": 3,
-  "explanation": "はかどる means that work makes good progress, the same as 順調に進む ('proceed smoothly'). 楽しくなる ('become enjoyable'), 丁寧になる ('become careful') and 正確になる ('become accurate') describe the quality of the work, not its progress.",
-  "translation": "Since the new system was introduced, the work has been making good progress.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-pa1-3",
-  "level": "N1",
-  "type": "paraphrase",
-  "stem": "会議は[[きっかり]]三時に始まった。",
-  "options": [
-   "ちょうど",
-   "だいたい",
-   "ようやく",
-   "意外にも"
-  ],
-  "answer": 0,
-  "explanation": "きっかり means 'exactly, precisely (on time)', the same as ちょうど. だいたい means 'about', ようやく means 'at last', and 意外にも means 'unexpectedly', so they all change the meaning.",
-  "translation": "The meeting started at exactly three o'clock.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-pa1-4",
-  "level": "N1",
-  "type": "paraphrase",
-  "stem": "参加者の意見は[[まちまち]]で、結論は出なかった。",
-  "options": [
-   "同じ",
-   "少数",
-   "ばらばら",
-   "あいまい"
-  ],
-  "answer": 2,
-  "explanation": "まちまち means 'varied, differing from one another', so ばらばら ('scattered, all different') is closest. 同じ ('the same') is the opposite, 少数 ('few') is about number, and あいまい ('vague') is about clarity, not variety.",
-  "translation": "The participants' opinions varied, so no conclusion was reached.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-pa1-5",
-  "level": "N1",
-  "type": "paraphrase",
-  "stem": "兄は旅行中の苦労を[[大げさに]]話した。",
-  "options": [
-   "正直に",
-   "実際より大きく",
-   "静かに",
-   "簡単に"
-  ],
-  "answer": 1,
-  "explanation": "大げさに means 'in an exaggerated way', which is the same as 実際より大きく ('bigger than it really was'). 正直に ('honestly') suggests no exaggeration, 静かに means 'quietly', and 簡単に means 'briefly', so none of them mean exaggerating.",
-  "translation": "My older brother exaggerated the hardships he went through on his trip.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-pa1-6",
-  "level": "N1",
-  "type": "paraphrase",
-  "stem": "両社は長い話し合いの末、ようやく[[妥協した]]。",
-  "options": [
-   "契約した",
-   "対立した",
-   "決裂した",
-   "歩み寄った"
-  ],
-  "answer": 3,
-  "explanation": "妥協する means 'to compromise', each side giving way a little, which matches 歩み寄る ('to meet each other halfway'). 契約する ('sign a contract') is a different act, while 対立する ('be in conflict') and 決裂する ('break down') are the opposite outcome.",
-  "translation": "After long negotiations, the two companies finally reached a compromise.",
-  "source": "ai",
-  "status": "verified"
- },
- {
   "id": "n1-t1-ua1-1",
   "level": "N1",
   "type": "usage",
@@ -1015,5 +913,1446 @@
   "passageId": "n1-t1-isa1-p1",
   "source": "ai",
   "status": "verified"
+ },
+ {
+  "id": "n1-t1-ta1-1",
+  "level": "N1",
+  "type": "task",
+  "stem": "男の人はこのあとまず何をしなければなりませんか。",
+  "options": [
+   "課長に資料を見てもらう",
+   "資料に技術的な説明を加える",
+   "先方に出席者の人数を確認する",
+   "広い会議室を予約し直す"
+  ],
+  "answer": 3,
+  "explanation": "The woman tells him to deal with the meeting room first, because the room is still booked for the old number and large rooms fill up quickly. She will ask the client about attendees herself, and he will revise the materials (and so show them to the section chief) only after booking the room.",
+  "translation": "Narrator: At a company, a woman and a man are talking. What must the man do first after this?\nF: Tanaka, how are the materials for next week's meeting with our client coming along?\nM: I've finished a rough version, so I was just about to ask the section chief to look them over.\nF: I see. Oh, but the client contacted us this morning, and it seems more people will attend. People from their engineering department will be there too.\nM: Really? Then it looks like I should add a more detailed technical explanation.\nF: Yes. But it's still not clear who will come or how many. The content will change depending on that, won't it?\nM: Yes, that's true. Then I'll ask the client.\nF: Oh, I'm the one dealing with their contact person, so I'll ask. Tanaka, the meeting room should still be booked for the current number of people, so take care of that first. Large rooms fill up quickly.\nM: Understood. I'll arrange it right away. I'll revise the materials after that.\nNarrator: What must the man do first after this?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "会社で女の人と男の人が話しています。男の人はこのあとまず何をしなければなりませんか。"
+   },
+   {
+    "speaker": "F",
+    "text": "田中さん、来週の取引先との打ち合わせの資料、進んでる？"
+   },
+   {
+    "speaker": "M",
+    "text": "はい、一通りできたので、これから課長に目を通していただこうと思っていたところです。"
+   },
+   {
+    "speaker": "F",
+    "text": "そう。あ、でも、今朝先方から連絡があって、出席者が増えるみたいなのよ。技術部門の方も同席されるって。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうなんですか。じゃ、技術的な説明をもう少し詳しく加えたほうがよさそうですね。"
+   },
+   {
+    "speaker": "F",
+    "text": "そうね。ただ、どなたが何人いらっしゃるのか、まだはっきりしないの。それによって内容も変わってくるでしょう。"
+   },
+   {
+    "speaker": "M",
+    "text": "ええ、確かに。では、先方に問い合わせてみます。"
+   },
+   {
+    "speaker": "F",
+    "text": "あ、それは私が担当者の方とやりとりしてるから、私から聞いておく。田中さんは、会議室がまだ今の人数で押さえてあるはずだから、そっちを先に何とかして。大きい部屋は埋まるのが早いから。"
+   },
+   {
+    "speaker": "M",
+    "text": "わかりました。すぐ手配します。資料の修正はそのあとにします。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人はこのあとまず何をしなければなりませんか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ta1-1.mp3"
+ },
+ {
+  "id": "n1-t1-ta1-2",
+  "level": "N1",
+  "type": "task",
+  "stem": "男の人は明日何を持っていきますか。",
+  "options": [
+   "軍手と飲み物",
+   "軍手とごみ袋と長靴",
+   "軍手と帽子と飲み物",
+   "ごみ袋と長靴と飲み物"
+  ],
+  "answer": 0,
+  "explanation": "He must bring his own work gloves, and he agrees to bring a drink since the ones handed out are limited. Rubbish bags are provided, a hat is not needed because it will be cloudy, and boots can be borrowed at reception, so the other options include items he will not bring.",
+  "translation": "Narrator: At a community hall, a male volunteer and a woman in charge are talking. What will the man bring tomorrow?\nM: I'd like to check about tomorrow's clean-up. For things to bring, work gloves and rubbish bags were right, weren't they?\nF: We'll provide the rubbish bags, so you don't need those. Please bring your own work gloves.\nM: Understood. Also, the notice said a hat...\nF: Yes, but tomorrow's forecast is cloudy all day, so it's fine to come without a hat. More importantly, we'll be walking along the river, so please bring rubber boots. Many places are muddy.\nM: Rubber boots? I don't have any...\nF: In that case, we also lend them out here, so please tell us at reception.\nM: That helps. What about drinks?\nF: We'll hand them out along the way, but the number is limited, so just in case, it would be good if you brought your own too...\nM: I see. Then I'll do that.\nNarrator: What will the man bring tomorrow?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "市民ホールで、ボランティアの男の人と係の女の人が話しています。男の人は明日何を持っていきますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "明日の清掃活動のことで確認したいんですが、持ち物は軍手とごみ袋でよかったですよね。"
+   },
+   {
+    "speaker": "F",
+    "text": "ごみ袋はこちらで用意しますので、結構です。軍手はご自分のものをお願いします。"
+   },
+   {
+    "speaker": "M",
+    "text": "わかりました。あと、案内には帽子と書いてありましたが。"
+   },
+   {
+    "speaker": "F",
+    "text": "ええ、ただ明日は一日中曇りの予報なので、帽子はなくても差し支えありません。それより、川沿いを歩くので、長靴をお持ちください。ぬかるんでいるところが多いので。"
+   },
+   {
+    "speaker": "M",
+    "text": "長靴ですか。持っていないんですが。"
+   },
+   {
+    "speaker": "F",
+    "text": "それでしたら、こちらで貸し出しもしておりますので、受付でおっしゃってください。"
+   },
+   {
+    "speaker": "M",
+    "text": "助かります。飲み物はどうしましょう。"
+   },
+   {
+    "speaker": "F",
+    "text": "途中で配りますが、数に限りがありますので、念のためご自分でもお持ちいただけると安心です。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうですか。じゃ、そうします。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人は明日何を持っていきますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ta1-2.mp3"
+ },
+ {
+  "id": "n1-t1-ta1-3",
+  "level": "N1",
+  "type": "task",
+  "stem": "女の人はこのあとまず何をしますか。",
+  "options": [
+   "こちらの窓口で転入届を出す",
+   "オンラインで転出の届け出をする",
+   "今住んでいる市の役所へ行く",
+   "暗証番号をオンラインで再設定する"
+  ],
+  "answer": 2,
+  "explanation": "She has forgotten her PIN, which can only be reset at the counter of her current city office, so she will go there first and file the moving-out notice at the same time. She cannot file online without the PIN, the PIN cannot be reset online, and the moving-in notice is filed only after she moves.",
+  "translation": "Narrator: At a city office, a woman and a staff member are talking. What will the woman do first after this?\nF: Excuse me, I'm planning to move here next month, and I'd like to ask about the procedures.\nM: Certainly. You'll need to submit a moving-in notice at this counter within fourteen days after you move.\nF: Is there any document I need from the office at my old address?\nM: Yes, you need a moving-out certificate. However, if you have a My Number Card, you can file the moving-out notice online, so you don't need to go all the way to your old office.\nF: I have the card, but I've forgotten the PIN...\nM: In that case, you can't do the online procedure, so first you'll need to reset your PIN. That can only be done at the counter of the office where you live now.\nF: I see. If I have to go there anyway, it seems quicker to just file the moving-out notice while I'm there.\nM: Yes, I think that would be more reliable.\nF: Understood. Then I'll do that.\nNarrator: What will the woman do first after this?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "市役所で女の人と職員が話しています。女の人はこのあとまず何をしますか。"
+   },
+   {
+    "speaker": "F",
+    "text": "すみません、来月こちらに引っ越してくる予定なんですが、手続きについて伺いたくて。"
+   },
+   {
+    "speaker": "M",
+    "text": "はい。転入届は、引っ越されてから十四日以内にこちらの窓口に出していただくことになります。"
+   },
+   {
+    "speaker": "F",
+    "text": "前の住所の役所で、何か必要な書類はありますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "ええ、転出証明書が必要です。ただ、マイナンバーカードをお持ちでしたら、オンラインで転出の届け出ができますので、わざわざ前の役所に行かなくても大丈夫ですよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "カードは持ってるんですが、暗証番号を忘れてしまって。"
+   },
+   {
+    "speaker": "M",
+    "text": "それですと、オンラインの手続きができませんので、まず暗証番号を再設定していただく必要があります。それは、今お住まいの役所の窓口でしかできないんです。"
+   },
+   {
+    "speaker": "F",
+    "text": "そうですか。結局行かなきゃいけないなら、そのまま転出届も出してしまったほうが早そうですね。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうですね、そのほうが確実かと思います。"
+   },
+   {
+    "speaker": "F",
+    "text": "わかりました。じゃ、そうします。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人はこのあとまず何をしますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ta1-3.mp3"
+ },
+ {
+  "id": "n1-t1-ta1-4",
+  "level": "N1",
+  "type": "task",
+  "stem": "男の学生は論文のどこを直しますか。",
+  "options": [
+   "第三章のグラフ",
+   "結論の部分",
+   "参考文献の書き方",
+   "グラフと結論の両方"
+  ],
+  "answer": 1,
+  "explanation": "The professor tells him to leave the graph as it is and spend his time on the conclusion, so he will revise only the conclusion. She withdraws her comment on the reference style because it already follows the rules, and the graph only needs to be clearer for the presentation, which rules out both the graph alone and the graph together with the conclusion.",
+  "translation": "Narrator: At a university, a male student and a professor are talking. Which part of the thesis will the male student revise?\nM: Professor, thank you for reading the draft of my graduation thesis.\nF: Overall it was well written. But the graph of the survey results in Chapter 3 is hard to read.\nM: Yes, I'll redo it. I'm also going to fix the reference style you pointed out.\nF: Oh, about the references, I checked again a moment ago and they follow the faculty rules. My mistake. So that part is fine.\nM: Really? I'm glad.\nF: More importantly, the conclusion is a little too short. If you write what the survey found and future issues separately, I think it will be more convincing.\nM: So I should rewrite the conclusion too.\nF: Yes. The graph can stay as it is, so first spend your time on the conclusion. For the graph, it's enough to make it easier to see when you give your presentation.\nM: Understood.\nNarrator: Which part of the thesis will the male student revise?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "大学で男の学生と先生が話しています。男の学生は論文のどこを直しますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "先生、卒業論文の草稿を読んでいただいて、ありがとうございました。"
+   },
+   {
+    "speaker": "F",
+    "text": "全体としてはよく書けていましたよ。ただ、第三章のアンケート結果のグラフ、ちょっと見にくいわね。"
+   },
+   {
+    "speaker": "M",
+    "text": "はい、作り直します。それから、ご指摘いただいた参考文献の書き方も直そうと思います。"
+   },
+   {
+    "speaker": "F",
+    "text": "あ、文献のほうは、さっき見直したら、学部の規定どおりになってたわ。私の勘違い。だから、そこはいいです。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうですか、よかったです。"
+   },
+   {
+    "speaker": "F",
+    "text": "それより、結論が少し短すぎるかな。調査で分かったことと今後の課題を分けて書くと、もっと説得力が出ると思う。"
+   },
+   {
+    "speaker": "M",
+    "text": "結論も書き直すんですね。"
+   },
+   {
+    "speaker": "F",
+    "text": "ええ。グラフは論文ではそのままでいいから、結論のほうに時間をかけて。グラフは発表のときに見やすくすれば十分だから。"
+   },
+   {
+    "speaker": "M",
+    "text": "わかりました。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の学生は論文のどこを直しますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ta1-4.mp3"
+ },
+ {
+  "id": "n1-t1-ta1-5",
+  "level": "N1",
+  "type": "task",
+  "stem": "女の人はこのあとまず何をしますか。",
+  "options": [
+   "招待状を封筒に詰める",
+   "変更のお知らせの文面を作る",
+   "山田さんからデータをもらう",
+   "ホームページの時間を直す"
+  ],
+  "answer": 2,
+  "explanation": "Because the start time changed, she must enclose a notice, and its text has already been written by Yamada, so she first gets the data from him and then prints it. She will stuff the envelopes only after printing the notice, she does not need to write the text, and the man will fix the website himself.",
+  "translation": "Narrator: At a company, a man and a woman are talking about preparations for a new product launch. What will the woman do first after this?\nM: Suzuki, have you already sent out the invitations for the launch?\nF: No, I've finished printing the addresses, so I'm about to put them into envelopes.\nM: I see. Actually, because of the venue, the start time has been pushed back thirty minutes.\nF: What, really? The time is already printed on the invitations...\nM: Yes. There's no time to reprint them, so could you enclose a sheet announcing the change?\nF: Understood. Shall I write the text?\nM: No, Yamada from PR has already written it, so get the data from him and print it.\nF: Okay. Then I'll put things in the envelopes after I print that notice.\nM: Yes, do that. Also, we need to fix the time on the website too.\nF: Shall I do that?\nM: No, I'll handle that.\nNarrator: What will the woman do first after this?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "会社で男の人と女の人が新製品の発表会の準備について話しています。女の人はこのあとまず何をしますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "鈴木さん、発表会の招待状、もう発送した？"
+   },
+   {
+    "speaker": "F",
+    "text": "いえ、宛名の印刷が終わったので、これから封筒に詰めるところです。"
+   },
+   {
+    "speaker": "M",
+    "text": "そっか。実は、会場の都合で開始時間が三十分遅くなったんだ。"
+   },
+   {
+    "speaker": "F",
+    "text": "えっ、そうなんですか。招待状にはもう時間が印刷してあるんですが。"
+   },
+   {
+    "speaker": "M",
+    "text": "うん。刷り直す時間はないから、変更のお知らせを一枚同封してもらえるかな。"
+   },
+   {
+    "speaker": "F",
+    "text": "わかりました。文面は私が作りましょうか。"
+   },
+   {
+    "speaker": "M",
+    "text": "いや、それは広報の山田さんがもう作ってくれてるから、データをもらって印刷して。"
+   },
+   {
+    "speaker": "F",
+    "text": "はい。では、封筒に詰めるのは、そのお知らせを印刷してからにしますね。"
+   },
+   {
+    "speaker": "M",
+    "text": "うん、そうして。それと、ホームページの時間も直さないといけないね。"
+   },
+   {
+    "speaker": "F",
+    "text": "それは私がやっておきましょうか。"
+   },
+   {
+    "speaker": "M",
+    "text": "いや、そっちは僕がやるよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人はこのあとまず何をしますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ta1-5.mp3"
+ },
+ {
+  "id": "n1-t1-pa1-1",
+  "level": "N1",
+  "type": "point",
+  "stem": "女の人は海外支社への異動の話をどうして断ったのですか。",
+  "options": [
+   "英語に自信がないから",
+   "夫が反対したから",
+   "自分が始めた仕事を最後まで見届けたいから",
+   "部長に引き止められたから"
+  ],
+  "answer": 2,
+  "explanation": "She says she launched the regional development project herself and could not forgive herself for abandoning it before it is on track, so 3 is correct. She says she would actually like to use English (1), her husband encouraged her to go (2), and the manager simply accepted her decision rather than holding her back (4).",
+  "translation": "Narrator: A woman and a man are talking at a company. Why did the woman turn down the transfer to the overseas branch?\nMan: I heard you turned down the transfer to the Singapore branch. What a waste.\nWoman: Yes. Everyone assumes I must be worried about the language, but I'd actually love to use my English.\nMan: Then was your family against it?\nWoman: My husband pushed me to go. It's just that I'm the one who launched the current regional development project. I couldn't forgive myself if I abandoned it without seeing it get on track.\nMan: I see. That's just like you.\nWoman: The department manager agreed that we'd talk about a transfer again some other time.\nNarrator: Why did the woman turn down the transfer to the overseas branch?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "会社で女の人と男の人が話しています。女の人は海外支社への異動の話をどうして断ったのですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "聞いたよ。シンガポール支社への異動、断ったんだって？もったいない。"
+   },
+   {
+    "speaker": "F",
+    "text": "ええ。語学に不安があるんじゃないかって、みんなに言われるんですけど、英語ならむしろ使いたいくらいなんです。"
+   },
+   {
+    "speaker": "M",
+    "text": "じゃあ、ご家族が反対されたとか？"
+   },
+   {
+    "speaker": "F",
+    "text": "夫は行ってこいって背中を押してくれました。ただ、今の地域振興のプロジェクト、私が立ち上げたものですから。軌道に乗るのを見届けずに放り出すなんて、自分で自分を許せないと思って。"
+   },
+   {
+    "speaker": "M",
+    "text": "なるほど。君らしいね。"
+   },
+   {
+    "speaker": "F",
+    "text": "異動の話はまたいずれ、ということで部長も了承してくださいました。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人は海外支社への異動の話をどうして断ったのですか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-pa1-1.mp3"
+ },
+ {
+  "id": "n1-t1-pa1-2",
+  "level": "N1",
+  "type": "point",
+  "stem": "先生は、伝統工芸の職人が減っている一番の原因は何だと言っていますか。",
+  "options": [
+   "一人前になるまでに長い時間がかかること",
+   "職人の収入が低いこと",
+   "若者が伝統工芸に関心を持たないこと",
+   "工房を見学する機会が少ないこと"
+  ],
+  "answer": 0,
+  "explanation": "The professor says that, beyond low income, what he felt most keenly was how long it takes to master the skills, so 1 is correct. Low income is mentioned only as the commonly cited reason (2), he says young people are in fact interested (3), and the workshop tours are well attended, so lack of opportunity is not the issue (4).",
+  "translation": "Narrator: A professor is speaking in a university class. What does the professor say is the main cause of the decline in traditional craftspeople?\nProfessor: The reason most often given for the decline in traditional craftspeople is low income. That is certainly a factor, but what struck me most through my research is how long it takes to acquire the skills. In a world where it is said to take ten years to become fully qualified, people cannot see how they will make a living in the meantime. It is not that young people are uninterested. In fact, many young people turn up to every workshop tour. But as soon as they learn how long the training lasts, most of them give up.\nNarrator: What does the professor say is the main cause of the decline in traditional craftspeople?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "大学の授業で先生が話しています。先生は、伝統工芸の職人が減っている一番の原因は何だと言っていますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "伝統工芸の職人が減っている理由として、よく挙げられるのは収入の低さです。しかし、収入の問題もさることながら、私が調査を通じて痛感したのは、技術を身につけるまでの時間の長さなんです。一人前になるには十年かかると言われる世界で、その間、生活の見通しが立たない。若い人が興味を持っていないわけではありません。実際、工房の見学会には毎回多くの若者が集まります。ただ、修業の長さを知るや否や、多くが諦めてしまうのです。"
+   },
+   {
+    "speaker": "N",
+    "text": "先生は、伝統工芸の職人が減っている一番の原因は何だと言っていますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-pa1-2.mp3"
+ },
+ {
+  "id": "n1-t1-pa1-3",
+  "level": "N1",
+  "type": "point",
+  "stem": "男の人は、取引先との食事にどうしてこの店を選んだのですか。",
+  "options": [
+   "駅から近くて便利だから",
+   "料理の味が評判だから",
+   "値段が手頃だから",
+   "相手のアレルギーに合わせて料理を作ってもらえるから"
+  ],
+  "answer": 3,
+  "explanation": "He says the client's department manager has a food allergy and this restaurant will adjust each dish if consulted in advance, so 4 is correct. The woman points out it is far from the station (1), he says the taste was not the deciding factor (2), and he corrects her that the prices are rather high (3).",
+  "translation": "Narrator: A man and a woman are talking. Why did the man choose this restaurant for the dinner with the client?\nWoman: So you chose this restaurant for next week's dinner with the client. Isn't it a bit far from the station?\nMan: Yes, it's not that easy to get to.\nWoman: Is the food highly rated?\nMan: The food is good, of course. But that wasn't the deciding factor. I heard from their secretary that their department manager has a food allergy. Here, if you consult them in advance, they'll adapt each dish.\nWoman: I see. And the prices are reasonable too.\nMan: No, actually it's on the expensive side. But since we're inviting them, the most important thing is that they can eat without worry.\nNarrator: Why did the man choose this restaurant for the dinner with the client?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "男の人と女の人が話しています。男の人は、取引先との食事にどうしてこの店を選んだのですか。"
+   },
+   {
+    "speaker": "F",
+    "text": "来週の取引先との会食、このお店にしたんですね。駅からちょっと遠くないですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "うん、交通の便はいまひとつなんだけどね。"
+   },
+   {
+    "speaker": "F",
+    "text": "料理が評判なんですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "味はもちろん悪くないよ。でも決め手はそこじゃなくて。先方の部長さん、食物アレルギーがおありだって秘書の方から伺ってね。ここなら、事前に相談すれば一品一品対応してくれるんだ。"
+   },
+   {
+    "speaker": "F",
+    "text": "そうだったんですか。値段もお手頃ですしね。"
+   },
+   {
+    "speaker": "M",
+    "text": "いや、値段はむしろ高めなんだけどね。せっかくお招きする以上、安心して召し上がっていただくのが一番だから。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人は、取引先との食事にどうしてこの店を選んだのですか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-pa1-3.mp3"
+ },
+ {
+  "id": "n1-t1-pa1-4",
+  "level": "N1",
+  "type": "point",
+  "stem": "女の人は、小説を書き始めたきっかけは何だと言っていますか。",
+  "options": [
+   "子どもの頃から小説家になりたかったこと",
+   "祖母のために話を作っていたこと",
+   "文学賞に応募したこと",
+   "銀行の仕事を辞めたこと"
+  ],
+  "answer": 1,
+  "explanation": "She says she began by making up stories for her hospitalized grandmother, who looked forward to them, so 2 is correct. She denies it was a childhood dream (1), says she entered literary prizes much later (3), and quit the bank several years after that (4).",
+  "translation": "Narrator: An announcer and a woman novelist are talking on the radio. What does the woman say made her start writing novels?\nMan: I understand you used to work at a bank.\nWoman: Yes, for about ten years. People often assume becoming a novelist was my dream since childhood, but actually that's not really the case.\nMan: Is that so? Then was it entering a literary prize?\nWoman: I entered prizes much later. When I was a bank employee, every time I visited my grandmother in hospital, she would beg me for old tales. I thought she'd get bored hearing the same stories, so I made up my own and told them to her. She came to look forward to them. That's what got me writing.\nMan: What a lovely story.\nWoman: I only quit the bank several years after that.\nNarrator: What does the woman say made her start writing novels?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "ラジオで、アナウンサーと小説家の女の人が話しています。女の人は、小説を書き始めたきっかけは何だと言っていますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "先生は以前、銀行にお勤めだったそうですね。"
+   },
+   {
+    "speaker": "F",
+    "text": "ええ、十年ほど。小説家になるのが子どもの頃からの夢だったとよく思われるんですが、実はそうでもないんです。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうなんですか。では、文学賞への応募がきっかけで？"
+   },
+   {
+    "speaker": "F",
+    "text": "賞に応募したのはずっと後のことです。銀行員時代、入院していた祖母を見舞うたびに、昔話をせがまれまして。同じ話ばかりでは飽きるだろうと、自分で話を作って聞かせていたんです。祖母がそれを楽しみにしてくれて。それが書き始めたきっかけですね。"
+   },
+   {
+    "speaker": "M",
+    "text": "すてきなお話ですね。"
+   },
+   {
+    "speaker": "F",
+    "text": "銀行を辞めたのは、それからさらに数年たってからです。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人は、小説を書き始めたきっかけは何だと言っていますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-pa1-4.mp3"
+ },
+ {
+  "id": "n1-t1-pa1-5",
+  "level": "N1",
+  "type": "point",
+  "stem": "男の人は今年の祭りについて、何が一番心配だと言っていますか。",
+  "options": [
+   "見物客が一か所に集まって混乱すること",
+   "ボランティアの人数が足りないこと",
+   "台風で祭りが中止になること",
+   "警備員を十分に集められないこと"
+  ],
+  "answer": 0,
+  "explanation": "He says that with the fireworks moved to the riverside, if spectators crowd onto the bridge people may be unable to move, and that guiding them is what worries him, so 1 is correct. More volunteers came than last year (2), the typhoon has changed course (3), and he has secured enough security guards (4).",
+  "translation": "Narrator: A man and a woman are talking at the city office. What does the man say he is most worried about regarding this year's festival?\nWoman: The summer festival is finally next week. Are the preparations going smoothly?\nMan: Yes, thankfully. We even got more volunteers than last year.\nWoman: The weather is a worry, though. I hear a typhoon is approaching.\nMan: It seems to have changed course, so that should be all right. More than that, this year we moved the fireworks venue to the riverside, didn't we? If the spectators all crowd onto the bridge, people could end up unable to move. Whether we can guide them properly is what's on my mind.\nWoman: You did increase the number of security guards, didn't you?\nMan: Yes, we've secured enough people. The rest depends on how things go on the day.\nNarrator: What does the man say he is most worried about regarding this year's festival?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "市役所で男の人と女の人が話しています。男の人は今年の祭りについて、何が一番心配だと言っていますか。"
+   },
+   {
+    "speaker": "F",
+    "text": "いよいよ来週ですね、夏祭り。準備は順調ですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "おかげさまで。ボランティアも去年を上回る人数が集まりましたし。"
+   },
+   {
+    "speaker": "F",
+    "text": "天気が心配ですね。台風が近づいているとか。"
+   },
+   {
+    "speaker": "M",
+    "text": "進路がそれたようなので、そちらはなんとかなりそうです。それより、今年は花火の会場を川沿いに移したでしょう。見物客が橋に集中しようものなら、身動きが取れなくなりかねない。うまく誘導できるかどうか、それが気がかりで。"
+   },
+   {
+    "speaker": "F",
+    "text": "警備員は増やしたんですよね。"
+   },
+   {
+    "speaker": "M",
+    "text": "ええ、人数は十分確保しました。あとは当日の人の流れ次第ですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人は今年の祭りについて、何が一番心配だと言っていますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-pa1-5.mp3"
+ },
+ {
+  "id": "n1-t1-pa1-6",
+  "level": "N1",
+  "type": "point",
+  "stem": "女の人は、新商品が売れなかった一番の原因は何だと考えていますか。",
+  "options": [
+   "値段が高すぎたこと",
+   "デザインが地味だったこと",
+   "発売の時期が遅れたこと",
+   "商品の長所が広告で伝えられていなかったこと"
+  ],
+  "answer": 3,
+  "explanation": "She says the real problem was that the advertising never conveyed the product's main strength, heat retention, so 4 is correct. She thinks the price was reasonable (1), the survey shows the design was well received (2), and she grants the delayed launch had only some effect (3).",
+  "translation": "Narrator: A woman and a man are talking about a new product at a company. What does the woman think was the main reason the new product did not sell?\nMan: That water bottle didn't sell as well as we expected. Maybe the price was too high.\nWoman: I think the price was reasonable compared with other companies.\nMan: Then the design? Some people said the colors were dull.\nWoman: Judging from the survey, the design was actually well received. Isn't the problem that its biggest strength, keeping drinks hot, wasn't conveyed at all in the ads? They were all photos of how it looks, without a word about the performance that really matters.\nMan: I see. It also hurt that the launch was later than planned.\nWoman: That probably had some effect, but even so.\nNarrator: What does the woman think was the main reason the new product did not sell?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "会社で女の人と男の人が新商品について話しています。女の人は、新商品が売れなかった一番の原因は何だと考えていますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "例の水筒、思ったほど売れなかったね。値段が高すぎたのかな。"
+   },
+   {
+    "speaker": "F",
+    "text": "値段は他社と比べても妥当な線だったと思います。"
+   },
+   {
+    "speaker": "M",
+    "text": "じゃあ、デザインか。色が地味だという声もあったし。"
+   },
+   {
+    "speaker": "F",
+    "text": "アンケートを見る限り、デザインの評判はむしろよかったんです。問題は、保温性という一番の強みが、広告でまったく伝わっていなかったことじゃないでしょうか。見た目の写真ばかりで、肝心の性能には触れていないんですから。"
+   },
+   {
+    "speaker": "M",
+    "text": "なるほど。発売が予定より遅れたのも痛かったけどね。"
+   },
+   {
+    "speaker": "F",
+    "text": "それも多少は影響したでしょうけど、それにしても、です。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人は、新商品が売れなかった一番の原因は何だと考えていますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-pa1-6.mp3"
+ },
+ {
+  "id": "n1-t1-sa1-1",
+  "level": "N1",
+  "type": "summary",
+  "stem": "料理研究家は何について話していますか。",
+  "options": [
+   "栄養のバランスがいい献立の立て方",
+   "家庭料理に対する考え方の見直し",
+   "手の込んだ料理を作るこつ",
+   "汁物を中心にした料理の作り方"
+  ],
+  "answer": 1,
+  "explanation": "The speaker argues that the belief that home cooking needs many different dishes every day is what makes cooking a burden, and urges people to rethink it and cook in a way they can keep up, so the topic is reconsidering one's attitude to home cooking (2). He actually says more dishes do not guarantee balanced nutrition, so he gives no menu-planning method (1); elaborate cooking is only mentioned as something for days with spare time (3); and soup with rice is just one example of a simple meal, not the subject (4).",
+  "translation": "N: A cooking expert is speaking on TV.\nM: When it comes to cooking at home, many people are convinced they have to prepare several different side dishes every day. Isn't that belief one of the reasons cooking feels like a burden? Having more dishes doesn't necessarily mean better nutritional balance, and eating the same menu several days in a row isn't bad for you either. There are days when a hearty soup full of ingredients and rice is quite enough. What matters is being able to keep it up without strain. Elaborate dishes can be enjoyed on days when you have time and feel relaxed. Simply accepting that should make standing in the kitchen much easier.\nN: What is the cooking expert talking about?\nN: 1. How to plan a nutritionally balanced menu\nN: 2. Rethinking one's attitude to home cooking\nN: 3. Tips for making elaborate dishes\nN: 4. How to cook meals centered on soup",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "テレビで料理研究家が話しています。"
+   },
+   {
+    "speaker": "M",
+    "text": "家で料理をするとなると、毎日違うおかずを何品もそろえなければと思い込んでいる方が少なくありません。そうした思い込みが、料理を負担に感じさせている一因ではないでしょうか。品数が多ければ栄養のバランスがよくなるとは限りませんし、同じ献立が続いたところで、体に悪いわけでもありません。具だくさんの汁物とご飯、それだけで十分な日もあるんです。大切なのは、無理なく続けられることです。手の込んだ料理は、時間と気持ちに余裕のある日に楽しめばいい。そう割り切るだけで、台所に立つのがずっと楽になるはずです。"
+   },
+   {
+    "speaker": "N",
+    "text": "料理研究家は何について話していますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、栄養のバランスがいい献立の立て方"
+   },
+   {
+    "speaker": "N",
+    "text": "2、家庭料理に対する考え方の見直し"
+   },
+   {
+    "speaker": "N",
+    "text": "3、手の込んだ料理を作るこつ"
+   },
+   {
+    "speaker": "N",
+    "text": "4、汁物を中心にした料理の作り方"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-sa1-1.mp3"
+ },
+ {
+  "id": "n1-t1-sa1-2",
+  "level": "N1",
+  "type": "summary",
+  "stem": "先生の話のテーマは何ですか。",
+  "options": [
+   "解説書の上手な選び方",
+   "レポートの効率的な書き方",
+   "解説書の書き手による解釈の違い",
+   "原典にあたって確認することの重要性"
+  ],
+  "answer": 3,
+  "explanation": "The teacher warns that commentaries already contain their authors' interpretation and tells students to always go back to the original text to check what they quote, so the theme is the importance of checking the original source (4). She never explains how to choose a commentary (1); she asks students to spend more time, not to write more efficiently (2); and the authors' interpretation is only the reason for her advice, not a comparison of different authors (3).",
+  "translation": "N: A teacher is speaking in a university class.\nF: When you write reports, it isn't a bad thing to use commentaries and introductory books as a guide. However, I think you tend to stop there. A commentary is, after all, the writer's reading of the original text from a particular point of view. The writer's interpretation has already entered into the choice of what to take up and what to leave out. So it's dangerous to assume that what a commentary says is exactly what the original text says. Even if it takes time, please always go back to the original and check at least the passages you quote. Doing that should also change the way you read commentaries themselves.\nN: What is the theme of the teacher's talk?\nN: 1. How to choose good commentaries\nN: 2. How to write reports efficiently\nN: 3. Differences in interpretation between commentary writers\nN: 4. The importance of checking against the original text",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "大学の授業で先生が話しています。"
+   },
+   {
+    "speaker": "F",
+    "text": "皆さんがレポートを書くとき、解説書や概説書を手がかりにするのは悪いことではありません。ただ、それだけで済ませてしまうきらいがあるように思います。解説書というのは、あくまで書き手がある観点から原典を読み解いたものです。どこを取り上げ、どこを省くかという選択に、すでに書き手の解釈が入り込んでいます。ですから、解説書に書いてあることを、そのまま原典の内容だと思い込むのは危険なんです。時間がかかっても、引用する箇所くらいは必ず原典に戻って確かめてください。そうすることで、解説書の読み方そのものも変わってくるはずです。"
+   },
+   {
+    "speaker": "N",
+    "text": "先生の話のテーマは何ですか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、解説書の上手な選び方"
+   },
+   {
+    "speaker": "N",
+    "text": "2、レポートの効率的な書き方"
+   },
+   {
+    "speaker": "N",
+    "text": "3、解説書の書き手による解釈の違い"
+   },
+   {
+    "speaker": "N",
+    "text": "4、原典にあたって確認することの重要性"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-sa1-2.mp3"
+ },
+ {
+  "id": "n1-t1-sa1-3",
+  "level": "N1",
+  "type": "summary",
+  "stem": "男の人が電話をした目的は何ですか。",
+  "options": [
+   "打ち合わせの日時を変えてもらうため",
+   "会議室の予約を取り消してもらうため",
+   "資料を送るのが遅れることを伝えるため",
+   "工場の視察に一緒に来てもらうため"
+  ],
+  "answer": 0,
+  "explanation": "Because a factory visit came up, the man cannot make the 2 p.m. meeting on Thursday and asks to move it to 4 p.m. or to Friday, so he is calling to have the meeting time changed (1). The meeting room was only the reason for the earlier change, and he asks for no cancellation (2); he says the materials will be sent on Wednesday as planned (3); and the factory visit is his own schedule, not something he invites the listener to (4).",
+  "translation": "N: A message from a man has been left on a company's answering machine.\nM: Hello, this is Yamashita. I'm calling about next week's meeting. I'm sorry, since you only just changed it to Thursday afternoon the other day because of the meeting room, but actually a factory inspection has suddenly come up for me that day. The inspection itself should finish in the morning, but considering the travel, there's no way I'll make it by 2 p.m. So, if possible, could you move the start to 4 o'clock, or, if that's difficult, could we do it sometime on Friday? I'll send the materials by Wednesday as planned. Sorry for the trouble, but could you call me back?\nN: What is the purpose of the man's call?\nN: 1. To have the date and time of the meeting changed\nN: 2. To have the meeting room booking cancelled\nN: 3. To say that sending the materials will be delayed\nN: 4. To have the listener come with him on the factory inspection",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "会社の留守番電話に男の人からメッセージが入っています。"
+   },
+   {
+    "speaker": "M",
+    "text": "もしもし、山下です。来週の打ち合わせの件でお電話しました。先日、会議室の都合で木曜の午後に変更していただいたばかりなのに申し訳ないんですが、実はその日、急に工場の視察が入ってしまいまして。視察そのものは午前中に終わる予定なんですが、移動を考えると、午後二時にはとても間に合いそうにないんです。それで、もし可能でしたら、開始を四時にずらしていただくか、それが難しければ金曜日のどこかでお願いできないかと思いまして。資料は予定どおり水曜日中にお送りします。お手数ですが、折り返しご連絡いただけますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人が電話をした目的は何ですか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、打ち合わせの日時を変えてもらうため"
+   },
+   {
+    "speaker": "N",
+    "text": "2、会議室の予約を取り消してもらうため"
+   },
+   {
+    "speaker": "N",
+    "text": "3、資料を送るのが遅れることを伝えるため"
+   },
+   {
+    "speaker": "N",
+    "text": "4、工場の視察に一緒に来てもらうため"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-sa1-3.mp3"
+ },
+ {
+  "id": "n1-t1-sa1-4",
+  "level": "N1",
+  "type": "summary",
+  "stem": "コーチは何について話していますか。",
+  "options": [
+   "けがを予防する練習方法",
+   "練習を休んだ後の取り戻し方",
+   "休養を取ることの意義",
+   "選手が後ろめたさを感じる理由"
+  ],
+  "answer": 2,
+  "explanation": "The coach explains that the body gets stronger while recovering during rest and that rest should be treated as part of training, so she is talking about the significance of taking rest (3). Injury is only mentioned as a risk of training while tired, and she gives no training method (1); she rejects the old saying about catching up rather than explaining how to catch up (2); and the players' guilty feelings are only her starting point (4).",
+  "translation": "N: A coach is speaking at a sports club.\nF: Many athletes feel guilty about taking a break from practice. After all, people have long said things like 'if you rest for one day, it takes three days to get it back.' But the body doesn't get stronger while you're putting it under load; it gets stronger while it recovers during the rest that follows. If you keep training with fatigue building up, you only increase the risk of injury and won't get the results you want. Think of rest as part of training and build it into your plan in advance. The stronger the athlete, the more they do this.\nN: What is the coach talking about?\nN: 1. Training methods to prevent injury\nN: 2. How to catch up after missing practice\nN: 3. The significance of taking rest\nN: 4. Why athletes feel guilty",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "スポーツクラブでコーチが話しています。"
+   },
+   {
+    "speaker": "F",
+    "text": "練習を休むことに、後ろめたさを感じる選手は少なくありません。一日休んだら取り戻すのに三日かかる、などと昔からよく言われますからね。でも、体というのは、負荷をかけている間に強くなるのではなく、その後の休んでいる間に、回復しながら強くなっていくものなんです。疲れがたまったまま練習を重ねても、けがをする危険が増すばかりで、思うような成果は得られません。休むことも練習の一部だと考えて、あらかじめ計画の中に組み込んでおく。強い選手ほど、そうしているものです。"
+   },
+   {
+    "speaker": "N",
+    "text": "コーチは何について話していますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、けがを予防する練習方法"
+   },
+   {
+    "speaker": "N",
+    "text": "2、練習を休んだ後の取り戻し方"
+   },
+   {
+    "speaker": "N",
+    "text": "3、休養を取ることの意義"
+   },
+   {
+    "speaker": "N",
+    "text": "4、選手が後ろめたさを感じる理由"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-sa1-4.mp3"
+ },
+ {
+  "id": "n1-t1-sa1-5",
+  "level": "N1",
+  "type": "summary",
+  "stem": "建築家が最も言いたいことは何ですか。",
+  "options": [
+   "古い建物は地震に弱いので、早く建て替えるべきだ",
+   "古い建物は、できるだけ残して活かす方向で考えるべきだ",
+   "建物を造り直す新しい技術を、もっと広めるべきだ",
+   "建て替えにかかる費用を、もっと抑えるべきだ"
+  ],
+  "answer": 1,
+  "explanation": "The architect concludes that instead of assuming demolition, we should first look for a way to keep old buildings, so his main point is that they should be preserved and used where possible (2). He admits some buildings are poorly prepared for earthquakes but argues against rushing to rebuild (1); the renovation technique and the lower cost are only supporting reasons for keeping buildings, not his main claim (3, 4).",
+  "translation": "N: An architect is speaking at a lecture.\nM: When it comes to old buildings, people immediately call for them to be rebuilt. Certainly, there are many buildings whose facilities have aged or which are not well prepared for earthquakes. But if we tear them down for that reason, we lose the role the building has played in the town until then, and even people's memories. Recently, techniques have advanced for keeping the exterior and pillars as they are while rebuilding only the interior to today's standards. In terms of cost, too, it is often cheaper than building new. Rather than starting from the assumption of rebuilding, first explore a way to keep the building. I believe that kind of thinking is essential for town planning from now on.\nN: What does the architect most want to say?\nN: 1. Old buildings are weak against earthquakes, so they should be rebuilt quickly\nN: 2. Old buildings should be kept and made use of as far as possible\nN: 3. New techniques for rebuilding buildings should be spread more widely\nN: 4. The cost of rebuilding should be reduced further",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "講演会で建築家が話しています。"
+   },
+   {
+    "speaker": "M",
+    "text": "古い建物というと、すぐに建て替えるべきだという声が上がります。確かに、設備が古くなっていたり、地震への備えが十分でなかったりする建物も少なくありません。しかし、だからといって壊してしまえば、それまでその建物が町の中で果たしてきた役割や、人々の記憶までもが失われてしまいます。最近では、外観や柱をそのまま残しながら、内部だけを今の基準に合わせて造り直す技術も進んでいます。費用の面でも、新しく建てるより抑えられる場合が少なくありません。建て替えありきで考えるのではなく、まず残す道を探ってみる。そういう発想が、これからの町づくりには欠かせないと思います。"
+   },
+   {
+    "speaker": "N",
+    "text": "建築家が最も言いたいことは何ですか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、古い建物は地震に弱いので、早く建て替えるべきだ"
+   },
+   {
+    "speaker": "N",
+    "text": "2、古い建物は、できるだけ残して活かす方向で考えるべきだ"
+   },
+   {
+    "speaker": "N",
+    "text": "3、建物を造り直す新しい技術を、もっと広めるべきだ"
+   },
+   {
+    "speaker": "N",
+    "text": "4、建て替えにかかる費用を、もっと抑えるべきだ"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-sa1-5.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-1",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "部長でしたら、きっと大丈夫ですよ。",
+   "ええ、誰にでもうっかりすることはあるものですね。",
+   "初歩的なミスなら、部長に聞いてみましょう。"
+  ],
+  "answer": 1,
+  "explanation": "She is surprised that someone of the manager's standing made such a basic mistake, so replying that anyone can slip up sometimes is natural. Option 1 reassures as if the mistake had not happened yet, and option 3 suggests asking the very person who made the mistake.",
+  "translation": "F: I never thought someone like the manager, of all people, would make such a basic mistake. N: 1. If it's the manager, it'll surely be fine. 2. Yes, anyone can be careless sometimes. 3. If it's a basic mistake, let's ask the manager.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "部長ともあろう方が、あんな初歩的なミスをなさるとは思いませんでした。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、部長でしたら、きっと大丈夫ですよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、ええ、誰にでもうっかりすることはあるものですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、初歩的なミスなら、部長に聞いてみましょう。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-1.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-2",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "じゃあ、私が先方に催促してみましょうか。",
+   "今週中に仕上がってよかったですね。",
+   "資料がそろったなら、すぐ始められますね。"
+  ],
+  "answer": 0,
+  "explanation": "He says he cannot finish the plan this week because the materials have not arrived, so offering to chase the other party for them is natural. Option 2 treats the work as already finished, and option 3 wrongly assumes the materials are ready.",
+  "translation": "M: Even if I wanted to finish this plan this week, there's nothing I can do until the materials come in. N: 1. Then shall I press the other party for them? 2. I'm glad it got finished this week. 3. If the materials are in, you can start right away.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "この企画、今週中に仕上げようにも、資料がそろわないことにはどうにもならないんだ。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、じゃあ、私が先方に催促してみましょうか。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、今週中に仕上がってよかったですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、資料がそろったなら、すぐ始められますね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-2.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-3",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "いえ、こちらこそお越しいただいて恐縮です。",
+   "ええ、ぜひまたいらしてください。",
+   "いえ、こちらこそ長居してしまって失礼しました。"
+  ],
+  "answer": 2,
+  "explanation": "She thanks the listener for having taken the trouble to visit, so the visitor's polite reply apologizing for staying too long is natural. Options 1 and 2 are things the host would say, but the listener was the guest.",
+  "translation": "F: Thank you for taking the trouble to come the other day when you were so busy. N: 1. No, I'm grateful that you came. 2. Yes, please come again. 3. Not at all, I'm sorry I stayed so long.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "先日はお忙しいところ、わざわざお越しいただきまして。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、いえ、こちらこそお越しいただいて恐縮です。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、ええ、ぜひまたいらしてください。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、いえ、こちらこそ長居してしまって失礼しました。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-3.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-4",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "じゃあ、まだ話を聞いていないんですね。",
+   "部長に呼ばれたなら、仕方ないですね。",
+   "よっぽどやりたかったんでしょうね。"
+  ],
+  "answer": 2,
+  "explanation": "〜が早いか means \"the moment\", so Tanaka rushed to the manager as soon as he heard about the project, showing how eager he was. Option 1 contradicts the fact that he heard the news, and option 2 wrongly says the manager called him.",
+  "translation": "M: The moment Tanaka heard about the new project, he dashed off to the manager. N: 1. So he hasn't heard about it yet. 2. If the manager called him, it can't be helped. 3. He must have really wanted to do it.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "田中さん、新しいプロジェクトの話を聞くが早いか、部長のところへ飛んでいったよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、じゃあ、まだ話を聞いていないんですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、部長に呼ばれたなら、仕方ないですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、よっぽどやりたかったんでしょうね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-4.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-5",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "わかりました。念入りに確認します。",
+   "間違いが一つだけなら、問題ないですね。",
+   "もう目を通さなくてもいいんですね。"
+  ],
+  "answer": 0,
+  "explanation": "〜たりとも means \"not even one\", so she wants not a single error and asks for another check; promising to check carefully fits. Option 2 accepts one error, which she rules out, and option 3 says no check is needed.",
+  "translation": "F: Not even a single character in this report can be wrong, so could you look it over once more? N: 1. Understood. I'll check it carefully. 2. If there's only one mistake, it's no problem. 3. So I don't need to look it over anymore.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "この報告書、一字たりとも間違いがあってはならないから、もう一度目を通してくれる？"
+   },
+   {
+    "speaker": "N",
+    "text": "1、わかりました。念入りに確認します。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、間違いが一つだけなら、問題ないですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、もう目を通さなくてもいいんですね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-5.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-6",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "では、遠慮なくお邪魔します。",
+   "とんでもない。すっかりごちそうになってしまって。",
+   "それは残念でしたね。また来てください。"
+  ],
+  "answer": 1,
+  "explanation": "A host saying they could not offer much hospitality is being modest as the guest leaves, so the guest politely denies it and thanks them for the meal. Option 1 is said when arriving, and option 3 is what a host would say, not a guest.",
+  "translation": "M: You came all this way, and I couldn't offer you anything much. N: 1. Then I'll come in without hesitation. 2. Not at all. You treated me to such a wonderful meal. 3. That's a shame. Please come again.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "せっかく来てくれたのに、何のおかまいもできませんで。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、では、遠慮なくお邪魔します。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、とんでもない。すっかりごちそうになってしまって。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、それは残念でしたね。また来てください。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-6.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-7",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "偶然だったなら、仕方ありませんね。",
+   "部長は失敗するとは思っていなかったんですね。",
+   "確かに、準備不足は否めませんでしたからね。"
+  ],
+  "answer": 2,
+  "explanation": "〜べくして起こった means the failure was bound to happen, so agreeing that the preparation was clearly lacking fits. Option 1 calls it chance, the opposite of inevitable, and option 2 says the manager did not expect it, which contradicts his view.",
+  "translation": "F: According to the manager, this failure was bound to happen. N: 1. If it was by chance, it can't be helped. 2. So the manager didn't think it would fail. 3. True, there's no denying the preparation was insufficient.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "部長に言わせれば、今回の失敗は起こるべくして起こったそうですよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、偶然だったなら、仕方ありませんね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、部長は失敗するとは思っていなかったんですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、確かに、準備不足は否めませんでしたからね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-7.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-8",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "雨なら、延期になるかもしれませんね。",
+   "はい、早めに家を出るようにします。",
+   "遅れても、問題ないということですね。"
+  ],
+  "answer": 1,
+  "explanation": "雨が降ろうが槍が降ろうが means \"no matter what happens\", so he insists nobody may be late; promising to leave home early fits. Option 1 suggests rain could postpone it, and option 3 reverses his meaning.",
+  "translation": "M: Come rain or shine, we can't be late for tomorrow's meeting. N: 1. If it rains, it might be postponed. 2. Yes, I'll make sure to leave home early. 3. So it's fine even if we're late.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "明日の会議、雨が降ろうが槍が降ろうが、遅れるわけにはいかないぞ。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、雨なら、延期になるかもしれませんね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、はい、早めに家を出るようにします。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、遅れても、問題ないということですね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-8.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-9",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "そうですか。山田さんには私から伝えておきますね。",
+   "じゃあ、出張から戻ったら一緒に行きましょう。",
+   "出られてよかったですね。"
+  ],
+  "answer": 0,
+  "explanation": "She meant to attend Yamada's farewell party but cannot because of a sudden business trip, so offering to pass her message on to Yamada is natural. A farewell party cannot be attended later, so option 2 does not work, and option 3 says she was able to attend.",
+  "translation": "F: I was planning to go to Yamada's farewell party, but a sudden business trip came up and that's out of the question now. N: 1. I see. I'll let Yamada know for you. 2. Then let's go together when you're back from the trip. 3. I'm glad you could attend.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "山田さんの送別会、出るつもりだったんだけど、急な出張でそれどころじゃなくなっちゃって。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、そうですか。山田さんには私から伝えておきますね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、じゃあ、出張から戻ったら一緒に行きましょう。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、出られてよかったですね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-9.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-10",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "結果は誰が担当しても同じということですね。",
+   "では、担当者は慎重に選ばないといけませんね。",
+   "担当者がいないなら、結果は出ませんね。"
+  ],
+  "answer": 1,
+  "explanation": "〜いかんで means \"depending on\", so the result depends heavily on the person in charge; choosing that person carefully follows. Option 1 says the result does not depend on who is in charge, and option 3 assumes there is nobody in charge.",
+  "translation": "M: Depending on the judgment of the person in charge, the outcome of this matter could change a lot. N: 1. So the result is the same no matter who is in charge. 2. Then we have to choose the person in charge carefully. 3. If there's nobody in charge, there won't be any result.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "この件は、担当者の判断いかんで、結果が大きく変わりかねないね。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、結果は誰が担当しても同じということですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、では、担当者は慎重に選ばないといけませんね。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、担当者がいないなら、結果は出ませんね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-10.mp3"
+ },
+ {
+  "id": "n1-t1-qra1-11",
+  "level": "N1",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "じゃあ、手が空いたら持ってきてください。",
+   "もう見ていただいたんですか。",
+   "わかりました。午後には目を通しておきます。"
+  ],
+  "answer": 2,
+  "explanation": "She asks the listener to look over the document whenever they are free, so agreeing to read it by the afternoon is natural. Option 1 reverses the roles by asking her to bring it later, and option 2 asks whether someone has already checked it.",
+  "translation": "F: Excuse me, could you look over this document whenever you have a moment? N: 1. Then please bring it when you're free. 2. Have you already had it looked at? 3. Sure. I'll look through it by this afternoon.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "すみません、この書類、お手すきの時で構いませんので、見ていただけますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、じゃあ、手が空いたら持ってきてください。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、もう見ていただいたんですか。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、わかりました。午後には目を通しておきます。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-qra1-11.mp3"
+ },
+ {
+  "id": "n1-t1-ila1-1",
+  "level": "N1",
+  "type": "integrated-listening",
+  "stem": "学生たちは、どこで合宿をすることにしましたか。",
+  "options": [
+   "大学のセミナーハウス",
+   "山の研修施設",
+   "海辺の旅館",
+   "駅前のビジネスホテル"
+  ],
+  "answer": 3,
+  "explanation": "The business hotel costs 12,000 yen each plus a 3,000-yen meeting room split ten ways, so it stays within the 15,000-yen budget and is easy for the professor to reach, and the students settle on it. The seminar house is already booked, the mountain facility has only two buses a day which the late-arriving professor can't fit around, and the seaside inn costs almost 20,000 yen, over budget.",
+  "translation": "Narrator: At a university seminar, three students are talking about where to hold a study camp.\nF: We need to decide on a place for next month's seminar camp soon. I've narrowed it down to four.\nM: First, the university's seminar house. It's the cheapest, but when I asked, they said the weekend we want is already taken by another club.\nF: Then there's nothing we can do about that. Next?\nM: The training facility in the mountains. It has a presentation room with a projector, and the price is reasonable. But there are only two buses a day from the station, and if you miss one, a taxi apparently takes nearly an hour.\nM2: The professor said he's at a conference until the morning of the first day and will join us after noon. It would be hard for him to fit around the bus times.\nF: I see. What about the seaside inn?\nM: It's a five-minute walk from the station, and the view and food are well reviewed. But it costs nearly 20,000 yen per person.\nM2: We agreed on a budget of up to 15,000 yen each. Going over that is a bit...\nF: And the last one, the business hotel in front of the station?\nM: 12,000 yen per person, and we can rent a meeting room. But the meeting room is extra, 3,000 yen a day.\nM2: Is the 3,000 yen per person, or for the room?\nM: For the room. Split between ten of us, it's 300 yen each.\nF: Then it fits in the budget. It lacks the feel of a camp, but it's easy for the professor to get to.\nM2: As long as we can practise our presentations, that's enough. So that's settled.\nNarrator: Where did the students decide to hold the camp?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "大学のゼミで、学生三人が合宿の場所について話しています。"
+   },
+   {
+    "speaker": "F",
+    "text": "来月のゼミ合宿、そろそろ場所を決めないとね。候補は四つまで絞ったんだけど。"
+   },
+   {
+    "speaker": "M",
+    "text": "まず大学のセミナーハウス。費用は一番安いんだけど、問い合わせたら、希望している週末はもうほかのサークルの予約で埋まってるって。"
+   },
+   {
+    "speaker": "F",
+    "text": "それじゃあ、どうしようもないね。次は？"
+   },
+   {
+    "speaker": "M",
+    "text": "山の研修施設。発表用の部屋にプロジェクターも備え付けてあって、値段も手ごろ。ただ、駅からのバスが一日二本しかなくて、乗り遅れようものなら、タクシーで一時間近くかかるらしい。"
+   },
+   {
+    "speaker": "M2",
+    "text": "先生は初日の朝まで学会で、昼過ぎに合流するって言ってたよね。バスの時間に合わせるのは難しいんじゃないかな。"
+   },
+   {
+    "speaker": "F",
+    "text": "そうか。じゃあ、海辺の旅館は？"
+   },
+   {
+    "speaker": "M",
+    "text": "駅から歩いて五分で、景色も料理も評判がいい。でも、一人二万円近くかかる。"
+   },
+   {
+    "speaker": "M2",
+    "text": "予算は一人一万五千円までって決めたよね。それを超えるのは、ちょっと…。"
+   },
+   {
+    "speaker": "F",
+    "text": "最後の、駅前のビジネスホテルは？"
+   },
+   {
+    "speaker": "M",
+    "text": "一人一万二千円で、会議室も借りられる。ただ、会議室は別料金で、一日三千円。"
+   },
+   {
+    "speaker": "M2",
+    "text": "三千円って、一人あたり？それとも部屋代？"
+   },
+   {
+    "speaker": "M",
+    "text": "部屋代。十人で割れば、一人三百円だよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "それなら予算内に収まるね。合宿らしい雰囲気には欠けるけど、先生も来やすいし。"
+   },
+   {
+    "speaker": "M2",
+    "text": "発表の練習さえできれば十分だよ。じゃあ、そこで決まりだね。"
+   },
+   {
+    "speaker": "N",
+    "text": "学生たちは、どこで合宿をすることにしましたか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ila1-1.mp3"
+ },
+ {
+  "id": "n1-t1-ila1-2",
+  "level": "N1",
+  "type": "integrated-listening",
+  "stem": "二人はどの空気清浄機を買うことにしましたか。",
+  "options": [
+   "プレミアム",
+   "コンパクト",
+   "スタンダード",
+   "ワイド"
+  ],
+  "answer": 0,
+  "explanation": "The couple want humidification and easy upkeep, and the clerk confirms the Premium has a quiet night mode, so they choose it despite the price. The Compact is quiet but has no humidifier, the Standard's tank must be washed daily, which the husband rejects, and the Wide has no humidifier either.",
+  "translation": "Narrator: At an electronics store, a clerk and a married couple are talking.\nClerk (M): These four air purifiers are popular. First, the Compact is the smallest and runs quietly, but it has no humidifier. The Standard has a humidifier and is reasonably priced, but the water tank has to be washed every day. The Premium also has a humidifier, and the tank only needs cleaning once a month, but it is the most expensive. The Wide is for large rooms; it has no humidifier, but it is very good at removing odours.\nF: We'll put it in the bedroom, so a quiet one would be nice. And it gets terribly dry in winter, so I'd like humidification.\nM2: So that's two with a humidifier. Honestly, I don't think we'd keep up washing the tank every day. You tend to put everything off when you get busy.\nF: So do you. But yes, easier upkeep would be better. As for the price... well, it's something we'll use every day.\nClerk: The Premium switches to a quiet mode at night, so it can be used in a bedroom too.\nM2: Then let's go with that one.\nNarrator: Which air purifier did the two decide to buy?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "電器店で、店員と夫婦が話しています。"
+   },
+   {
+    "speaker": "M",
+    "text": "こちらの四つが人気の空気清浄機です。まず「コンパクト」は一番小さくて、運転音も静かです。ただ、加湿機能はついていません。「スタンダード」は加湿機能つきで、お値段も手ごろですが、水のタンクを毎日洗っていただく必要があります。「プレミアム」も加湿機能つきで、タンクのお手入れは月に一度で済みます。ただ、お値段は一番高くなります。「ワイド」は広いお部屋向けで、加湿機能はありませんが、においを取る力が強いのが特長です。"
+   },
+   {
+    "speaker": "F",
+    "text": "寝室に置くから、音が静かなのがいいわね。それと、冬は乾燥がひどいから、加湿はほしいな。"
+   },
+   {
+    "speaker": "M2",
+    "text": "加湿機能つきなら二つだね。毎日タンクを洗うのは、正直続く気がしないな。君、忙しくなると何もかも後回しにするきらいがあるし。"
+   },
+   {
+    "speaker": "F",
+    "text": "それはあなたもでしょう。でも、そうね、手入れが楽なほうがいい。値段は…まあ、毎日使うものだし。"
+   },
+   {
+    "speaker": "M",
+    "text": "「プレミアム」も、夜間は自動で静音モードになりますので、寝室でも問題なくお使いいただけます。"
+   },
+   {
+    "speaker": "M2",
+    "text": "じゃあ、それにしよう。"
+   },
+   {
+    "speaker": "N",
+    "text": "二人はどの空気清浄機を買うことにしましたか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ila1-2.mp3"
+ },
+ {
+  "id": "n1-t1-ila2-1",
+  "level": "N1",
+  "type": "integrated-listening",
+  "stem": "二人はどの講座に申し込むことにしましたか。",
+  "options": [
+   "写真入門",
+   "郷土料理教室",
+   "はじめての書道",
+   "園芸講座"
+  ],
+  "answer": 2,
+  "explanation": "Calligraphy is on Sunday afternoons and the tools are lent out, which removes the husband's worry, so the couple choose it. Photography clashes with the daughter's Saturday-morning swimming lessons, the cooking class is on weekday evenings when the husband works late, and gardening would mean tending a plot every week for half a year, which they feel is too much.",
+  "translation": "Narrator: At a community centre, a staff member is explaining the autumn courses, and a married couple are talking.\nStaff (M2): There are four community courses this autumn. The first is Introduction to Photography: Saturday mornings, six sessions, and please bring your own camera. The second is Local Cooking: weekday evenings, four sessions, with a separate ingredients fee of 1,000 yen each time. The third is Calligraphy for Beginners: Sunday afternoons, eight sessions, and we lend out the tools. The fourth is Gardening: Saturday afternoons, five sessions, and participants can use a plot in the ward's community farm for six months.\nF: Hey, shall we sign up for something together?\nM: Sounds good. But I'm always working overtime on weekday evenings, so even if I wanted to go, I couldn't.\nF: True. What about photography? Oh, but on Saturday mornings I take our daughter to her swimming lessons and pick her up.\nM: Right. Calligraphy sounds nice, but we don't have brushes or anything, do we?\nF: He said they lend the tools. So we wouldn't need to buy anything.\nM: Oh, I missed that. Gardening looks interesting too, but looking after a field for half a year would mean going every week. For us, who even manage to kill the potted plants on the balcony, that's a bit much.\nF: That's true. Then shall we try picking up a brush together on Sundays?\nM: OK, it's decided.\nNarrator: Which course did the two decide to sign up for?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "市民センターで、職員が秋の講座について説明しています。そのあとで、夫婦が話しています。"
+   },
+   {
+    "speaker": "M2",
+    "text": "今年の秋の市民講座は四つです。一つ目は「写真入門」。土曜日の午前、全六回で、カメラはご自分のものをお持ちください。二つ目は「郷土料理教室」。平日の夜、全四回で、材料費が毎回千円、別にかかります。三つ目は「はじめての書道」。日曜日の午後、全八回で、道具はこちらでお貸しします。四つ目は「園芸講座」。土曜日の午後、全五回で、受講された方は区民農園の一区画を半年間お使いいただけます。"
+   },
+   {
+    "speaker": "F",
+    "text": "ねえ、二人で何か申し込んでみない？"
+   },
+   {
+    "speaker": "M",
+    "text": "いいね。でも、平日の夜は残業続きだから、通おうにも通えないよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "そうよね。写真はどう？あ、でも土曜の午前は、娘の水泳教室の送り迎えがあるんだった。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうだね。書道もいいけど、うちには筆も何もないよね。"
+   },
+   {
+    "speaker": "F",
+    "text": "道具は貸してくれるって言ってたわよ。だから何も買わなくていいの。"
+   },
+   {
+    "speaker": "M",
+    "text": "あ、聞き逃してた。園芸も面白そうだけど、畑を半年も世話するとなると、毎週通わなきゃいけないだろう。ベランダの鉢植えすら枯らしてしまう僕らには、ちょっと荷が重いよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "それもそうね。じゃあ、日曜日に二人で筆を持ってみましょうか。"
+   },
+   {
+    "speaker": "M",
+    "text": "よし、決まりだ。"
+   },
+   {
+    "speaker": "N",
+    "text": "二人はどの講座に申し込むことにしましたか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n1/n1-t1-ila2-1.mp3"
  }
 ]

@@ -2,7 +2,6 @@
  "id": "n3-test-1",
  "level": "N3",
  "title": "N3 mock test 1",
- "note": "Listening is not included yet.",
  "sections": [
   {
    "id": "vocab",
@@ -86,6 +85,39 @@
     "n3-t1-rla1-4",
     "n3-t1-isa1-1",
     "n3-t1-isa1-2"
+   ]
+  },
+  {
+   "id": "listening",
+   "questionIds": [
+    "n3-t1-ta1-1",
+    "n3-t1-ta1-2",
+    "n3-t1-ta1-3",
+    "n3-t1-ta1-4",
+    "n3-t1-ta1-5",
+    "n3-t1-ta1-6",
+    "n3-t1-pa1-1",
+    "n3-t1-pa1-2",
+    "n3-t1-pa1-4",
+    "n3-t1-pa1-6",
+    "n3-t1-pa2-1",
+    "n3-t1-pa2-2",
+    "n3-t1-sa1-1",
+    "n3-t1-sa1-2",
+    "n3-t1-sa1-3",
+    "n3-t1-ua1-1",
+    "n3-t1-ua1-2",
+    "n3-t1-ua1-3",
+    "n3-t1-ua1-4",
+    "n3-t1-qra1-1",
+    "n3-t1-qra1-2",
+    "n3-t1-qra1-3",
+    "n3-t1-qra1-4",
+    "n3-t1-qra1-5",
+    "n3-t1-qra1-6",
+    "n3-t1-qra1-7",
+    "n3-t1-qra1-8",
+    "n3-t1-qra1-9"
    ]
   }
  ]

@@ -9,9 +9,9 @@ Results with estimated section scores vs sectional minimums,test,must,ganbaru,ye
 Question review with explanation and translation,test,must,limen,yes,review from results; dedicated review screen with exam mode
 Data-built vocab and grammar drills for all levels,content,must,ganbaru,partial,kanji reading and orthography live (585 sets); context waits for blind solve; grammar moves to AI
 AI-written questions with blind-solve verification,content,must,ganbaru,yes,Claude Code workflow; 98.7% first-pass
-Full mock tests for all levels N5 to N1,content,must,migii,partial,"test 1 per level, no listening"
+Full mock tests for all levels N5 to N1,content,must,migii,partial,"test 1 per level, complete with listening"
 Reading questions (all official types),content,must,migii,yes,AI
-Listening questions with play-once audio,content,must,migii,no,VOICEVOX audio
+Listening questions with play-once audio,content,must,migii,yes,VOICEVOX audio; 142 questions in test 1
 Report a problem on every question,test,must,ganbaru,no,
 Mistakes go into a spaced-review notebook,study,must,ganbaru,no,FSRS + red-sheet card
 Bookmarks,study,must,limen,no,
@@ -26,7 +26,7 @@ Licenses and credits page,legal,must,ganbaru,no,OpenJLPT EDRDG Tatoeba VOICEVOX
 Keyboard shortcuts in the player,test,must,ganbaru,yes,"1-4, F flag, arrows"
 Tap a word in a passage to look it up,test,should,migii,no,
 Furigana toggle in practice mode,test,should,ganbaru,yes,
-Listening transcript and translation after answering,test,should,migii,no,
+Listening transcript and translation after answering,test,should,migii,yes,
 Word lists by level with flashcards,study,should,migii,no,
 Personalized study roadmap to the exam date,study,should,migii,no,
 Printable tests,test,should,migii,no,print CSS
