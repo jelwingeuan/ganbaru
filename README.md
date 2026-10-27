@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ganbaru 頑張る
 
-## Getting Started
+Practice for the JLPT (Japanese-Language Proficiency Test), N5 to N1, with full timed mock tests that follow the real exam, skill drills, a dictionary and grammar lessons.
 
-First, run the development server:
+## What's in it
+
+**Mock tests.** One full test per level. Each one follows the official structure: the same sections, time limits and question types, with the same number of questions as the real test.
+- **Exam mode:** each section has its own timer, and nothing is revealed until the end.
+- **Reading:** passages sit above their questions.
+- **Listening:** each recording plays once and can't be paused or replayed.
+- **Navigation:** a question bar with flags.
+- **Results:** estimated scores per section against the sectional minimums, an overall pass estimate, and a breakdown by question type.
+- **Review:** every question with its explanation, translation and listening transcript.
+
+**Skill drills.** Sets of ten kanji-reading and spelling questions at every level, with the answer and explanation after each one, and progress saved as you go.
+
+**Dictionary.** Look up about 7,800 JLPT words and 2,400 kanji by kanji, kana, romaji or English. Filter with tags like `#n3 #verb`. Word pages show furigana example sentences, and kanji pages show readings and related words.
+
+**Grammar.** 526 grammar points, each with its meaning, how it's formed, notes and examples.
+
+## How the questions are made
+
+Every question is an original written for Ganbaru in the official JLPT formats. None are real or leaked exam questions.
+
+- **Data-built:** kanji-reading, spelling and word-in-context questions come from [OpenJLPT](https://github.com/evanclan/OpenJLPT) words and their [Tatoeba](https://tatoeba.org) example sentences.
+- **AI-written:** grammar, reading and listening questions are written by AI agents.
+- **Blind check:** a separate agent solves each question without the answer key. A question only ships if it reaches the same answer and finds exactly one correct option, natural Japanese and the right level. Questions that fail are rewritten.
+- **Audio:** listening recordings are voiced with [VOICEVOX](https://voicevox.hiroshiba.jp/).
+
+## Run it locally
+
+Needs Node 24.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Command | What it does |
+| --- | --- |
+| `npm test` | Unit tests: blueprints, scoring, question checks, search, the question generator |
+| `npm run lint` / `npm run build` | Lint and production build |
+| `npm run data:openjlpt` | Fetch the pinned OpenJLPT release into `data/openjlpt` and validate it |
+| `npm run content:data` | Rebuild the data-built questions in `content/questions` |
+| `npm run content:audio` | Voice listening scripts into `public/audio` (needs the VOICEVOX app open) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project layout
 
-## Learn More
+```
+app/                pages: tests, drills, dictionary, grammar
+components/test/    exam player, drill player, hub
+components/desk/    design system ("study desk" theme)
+content/            blueprints, questions, passages, mock tests
+lib/                data loading, search, scoring, question checks
+scripts/            data import, question generation, audio
+data/openjlpt/      dictionary data (pinned OpenJLPT release)
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Built with
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js 16, React 19, Tailwind CSS 4, shadcn/ui and [React Bits](https://reactbits.dev).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Credits and licences
 
-## Deploy on Vercel
+- **Words and kanji:** [OpenJLPT](https://github.com/evanclan/OpenJLPT) (CC BY-SA 4.0). It's built on JMdict and KANJIDIC2 from the [EDRDG](https://www.edrdg.org/edrdg/licence.html) and on Jonathan Waller's JLPT lists.
+- **Example sentences:** [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR).
+- **Data-built questions:** licensed CC BY-SA 4.0. See [`content/questions/NOTICE.md`](content/questions/NOTICE.md).
+- **Listening voices:** VOICEVOX:九州そら, VOICEVOX:四国めたん, VOICEVOX:玄野武宏, VOICEVOX:青山龍星.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+JLPT levels in this app are community estimates; the JLPT has published no official word, kanji or grammar lists since 2010. Ganbaru is not affiliated with the Japan Foundation or JEES.
