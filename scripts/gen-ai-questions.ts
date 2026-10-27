@@ -7,7 +7,7 @@
 //   npm run content:ai -- --test 1 --dry-run  shows the plan and prompt sizes without calling the API
 import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
-import { ApiError, GoogleGenAI } from "@google/genai";
+import { GoogleGenAI } from "@google/genai";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
@@ -19,8 +19,12 @@ import { checkQuestion, type Passage, type Question, type Test } from "../lib/qu
 // Gemini's free tier when a Gemini key is set, otherwise Claude. Writer and checker are different models,
 // so the blind solve doesn't share the writer's blind spots.
 const GEMINI = Boolean(process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY);
-const GEN_MODEL = GEMINI ? "gemini-3.8-flash" : "claude-opus-5-5";
-const CHECK_MODEL = GEMINI ? "gemini-3.6-flash" : "claude-sonnet-5-5";
+// GANBARU_WRITER / GANBARU_CHECKER override the models, e.g. to spread Gemini's per-model daily quota.
+const GEN_MODEL = process.env.GANBARU_WRITER ?? (GEMINI ? "gemini-3.8-flash" : "claude-opus-5-5");
+const CHECK_MODEL = process.env.GANBARU_CHECKER ?? (GEMINI ? "gemini-3.6-flash" : "claude-sonnet-5-5");
+
+/** The free tier's daily request quota is used up; retrying today is pointless. */
+class QuotaError extends Error {}
 // $ per million tokens (first-party API, 2026-10). Cache writes are 1.25x input. Gemini free tier costs nothing.
 const PRICES: Record<string, { in: number; out: number; cacheRead: number; cacheWrite: number }> = {
   "claude-opus-5-5": { in: 4, out: 20, cacheRead: 0.2, cacheWrite: 5 },
@@ -132,10 +136,13 @@ async function askGemini<T extends z.ZodType>(model: string, system: string, use
       if (!interaction.output_text) throw new Error(`${model} returned no text (status ${interaction.status})`);
       return schema.parse(JSON.parse(interaction.output_text)) as z.infer<T>;
     } catch (err) {
-      const retryable = err instanceof ApiError && (err.status === 429 || err.status >= 500);
-      if (!retryable || attempt >= 8) throw err;
+      // The Interactions API's error classes aren't exported, so go by the HTTP status they carry.
+      const status = (err as { status?: number }).status ?? 0;
+      const message = err instanceof Error ? err.message : String(err);
+      if (status === 429 && /per day/i.test(message)) throw new QuotaError(`${model}: ${message}`);
+      if ((status !== 429 && status < 500) || attempt >= 8) throw err;
       const wait = Math.min(120, 15 * attempt);
-      console.log(`  ${model}: HTTP ${(err as ApiError).status}, waiting ${wait}s (try ${attempt}/8)`);
+      console.log(`  ${model}: HTTP ${status}, waiting ${wait}s (try ${attempt}/8)`);
       await sleep(wait * 1000);
     }
   }
@@ -333,16 +340,24 @@ async function aiType(level: Level, testNo: number, type: QuestionType, count: n
 async function draftType(level: Level, type: QuestionType, count: number, system: string, exclude: Set<string>) {
   const file = join(process.cwd(), "content", "questions", level.toLowerCase(), `${type}.json`);
   const all: Question[] = JSON.parse(await readFile(file, "utf8"));
-  const candidates = all.filter((q) => q.status === "draft" && !exclude.has(q.id)).sort((a, b) => hash(a.id) - hash(b.id)).slice(0, count * 2);
+  // Questions a previous run already verified are used first, so no quota is spent checking them again.
+  const ready = all.filter((q) => q.status === "verified" && !exclude.has(q.id)).map((q) => q.id);
+  if (ready.length >= count)
+    return { ids: ready.slice(0, count), report: { level, type, wanted: count, firstPass: 0, firstFail: 0, shipped: count, failures: [] } as TypeReport };
+  const candidates = all
+    .filter((q) => q.status === "draft" && !exclude.has(q.id))
+    .sort((a, b) => hash(a.id) - hash(b.id))
+    .slice(0, (count - ready.length) * 3);
   const failures = await verify(level, { questions: candidates, passages: [] }, system);
   const passed = candidates.filter((q) => !failures.has(q.id));
   const verifiedIds = new Set(passed.map((q) => q.id));
   await writeFile(file, JSON.stringify(all.map((q) => (verifiedIds.has(q.id) ? { ...q, status: "verified" } : q)), null, 1) + "\n");
+  const ids = [...ready, ...passed.map((q) => q.id)].slice(0, count);
   const report: TypeReport = {
-    level, type, wanted: count, firstPass: passed.length, firstFail: failures.size, shipped: Math.min(count, passed.length),
+    level, type, wanted: count, firstPass: passed.length, firstFail: failures.size, shipped: ids.length,
     failures: [...failures].map(([id, why]) => `${id}: ${why}`),
   };
-  return { ids: passed.slice(0, count).map((q) => q.id), report };
+  return { ids, report };
 }
 
 // ── assemble a test ──────────────────────────────────────────────────────────
@@ -365,7 +380,26 @@ async function buildTest(level: Level, testNo: number, dryRun: boolean) {
   const aiPassages: Passage[] = [];
   const reports: TypeReport[] = [];
 
+  // Each finished type is saved straight away, so a rerun after a quota stop or an outage skips it.
+  type Done = { ids: string[]; questions: Question[]; passages: Passage[]; report?: TypeReport };
+  const cacheFile = join(dir, ".ai-cache", `${level.toLowerCase()}-t${testNo}.json`);
+  const cache: Partial<Record<QuestionType, Done>> = JSON.parse(await readFile(cacheFile, "utf8").catch(() => "{}"));
+  const remember = async (type: QuestionType, done: Done) => {
+    cache[type] = done;
+    await mkdir(join(dir, ".ai-cache"), { recursive: true });
+    await writeFile(cacheFile, JSON.stringify(cache, null, 1));
+  };
+
   for (const p of parts) {
+    const hit = cache[p.type];
+    if (hit) {
+      picked.set(p.type, hit.ids);
+      aiQuestions.push(...hit.questions);
+      aiPassages.push(...hit.passages);
+      if (hit.report) reports.push(hit.report);
+      avoid.push(...hit.questions.map((q) => q.stem.slice(0, 60)));
+      continue;
+    }
     if (DATA_TYPES.includes(p.type)) {
       const pool: Question[] = JSON.parse(await readFile(join(dir, "questions", level.toLowerCase(), `${p.type}.json`), "utf8"));
       const ids = pool
@@ -378,12 +412,15 @@ async function buildTest(level: Level, testNo: number, dryRun: boolean) {
       const { ids, report } = await draftType(level, p.type, p.count, system, used);
       picked.set(p.type, ids);
       reports.push(report);
+      await remember(p.type, { ids, questions: [], passages: [], report });
     } else {
       const { shipped, report } = await aiType(level, testNo, p.type, p.count, system, avoid);
-      picked.set(p.type, shipped.questions.map((q) => q.id));
+      const ids = shipped.questions.map((q) => q.id);
+      picked.set(p.type, ids);
       aiQuestions.push(...shipped.questions);
       aiPassages.push(...shipped.passages);
       reports.push(report);
+      await remember(p.type, { ids, questions: shipped.questions, passages: shipped.passages, report });
     }
   }
 
@@ -435,7 +472,14 @@ if (import.meta.main) {
   // Gemini's free tier runs them one at a time, and each finished level is saved before the next starts.
   const results: PromiseSettledResult<{ reports: TypeReport[] }>[] = [];
   if (GEMINI) {
-    for (const level of levels) results.push(...(await Promise.allSettled([buildTest(level, testNo, dryRun)])));
+    for (const level of levels) {
+      const [r] = await Promise.allSettled([buildTest(level, testNo, dryRun)]);
+      results.push(r);
+      if (r.status === "rejected" && r.reason instanceof QuotaError) {
+        console.log(`\nDaily free quota used up (${r.reason.message.slice(0, 160)}).\nFinished types are saved; run the same command again after the quota resets (midnight Pacific time).`);
+        break;
+      }
+    }
   } else results.push(...(await Promise.allSettled(levels.map((level) => buildTest(level, testNo, dryRun)))));
   const reports = results.flatMap((r) => (r.status === "fulfilled" ? r.value.reports : []));
   results.forEach((r, i) => r.status === "rejected" && console.error(`${levels[i]} failed: ${r.reason}`));
@@ -455,6 +499,7 @@ if (import.meta.main) {
     byType: reports.map((r) => ({ level: r.level, type: r.type, wanted: r.wanted, firstPass: r.firstPass, firstFail: r.firstFail, shipped: r.shipped })),
     failures: reports.flatMap((r) => r.failures),
   };
+  await mkdir(join(process.cwd(), "content", "tests"), { recursive: true });
   await writeFile(join(process.cwd(), "content", "tests", `pilot-report-${testNo}.json`), JSON.stringify(summary, null, 1) + "\n");
   console.log(JSON.stringify({ ...summary, failures: summary.failures.length }, null, 1));
 }

@@ -45,3 +45,6 @@ next-env.d.ts
 
 # local Claude Code settings (preview server config)
 /.claude/
+
+# AI pipeline progress between runs (finished question types)
+/content/.ai-cache/
