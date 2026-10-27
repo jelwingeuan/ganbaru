@@ -31,9 +31,9 @@ const PRICES: Record<string, { in: number; out: number; cacheRead: number; cache
   "claude-sonnet-5-5": { in: 2, out: 10, cacheRead: 0.2, cacheWrite: 2.5 },
 };
 
-const DATA_TYPES: QuestionType[] = ["kanji-reading", "orthography"];
-const DRAFT_TYPES: QuestionType[] = ["context"];
-const PASSAGE_TYPES: QuestionType[] = [
+export const DATA_TYPES: QuestionType[] = ["kanji-reading", "orthography"];
+export const DRAFT_TYPES: QuestionType[] = ["context"];
+export const PASSAGE_TYPES: QuestionType[] = [
   "text-grammar", "reading-short", "reading-mid", "reading-long", "integrated-reading", "thematic-reading", "info-search",
 ];
 
@@ -76,11 +76,11 @@ const QuestionSchema = z.object({
   translation: z.string(),
   passage: z.number().nullable().describe("0-based index into passages, or null"),
 });
-const UnitSchema = z.object({
+export const UnitSchema = z.object({
   passages: z.array(z.object({ text: z.string(), translation: z.string() })),
   questions: z.array(QuestionSchema),
 });
-const VerdictSchema = z.object({
+export const VerdictSchema = z.object({
   verdicts: z.array(
     z.object({
       id: z.string(),
@@ -92,7 +92,7 @@ const VerdictSchema = z.object({
     }),
   ),
 });
-type Verdict = z.infer<typeof VerdictSchema>["verdicts"][number];
+export type Verdict = z.infer<typeof VerdictSchema>["verdicts"][number];
 
 // ── cost tracking ────────────────────────────────────────────────────────────
 const spend = new Map<string, { calls: number; in: number; out: number; cacheRead: number; cacheWrite: number }>();
@@ -117,6 +117,8 @@ let gemini: GoogleGenAI | undefined;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function ask<T extends z.ZodType>(model: string, system: string, user: string, schema: T, effort: "medium" | "high") {
+  // Offline: assemble tests from questions already written and checked (e.g. by the Claude Code workflow).
+  if (process.env.GANBARU_OFFLINE) throw new Error(`GANBARU_OFFLINE is set, so no API call to ${model}. Something is missing from content/.ai-cache.`);
   return GEMINI ? askGemini(model, system, user, schema, effort) : askClaude(model, system, user, schema, effort);
 }
 
@@ -181,13 +183,13 @@ export function unglossedKanji(text: string, level: Level): string[] {
   return [...new Set(bare.match(KANJI) ?? [])].filter((c) => !allowed.has(c));
 }
 
-function hash(s: string) {
+export function hash(s: string) {
   let h = 2166136261;
   for (const c of s) h = Math.imul(h ^ c.codePointAt(0)!, 16777619);
   return h >>> 0;
 }
 
-function systemPrompt(level: Level, testNo: number) {
+export function systemPrompt(level: Level, testNo: number) {
   const kanji = level === "N1" ? "Any jōyō kanji may be used without furigana." : `Kanji allowed without furigana at ${level}: ${[...allowedKanji(level)].join("")}`;
   const grammar = grammarPoints.filter((g) => g.level === level).map((g) => `- ${g.pattern}: ${g.meaning}`).join("\n");
   const vocab = words
@@ -216,7 +218,7 @@ Sample ${level} vocabulary to draw on:
 ${vocab}`;
 }
 
-function unitPrompt(level: Level, type: QuestionType, count: number, passages: number, avoid: string[]) {
+export function unitPrompt(level: Level, type: QuestionType, count: number, passages: number, avoid: string[]) {
   const t = QUESTION_TYPES[type];
   const length = LENGTHS[level][type];
   return `Write ${count} question${count > 1 ? "s" : ""} of type ${t.ja} (${t.en}) for ${level}.
@@ -226,7 +228,7 @@ ${PASSAGE_TYPES.includes(type) ? `Write ${passages} passage${passages > 1 ? "s" 
 Number the answer 1-4.${avoid.length ? `\n\nAlready used in this test, so don't repeat these sentences or targets:\n${avoid.slice(0, 40).map((s) => `- ${s}`).join("\n")}` : ""}`;
 }
 
-function verifyPrompt(level: Level, questions: Question[], passages: Passage[]) {
+export function verifyPrompt(level: Level, questions: Question[], passages: Passage[]) {
   const usedPassages = passages.filter((p) => questions.some((q) => q.passageId === p.id));
   return `Check these JLPT ${level} practice questions. For each one, solve it yourself and pick the single best option (1-4). Then judge strictly:
 - exactlyOneCorrect: false if no option is correct or if a second option is also acceptable.
@@ -252,17 +254,30 @@ async function verify(level: Level, unit: Unit, system: string) {
   const byId = new Map(out.verdicts.map((v) => [v.id, v]));
   const failures = new Map<string, string>();
   for (const q of unit.questions) {
-    const v: Verdict | undefined = byId.get(q.id);
-    if (!v) failures.set(q.id, "no verdict returned");
-    else if (v.answer - 1 !== q.answer) failures.set(q.id, `solver chose ${v.answer}, key says ${q.answer + 1}. ${v.problem}`);
-    else if (!v.exactlyOneCorrect) failures.set(q.id, `more or less than one correct option. ${v.problem}`);
-    else if (!v.naturalJapanese) failures.set(q.id, `unnatural Japanese. ${v.problem}`);
-    else if (!v.levelAppropriate) failures.set(q.id, `wrong level. ${v.problem}`);
+    const why = judge(q, byId.get(q.id));
+    if (why) failures.set(q.id, why);
   }
   return failures;
 }
 
-function toUnit(level: Level, type: QuestionType, prefix: string, raw: z.infer<typeof UnitSchema>): { unit: Unit; problems: Map<string, string> } {
+/** Why a blind-solve verdict fails a question, or undefined when it passes. */
+export function judge(q: Question, v: Verdict | undefined): string | undefined {
+  if (!v) return "no verdict returned";
+  if (v.answer - 1 !== q.answer) return `solver chose ${v.answer}, key says ${q.answer + 1}. ${v.problem}`;
+  if (!v.exactlyOneCorrect) return `more or less than one correct option. ${v.problem}`;
+  if (!v.naturalJapanese) return `unnatural Japanese. ${v.problem}`;
+  if (!v.levelAppropriate) return `wrong level. ${v.problem}`;
+}
+
+/** How many passages a passage-based type spreads its questions over. */
+export function passagesFor(type: QuestionType, count: number) {
+  if (!PASSAGE_TYPES.includes(type)) return 0;
+  if (type === "reading-short") return count;
+  if (type === "reading-mid") return Math.ceil(count / 3);
+  return 1;
+}
+
+export function toUnit(level: Level, type: QuestionType, prefix: string, raw: z.infer<typeof UnitSchema>): { unit: Unit; problems: Map<string, string> } {
   const passages: Passage[] = raw.passages.map((p, i) => ({ id: `${prefix}-p${i + 1}`, level, type, text: p.text, translation: p.translation }));
   const problems = new Map<string, string>();
   const questions: Question[] = raw.questions.map((r, i) => {
@@ -298,13 +313,7 @@ function toUnit(level: Level, type: QuestionType, prefix: string, raw: z.infer<t
 
 async function aiType(level: Level, testNo: number, type: QuestionType, count: number, system: string, avoid: string[]) {
   const report: TypeReport = { level, type, wanted: count, firstPass: 0, firstFail: 0, shipped: 0, failures: [] };
-  const passageCount = !PASSAGE_TYPES.includes(type)
-    ? 0
-    : ["reading-short"].includes(type)
-      ? count
-      : type === "reading-mid"
-        ? Math.ceil(count / 3)
-        : 1;
+  const passageCount = passagesFor(type, count);
   const shipped: Unit = { questions: [], passages: [] };
   const abbrev = type.split("-").map((w) => w[0]).join("");
 
@@ -464,7 +473,7 @@ if (import.meta.main) {
   const testNo = Number(arg("--test") ?? 1);
   const dryRun = args.includes("--dry-run");
   const levels = args.includes("--level") ? [arg("--level") as Level] : [...LEVELS];
-  if (!dryRun && !GEMINI && !process.env.ANTHROPIC_API_KEY) throw new Error("No API key. Put GEMINI_API_KEY (free) or ANTHROPIC_API_KEY in .env.local.");
+  if (!dryRun && !process.env.GANBARU_OFFLINE && !GEMINI && !process.env.ANTHROPIC_API_KEY) throw new Error("No API key. Put GEMINI_API_KEY (free) or ANTHROPIC_API_KEY in .env.local.");
   console.log(`Writer ${GEN_MODEL}, checker ${CHECK_MODEL}`);
 
   const started = Date.now();
