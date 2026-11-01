@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ExamTicket, HoldToConfirm } from "@/components/desk/bits";
 import { QUESTION_TYPES, SPOKEN_OPTIONS, type QuestionType } from "@/content/blueprints";
 import type { Level } from "@/lib/openjlpt";
@@ -123,6 +123,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
   const [s, setS] = useState<Saved>(fresh);
   const [index, setIndex] = useState(0);
   const [now, setNow] = useState(0);
+  const barRef = useRef<HTMLOListElement>(null);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time restore from browser storage
@@ -183,6 +184,16 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [s.phase, section, choose, toggleFlag]);
+
+  // Keep the current question visible in the phone question bar. Scrolls only the bar, never the page,
+  // and only when the question changes (a ref callback would re-run on every clock tick).
+  useEffect(() => {
+    const bar = barRef.current;
+    const btn = bar?.children[index]?.firstElementChild;
+    if (!bar || !btn) return;
+    const b = btn.getBoundingClientRect(), r = bar.getBoundingClientRect();
+    if (b.left < r.left || b.right > r.right) bar.scrollLeft += b.left - r.left - (r.width - b.width) / 2;
+  }, [index, s.section, s.phase]);
 
   const total = sections.reduce((n, x) => n + x.questions.length, 0);
   const minutes = sections.reduce((n, x) => n + x.minutes, 0);
@@ -260,7 +271,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
 
       <nav aria-label="Questions in this section" className="mt-4">
         {/* One scrolling row on phones so a 71-question section doesn't push the question off screen. */}
-        <ol className="flex gap-1.5 overflow-x-auto pt-1.5 pb-2 sm:flex-wrap sm:overflow-visible">
+        <ol ref={barRef} className="flex gap-1.5 overflow-x-auto pt-1.5 pb-2 sm:flex-wrap sm:overflow-visible">
           {section.questions.map((item, i) => {
             const answered = s.answers[item.id] !== undefined;
             const isFlagged = s.flagged.includes(item.id);
@@ -271,7 +282,6 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
                   onClick={() => setIndex(i)}
                   aria-current={i === index ? "step" : undefined}
                   aria-label={`Question ${i + 1}, ${answered ? "answered" : "unanswered"}${isFlagged ? ", flagged" : ""}`}
-                  ref={i === index ? (el) => el?.scrollIntoView({ block: "nearest", inline: "nearest" }) : undefined}
                   className={[
                     "relative size-9 shrink-0 rounded-lg border text-sm tabular-nums",
                     i === index ? "border-2 border-ink font-medium" : "border-edge",
