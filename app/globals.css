@@ -4,7 +4,13 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 /* Hover only where a real pointer hovers: no sticky hovers on touch or hybrid devices. */
-@custom-variant hover (@media (hover: hover) and (pointer: fine) { &:hover });
+@custom-variant hover {
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @slot;
+    }
+  }
+}
 
 /* Motion tokens. Strong curves only, nothing over 300ms, nothing that starts slow. Tailwind's ease-out/ease-in-out use these. */
 @theme {
