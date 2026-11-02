@@ -212,8 +212,9 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
 
   if (s.phase === "ticket")
     return (
-      <section aria-labelledby="ticket-title" className="space-y-6">
-        <h1 id="ticket-title" className="text-2xl font-medium">
+      <section aria-labelledby="ticket-title" className="max-w-[44rem] space-y-6 pt-3">
+        <p className="text-xs font-semibold tracking-[0.16em] text-redpen-ink uppercase">Before you begin</p>
+        <h1 id="ticket-title" className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {title}
         </h1>
         <p className="max-w-[60ch] text-ink-2">
@@ -221,6 +222,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           shown at the end, not after each question. Each section ends when its time runs out, even if you leave the page.
           {note ? ` ${note}` : ""}
         </p>
+        <div className="rounded-2xl border border-edge bg-paper-raised p-4 sm:p-6">
         <ExamTicket
           onTear={() => update({ ...fresh(), best: s.best, phase: "exam", startedAt: Date.now() })}
           stub={
@@ -241,7 +243,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
             </p>
           </div>
         </ExamTicket>
-        <p className="text-sm text-ink-2">
+        <p className="mt-5 text-sm text-ink-2">
           Drag the stub off, or{" "}
           <button
             type="button"
@@ -250,8 +252,8 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           >
             start without tearing
           </button>
-          .
         </p>
+        </div>
       </section>
     );
 
@@ -262,28 +264,31 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
   const flagged = s.flagged.includes(q.id);
 
   return (
-    <section aria-labelledby="section-title">
-      <div className="sticky top-0 z-10 -mx-4 flex flex-wrap items-center justify-between gap-3 border-b border-edge bg-paper px-4 py-3 sm:-mx-8 sm:px-8">
+    <section aria-labelledby="section-title" className="pb-8">
+      <div className="material sticky top-2 z-10 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-edge px-4 py-3 shadow-[0_8px_28px_rgba(27,42,71,0.08)] sm:px-5">
         <div>
-          <p className="text-sm text-ink-2">
+          <p className="text-xs font-medium tracking-wide text-ink-2 uppercase">
             Section {s.section + 1} of {sections.length}
           </p>
-          <h1 id="section-title" tabIndex={-1} lang="ja" className="font-jp text-base font-medium">
+          <h1 id="section-title" tabIndex={-1} lang="ja" className="font-jp text-base font-semibold">
             {section.title}
           </h1>
         </div>
         <p
           role="timer"
           aria-label={`${Math.ceil(remaining / 60)} minutes left in this section`}
-          className={`font-medium tabular-nums ${remaining <= 300 ? "text-redpen-ink" : ""}`}
+          className={`rounded-full border px-3 py-1.5 text-sm font-semibold tabular-nums ${remaining <= 300 ? "border-redpen bg-redpen/10 text-redpen-ink" : "border-edge bg-paper-raised text-ink"}`}
         >
           {remaining > 300 ? `${Math.ceil(remaining / 60)} min` : clock(remaining)}
         </p>
       </div>
 
-      <nav aria-label="Questions in this section" className="mt-4">
+      <div className="mt-5 grid items-start gap-6 lg:grid-cols-[13rem_minmax(0,1fr)] lg:gap-8">
+      <aside className="min-w-0 rounded-2xl border border-edge bg-paper-raised p-3 lg:sticky lg:top-24 lg:p-4">
+      <p className="mb-2 px-1 text-xs font-semibold tracking-[0.14em] text-ink-2 uppercase">Questions</p>
+      <nav aria-label="Questions in this section">
         {/* One scrolling row on phones so a 71-question section doesn't push the question off screen. */}
-        <ol ref={barRef} className="flex gap-1.5 overflow-x-auto pt-1.5 pb-2 sm:flex-wrap sm:overflow-visible">
+        <ol ref={barRef} className="flex gap-1.5 overflow-x-auto pt-1.5 pb-1 lg:grid lg:max-h-[60vh] lg:grid-cols-4 lg:gap-2 lg:overflow-y-auto lg:overflow-x-hidden">
           {section.questions.map((item, i) => {
             const answered = s.answers[item.id] !== undefined;
             const isFlagged = s.flagged.includes(item.id);
@@ -295,8 +300,8 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
                   aria-current={i === index ? "step" : undefined}
                   aria-label={`Question ${i + 1}, ${answered ? "answered" : "unanswered"}${isFlagged ? ", flagged" : ""}`}
                   className={[
-                    "relative size-11 shrink-0 sm:size-9 rounded-lg border text-sm tabular-nums",
-                    i === index ? "border-2 border-ink font-medium" : "border-edge",
+                    "relative size-11 shrink-0 rounded-xl border text-sm tabular-nums lg:size-9",
+                    i === index ? "border-2 border-ink font-semibold" : "border-edge",
                     answered ? "bg-grid" : "bg-paper-raised",
                   ].join(" ")}
                 >
@@ -308,16 +313,22 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           })}
         </ol>
       </nav>
+      <p className="mt-3 hidden text-xs leading-relaxed text-ink-2 lg:block">{Object.keys(s.answers).filter((id) => section.questions.some((x) => x.id === id)).length} of {section.questions.length} answered</p>
+      </aside>
 
+      <div className="min-w-0">
+      <div className={passage ? "grid items-start gap-5 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] xl:gap-6" : "max-w-[44rem]"}>
       {passage && (
-        <div className="paper-grid mt-5 max-h-[60vh] overflow-y-auto rounded-[var(--radius-paper)] border border-edge px-5 py-4 sm:px-7" tabIndex={0} aria-label="Reading passage">
+        <div className="paper-grid min-w-0 rounded-2xl border border-edge px-5 py-5 sm:px-7 xl:sticky xl:top-24 xl:max-h-[calc(100vh-7rem)] xl:overflow-y-auto" tabIndex={0} aria-label="Reading passage">
+          <p className="mb-3 text-xs font-semibold tracking-[0.14em] text-ink-2 uppercase">Reading passage</p>
           <PassageText text={passage.text} />
         </div>
       )}
 
-      <div className="mt-5">
+      <div className="min-w-0">
+      <div className="rounded-2xl border border-edge bg-paper-raised p-5 sm:p-6">
         <p aria-live="polite" className="text-sm text-ink-2">
-          Question {index + 1} of {section.questions.length} ·{" "}
+          Question {index + 1} of {section.questions.length} <span aria-hidden>·</span>{" "}
           <span lang="ja" className="font-jp">
             {QUESTION_TYPES[q.type].ja}
           </span>{" "}
@@ -334,13 +345,13 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           </div>
         )}
         {!SPOKEN_OPTIONS.includes(q.type) && (
-          <p lang="ja" className="font-jp mt-3 text-2xl leading-[2.2]">
+          <p lang="ja" className="font-jp mt-4 text-xl leading-[2.1] sm:text-2xl">
             <Stem text={q.stem} furigana={q.source === "ai"} />
           </p>
         )}
       </div>
 
-      <ul className="mt-4 grid gap-2 sm:grid-cols-2" aria-label="Options">
+      <ul className="mt-3 grid gap-2" aria-label="Options">
         {q.options.map((option, i) => {
           const chosen = s.answers[q.id] === i;
           return (
@@ -350,8 +361,8 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
                 aria-pressed={chosen}
                 onClick={() => choose(i)}
                 className={[
-                  "flex min-h-14 w-full items-center gap-3 rounded-lg border px-4 py-2 text-left",
-                  chosen ? "border-2 border-ink bg-grid" : "border-edge bg-paper-raised hover:border-ink",
+                  "flex min-h-14 w-full items-center gap-3 rounded-xl border px-4 py-2 text-left",
+                  chosen ? "border-2 border-ink bg-grid" : "border-edge bg-paper-raised hover:border-ink hover:bg-grid/50",
                 ].join(" ")}
               >
                 <kbd className="rounded border border-edge px-1.5 text-xs text-ink-2">{i + 1}</kbd>
@@ -363,8 +374,10 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           );
         })}
       </ul>
+      </div>
+      </div>
 
-      <div className="mt-6 flex flex-wrap items-center gap-3">
+      <div className="mt-6 flex flex-wrap items-center gap-3 rounded-2xl border border-edge bg-paper-raised p-3 sm:p-4">
         <button
           type="button"
           onClick={() => setIndex((i) => Math.max(i - 1, 0))}
@@ -399,6 +412,8 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
         {Object.keys(s.answers).filter((id) => section.questions.some((x) => x.id === id)).length} of {section.questions.length}{" "}
         answered. Keys: 1–4 answer, F flag, arrows move.
       </p>
+      </div>
+      </div>
     </section>
   );
 }
@@ -429,22 +444,25 @@ function ExamResults({
   const weakest = [...byType].sort((a, b) => a[1].right / a[1].total - b[1].right / b[1].total)[0];
 
   return (
-    <section aria-labelledby="results-title">
-      <h1 id="results-title" tabIndex={-1} className="text-2xl font-medium">
+    <section aria-labelledby="results-title" className="max-w-[52rem] pt-4">
+      <p className="text-xs font-semibold tracking-[0.16em] text-redpen-ink uppercase">Practice result</p>
+      <h1 id="results-title" tabIndex={-1} className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
         {title}: results
       </h1>
-      <p className="mt-4 text-5xl font-medium tabular-nums">
-        {correct}
-        <span className="text-2xl text-ink-2"> of {all.length} right</span>
-      </p>
+      <div className="mt-6 rounded-2xl border border-edge bg-paper-raised p-6 sm:p-8">
+        <p className="text-xs font-semibold tracking-[0.14em] text-ink-2 uppercase">Questions correct</p>
+        <p className="mt-2 text-5xl font-semibold tracking-tight tabular-nums sm:text-6xl">
+          {correct}<span className="ml-2 text-xl font-normal text-ink-2 sm:text-2xl">/ {all.length}</span>
+        </p>
+      </div>
 
-      <h2 className="mt-10 text-lg font-medium">Estimated scores</h2>
+      <h2 className="mt-10 text-xl font-semibold">Estimated scores</h2>
       <p className="mt-1 max-w-[62ch] text-sm text-ink-2">
         Estimates only. The real JLPT scales scores statistically and doesn&apos;t publish how, so these assume each question counts equally.
       </p>
-      <ul className="mt-4 space-y-4">
+      <ul className="mt-4 grid gap-3 sm:grid-cols-2">
         {est.sections.map((x) => (
-          <li key={x.id}>
+          <li key={x.id} className="rounded-2xl border border-edge bg-paper-raised p-4">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <span>{x.title}</span>
               <span className="tabular-nums">
@@ -461,7 +479,7 @@ function ExamResults({
           </li>
         ))}
       </ul>
-      <p className="mt-4 max-w-[62ch]">
+      <p className="mt-5 max-w-[62ch] rounded-xl bg-grid/65 px-4 py-3 text-sm leading-relaxed">
         {est.total !== undefined
           ? est.passed
             ? `Estimated total ${est.total} of 180, above the ${est.passMark} pass mark${est.cefr ? ` (CEFR ${est.cefr})` : ""}.`
@@ -469,8 +487,8 @@ function ExamResults({
           : `No overall pass estimate yet: this test has no listening section, and passing needs ${est.passMark} of 180 with a minimum in every section, listening included.`}
       </p>
 
-      <h2 className="mt-10 text-lg font-medium">By question type</h2>
-      <table className="mt-2 w-full text-sm">
+      <h2 className="mt-10 text-xl font-semibold">By question type</h2>
+      <table className="mt-3 w-full text-sm">
         <tbody className="divide-y divide-edge">
           {byType.map(([type, t]) => (
             <tr key={type}>
@@ -497,16 +515,16 @@ function ExamResults({
         </p>
       )}
 
-      <div className="mt-8 flex flex-wrap gap-3">
+      <div className="mt-8 flex flex-wrap gap-3 border-t border-edge pt-6">
         <button
           type="button"
           aria-expanded={reviewing}
           onClick={() => setReviewing((r) => !r)}
-          className="h-11 rounded-lg bg-ink px-5 text-paper hover:opacity-90"
+          className="min-h-11 rounded-xl bg-ink px-5 text-paper hover:opacity-90"
         >
           {reviewing ? "Hide review" : "Review answers"}
         </button>
-        <button type="button" onClick={onRetake} className="h-11 rounded-lg border border-ink bg-paper-raised px-5 hover:bg-grid">
+        <button type="button" onClick={onRetake} className="min-h-11 rounded-xl border border-edge bg-paper-raised px-5 hover:bg-grid">
           Retake test
         </button>
         <Link href={hubHref} className="pressable inline-flex h-11 items-center px-2 underline underline-offset-4">
@@ -522,12 +540,12 @@ function ExamResults({
 function Review({ sections, passages, answers, flagged }: { sections: ExamSection[]; passages: Props["passages"]; answers: Record<string, number>; flagged: string[] }) {
   let n = 0;
   return (
-    <div className="mt-10 space-y-12">
+    <div className="mt-10 max-w-[44rem] space-y-12">
       {sections.map((section) => {
         const shown = new Set<string>();
         return (
           <section key={section.id} aria-label={section.title}>
-            <h2 lang="ja" className="font-jp text-lg font-medium">
+            <h2 lang="ja" className="font-jp text-xl font-semibold">
               {section.title}
             </h2>
             <ol className="mt-4 space-y-8">
@@ -538,7 +556,7 @@ function Review({ sections, passages, answers, flagged }: { sections: ExamSectio
                 const passage = q.passageId && !shown.has(q.passageId) ? passages[q.passageId] : undefined;
                 if (q.passageId) shown.add(q.passageId);
                 return (
-                  <li key={q.id} className="border-t border-edge pt-6">
+                  <li key={q.id} className="rounded-2xl border border-edge bg-paper-raised p-5 sm:p-6">
                     {passage && (
                       <details className="mb-4 rounded-lg border border-edge bg-paper-raised px-4 py-3">
                         <summary className="cursor-pointer text-sm">Reading passage</summary>

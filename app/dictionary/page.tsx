@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ListRow } from "@/components/desk/list-row";
 import { Suspense } from "react";
 import { Belt } from "@/components/desk/belt";
 import { MODES, search, type Mode } from "@/lib/dictionary";
@@ -12,12 +11,18 @@ const EXAMPLES = ["食べる", "taberu", "eat", "#n5 #verb", "学"];
 
 export default function DictionaryPage({ searchParams }: PageProps<"/dictionary">) {
   return (
-    <>
-      <h1 className="mb-4 text-2xl font-medium">Dictionary</h1>
+    <div className="max-w-[56rem]">
+      <header className="max-w-[44rem] pt-4 sm:pt-8">
+        <p className="text-xs font-semibold tracking-[0.18em] text-pen uppercase">Dictionary</p>
+        <h1 className="mt-3 text-4xl font-medium tracking-tight sm:text-5xl">Find a word. Keep going.</h1>
+        <p className="mt-4 text-lg text-ink-2">Look up Japanese words and kanji by writing, reading, or meaning.</p>
+      </header>
+      <div className="mt-8">
       <Suspense fallback={<SearchBox query="" mode="starts" />}>
         <Results searchParams={searchParams} />
       </Suspense>
-    </>
+      </div>
+    </div>
   );
 }
 
@@ -39,14 +44,15 @@ async function Results({ searchParams }: Pick<PageProps<"/dictionary">, "searchP
       )}
 
       {!query.trim() ? (
-        <div className="mt-8 text-ink-2">
-          <p>Try one of these:</p>
+        <div className="mt-10">
+          <h2 className="font-medium">Try a search</h2>
+          <p className="mt-1 text-sm text-ink-2">Use a word, a reading, a meaning, or a level tag.</p>
           <ul className="mt-2 flex flex-wrap gap-2">
             {EXAMPLES.map((q) => (
               <li key={q}>
                 <Link
                   href={`/dictionary?q=${encodeURIComponent(q)}`}
-                  className="font-jp inline-block rounded-lg border border-edge bg-paper-raised px-3 py-1.5 text-ink hover:bg-grid"
+                  className="font-jp inline-flex min-h-11 items-center rounded-xl border border-edge bg-paper-raised px-4 py-2 text-ink hover:bg-grid"
                 >
                   {q}
                 </Link>
@@ -57,17 +63,17 @@ async function Results({ searchParams }: Pick<PageProps<"/dictionary">, "searchP
       ) : (
         <>
           {kanji.length > 0 && (
-            <ul aria-label="Kanji" className="mt-6 flex flex-wrap gap-2">
+            <ul aria-label="Kanji" className="mt-8 flex flex-wrap gap-2">
               {kanji.map((k) => (
                 <li key={k.character}>
                   <Link
                     href={`/dictionary/kanji/${encodeURIComponent(k.character)}`}
-                    className="flex items-center gap-3 rounded-lg border border-edge bg-paper-raised py-2 pr-3 pl-2 hover:bg-grid"
+                    className="flex min-h-16 max-w-full items-center gap-3 rounded-xl border border-edge bg-paper-raised py-2 pr-4 pl-3 hover:bg-grid"
                   >
                     <span lang="ja" className="font-study text-3xl leading-none">
                       {k.character}
                     </span>
-                    <span className="text-sm">
+                    <span className="min-w-0 text-sm [overflow-wrap:anywhere]">
                       {k.meanings.slice(0, 2).join(", ")}
                       <span className="block text-sm text-ink-2">Kanji, {k.level}</span>
                     </span>
@@ -77,7 +83,7 @@ async function Results({ searchParams }: Pick<PageProps<"/dictionary">, "searchP
             </ul>
           )}
 
-          <p className="mt-6 text-sm text-ink-2" aria-live="polite">
+          <p className="mt-8 text-sm text-ink-2" aria-live="polite">
             {total === 0
               ? `No words match “${query.trim()}”.`
               : total > words.length
@@ -93,21 +99,21 @@ async function Results({ searchParams }: Pick<PageProps<"/dictionary">, "searchP
             )}
           </p>
 
-          <ul className="mt-2 divide-y divide-edge border-y border-edge">
+          <ul className="mt-3 divide-y divide-edge overflow-hidden rounded-2xl border border-edge bg-paper-raised">
             {words.map((w) => (
               <li key={w.id}>
-                <ListRow href={`/dictionary/word/${w.id}`}>
-                  <span lang="ja" className="font-jp shrink-0 text-lg">
-                    <Highlight word={w.word} text={text} />
-                  </span>
-                  {w.reading !== w.word && (
-                    <span lang="ja" className="font-jp shrink-0 text-sm text-ink-2">
-                      {w.reading}
+                <Link href={`/dictionary/word/${w.id}`} className="pressable grid min-h-18 grid-cols-[minmax(0,1fr)_auto] gap-x-3 gap-y-1 px-4 py-3 hover:bg-grid sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto] sm:items-center">
+                  <span className="min-w-0">
+                    <span lang="ja" className="font-jp block text-lg [overflow-wrap:anywhere]">
+                      <Highlight word={w.word} text={text} />
                     </span>
-                  )}
-                  <span className="max-w-full min-w-0 truncate text-sm">{w.meanings.slice(0, 3).join("; ")}</span>
-                  <Belt level={w.level} className="ml-auto shrink-0" />
-                </ListRow>
+                    {w.reading !== w.word && <span lang="ja" className="font-jp block text-sm text-ink-2 [overflow-wrap:anywhere]">{w.reading}</span>}
+                  </span>
+                  <span className="col-span-2 min-w-0 text-sm text-ink-2 [overflow-wrap:anywhere] sm:col-span-1 sm:col-start-2 sm:row-start-1">
+                    {w.meanings.slice(0, 3).join("; ")}
+                  </span>
+                  <Belt level={w.level} className="col-start-2 row-start-1 shrink-0 self-start sm:col-start-3 sm:self-center" />
+                </Link>
               </li>
             ))}
           </ul>

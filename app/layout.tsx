@@ -24,7 +24,7 @@ const klee = Klee_One({
 
 export const metadata: Metadata = {
   title: { default: "Ganbaru", template: "%s · Ganbaru" },
-  description: "Study for the JLPT with spaced repetition, a red-sheet study card, grammar, quizzes and mock tests.",
+  description: "Prepare for the JLPT with timed mock tests, focused drills, grammar explanations and a Japanese dictionary.",
 };
 
 // Runs before paint so the saved or system theme never flashes.
@@ -40,10 +40,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className="min-h-full flex flex-col">
-        <div className="mx-auto w-full max-w-5xl flex-1 px-4 pb-24 sm:px-8">
+      <body className="flex min-h-full flex-col">
+        <a href="#main-content" className="sr-only fixed top-2 left-2 z-50 rounded-lg bg-ink px-4 py-2 text-paper focus:not-sr-only">
+          Skip to content
+        </a>
+        <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-28 sm:px-6 sm:pb-10 lg:px-10">
           <SiteHeader />
-          {children}
+          <div id="main-content" tabIndex={-1} className="w-full flex-1 outline-none">
+            {children}
+          </div>
         </div>
         <TabBar />
       </body>

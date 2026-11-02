@@ -1,15 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { ListRow } from "@/components/desk/list-row";
+import { ArrowRight, Check, CircleDashed } from "lucide-react";
 import { useEffect, useState, type ReactNode } from "react";
-import { ModeSegment } from "@/components/desk/bits";
 import { loadProgress, type DrillProgress } from "@/lib/progress";
 
-type Tab = "full" | "mini" | "skill";
+type Tab = "full" | "skill";
 const TABS: { value: Tab; label: string }[] = [
-  { value: "full", label: "Full test" },
-  { value: "mini", label: "Mini test" },
+  { value: "full", label: "Full tests" },
   { value: "skill", label: "Skill drills" },
 ];
 
@@ -17,8 +15,20 @@ export function HubTabs({ panels, initial }: { panels: Record<Tab, ReactNode>; i
   const [tab, setTab] = useState<Tab>(initial);
   return (
     <>
-      <ModeSegment items={TABS} value={tab} onChange={(v) => setTab(v as Tab)} aria-label="Test type" />
-      <div className="mt-6">{panels[tab]}</div>
+      <div role="group" aria-label="Test type" className="inline-flex rounded-xl border border-edge bg-grid/60 p-1">
+        {TABS.map((item) => (
+          <button
+            key={item.value}
+            type="button"
+            aria-pressed={tab === item.value}
+            onClick={() => setTab(item.value)}
+            className="min-h-10 rounded-lg px-4 text-sm font-medium text-ink-2 aria-pressed:bg-paper-raised aria-pressed:text-ink aria-pressed:shadow-[0_1px_4px_rgba(27,42,71,0.1)]"
+          >
+            {item.label}
+          </button>
+        ))}
+      </div>
+      <div className="mt-7">{panels[tab]}</div>
     </>
   );
 }
@@ -42,20 +52,24 @@ export function TestList({ tests }: { tests: { id: string; title: string; href: 
   }, [tests]);
 
   return (
-    <ul className="divide-y divide-edge border-y border-edge">
+    <ul className="grid gap-3 lg:grid-cols-2">
       {tests.map((t) => {
         const st = status[t.id];
         const label = st?.phase === "exam" ? "In progress" : st?.best !== undefined ? `Best ${st.best} of ${t.questions}` : "Not taken";
         return (
           <li key={t.id}>
-            <ListRow href={t.href}>
-              <span className="font-medium">{t.title}</span>
-              <span className="text-sm text-ink-2 tabular-nums">
-                {t.questions} questions, {t.minutes} min
+            <Link href={t.href} className="pressable group flex h-full min-h-40 flex-col rounded-2xl border border-edge bg-paper-raised p-5 hover:border-ink/30">
+              <span className="flex items-start justify-between gap-3">
+                <span className="text-lg font-semibold">{t.title}</span>
+                <ArrowRight aria-hidden size={18} className="shrink-0 text-ink-2 group-hover:text-ink" />
               </span>
-              <span className="ml-auto text-sm tabular-nums">{label}</span>
-              {t.note && <span className="w-full text-sm text-ink-2">{t.note}</span>}
-            </ListRow>
+              <span className="mt-2 text-sm text-ink-2 tabular-nums">{t.questions} questions · {t.minutes} minutes</span>
+              <span className={`mt-auto inline-flex w-fit items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium tabular-nums ${st?.phase === "exam" ? "bg-hi text-ink" : st?.best !== undefined ? "bg-grid text-ink" : "bg-grid/60 text-ink-2"}`}>
+                {st?.best !== undefined ? <Check aria-hidden size={13} /> : <CircleDashed aria-hidden size={13} />}
+                {label}
+              </span>
+              {t.note && <span className="mt-3 text-xs leading-relaxed text-ink-2">{t.note}</span>}
+            </Link>
           </li>
         );
       })}

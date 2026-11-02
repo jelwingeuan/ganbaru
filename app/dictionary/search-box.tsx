@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useTransition } from "react";
+import { Search } from "lucide-react";
 import { ModeSegment } from "@/components/desk/bits";
 import type { Mode } from "@/lib/dictionary";
 
@@ -48,10 +49,11 @@ export function SearchBox({ query, mode: initialMode }: { query: string; mode: M
         go(inputRef.current?.value ?? "", mode);
       }}
     >
-      <label htmlFor="dictionary-q" className="mb-2 block text-sm text-ink-2">
-        Search in Japanese, romaji or English. Add tags like #n5 or #verb.
+      <label htmlFor="dictionary-q" className="mb-2 block text-sm font-medium">
+        Search Japanese, romaji, or English
       </label>
-      <div className="flex h-12 items-center rounded-lg border border-ink bg-paper-raised px-3 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-ink">
+      <div className="flex min-h-16 items-center gap-3 rounded-2xl border border-edge bg-paper-raised px-4 shadow-sm focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-ink">
+        <Search size={21} aria-hidden className="shrink-0 text-ink-2" />
         <input
           ref={inputRef}
           id="dictionary-q"
@@ -67,20 +69,24 @@ export function SearchBox({ query, mode: initialMode }: { query: string; mode: M
             clearTimeout(timer.current);
             timer.current = setTimeout(() => go(q, mode), 120);
           }}
-          className="font-jp min-w-0 flex-1 bg-transparent text-[17px] outline-none placeholder:text-ink-2/70 [&::-webkit-search-cancel-button]:hidden"
+          className="font-jp min-w-0 flex-1 bg-transparent text-[17px] outline-none placeholder:text-ink-2/70"
         />
-        <kbd className="ml-2 hidden rounded border border-edge px-1.5 text-xs text-ink-2 sm:inline">/</kbd>
+        <kbd className="hidden rounded border border-edge px-1.5 text-xs text-ink-2 sm:inline">/</kbd>
       </div>
-      <div className="mt-3">
-        <ModeSegment
-          items={MODE_ITEMS}
-          value={mode}
-          onChange={(v) => {
-            setMode(v as Mode);
-            go(inputRef.current?.value ?? "", v as Mode);
-          }}
-          aria-label="Match"
-        />
+      <p className="mt-2 text-sm text-ink-2">Add a tag such as #n5 or #verb to narrow your search.</p>
+      <div className="mt-5">
+        <p className="mb-2 text-sm font-medium">Match</p>
+        <div className="overflow-x-auto pb-1">
+          <ModeSegment
+            items={MODE_ITEMS}
+            value={mode}
+            onChange={(v) => {
+              setMode(v as Mode);
+              go(inputRef.current?.value ?? "", v as Mode);
+            }}
+            aria-label="Match"
+          />
+        </div>
       </div>
     </form>
   );

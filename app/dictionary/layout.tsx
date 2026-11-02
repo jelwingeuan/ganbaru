@@ -1,8 +1,8 @@
 export default function DictionaryLayout({ children }: LayoutProps<"/dictionary">) {
   return (
-    <div className="max-w-3xl">
+    <div className="max-w-5xl">
       <main>{children}</main>
-      <footer className="mt-16 border-t border-edge pt-4 text-xs text-ink-2">
+      <footer className="mt-20 max-w-[44rem] border-t border-edge pt-5 text-xs leading-relaxed text-ink-2">
         <p>
           JLPT levels are community estimates. The JLPT has published no official word or kanji lists since 2010.
         </p>

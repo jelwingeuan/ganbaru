@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: PageProps<"/dictionary/word/[
 export default function WordPage({ params }: PageProps<"/dictionary/word/[id]">) {
   return (
     <>
-      <Link href="/dictionary" className="text-sm text-ink-2 underline underline-offset-4">
-        Dictionary
+      <Link href="/dictionary" className="inline-flex min-h-11 items-center text-sm font-medium text-ink-2 hover:text-ink">
+        ← Dictionary
       </Link>
       <Suspense fallback={<div className="h-64" />}>{params.then(({ id }) => <Word id={id} />)}</Suspense>
     </>
@@ -34,51 +34,52 @@ function Word({ id }: { id: string }) {
   const kanji = [...new Set(w.word)].flatMap((c) => kanjiByChar.get(c) ?? []);
 
   return (
-    <article>
-      <header className="mt-4 flex flex-wrap items-end gap-x-6 gap-y-2">
-        <h1 lang="ja" className="font-study text-6xl leading-tight sm:text-7xl">
+    <article className="max-w-[44rem] pt-3 sm:pt-6">
+      <header>
+        <p className="text-xs font-semibold tracking-[0.18em] text-pen uppercase">Word</p>
+        <h1 lang="ja" className="font-study mt-4 text-5xl leading-tight sm:text-6xl [overflow-wrap:anywhere]">
           {w.word}
         </h1>
-        <div className="pb-2">
+        <div className="mt-3 flex flex-wrap items-end gap-x-5 gap-y-2">
           {w.reading !== w.word && (
-            <p lang="ja" className="font-jp text-2xl">
+            <p lang="ja" className="font-jp min-w-0 text-xl [overflow-wrap:anywhere]">
               {w.reading}
             </p>
           )}
           <p className="text-sm text-ink-2">{w.romaji}</p>
+          <Belt level={w.level} className="shrink-0" />
         </div>
-        <Belt level={w.level} className="mb-3" />
       </header>
 
-      <section className="mt-8">
+      <section className="mt-8 rounded-2xl border border-edge bg-paper-raised p-5 sm:p-6">
         <h2 className="sr-only">Meanings</h2>
-        <ol className="list-inside list-decimal space-y-1 text-lg marker:text-ink-2">
+        <ol className="list-inside list-decimal space-y-2 text-lg leading-relaxed marker:text-ink-2">
           {w.meanings.map((m) => (
             <li key={m}>{m}</li>
           ))}
         </ol>
-        {w.pos && <p className="mt-2 text-sm text-ink-2">{w.pos.map(posLabel).join(", ")}</p>}
+        {w.pos && <p className="mt-4 border-t border-edge pt-4 text-sm text-ink-2">{w.pos.map(posLabel).join(", ")}</p>}
         {(w.other_forms?.length || w.other_readings?.length) && (
-          <p lang="ja" className="font-jp mt-2 text-sm text-ink-2">
+          <p lang="ja" className="font-jp mt-2 text-sm text-ink-2 [overflow-wrap:anywhere]">
             Also written {[...(w.other_forms ?? []), ...(w.other_readings ?? [])].join("、")}
           </p>
         )}
       </section>
 
       {kanji.length > 0 && (
-        <section className="mt-10">
-          <h2 className="text-lg font-medium">Kanji in this word</h2>
-          <ul className="mt-3 flex flex-wrap gap-2">
+        <section className="mt-12">
+          <h2 className="text-xl font-medium">Kanji in this word</h2>
+          <ul className="mt-4 flex flex-wrap gap-2">
             {kanji.map((k) => (
               <li key={k.character}>
                 <Link
                   href={`/dictionary/kanji/${encodeURIComponent(k.character)}`}
-                  className="flex items-center gap-3 rounded-lg border border-edge bg-paper-raised py-2 pr-3 pl-2 hover:bg-grid"
+                  className="flex min-h-14 max-w-full items-center gap-3 rounded-xl border border-edge bg-paper-raised py-2 pr-3 pl-2 hover:bg-grid"
                 >
                   <span lang="ja" className="font-study text-3xl leading-none">
                     {k.character}
                   </span>
-                  <span className="text-sm">{k.meanings.slice(0, 2).join(", ")}</span>
+                  <span className="min-w-0 text-sm [overflow-wrap:anywhere]">{k.meanings.slice(0, 2).join(", ")}</span>
                 </Link>
               </li>
             ))}
@@ -86,12 +87,12 @@ function Word({ id }: { id: string }) {
         </section>
       )}
 
-      <section className="mt-10">
-        <h2 className="text-lg font-medium">Examples</h2>
+      <section className="mt-12">
+        <h2 className="text-xl font-medium">Examples</h2>
         {w.examples?.length ? (
-          <ul className="mt-3 space-y-5">
+          <ul className="mt-4 divide-y divide-edge overflow-hidden rounded-2xl border border-edge bg-paper-raised">
             {w.examples.map((ex) => (
-              <li key={ex.tatoeba_id ?? ex.ja}>
+              <li key={ex.tatoeba_id ?? ex.ja} className="px-5 py-5 sm:px-6">
                 <ExampleSentence example={ex} />
               </li>
             ))}

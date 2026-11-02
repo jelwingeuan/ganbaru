@@ -27,6 +27,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
   const [best, setBest] = useState<number | undefined>();
   const [furigana, setFurigana] = useState(true);
   const nextRef = useRef<HTMLButtonElement>(null);
+  const railRef = useRef<HTMLOListElement>(null);
 
   // Resume where the learner left off.
   useEffect(() => {
@@ -92,20 +93,31 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
     return () => window.removeEventListener("keydown", onKey);
   }, [finished, choose, goNext, answers, index, questions.length]);
 
+  useEffect(() => {
+    const rail = railRef.current;
+    const button = rail?.children[index]?.firstElementChild;
+    if (!rail || !button) return;
+    const item = button.getBoundingClientRect();
+    const viewport = rail.getBoundingClientRect();
+    if (item.left < viewport.left || item.right > viewport.right)
+      rail.scrollLeft += item.left - viewport.left - (viewport.width - item.width) / 2;
+  }, [index, finished]);
+
   if (finished)
     return (
-      <section aria-labelledby="result-title">
-        <h1 id="result-title" className="text-2xl font-medium">
+      <section aria-labelledby="result-title" className="max-w-[44rem] pt-3">
+        <p className="text-xs font-semibold tracking-[0.16em] text-redpen-ink uppercase">Drill complete</p>
+        <h1 id="result-title" className="mt-2 text-3xl font-semibold tracking-tight">
           {title}
         </h1>
-        <p className="mt-6 text-6xl font-medium tabular-nums">
+        <p className="mt-6 rounded-2xl border border-edge bg-paper-raised p-6 text-5xl font-semibold tabular-nums sm:text-6xl">
           <Tally to={score} />
-          <span className="text-2xl text-ink-2"> of {questions.length}</span>
+          <span className="text-xl font-normal text-ink-2 sm:text-2xl"> / {questions.length}</span>
         </p>
         <p className="mt-2 text-ink-2">
           {score === questions.length ? "Every answer right." : `Best so far: ${best ?? score} of ${questions.length}.`}
         </p>
-        <ol className="mt-8 divide-y divide-edge border-y border-edge">
+        <ol className="mt-8 divide-y divide-edge overflow-hidden rounded-2xl border border-edge bg-paper-raised">
           {questions.map((item, i) => {
             const right = answers[i] === item.answer;
             return (
@@ -116,7 +128,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
                     setFinished(false);
                     setIndex(i);
                   }}
-                  className="flex w-full items-baseline gap-3 px-1 py-3 text-left hover:bg-grid"
+                  className="flex w-full items-baseline gap-3 px-4 py-3 text-left hover:bg-grid"
                 >
                   <span aria-hidden="true" className={`w-5 shrink-0 text-lg ${right ? "text-ink" : "text-redpen"}`}>
                     {right ? "○" : "×"}
@@ -153,23 +165,26 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
   const right = chosen === q.answer;
 
   return (
-    <section aria-labelledby="drill-title">
-      <div className="flex flex-wrap items-baseline justify-between gap-3">
-        <h1 id="drill-title" className="text-xl font-medium">
+    <section aria-labelledby="drill-title" className="max-w-[50rem] pt-3">
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+        <p className="text-xs font-semibold tracking-[0.16em] text-redpen-ink uppercase">Skill drill</p>
+        <h1 id="drill-title" className="mt-1 text-2xl font-semibold tracking-tight sm:text-3xl">
           {title}
         </h1>
+        </div>
         <button
           type="button"
           aria-pressed={furigana}
           onClick={() => setFurigana((f) => !f)}
-          className="h-11 rounded-lg border border-edge bg-paper-raised px-3 text-sm hover:bg-grid aria-pressed:border-ink"
+          className="min-h-11 rounded-xl border border-edge bg-paper-raised px-3 text-sm hover:bg-grid aria-pressed:border-ink"
         >
           Furigana {furigana ? "on" : "off"}
         </button>
       </div>
 
-      <nav aria-label="Questions" className="mt-4">
-        <ol className="flex flex-wrap gap-1.5">
+      <nav aria-label="Questions" className="mt-5 rounded-2xl border border-edge bg-paper-raised px-3 py-2">
+        <ol ref={railRef} className="flex gap-1.5 overflow-x-auto py-1 sm:flex-wrap sm:overflow-visible">
           {questions.map((item, i) => {
             const a = answers[i];
             const state = a === null ? "unanswered" : a === item.answer ? "correct" : "wrong";
@@ -181,7 +196,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
                   aria-current={i === index ? "step" : undefined}
                   aria-label={`Question ${i + 1}, ${state}`}
                   className={[
-                    "size-11 rounded-lg border text-sm tabular-nums sm:size-9",
+                    "size-11 shrink-0 rounded-xl border text-sm tabular-nums sm:size-9",
                     i === index ? "border-ink border-2 font-medium" : "border-edge",
                     state === "unanswered" ? "bg-paper-raised" : "bg-grid",
                     state === "wrong" ? "text-redpen-ink" : "",
@@ -195,7 +210,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
         </ol>
       </nav>
 
-      <div className="paper-grid mt-5 rounded-[var(--radius-paper)] border border-edge px-5 py-6 sm:px-8">
+      <div className="paper-grid mt-5 rounded-2xl border border-edge px-5 py-6 sm:px-8">
         <p className="text-sm text-ink-2">
           Question {index + 1} of {questions.length}. {instruction}
         </p>
@@ -215,7 +230,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
                 disabled={answered}
                 onClick={() => choose(i)}
                 className={[
-                  "flex min-h-14 w-full items-center gap-3 rounded-lg border px-4 py-2 text-left disabled:cursor-default",
+                  "flex min-h-14 w-full items-center gap-3 rounded-xl border px-4 py-2 text-left disabled:cursor-default",
                   !answered ? "border-edge bg-paper-raised hover:border-ink hover:bg-grid" : "",
                   answered && isAnswer ? "border-2 border-ink bg-paper-raised" : "",
                   answered && !isAnswer ? "border-edge bg-paper text-ink-2" : "",
@@ -251,7 +266,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
         )}
       </div>
 
-      <div className="mt-6 flex flex-wrap items-center gap-3">
+      <div className="mt-6 flex flex-wrap items-center gap-3 border-t border-edge pt-5">
         <button
           ref={nextRef}
           type="button"

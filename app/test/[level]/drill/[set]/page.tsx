@@ -38,9 +38,9 @@ function Drill({ param, id }: { param: string; id: string }) {
   const type = QUESTION_TYPES[set.type];
 
   return (
-    <>
-      <Link href={hubHref} className="inline-flex min-h-11 items-center text-sm text-ink-2 underline underline-offset-4">
-        {level} drills
+    <div className="pt-3 sm:pt-6">
+      <Link href={hubHref} className="pressable inline-flex min-h-11 items-center rounded-lg px-2 text-sm text-ink-2 hover:bg-grid hover:text-ink">
+        ← {level} drills
       </Link>
       <div className="mt-4">
         <DrillPlayer
@@ -57,6 +57,6 @@ function Drill({ param, id }: { param: string; id: string }) {
           })}
         />
       </div>
-    </>
+    </div>
   );
 }

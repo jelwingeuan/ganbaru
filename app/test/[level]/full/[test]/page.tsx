@@ -59,13 +59,13 @@ function Exam({ param, id }: { param: string; id: string }) {
   );
 
   return (
-    <>
-      <Link href={hubHref} className="inline-flex min-h-11 items-center text-sm text-ink-2 underline underline-offset-4">
-        {level} tests
+    <div className="pt-3 sm:pt-6">
+      <Link href={hubHref} className="pressable inline-flex min-h-11 items-center rounded-lg px-2 text-sm text-ink-2 hover:bg-grid hover:text-ink">
+        ← {level} tests
       </Link>
       <div className="mt-4">
         <ExamPlayer key={test.id} level={level} testId={test.id} title={test.title} note={test.note} sections={sections} passages={passages} hubHref={hubHref} />
       </div>
-    </>
+    </div>
   );
 }
