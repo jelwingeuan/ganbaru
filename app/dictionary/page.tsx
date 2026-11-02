@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ListRow } from "@/components/desk/list-row";
 import { Suspense } from "react";
 import { Belt } from "@/components/desk/belt";
 import { MODES, search, type Mode } from "@/lib/dictionary";
@@ -68,7 +69,7 @@ async function Results({ searchParams }: Pick<PageProps<"/dictionary">, "searchP
                     </span>
                     <span className="text-sm">
                       {k.meanings.slice(0, 2).join(", ")}
-                      <span className="block text-xs text-ink-2">Kanji, {k.level}</span>
+                      <span className="block text-sm text-ink-2">Kanji, {k.level}</span>
                     </span>
                   </Link>
                 </li>
@@ -95,7 +96,7 @@ async function Results({ searchParams }: Pick<PageProps<"/dictionary">, "searchP
           <ul className="mt-2 divide-y divide-edge border-y border-edge">
             {words.map((w) => (
               <li key={w.id}>
-                <Link href={`/dictionary/word/${w.id}`} className="flex items-baseline gap-3 px-1 py-3 hover:bg-grid">
+                <ListRow href={`/dictionary/word/${w.id}`}>
                   <span lang="ja" className="font-jp shrink-0 text-lg">
                     <Highlight word={w.word} text={text} />
                   </span>
@@ -104,9 +105,9 @@ async function Results({ searchParams }: Pick<PageProps<"/dictionary">, "searchP
                       {w.reading}
                     </span>
                   )}
-                  <span className="min-w-0 truncate text-sm">{w.meanings.slice(0, 3).join("; ")}</span>
+                  <span className="max-w-full min-w-0 truncate text-sm">{w.meanings.slice(0, 3).join("; ")}</span>
                   <Belt level={w.level} className="ml-auto shrink-0" />
-                </Link>
+                </ListRow>
               </li>
             ))}
           </ul>

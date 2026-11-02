@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ListRow } from "@/components/desk/list-row";
 import { Belt } from "@/components/desk/belt";
 import { BLUEPRINTS } from "@/content/blueprints";
 import { drillSets } from "@/lib/content";
@@ -18,13 +18,13 @@ export default function TestsPage() {
           const minutes = bp.sections.reduce((m, s) => m + s.minutes, 0);
           return (
             <li key={level}>
-              <Link href={`/test/${level.toLowerCase()}`} className="flex flex-wrap items-center gap-x-4 gap-y-1 px-1 py-4 hover:bg-grid">
+              <ListRow href={`/test/${level.toLowerCase()}`}>
                 <Belt level={level} />
                 <span className="text-sm text-ink-2">
                   Real test: {minutes} minutes, pass mark {bp.passMark} of 180
                 </span>
                 <span className="ml-auto text-sm">{drillSets(level).length} drill sets</span>
-              </Link>
+              </ListRow>
             </li>
           );
         })}

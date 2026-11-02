@@ -40,7 +40,7 @@ function Section({ title, note, children }: { title: string; note?: string; chil
 
 export default function DesignPage() {
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 pb-24 sm:px-8">
+    <main>
       <header className="flex flex-wrap items-center justify-between gap-4 py-8">
         <div>
           <p className="text-sm text-ink-2">

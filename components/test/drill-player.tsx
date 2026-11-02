@@ -160,7 +160,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
           type="button"
           aria-pressed={furigana}
           onClick={() => setFurigana((f) => !f)}
-          className="h-9 rounded-lg border border-edge bg-paper-raised px-3 text-sm hover:bg-grid aria-pressed:border-ink"
+          className="h-11 rounded-lg border border-edge bg-paper-raised px-3 text-sm hover:bg-grid aria-pressed:border-ink"
         >
           Furigana {furigana ? "on" : "off"}
         </button>

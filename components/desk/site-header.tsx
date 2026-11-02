@@ -1,24 +1,84 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { BookOpen, ClipboardList, House, Languages } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
 
+const NAV = [
+  { href: "/", label: "Home", icon: House },
+  { href: "/test", label: "Tests", icon: ClipboardList },
+  { href: "/grammar", label: "Grammar", icon: BookOpen },
+  { href: "/dictionary", label: "Dictionary", icon: Languages },
+];
+
+const isActive = (path: string, href: string) =>
+  href === "/" ? path === "/" : path.startsWith(href);
+
 export function SiteHeader() {
+  const path = usePathname();
   return (
-    <header className="flex flex-wrap items-center justify-between gap-3 py-6">
+    <header className="flex items-center justify-between gap-3 py-5">
       <Link href="/" className="text-lg font-medium">
-        Ganbaru <span lang="ja" className="font-jp text-ink-2">頑張る</span>
+        Ganbaru{" "}
+        <span lang="ja" className="font-jp text-ink-2">
+          頑張る
+        </span>
       </Link>
-      <nav aria-label="Main" className="flex items-center gap-4">
-        <Link href="/test" className="text-sm underline underline-offset-4 hover:text-ink-2">
-          Tests
-        </Link>
-        <Link href="/grammar" className="text-sm underline underline-offset-4 hover:text-ink-2">
-          Grammar
-        </Link>
-        <Link href="/dictionary" className="text-sm underline underline-offset-4 hover:text-ink-2">
-          Dictionary
-        </Link>
+      <div className="flex items-center gap-4">
+        <nav aria-label="Main" className="hidden items-center gap-1 sm:flex">
+          {NAV.slice(1).map((n) => {
+            const on = isActive(path, n.href);
+            return (
+              <Link
+                key={n.href}
+                href={n.href}
+                aria-current={on ? "page" : undefined}
+                className={`relative flex h-10 items-center rounded-lg px-3 text-sm hover:bg-grid ${on ? "font-medium text-ink" : "text-ink-2"}`}
+              >
+                {n.label}
+                {on && (
+                  <span
+                    aria-hidden
+                    className="absolute inset-x-3 -bottom-1 h-0.5 rounded-full bg-ink"
+                  />
+                )}
+              </Link>
+            );
+          })}
+        </nav>
         <ThemeToggle />
-      </nav>
+      </div>
     </header>
+  );
+}
+
+/** Phone navigation. Hidden in a full mock test so it can't pull people out mid-exam. */
+export function TabBar() {
+  const path = usePathname();
+  if (/^\/test\/[^/]+\/full\//.test(path)) return null;
+  return (
+    <nav
+      aria-label="Main"
+      className="fixed inset-x-0 bottom-0 z-20 border-t border-edge bg-paper-raised pb-[env(safe-area-inset-bottom)] sm:hidden"
+    >
+      <ul className="grid grid-cols-4">
+        {NAV.map(({ href, label, icon: Icon }) => {
+          const on = isActive(path, href);
+          return (
+            <li key={href}>
+              <Link
+                href={href}
+                aria-current={on ? "page" : undefined}
+                className={`flex h-14 flex-col items-center justify-center gap-0.5 text-[11px] ${on ? "font-medium text-ink" : "text-ink-2"}`}
+              >
+                <Icon aria-hidden size={22} strokeWidth={on ? 2.4 : 1.8} />
+                {label}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 }

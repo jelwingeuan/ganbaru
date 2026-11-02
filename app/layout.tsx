@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Atkinson_Hyperlegible_Next, BIZ_UDPGothic, Klee_One } from "next/font/google";
+import { SiteHeader, TabBar } from "@/components/desk/site-header";
 import "./globals.css";
 
 const atkinson = Atkinson_Hyperlegible_Next({
@@ -39,7 +40,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <div className="mx-auto w-full max-w-5xl flex-1 px-4 pb-24 sm:px-8">
+          <SiteHeader />
+          {children}
+        </div>
+        <TabBar />
+      </body>
     </html>
   );
 }

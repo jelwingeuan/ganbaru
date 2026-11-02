@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ListRow } from "@/components/desk/list-row";
 import { Belt } from "@/components/desk/belt";
 import { grammarPoints } from "@/lib/dictionary";
 import { LEVELS } from "@/lib/openjlpt";
@@ -28,12 +28,12 @@ export default function GrammarPage() {
             <ul className="mt-2 divide-y divide-edge border-y border-edge">
               {points.map((g) => (
                 <li key={g.id}>
-                  <Link href={`/grammar/${g.id}`} className="flex items-baseline gap-4 px-1 py-3 hover:bg-grid">
+                  <ListRow href={`/grammar/${g.id}`}>
                     <span lang="ja" className="font-jp shrink-0 text-lg">
                       {g.pattern}
                     </span>
-                    <span className="min-w-0 truncate text-sm text-ink-2">{g.meaning}</span>
-                  </Link>
+                    <span className="max-w-full min-w-0 truncate text-sm text-ink-2">{g.meaning}</span>
+                  </ListRow>
                 </li>
               ))}
             </ul>

@@ -77,7 +77,7 @@ function Point({ id }: { id: string }) {
                   <span lang="ja" className="font-jp">
                     {p.pattern}
                   </span>
-                  <span className="text-xs text-ink-2">{p.level}</span>
+                  <span className="text-sm text-ink-2">{p.level}</span>
                 </Link>
               </li>
             ))}

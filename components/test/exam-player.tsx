@@ -108,7 +108,7 @@ function Transcript({ script, audio }: { script: { speaker: string; text: string
       <dl className="mt-3 space-y-1.5">
         {script.map((line, i) => (
           <div key={i} className="flex gap-3">
-            <dt className="w-20 shrink-0 text-xs text-ink-2">{SPEAKER_NAMES[line.speaker] ?? line.speaker}</dt>
+            <dt className="w-20 shrink-0 text-sm text-ink-2">{SPEAKER_NAMES[line.speaker] ?? line.speaker}</dt>
             <dd lang="ja" className="font-jp">
               {line.text}
             </dd>
@@ -253,7 +253,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
     <section aria-labelledby="section-title">
       <div className="sticky top-0 z-10 -mx-4 flex flex-wrap items-center justify-between gap-3 border-b border-edge bg-paper px-4 py-3 sm:-mx-8 sm:px-8">
         <div>
-          <p className="text-xs text-ink-2">
+          <p className="text-sm text-ink-2">
             Section {s.section + 1} of {sections.length}
           </p>
           <h1 id="section-title" lang="ja" className="font-jp text-base font-medium">
@@ -283,7 +283,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
                   aria-current={i === index ? "step" : undefined}
                   aria-label={`Question ${i + 1}, ${answered ? "answered" : "unanswered"}${isFlagged ? ", flagged" : ""}`}
                   className={[
-                    "relative size-9 shrink-0 rounded-lg border text-sm tabular-nums",
+                    "relative size-11 shrink-0 sm:size-9 rounded-lg border text-sm tabular-nums",
                     i === index ? "border-2 border-ink font-medium" : "border-edge",
                     answered ? "bg-grid" : "bg-paper-raised",
                   ].join(" ")}
@@ -547,7 +547,7 @@ function Review({ sections, passages, answers, flagged }: { sections: ExamSectio
                     <ul className="mt-2 space-y-1">
                       {q.options.map((o, i) => (
                         <li key={o} className={`flex items-baseline gap-2 ${i === q.answer ? "font-medium" : "text-ink-2"}`}>
-                          <span className="w-12 shrink-0 text-xs">
+                          <span className="w-12 shrink-0 text-sm">
                             {i === q.answer ? "○ answer" : i === mine ? "× yours" : ""}
                           </span>
                           <span lang="ja" className="font-jp">

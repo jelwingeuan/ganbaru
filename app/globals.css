@@ -131,6 +131,12 @@
     @apply bg-paper text-ink;
     line-height: 1.5;
   }
+  /* Phone body text at 17px, the iOS reading size. */
+  @media (width < 40rem) {
+    body {
+      font-size: 1.0625rem;
+    }
+  }
   :lang(ja) {
     line-height: 1.8;
   }

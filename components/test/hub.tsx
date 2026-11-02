@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ListRow } from "@/components/desk/list-row";
 import { useEffect, useState, type ReactNode } from "react";
 import { ModeSegment } from "@/components/desk/bits";
 import { loadProgress, type DrillProgress } from "@/lib/progress";
@@ -47,14 +48,14 @@ export function TestList({ tests }: { tests: { id: string; title: string; href: 
         const label = st?.phase === "exam" ? "In progress" : st?.best !== undefined ? `Best ${st.best} of ${t.questions}` : "Not taken";
         return (
           <li key={t.id}>
-            <Link href={t.href} className="flex flex-wrap items-center gap-x-4 gap-y-1 px-1 py-4 hover:bg-grid">
+            <ListRow href={t.href}>
               <span className="font-medium">{t.title}</span>
               <span className="text-sm text-ink-2 tabular-nums">
                 {t.questions} questions, {t.minutes} min
               </span>
               <span className="ml-auto text-sm tabular-nums">{label}</span>
-              {t.note && <span className="w-full text-xs text-ink-2">{t.note}</span>}
-            </Link>
+              {t.note && <span className="w-full text-sm text-ink-2">{t.note}</span>}
+            </ListRow>
           </li>
         );
       })}
