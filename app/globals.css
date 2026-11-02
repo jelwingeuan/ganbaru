@@ -137,6 +137,12 @@
       font-size: 1.0625rem;
     }
   }
+  h1 {
+    letter-spacing: -0.02em;
+  }
+  h2 {
+    letter-spacing: -0.01em;
+  }
   :lang(ja) {
     line-height: 1.8;
   }
@@ -155,6 +161,35 @@
 }
 
 @layer components {
+  /* Answer the press, not the release. */
+  button:not(:disabled),
+  .pressable {
+    transition: transform 100ms ease-out;
+  }
+  button:not(:disabled):active,
+  .pressable:active {
+    transform: scale(0.97);
+  }
+
+  /* Floating chrome: content scrolls under a frosted layer. Never on content. */
+  .material {
+    background-color: color-mix(in srgb, var(--paper) 72%, transparent);
+    backdrop-filter: blur(20px) saturate(180%);
+  }
+  @media (prefers-reduced-transparency: reduce) {
+    .material {
+      background-color: var(--paper-raised);
+      backdrop-filter: none;
+    }
+  }
+  @media (prefers-contrast: more) {
+    .material {
+      background-color: var(--paper-raised);
+      backdrop-filter: none;
+      border-color: var(--ink);
+    }
+  }
+
   /* Grid notebook paper. Study surfaces only, never page wallpaper. */
   .paper-grid {
     background-color: var(--paper-raised);
@@ -178,6 +213,12 @@
 }
 .dark [data-sheet="covered"] [data-answer] {
   opacity: 0;
+}
+
+/* Day and night cross-fade instead of a brightness jump. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 200ms;
 }
 
 @media (prefers-reduced-motion: reduce) {

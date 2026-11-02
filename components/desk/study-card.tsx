@@ -165,7 +165,7 @@ export function StudyCard({ words, total = 60, startAt = 23 }: { words: DemoWord
         )}
       </div>
       <p className="mt-2 mb-4 text-sm text-ink-2">
-        {revealed ? "Grade it with 1 to 4." : "The ink line stays readable under the sheet. Click it or press Space to peek."}
+        {revealed ? "Grade it with 1 to 4." : "The ink line stays readable under the sheet. Slide it off, tap it, or press Space to peek."}
       </p>
 
       <div ref={gradesRef} tabIndex={-1} className="grid grid-cols-4 gap-2 outline-none" role="group" aria-label="Grade">

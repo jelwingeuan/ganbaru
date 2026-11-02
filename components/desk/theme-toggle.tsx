@@ -16,10 +16,15 @@ export function ThemeToggle() {
   function toggle() {
     const next = !dark;
     const root = document.documentElement;
-    // Swap the desk in one frame instead of letting every color transition.
-    root.classList.add("theme-switching");
-    root.classList.toggle("dark", next);
-    requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove("theme-switching")));
+    // Swap the desk in one frame instead of letting every color transition,
+    // and cross-fade the whole page where the browser supports it.
+    const swap = () => {
+      root.classList.add("theme-switching");
+      root.classList.toggle("dark", next);
+      requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove("theme-switching")));
+    };
+    if (document.startViewTransition) document.startViewTransition(swap);
+    else swap();
     try {
       localStorage.setItem("theme", next ? "dark" : "light");
     } catch {}
@@ -29,7 +34,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      className="h-10 rounded-lg border border-edge bg-paper-raised px-3 text-sm text-ink hover:bg-grid"
+      className="pressable h-10 rounded-lg border border-edge bg-paper-raised px-3 text-sm text-ink hover:bg-grid"
     >
       {dark ? "Use day desk" : "Use night desk"}
     </button>

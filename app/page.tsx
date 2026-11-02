@@ -23,12 +23,12 @@ export default function Home() {
             Every word from N5 to N1, scheduled to come back right before you&apos;d forget it. Type the reading, peek
             under the sheet, grade yourself, and move on.
           </p>
-          <Link href="/test" className="mt-6 inline-flex h-12 items-center rounded-lg bg-ink px-5 font-medium text-paper hover:opacity-90">
+          <Link href="/test" className="mt-6 pressable inline-flex h-12 items-center rounded-lg bg-ink px-5 font-medium text-paper hover:opacity-90">
             Start practising
           </Link>
         </div>
         <div className="paper-grid rounded-xl border border-edge p-3 sm:p-6">
-          <p className="mb-3 text-sm text-ink-2">Try it: type the reading in romaji, then press Enter.</p>
+          <p className="mb-3 text-sm text-ink-2">Try it: type the reading in romaji, or slide the red sheet off.</p>
           <StudyCard words={DEMO_WORDS} />
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function Home() {
           <li key={s.href}>
             <Link
               href={s.href}
-              className="flex h-full items-center gap-3 rounded-xl border border-edge bg-paper-raised p-4 hover:bg-grid"
+              className="pressable flex h-full items-center gap-3 rounded-xl border border-edge bg-paper-raised p-4 hover:bg-grid"
             >
               <span className="min-w-0 flex-1">
                 <span className="block font-medium">{s.title}</span>
