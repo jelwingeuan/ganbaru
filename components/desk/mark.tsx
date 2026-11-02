@@ -1,6 +1,6 @@
 "use client";
 
-import { useLayoutEffect, useMemo, useRef } from "react";
+import { useMemo } from "react";
 
 // Hanamaru (花丸): a spiral wrapped in eight petal loops, drawn in one red-pen stroke.
 function hanamaruPath() {
@@ -19,24 +19,11 @@ function hanamaruPath() {
 const CROSS = "M20 20 L60 60 M60 20 L20 60";
 
 export function Mark({ correct, size = 72, className = "" }: { correct: boolean; size?: number; className?: string }) {
-  const ref = useRef<SVGPathElement>(null);
   const d = useMemo(() => (correct ? hanamaruPath() : CROSS), [correct]);
-
-  useLayoutEffect(() => {
-    const path = ref.current;
-    if (!path || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const length = path.getTotalLength();
-    path.style.strokeDasharray = `${length}`;
-    path.animate([{ strokeDashoffset: length }, { strokeDashoffset: 0 }], {
-      duration: correct ? 700 : 300,
-      easing: "cubic-bezier(.3,.7,.2,1)",
-    });
-  }, [d, correct]);
 
   return (
     <svg viewBox="0 0 80 80" width={size} height={size} className={className} aria-hidden="true">
       <path
-        ref={ref}
         d={d}
         fill="none"
         style={{ stroke: "var(--redpen)" }}

@@ -34,7 +34,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      className="pressable h-10 rounded-lg border border-edge bg-paper-raised px-3 text-sm text-ink hover:bg-grid"
+      className="pressable h-11 rounded-lg border border-edge bg-paper-raised px-3 text-sm text-ink hover:bg-grid"
     >
       {dark ? "Use day desk" : "Use night desk"}
     </button>

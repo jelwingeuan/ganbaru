@@ -107,7 +107,7 @@ export function StudyCard({ words, total = 60, startAt = 23 }: { words: DemoWord
           {done} of {total}
         </span>
         <div className="h-[3px] flex-1 overflow-hidden rounded-full bg-edge" role="progressbar" aria-valuemin={0} aria-valuemax={total} aria-valuenow={done} aria-label="Session progress">
-          <div className="h-full bg-ink transition-[width] duration-200" style={{ width: `${(done / total) * 100}%` }} />
+          <div className="h-full bg-ink" style={{ width: `${(done / total) * 100}%` }} />
         </div>
       </div>
 

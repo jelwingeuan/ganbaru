@@ -60,7 +60,7 @@ function Exam({ param, id }: { param: string; id: string }) {
 
   return (
     <>
-      <Link href={hubHref} className="text-sm text-ink-2 underline underline-offset-4">
+      <Link href={hubHref} className="inline-flex min-h-11 items-center text-sm text-ink-2 underline underline-offset-4">
         {level} tests
       </Link>
       <div className="mt-4">

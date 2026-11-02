@@ -65,7 +65,7 @@ const SIZES: Record<HoldButtonSize, string> = {
 const GLOW = 'inset_0_1px_0_rgba(255,255,255,0.06),0_10px_32px_-6px_color-mix(in_srgb,var(--hb-fill)_70%,transparent)';
 
 const LABEL_SPAN =
-  '[grid-area:1/1] inline-flex items-center gap-2 whitespace-nowrap [transition:opacity_200ms_ease,filter_200ms_ease]';
+  '[grid-area:1/1] inline-flex items-center gap-2 whitespace-nowrap [transition:opacity_150ms_var(--ease-out)]';
 
 const STYLE = `
 .hb-root{--hb-w:0px;--hb-h:0px;--hb-cycles:2;--hb-p:0}
@@ -279,14 +279,14 @@ const HoldButton: React.FC<HoldButtonProps> = ({
   const labels = (
     <>
       <span
-        className={`${LABEL_SPAN} group-data-[phase=done]:opacity-0 group-data-[phase=done]:blur-[2px]`}
+        className={`${LABEL_SPAN} group-data-[phase=done]:opacity-0`}
         aria-hidden={phase === 'done'}
       >
         {icon ? <span className="inline-flex flex-none [&>svg]:block">{icon}</span> : null}
         {children}
       </span>
       <span
-        className={`${LABEL_SPAN} opacity-0 blur-[2px] group-data-[phase=done]:opacity-100 group-data-[phase=done]:blur-0`}
+        className={`${LABEL_SPAN} opacity-0 group-data-[phase=done]:opacity-100`}
         aria-hidden={phase !== 'done'}
       >
         {doneIcon ? <span className="inline-flex flex-none [&>svg]:block">{doneIcon}</span> : null}

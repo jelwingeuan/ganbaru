@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { BookOpen, ClipboardList, House, Languages } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
@@ -51,9 +50,7 @@ export function SiteHeader() {
               >
                 {n.label}
                 {on && (
-                  <motion.span
-                    layoutId="nav-underline"
-                    transition={{ type: "spring", bounce: 0, duration: 0.35 }}
+                  <span
                     aria-hidden
                     className="absolute inset-x-3 -bottom-1 h-0.5 rounded-full bg-ink"
                   />

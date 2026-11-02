@@ -3,6 +3,16 @@
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
+/* Hover only where a real pointer hovers: no sticky hovers on touch or hybrid devices. */
+@custom-variant hover (@media (hover: hover) and (pointer: fine) { &:hover });
+
+/* Motion tokens. Strong curves only, nothing over 300ms, nothing that starts slow. Tailwind's ease-out/ease-in-out use these. */
+@theme {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --duration-press: 120ms;
+  --duration-ui: 200ms;
+}
 
 /*
   Ganbaru "study desk" tokens.
@@ -145,9 +155,10 @@
   }
   :lang(ja) {
     line-height: 1.8;
+    line-break: strict;
   }
   rt {
-    font-size: 0.5em;
+    font-size: 0.55em;
     font-family: var(--font-jp);
   }
   :focus-visible {
@@ -164,7 +175,7 @@
   /* Answer the press, not the release. */
   button:not(:disabled),
   .pressable {
-    transition: transform 100ms ease-out;
+    transition: transform var(--duration-press) var(--ease-out);
   }
   button:not(:disabled):active,
   .pressable:active {
@@ -207,10 +218,7 @@
   transition: none !important;
 }
 
-/* Night desk: the translucent sheet can't hide light ink, so answers fade out under it. */
-[data-answer] {
-  transition: opacity 150ms ease;
-}
+/* Night desk: the translucent sheet can't hide light ink, so answers hide under it. Instant: reveals happen 100+ times a session. */
 .dark [data-sheet="covered"] [data-answer] {
   opacity: 0;
 }
@@ -218,7 +226,8 @@
 /* Day and night cross-fade instead of a brightness jump. */
 ::view-transition-old(root),
 ::view-transition-new(root) {
-  animation-duration: 200ms;
+  animation-duration: var(--duration-ui);
+  animation-timing-function: var(--ease-out);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -227,5 +236,10 @@
   *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
   }
 }

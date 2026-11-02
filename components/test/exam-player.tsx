@@ -65,7 +65,7 @@ const clock = (seconds: number) => `${Math.floor(seconds / 60)}:${String(seconds
 /** Passage text: line breaks kept, furigana glosses shown (the real test glosses kanji above the level too). */
 function PassageText({ text }: { text: string }) {
   return (
-    <div lang="ja" className="font-jp text-lg leading-[2.2] whitespace-pre-line">
+    <div lang="ja" className="max-w-[40em] font-jp text-lg leading-[2] whitespace-pre-line [word-break:auto-phrase]">
       <Stem text={text} furigana />
     </div>
   );
@@ -163,9 +163,15 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
   }, [s.phase, now, remaining, finishSection]);
 
   const q = section?.questions[index];
+  // One tap per answer, as on paper: a first answer moves on to the next question. Changing an answer stays put.
   const choose = useCallback(
-    (option: number) => q && option < q.options.length && update({ ...s, answers: { ...s.answers, [q.id]: option } }),
-    [q, s, update],
+    (option: number) => {
+      if (!q || option >= q.options.length) return;
+      const first = s.answers[q.id] === undefined;
+      update({ ...s, answers: { ...s.answers, [q.id]: option } });
+      if (first && index < section.questions.length - 1) setIndex(index + 1);
+    },
+    [q, s, update, index, section],
   );
   const toggleFlag = useCallback(
     () => q && update({ ...s, flagged: s.flagged.includes(q.id) ? s.flagged.filter((f) => f !== q.id) : [...s.flagged, q.id] }),
@@ -194,6 +200,12 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
     const b = btn.getBoundingClientRect(), r = bar.getBoundingClientRect();
     if (b.left < r.left || b.right > r.right) bar.scrollLeft += b.left - r.left - (r.width - b.width) / 2;
   }, [index, s.section, s.phase]);
+
+  // Start, each new section and results move focus to their heading, so keyboard and screen-reader
+  // users land on the new context instead of <body>, and a held Space can't finish the next section.
+  useEffect(() => {
+    if (s.phase !== "ticket") document.getElementById(s.phase === "done" ? "results-title" : "section-title")?.focus();
+  }, [s.phase, s.section]);
 
   const total = sections.reduce((n, x) => n + x.questions.length, 0);
   const minutes = sections.reduce((n, x) => n + x.minutes, 0);
@@ -233,7 +245,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           Drag the stub off, or{" "}
           <button
             type="button"
-            className="underline underline-offset-4"
+            className="inline-flex min-h-11 items-center underline underline-offset-4"
             onClick={() => update({ ...fresh(), best: s.best, phase: "exam", startedAt: Date.now() })}
           >
             start without tearing
@@ -256,7 +268,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           <p className="text-sm text-ink-2">
             Section {s.section + 1} of {sections.length}
           </p>
-          <h1 id="section-title" lang="ja" className="font-jp text-base font-medium">
+          <h1 id="section-title" tabIndex={-1} lang="ja" className="font-jp text-base font-medium">
             {section.title}
           </h1>
         </div>
@@ -265,7 +277,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           aria-label={`${Math.ceil(remaining / 60)} minutes left in this section`}
           className={`font-medium tabular-nums ${remaining <= 300 ? "text-redpen-ink" : ""}`}
         >
-          {clock(remaining)}
+          {remaining > 300 ? `${Math.ceil(remaining / 60)} min` : clock(remaining)}
         </p>
       </div>
 
@@ -304,7 +316,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
       )}
 
       <div className="mt-5">
-        <p className="text-sm text-ink-2">
+        <p aria-live="polite" className="text-sm text-ink-2">
           Question {index + 1} of {section.questions.length} ·{" "}
           <span lang="ja" className="font-jp">
             {QUESTION_TYPES[q.type].ja}
@@ -332,7 +344,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
         {q.options.map((option, i) => {
           const chosen = s.answers[q.id] === i;
           return (
-            <li key={option}>
+            <li key={i}>
               <button
                 type="button"
                 aria-pressed={chosen}
@@ -378,7 +390,7 @@ export function ExamPlayer({ level, testId, title, note, sections, passages, hub
           {flagged ? "Flagged" : "Flag for review"}
         </button>
         <div className="ml-auto">
-          <HoldToConfirm doneLabel="Section finished" onHold={finishSection}>
+          <HoldToConfirm key={s.section} doneLabel="Section finished" onHold={finishSection}>
             {s.section + 1 < sections.length ? "Hold to finish section" : "Hold to finish test"}
           </HoldToConfirm>
         </div>
@@ -418,7 +430,7 @@ function ExamResults({
 
   return (
     <section aria-labelledby="results-title">
-      <h1 id="results-title" className="text-2xl font-medium">
+      <h1 id="results-title" tabIndex={-1} className="text-2xl font-medium">
         {title}: results
       </h1>
       <p className="mt-4 text-5xl font-medium tabular-nums">
@@ -497,7 +509,7 @@ function ExamResults({
         <button type="button" onClick={onRetake} className="h-11 rounded-lg border border-ink bg-paper-raised px-5 hover:bg-grid">
           Retake test
         </button>
-        <Link href={hubHref} className="inline-flex h-11 items-center px-2 underline underline-offset-4">
+        <Link href={hubHref} className="pressable inline-flex h-11 items-center px-2 underline underline-offset-4">
           All tests
         </Link>
       </div>

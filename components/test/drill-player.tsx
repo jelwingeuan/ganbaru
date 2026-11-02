@@ -64,6 +64,8 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
   }, [best, score, level, setId, answers]);
 
   const goNext = useCallback(() => {
+    // The Next button disables itself, so hand focus to the next question's first option.
+    requestAnimationFrame(() => document.querySelector<HTMLButtonElement>('[aria-label="Options"] button:not(:disabled)')?.focus());
     if (index < questions.length - 1) setIndex(index + 1);
     else if (allAnswered) finish();
     else setIndex(answers.indexOf(null));
@@ -133,14 +135,14 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
         </ol>
         <div className="mt-8 flex flex-wrap gap-3">
           {nextSetHref && (
-            <Link href={nextSetHref} className="inline-flex h-11 items-center rounded-lg bg-ink px-5 text-paper hover:opacity-90">
+            <Link href={nextSetHref} className="pressable inline-flex h-11 items-center rounded-lg bg-ink px-5 text-paper hover:opacity-90">
               Next set
             </Link>
           )}
           <button type="button" onClick={restart} className="h-11 rounded-lg border border-ink bg-paper-raised px-5 hover:bg-grid">
             Try again
           </button>
-          <Link href={hubHref} className="inline-flex h-11 items-center px-2 underline underline-offset-4">
+          <Link href={hubHref} className="pressable inline-flex h-11 items-center px-2 underline underline-offset-4">
             All drills
           </Link>
         </div>
@@ -179,7 +181,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
                   aria-current={i === index ? "step" : undefined}
                   aria-label={`Question ${i + 1}, ${state}`}
                   className={[
-                    "size-9 rounded-lg border text-sm tabular-nums",
+                    "size-11 rounded-lg border text-sm tabular-nums sm:size-9",
                     i === index ? "border-ink border-2 font-medium" : "border-edge",
                     state === "unanswered" ? "bg-paper-raised" : "bg-grid",
                     state === "wrong" ? "text-redpen-ink" : "",
@@ -207,7 +209,7 @@ export function DrillPlayer({ level, setId, title, instruction, questions, hubHr
           const isAnswer = i === q.answer;
           const isChosen = i === chosen;
           return (
-            <li key={option}>
+            <li key={i}>
               <button
                 type="button"
                 disabled={answered}

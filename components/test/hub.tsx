@@ -84,7 +84,7 @@ export function DrillGrid({ level, href, sets }: { level: string; href: string; 
               href={`${href}/${s.id}`}
               aria-label={label}
               className={[
-                "flex h-12 min-w-12 flex-col items-center justify-center rounded-lg border px-2 text-sm tabular-nums hover:border-ink",
+                "pressable flex h-12 min-w-12 flex-col items-center justify-center rounded-lg border px-2 text-sm tabular-nums hover:border-ink",
                 done ? "border-ink bg-grid" : started ? "border-dashed border-ink bg-paper-raised" : "border-edge bg-paper-raised",
               ].join(" ")}
             >

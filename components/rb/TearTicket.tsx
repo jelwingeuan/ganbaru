@@ -729,7 +729,7 @@ const TearTicket: React.FC<TearTicketProps> = ({
           </svg>
           <div
             ref={stubRef}
-            className="pointer-events-none absolute inset-0 outline-none will-change-transform"
+            className="pointer-events-none absolute inset-0 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--ink)] will-change-transform"
             role="button"
             tabIndex={disabled || used ? -1 : 0}
             aria-label={ariaLabel}

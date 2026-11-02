@@ -28,7 +28,7 @@ export function Countdown({ days }: { days: number }) {
 
 /** XP and score tallies on session summaries and test results. */
 export function Tally({ to, prefix = "", suffix = "" }: { to: number; prefix?: string; suffix?: string }) {
-  return <CountUp to={to} prefix={prefix} suffix={suffix} duration={1.2} separator="," className="tabular-nums" />;
+  return <CountUp to={to} prefix={prefix} suffix={suffix} duration={0.6} separator="," className="tabular-nums" />;
 }
 
 /** Daily goal, drawn as an ink bottle filling with each review. The count sits below it. */
@@ -146,7 +146,7 @@ export function ExamTicket({ children, stub, onTear }: { children: ReactNode; st
       borderColor="var(--edge)"
       stubBackground="var(--grid)"
       tilt={false}
-      ariaLabel="Admission ticket. Tear the stub to start the test"
+      ariaLabel="Tear to start: admission ticket for this mock test"
     >
       {children}
     </TearTicket>
