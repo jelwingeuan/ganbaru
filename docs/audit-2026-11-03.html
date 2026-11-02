@@ -1,0 +1,180 @@
+<title>Ganbaru Pass-Speed Audit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700&family=BIZ+UDPGothic:wght@400;700&display=swap">
+<style>
+/* Layout: one reading column of a study notebook; tables scroll inside their own box. */
+:root {
+  --paper: #f6f8fa; --raised: #ffffff; --grid: #e3eaf2; --edge: #d3dde8;
+  --ink: #1b2a47; --ink-2: #56688a; --pen: #c2410c; --red: #b4232f; --ok: #1f6f43;
+  --sans: "Atkinson Hyperlegible Next", "BIZ UDPGothic", system-ui, sans-serif;
+  --jp: "BIZ UDPGothic", "Hiragino Sans", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #131b2c; --raised: #1a2438; --grid: #1f2a40; --edge: #2a3854;
+  --ink: #e4eaf4; --ink-2: #9aa8c2; --pen: #ff8a4c; --red: #ff7a87; --ok: #6fd39b; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #131b2c; --raised: #1a2438; --grid: #1f2a40; --edge: #2a3854;
+  --ink: #e4eaf4; --ink-2: #9aa8c2; --pen: #ff8a4c; --red: #ff7a87; --ok: #6fd39b; color-scheme: dark }
+body { background: var(--paper); color: var(--ink); font: 16px/1.55 var(--sans);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 80px; }
+main { max-width: 980px; margin: 0 auto; display: grid; gap: 48px; }
+section { display: grid; gap: 16px; min-width: 0; }
+h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.1; letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+h2 { font-size: 1.45rem; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+h3 { font-size: 1.1rem; margin: 0; }
+p { margin: 0; max-width: 68ch; }
+.lede { color: var(--ink-2); font-size: 1.1rem; }
+.meta { color: var(--ink-2); font-size: .875rem; letter-spacing: .01em; }
+code { font: .85em ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--grid); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+[lang="ja"] { font-family: var(--jp); }
+.scroll { overflow-x: auto; border: 1px solid var(--edge); border-radius: 10px; background: var(--raised); }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--edge); }
+th { font-weight: 700; color: var(--ink-2); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.n { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pill { display: inline-block; font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1.5px solid currentColor; white-space: nowrap; }
+.miss { color: var(--red); } .pass { color: var(--ok); } .part { color: var(--pen); }
+.hml { font-weight: 700; font-variant-numeric: tabular-nums; }
+.gates { display: flex; flex-wrap: wrap; gap: 8px; }
+.gates span { background: var(--raised); border: 1px solid var(--edge); border-radius: 8px; padding: 6px 10px; font-size: .875rem; }
+.decisions { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card { background: var(--raised); border: 1px solid var(--edge); border-radius: 12px; padding: 18px; display: grid; gap: 10px; min-width: 0; align-content: start; }
+.card ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: .92rem; }
+.label { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }
+.rec { border-left: 3px solid var(--pen); padding-left: 10px; font-size: .92rem; }
+ol.steps { margin: 0; padding-left: 22px; display: grid; gap: 10px; max-width: 72ch; }
+.note { font-size: .875rem; color: var(--ink-2); }
+</style>
+
+<main>
+<header style="display:grid;gap:12px">
+  <p class="meta">Audited Nov 3, 2026 · commit <code>cb12b22</code> · read-only, no code changed</p>
+  <h1>How fast does Ganbaru get a learner to a JLPT pass?</h1>
+  <p class="lede">Four specialist agents audited the site: learning science, psychometrics, game design, and accessibility with performance. Three simulated learners blind-solved 20 items each. The two things slowing a pass most are wrong answers that never come back, and a question-ID bug that puts listening items in the vocabulary section of every mock test.</p>
+  <div class="gates" aria-label="Build checks">
+    <span><b class="pass">✓</b> npm test 21/21</span>
+    <span><b class="pass">✓</b> npm run lint 0 problems</span>
+    <span><b class="pass">✓</b> npm run build, 1,904 static pages (warning: no fallback metrics for Atkinson)</span>
+  </div>
+</header>
+
+<section aria-labelledby="t">
+  <h2 id="t">Hard targets</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Target</th><th>Real number</th><th>Result</th><th>Evidence</th></tr></thead>
+    <tbody>
+      <tr><td>100% word and grammar coverage per level</td>
+        <td class="n">Words tested (shipped bank): N5 32.9 · N4 47.6 · N3 61.2 · N2 46.1 · N1 47.8%<br>Words in mock tests: 5.3 · 6.2 · 3.1 · 2.5 · 1.0%<br>Grammar: 29.6 · 21.4 · 29.7 · 27.6 · 22.8%</td>
+        <td><span class="pill miss">Miss</span></td><td>Coverage script over <code>data/openjlpt</code> vs <code>content/questions</code>. A word counts only when it is the target in <code>refs[0]</code>; drafts are excluded (<code>lib/content.ts:17</code>).</td></tr>
+      <tr><td>Dictionary LCP under 1 s</td>
+        <td class="n">Desktop 371 ms · mobile 1,657 ms</td>
+        <td><span class="pill part">Desktop only</span></td><td>Lighthouse on the production build. On mobile, LCP equals first paint, which waits on about 119 KB of render-blocking CSS. Most of it is Japanese <code>@font-face</code> slices: 249 for BIZ UDPGothic and 125 for Klee One (<code>app/layout.tsx:14-24</code>).</td></tr>
+      <tr><td>Zero axe violations in the exam player</td>
+        <td class="n">0 during the exam and on results · 1 serious on the ticket screen</td>
+        <td><span class="pill part">In exam only</span></td><td><code>label-content-name-mismatch</code>: the aria-label "Admission ticket…" (<code>components/desk/bits.tsx:149</code>) does not contain the visible text "Tear to start".</td></tr>
+      <tr><td>2 clicks or fewer to the first answered question</td>
+        <td class="n">5 clicks to a real drill · 5 to a mock test (the demo card takes 1 but saves nothing)</td>
+        <td><span class="pill miss">Miss</span></td><td>Drill path: Start practising → level → <em>Skill drills</em> tab (the hub opens on Full test, <code>app/test/[level]/page.tsx:54</code>) → set → option. The mock-test path has a mandatory ticket step (<code>exam-player.tsx:243</code>).</td></tr>
+      <tr><td>Every wrong answer resurfaces within 24 h</td>
+        <td class="n">0%</td>
+        <td><span class="pill miss">Miss</span></td><td>No code path brings a missed item back. Drills store only an answer array (<code>lib/progress.ts:2</code>). "Try again" wipes it and replays the whole set straight away (<code>drill-player.tsx:72-77</code>). Mock tests keep only the best score.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section aria-labelledby="r">
+  <h2 id="r">Ranked improvements</h2>
+  <p class="note">Ranked by expected cut in study hours to a pass, then by effort. Effort and impact are S/M/L and L/M/H.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>#</th><th>Improvement</th><th>Why it speeds up passing</th><th>Evidence</th><th>Effort</th><th>Impact</th></tr></thead>
+    <tbody>
+      <tr><td class="n">1</td><td>Fix the question-ID collision. Use the full type slug in IDs, remove the 58 duplicated slots, and add a test that checks each section's types against the blueprint.</td><td>Today the vocabulary sections are short of items and listening answers count twice. Score estimates and "weakest area" advice point learners at the wrong skills.</td><td><code>type.split("-").map(w=>w[0])</code> makes paraphrase/point both <code>pa</code> and usage/utterance both <code>ua</code> (<code>scripts/ai-unit.ts:86</code>, <code>scripts/gen-ai-questions.ts:338</code>). I re-checked it independently: 3 to 8 duplicate IDs in each of the 10 tests, 58 in total, all listening items in section 1. Answers are keyed by id (<code>exam-player.tsx:406</code>).</td><td class="hml">S</td><td class="hml">H</td></tr>
+      <tr><td class="n">2</td><td>Save every miss as an FSRS card and add a "Review due" session.</td><td>Spacing and retrieval are the two most reliable levers in learning science. A miss reviewed within a day is far more likely to be retained than one seen once.</td><td>The resurfacing number above is 0%. Storage holds no per-item record, timestamp or due date (<code>lib/progress.ts:2-17</code>, <code>exam-player.tsx:40-59</code>).</td><td class="hml">M</td><td class="hml">H</td></tr>
+      <tr><td class="n">3</td><td>In-session relearning: re-ask a missed drill question 3 to 5 items later and again at the end.</td><td>One explanation does not stop the same item being forgotten within minutes. A second retrieval does. It needs no storage change.</td><td>After a miss, the player only shows the explanation and moves on (<code>drill-player.tsx:226-248</code>). Opening a reviewed row shows it already answered, with no retrieval (<code>:50</code>, <code>:111-116</code>).</td><td class="hml">S</td><td class="hml">H</td></tr>
+      <tr><td class="n">4</td><td>A "Continue" button on the home page, plus drills as the default hub tab.</td><td>Fewer steps before studying means more sessions started and more minutes spent on items.</td><td>5 clicks to a real question now; this would make it 1. The hub defaults to Full test (<code>app/test/[level]/page.tsx:54</code>).</td><td class="hml">S</td><td class="hml">H</td></tr>
+      <tr><td class="n">5</td><td>Verify the 4,836 draft context items before writing new ones.</td><td>This is the cheapest way to raise word coverage: shipped coverage would move from 33–61% to 57–81% using items that already exist.</td><td>4,836 of 11,569 items are drafts and 0 have been reviewed by a person. Drafts are almost all context items (for example N1 has 1,704).</td><td class="hml">M</td><td class="hml">H</td></tr>
+      <tr><td class="n">6</td><td>Write grammar items from the grammar list, with <code>refs</code> pointing at grammar IDs.</td><td>Grammar is a scored part of Language Knowledge at every level, and about 75% of the listed points are never tested.</td><td>Grammar coverage is 21–30%. Each level has only 18–26 grammar-form items and 8–10 sentence-order items. AI items carry no grammar <code>refs</code>.</td><td class="hml">M</td><td class="hml">H</td></tr>
+      <tr><td class="n">7</td><td>Link mock-test results straight to drills for the weak types, and add a "retake misses only" mode.</td><td>Deliberate practice: time goes to weak sections instead of re-sitting the items the learner already knows.</td><td>The results page has one line pointing at the generic hub (<code>exam-player.tsx:480</code>). Retake resets everything (<code>:246</code>).</td><td class="hml">S</td><td class="hml">M</td></tr>
+      <tr><td class="n">8</td><td>Fix the content errors the blind solvers found.</td><td>Ambiguous or above-level items teach wrong lessons and waste attempts.</td><td>The typo <span lang="ja">いらしゃい</span> appears 7 times in 4 files. <span lang="ja">角</span> is above N5 (<code>n5-cx-4092bfd9bb</code>). Two items are ambiguous for lack of context (<code>n5-cx-4df6eda2a2</code>, <code>n3-cx-1a83326bf0</code>). One N5 item is near-duplicated across tests (<code>n5-t1-gfa1-6</code> / <code>n5-t2-gfa1-6</code>).</td><td class="hml">S</td><td class="hml">M</td></tr>
+      <tr><td class="n">9</td><td>Make items harder: distractors that are actually plausible.</td><td>Too-easy items inflate the score estimate, so learners stop studying too early.</td><td>The simulated learners rated 5/20 N5, 3/20 N3 and 6/20 N1 items too easy. They flagged distractors that are obviously impossible (<span lang="ja">たべものう</span>) and correct answers that are the longest option.</td><td class="hml">M</td><td class="hml">M</td></tr>
+      <tr><td class="n">10</td><td>Connect the onboarding, countdown and daily-goal components that already exist.</td><td>An exam date and a daily target turn browsing into a plan, which supports a steady daily habit.</td><td><code>SetupStepper</code>, <code>Countdown</code> (hard-coded to 47 days) and <code>InkBottle</code> are used only on <code>/design</code> (<code>components/desk/showcase.tsx:26,30,237</code>). There are no streaks, goals or achievements on real routes.</td><td class="hml">M</td><td class="hml">M</td></tr>
+      <tr><td class="n">11</td><td>Keep keyboard focus when the question changes.</td><td>A full keyboard-only test takes 404 key presses today. That burden is friction for keyboard and switch users.</td><td>Focus fell to <code>&lt;body&gt;</code> on 65 of 67 question changes. Options are keyed <code>key={option}</code>, so they remount (<code>exam-player.tsx:335</code>, <code>drill-player.tsx:210</code>).</td><td class="hml">S</td><td class="hml">M</td></tr>
+      <tr><td class="n">12</td><td>Remove the claims the code doesn't keep, or ship #2 first.</td><td>The site is going on sale. A promise of review that never happens erodes trust, and learners plan their study around it.</td><td>The home page says words are "scheduled to come back" (<code>app/page.tsx:22</code>). The card's toast says "Back in 10m" from fixed demo strings (<code>study-card.tsx:194</code>, <code>lib/demo-words.ts:12</code>).</td><td class="hml">S</td><td class="hml">M</td></tr>
+      <tr><td class="n">13</td><td>Trim the render-blocking Japanese font CSS: one BIZ weight, and Klee One only where it's used.</td><td>Faster first paint on phones, where most short study sessions happen.</td><td>Mobile LCP is 1,657 ms against the 1 s target. Lighthouse estimates 980 ms could be saved (<code>app/layout.tsx:14-24</code>).</td><td class="hml">M</td><td class="hml">L</td></tr>
+      <tr><td class="n">14</td><td>Give the tear stub a focus ring and a name that matches its text, and give "Hold to finish" a single-press alternative.</td><td>Removes the only axe violation and a pointer-gesture barrier.</td><td><code>outline-none</code> (<code>components/rb/TearTicket.tsx:732</code>), the aria-label (<code>bits.tsx:149</code>), and the 1.4 s hold (<code>bits.tsx:102</code>).</td><td class="hml">S</td><td class="hml">L</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section aria-labelledby="s">
+  <h2 id="s">Simulated learner check</h2>
+  <p>This is <b>simulated</b>: three Sonnet agents played N5, N3 and N1 learners. Each solved 20 non-listening items sampled evenly from tests 1 and 2 of its level, without the answer keys. All 60 answers were correct, so the keys look right. They flagged 1 typo, 4 unnatural or ambiguous items, 1 above-level word, 2 near-duplicates, and 14 items as too easy.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Level</th><th>Correct</th><th>Ambiguous</th><th>Unnatural</th><th>Too easy</th><th>Too hard</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>N5</td><td class="n">20/20</td><td class="n">1</td><td class="n">2</td><td class="n">5</td><td class="n">1</td><td>Typo <span lang="ja">いらしゃいました</span>; <span lang="ja">ファーストクラスで（　）</span> has no context; <span lang="ja">角</span> is above N5; one <span lang="ja">ながら</span> item is near-duplicated across tests</td></tr>
+      <tr><td>N3</td><td class="n">20/20</td><td class="n">1</td><td class="n">3</td><td class="n">3</td><td class="n">0</td><td><span lang="ja">運が開ける</span> item without context; dated <span lang="ja">〜かね</span>; reading distractor <span lang="ja">しゆっしん</span> looks like a typo</td></tr>
+      <tr><td>N1</td><td class="n">20/20</td><td class="n">0</td><td class="n">0</td><td class="n">6</td><td class="n">0</td><td>Words below N1 (<span lang="ja">保険, 資格</span>); the correct reading option is the longest restatement</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Scoring check: blueprint constants match the official JLPT. N1–N3 have three sections of 0–60 with a minimum of 19 each. N4 and N5 combine Language Knowledge and Reading into 0–120 (minimum 38) plus Listening 0–60 (minimum 19). Pass marks are 100, 90, 95, 90 and 80 (<code>content/blueprints.ts:53-171</code>). Scaling is a straight proportion, not IRT equating, and it is labelled as an estimate (<code>lib/scoring.ts:1-24</code>, <code>exam-player.tsx:429</code>).</p>
+</section>
+
+<section aria-labelledby="d">
+  <h2 id="d">Three urgent decisions</h2>
+  <div class="decisions">
+    <article class="card">
+      <span class="label">Decision 1</span>
+      <h3>Fix the broken mock tests now, or regenerate first?</h3>
+      <p class="label">For fixing now</p>
+      <ul><li>It's a small code change: ID scheme, dedupe, blueprint test.</li><li>Every score shown today is skewed.</li></ul>
+      <p class="label">Against</p>
+      <ul><li>Until paraphrase and usage items are regenerated, the vocabulary sections run 3 to 8 items short.</li><li>Regenerating costs agent runs, and you asked to keep usage low.</li></ul>
+      <p class="rec"><b>Recommend:</b> fix the IDs and remove the duplicate slots now. Show the shortened sections honestly ("19 of 24 items"). Regenerate paraphrase and usage in the next content batch.</p>
+    </article>
+    <article class="card">
+      <span class="label">Decision 2</span>
+      <h3>Build the review scheduler now in local storage, or wait for accounts?</h3>
+      <p class="label">For local-first</p>
+      <ul><li>Takes the 24 h target from 0% to 100% without Supabase keys.</li><li>Reuses the existing <code>ganbaru:v1:*</code> localStorage pattern.</li></ul>
+      <p class="label">Against</p>
+      <ul><li>Progress stays on one device.</li><li>Records need migrating once accounts exist.</li></ul>
+      <p class="rec"><b>Recommend:</b> build it local-first now with versioned, per-item records that can be uploaded once accounts exist.</p>
+    </article>
+    <article class="card">
+      <span class="label">Decision 3</span>
+      <h3>Next content effort: breadth or depth?</h3>
+      <p class="label">For breadth</p>
+      <ul><li>Coverage is far from 100% (grammar is around 25%).</li><li>Untested words are the ones learners can't practise at all.</li></ul>
+      <p class="label">Against</p>
+      <ul><li>No item has been reviewed by a person, and 14 of 60 sampled items are too easy.</li><li>Adding more unchecked items makes the score estimate less reliable.</li></ul>
+      <p class="rec"><b>Recommend:</b> depth first. Verify the 4,836 drafts (cheapest coverage gain), have a person review a 5% sample, then add grammar items generated from the list with <code>refs</code>.</p>
+    </article>
+  </div>
+</section>
+
+<section aria-labelledby="b">
+  <h2 id="b">Build plan: the review loop (decisions 1 and 2)</h2>
+  <ol class="steps">
+    <li><b>Make the tests honest (one day).</b> Generate IDs from the full type slug in <code>scripts/ai-unit.ts</code> and <code>scripts/gen-ai-questions.ts</code>. Rename the 58 colliding listening IDs and remove them from section 1. Add a test that fails on duplicate IDs or on a section type that isn't in the blueprint.</li>
+    <li><b>Add a scheduler module.</b> <code>lib/srs.ts</code> wraps <code>ts-fsrs</code>. One store, <code>ganbaru:v1:srs</code>, maps an item id to its FSRS card (difficulty, stability, due, lapses, last review). It exposes <code>record(id, correct)</code> and <code>due(level, now)</code>. All storage access is wrapped in try/catch.</li>
+    <li><b>Record every answer.</b> Drills call <code>record</code> in <code>choose()</code> (<code>drill-player.tsx:48-55</code>). Mock tests record every answered item on finish. A miss maps to Again, which in FSRS means a relearning step of about 10 minutes.</li>
+    <li><b>Re-ask within the session.</b> A missed drill question goes back into the queue 3 items later and again at the end, and it has to be answered again.</li>
+    <li><b>One click to review.</b> The home page and each level hub get a top button, "Review N due", which leads to <code>/review/[level]</code> and reuses <code>DrillPlayer</code> with the due question list. The header shows the due count.</li>
+    <li><b>Fix the copy.</b> The home promise and the card's "Back in…" toast become true, because they now read real due dates.</li>
+  </ol>
+  <h3>What would prove it worked</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Check</th><th>Pass condition</th></tr></thead>
+    <tbody>
+      <tr><td>Unit test on <code>lib/srs.ts</code></td><td>A miss recorded at any time is due within 24 h. Replaying 1,000 simulated answers over 7 days leaves 100% of misses resurfaced within 24 h (now 0%).</td></tr>
+      <tr><td>Test-integrity test</td><td>0 duplicate IDs across all 10 tests (now 58), and every section's types match <code>content/blueprints.ts</code>.</td></tr>
+      <tr><td>Playwright flow</td><td>Answer a drill question wrong, reload, and see "Review 1 due" on the home page. One click shows that exact question. Clicks to the first question: 1 (now 5).</td></tr>
+      <tr><td>Learner pilot (to measure)</td><td>Accuracy on previously missed items re-tested at 7 days is at least 20 points higher than for learners on the current build, and mock-test estimates rise from test 1 to test 2. Report it as measured, with the sample size.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer class="note">Method: four specialist agents (learning science, psychometrics, game design, accessibility and performance) and three blind-solver agents, plus my own check of the ID collision. The accessibility and performance agent ran axe-core on 13 routes and states, a keyboard-only run of the full N5 test 1 at 1280×800 and 375×812, and Lighthouse on a production build. Every number on this page is a measurement. Learner results are simulated. Raw outputs, scripts and Lighthouse reports are in the session scratchpad under <code>audit/</code>.</footer>
+</main>
