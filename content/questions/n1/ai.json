@@ -1,107 +1,5 @@
 [
  {
-  "id": "n1-t1-ua1-1",
-  "level": "N1",
-  "type": "usage",
-  "stem": "打開",
-  "options": [
-   "長年の研究の結果、ついに新しい薬が打開された。",
-   "朝早く店のシャッターを打開して、開店の準備をした。",
-   "交渉は行き詰まっていたが、新しい提案によって事態の打開が図られた。",
-   "彼は会議で自分の本音を打開して、みんなを驚かせた。"
-  ],
-  "answer": 2,
-  "explanation": "打開 means finding a way out of a deadlock or difficult situation, so 'the situation's breakthrough was sought through a new proposal' is correct. Option 1 needs 開発 (develop), option 2 needs 開けて (open), and option 4 needs 打ち明けて (confide).",
-  "translation": "打開 (breakthrough; overcoming a deadlock)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-ua1-2",
-  "level": "N1",
-  "type": "usage",
-  "stem": "見合わせる",
-  "options": [
-   "大雨の影響で、電車は現在運転を見合わせている。",
-   "二人は駅前で見合わせて、一緒に映画を見に行った。",
-   "新しい服が自分に見合わせるかどうか、鏡で確かめた。",
-   "長い間の努力が、ついに大きな成果に見合わせた。"
-  ],
-  "answer": 0,
-  "explanation": "見合わせる means to suspend or hold off on an action, so 'trains are currently suspending operation' is correct. Option 2 needs 待ち合わせて (meet up), option 3 needs 似合う (suit), and option 4 needs something like 実を結んだ (bore fruit).",
-  "translation": "見合わせる (to postpone; to suspend; to refrain from)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-ua1-3",
-  "level": "N1",
-  "type": "usage",
-  "stem": "手分け",
-  "options": [
-   "母はケーキを五つに手分けして、子供たちに配った。",
-   "彼は手分けが器用なので、細かい作業が得意だ。",
-   "先生の手分けのおかげで、無事に論文を書き上げることができた。",
-   "時間がないので、資料の準備は三人で手分けして進めよう。"
-  ],
-  "answer": 3,
-  "explanation": "手分け means dividing a task among several people, so 'let's split the preparation of materials among the three of us' is correct. Option 1 needs 切り分けて (cut into pieces), option 2 needs 手先 (fingers; dexterity), and option 3 needs 手助け or 指導 (help; guidance).",
-  "translation": "手分け (dividing work among people)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-ua1-4",
-  "level": "N1",
-  "type": "usage",
-  "stem": "ほころびる",
-  "options": [
-   "長年使った机の脚がほころびて、ぐらぐらしている。",
-   "合格の知らせを聞いて、父の顔が思わずほころびた。",
-   "強い風が吹いて、窓ガラスがほころびてしまった。",
-   "朝から晩まで働いて、体がすっかりほころびてしまった。"
-  ],
-  "answer": 1,
-  "explanation": "ほころびる is used for seams coming undone, buds beginning to open, and a face breaking into a smile, so 'father's face broke into a smile' is correct. Option 1 needs がたついて (become wobbly), option 3 needs 割れて (break), and option 4 needs 疲れ果てて (be exhausted).",
-  "translation": "ほころびる (to come apart at the seams; to begin to bloom; to break into a smile)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-ua1-5",
-  "level": "N1",
-  "type": "usage",
-  "stem": "秘める",
-  "options": [
-   "子供たちは庭の木の陰に秘めて、鬼が来るのを待った。",
-   "出かける前に、財布を引き出しの奥に秘めておいた。",
-   "会議の内容は、明日の新聞に秘められる予定だ。",
-   "この若い選手は、まだまだ大きな可能性を秘めている。"
-  ],
-  "answer": 3,
-  "explanation": "秘める means to hold something abstract (a talent, feeling or possibility) hidden inside, so 'this young athlete has great potential within' is correct. Option 1 needs 隠れて (hide oneself), option 2 needs しまって (put away), and option 3 needs 掲載される (be published).",
-  "translation": "秘める (to hold within; to keep hidden inside)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t1-ua1-6",
-  "level": "N1",
-  "type": "usage",
-  "stem": "心得る",
-  "options": [
-   "彼女は客への接し方をよく心得ているので、安心して店を任せられる。",
-   "先週受けた試験の結果を、今日ようやく心得た。",
-   "友人のけがが一日も早く心得るように祈っている。",
-   "引っ越しをするので、古い家具を全部心得ることにした。"
-  ],
-  "answer": 0,
-  "explanation": "心得る means to know or understand something well, especially how to behave or handle things, so 'she knows well how to treat customers' is correct. Option 2 needs 知った (learned), option 3 needs 治る (heal), and option 4 needs 処分する (dispose of).",
-  "translation": "心得る (to know well; to understand how to)",
-  "source": "ai",
-  "status": "verified"
- },
- {
   "id": "n1-t1-gfa1-1",
   "level": "N1",
   "type": "grammar-form",
@@ -2356,125 +2254,6 @@
   "audio": "/audio/n1/n1-t1-ila2-1.mp3"
  },
  {
-  "id": "n1-t2-pa1-1",
-  "level": "N1",
-  "type": "paraphrase",
-  "stem": "重大な決断だったが、彼の返事には[[ためらい]]が少しも感じられなかった。",
-  "options": [
-   "怒り",
-   "疲れ",
-   "迷い",
-   "喜び"
-  ],
-  "answer": 2,
-  "explanation": "ためらい means hesitation, the feeling of being unable to decide, so 迷い ('indecision, wavering') is closest. 怒り ('anger'), 疲れ ('tiredness') and 喜び ('joy') are other feelings and do not mean hesitation.",
-  "translation": "It was a serious decision, but there was not the slightest hesitation in his reply.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t2-ua1-1",
-  "level": "N1",
-  "type": "usage",
-  "stem": "重宝",
-  "options": [
-   "長年の努力が重宝して、ついに難しい試験に合格した。",
-   "この小さな鍋は一人分の料理を作るのにちょうどよく、毎日重宝している。",
-   "久しぶりに会った友人と、昔の思い出を重宝しながら話した。",
-   "試験の前日は、体調を重宝して早めに寝ることにした。"
-  ],
-  "answer": 1,
-  "explanation": "重宝 means finding something handy and useful, so using a small pot every day because it suits one-person meals is correct. Option 1 needs 実を結んで (bore fruit), option 3 needs 懐かしみながら (reminiscing about), and option 4 needs 大事にして (taking care of).",
-  "translation": "重宝 (chōhō): handy; to find useful. Correct use: This small pot is just right for cooking one portion, and I find it useful every day.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t2-ua1-2",
-  "level": "N1",
-  "type": "usage",
-  "stem": "見計らう",
-  "options": [
-   "地図を見計らいながら、初めて訪れた町を歩いた。",
-   "新しい部長は、部下の意見をよく見計らう人だ。",
-   "窓から外を見計らうと、雪が降り始めていた。",
-   "会議が一段落したころを見計らって、課長に休暇の相談をした。"
-  ],
-  "answer": 3,
-  "explanation": "見計らう means to judge and pick the right moment (or the right thing), so waiting until the meeting settled down before asking is correct. Option 1 needs 見ながら (looking at), option 2 needs 聞き入れる or 尊重する (listen to, respect), and option 3 needs 眺める (look out).",
-  "translation": "見計らう (mihakarau): to judge the right time; to choose suitably. Correct use: I waited until the meeting had reached a break and then consulted the section chief about taking leave.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t2-ua1-3",
-  "level": "N1",
-  "type": "usage",
-  "stem": "拍車",
-  "options": [
-   "円安が観光客の増加に拍車をかけ、駅前の店はどこも混雑している。",
-   "部長の拍車を受けて、新しい企画に取り組むことになった。",
-   "彼は拍車のある話し方で、聴衆を最後まで引きつけた。",
-   "祭りの夜は、町中に太鼓の拍車が響いていた。"
-  ],
-  "answer": 0,
-  "explanation": "拍車 is used in the set phrase 拍車をかける (to spur on, accelerate), so a weak yen speeding up the rise in tourists is correct. Option 2 needs 励まし (encouragement), option 3 needs 迫力 (force, impact), and option 4 confuses it with 音 or 拍子 (sound, beat).",
-  "translation": "拍車 (hakusha): spur; 拍車をかける = to accelerate, spur on. Correct use: The weak yen has spurred the increase in tourists, and every shop in front of the station is crowded.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t2-ua1-4",
-  "level": "N1",
-  "type": "usage",
-  "stem": "手薄",
-  "options": [
-   "この布は手薄なので、夏のシャツを作るのに向いている。",
-   "彼は手薄な性格で、何を始めても長続きしない。",
-   "年末は警備が手薄になりがちなので、見回りの回数を増やすことにした。",
-   "彼女は手薄に料理を作り、すぐに食卓に並べた。"
-  ],
-  "answer": 2,
-  "explanation": "手薄 means short of people or poorly covered, as with security that becomes thin at year's end, so option 3 is correct. Option 1 needs 薄手 (thin fabric), option 2 needs 飽きっぽい (easily bored), and option 4 needs 手早く (quickly).",
-  "translation": "手薄 (teusu): short-handed; poorly covered (staff, defences). Correct use: Security tends to be thin at the end of the year, so we decided to increase the number of patrols.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t2-ua1-5",
-  "level": "N1",
-  "type": "usage",
-  "stem": "一律",
-  "options": [
-   "彼は一律な性格で、決めたことは必ず最後までやり通す。",
-   "二人の意見は、最初から最後まで一律していた。",
-   "この道を一律に進むと、駅の前に出ます。",
-   "今年度から、会員の年会費は年齢に関係なく一律三千円となった。"
-  ],
-  "answer": 3,
-  "explanation": "一律 means uniformly, the same for everyone, so a fee of 3,000 yen regardless of age is correct. Option 1 needs 一途 or 律儀 (single-minded, conscientious), option 2 needs 一致して (agreed), and option 3 needs まっすぐ (straight ahead).",
-  "translation": "一律 (ichiritsu): uniform; across the board. Correct use: From this fiscal year, the annual membership fee is a flat 3,000 yen regardless of age.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n1-t2-ua1-6",
-  "level": "N1",
-  "type": "usage",
-  "stem": "頓挫",
-  "options": [
-   "資金が集まらず、駅前の再開発計画は途中で頓挫してしまった。",
-   "階段で足を頓挫して、しばらく歩けなかった。",
-   "彼の失礼な態度に頓挫して、私は何も言えなくなった。",
-   "長い冬が頓挫して、ようやく春らしい日が続くようになった。"
-  ],
-  "answer": 0,
-  "explanation": "頓挫 means a plan or project breaks down partway, so a redevelopment plan stalling for lack of funds is correct. Option 2 confuses it with 捻挫 (sprain), option 3 needs あきれて (be appalled), and option 4 needs 終わって (end).",
-  "translation": "頓挫 (tonza): to break down; to stall (of plans). Correct use: Because funds could not be raised, the redevelopment plan in front of the station fell through partway.",
-  "source": "ai",
-  "status": "verified"
- },
- {
   "id": "n1-t2-gfa1-1",
   "level": "N1",
   "type": "grammar-form",
@@ -4583,5 +4362,413 @@
   "source": "ai",
   "status": "verified",
   "audio": "/audio/n1/n1-t2-ila1-3.mp3"
+ },
+ {
+  "id": "n1-t1-paraphrase-a1-1",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "彼の提案に[[異論]]を唱える人は一人もいなかった。",
+  "options": [
+   "賛成の意見",
+   "反対の意見",
+   "個人的な感想",
+   "新しい案"
+  ],
+  "answer": 1,
+  "explanation": "異論 means a differing opinion or objection, so 反対の意見 ('an opposing opinion') is closest. 賛成の意見 is the opposite, while 個人的な感想 ('a personal impression') and 新しい案 ('a new plan') do not express disagreement.",
+  "translation": "Not a single person raised an objection to his proposal.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-paraphrase-a1-2",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "新しいシステムを導入してから、作業が[[はかどって]]いる。",
+  "options": [
+   "楽しくなって",
+   "丁寧になって",
+   "正確になって",
+   "順調に進んで"
+  ],
+  "answer": 3,
+  "explanation": "はかどる means that work makes good progress, the same as 順調に進む ('proceed smoothly'). 楽しくなる ('become enjoyable'), 丁寧になる ('become careful') and 正確になる ('become accurate') describe the quality of the work, not its progress.",
+  "translation": "Since the new system was introduced, the work has been making good progress.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-paraphrase-a1-3",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "会議は[[きっかり]]三時に始まった。",
+  "options": [
+   "ちょうど",
+   "だいたい",
+   "ようやく",
+   "意外にも"
+  ],
+  "answer": 0,
+  "explanation": "きっかり means 'exactly, precisely (on time)', the same as ちょうど. だいたい means 'about', ようやく means 'at last', and 意外にも means 'unexpectedly', so they all change the meaning.",
+  "translation": "The meeting started at exactly three o'clock.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-paraphrase-a1-4",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "参加者の意見は[[まちまち]]で、結論は出なかった。",
+  "options": [
+   "同じ",
+   "少数",
+   "ばらばら",
+   "あいまい"
+  ],
+  "answer": 2,
+  "explanation": "まちまち means 'varied, differing from one another', so ばらばら ('scattered, all different') is closest. 同じ ('the same') is the opposite, 少数 ('few') is about number, and あいまい ('vague') is about clarity, not variety.",
+  "translation": "The participants' opinions varied, so no conclusion was reached.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-paraphrase-a1-5",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "兄は旅行中の苦労を[[大げさに]]話した。",
+  "options": [
+   "正直に",
+   "実際より大きく",
+   "静かに",
+   "簡単に"
+  ],
+  "answer": 1,
+  "explanation": "大げさに means 'in an exaggerated way', which is the same as 実際より大きく ('bigger than it really was'). 正直に ('honestly') suggests no exaggeration, 静かに means 'quietly', and 簡単に means 'briefly', so none of them mean exaggerating.",
+  "translation": "My older brother exaggerated the hardships he went through on his trip.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-paraphrase-a1-6",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "両社は長い話し合いの末、ようやく[[妥協した]]。",
+  "options": [
+   "契約した",
+   "対立した",
+   "決裂した",
+   "歩み寄った"
+  ],
+  "answer": 3,
+  "explanation": "妥協する means 'to compromise', each side giving way a little, which matches 歩み寄る ('to meet each other halfway'). 契約する ('sign a contract') is a different act, while 対立する ('be in conflict') and 決裂する ('break down') are the opposite outcome.",
+  "translation": "After long negotiations, the two companies finally reached a compromise.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-usage-a1-1",
+  "level": "N1",
+  "type": "usage",
+  "stem": "打開",
+  "options": [
+   "長年の研究の結果、ついに新しい薬が打開された。",
+   "朝早く店のシャッターを打開して、開店の準備をした。",
+   "交渉は行き詰まっていたが、新しい提案によって事態の打開が図られた。",
+   "彼は会議で自分の本音を打開して、みんなを驚かせた。"
+  ],
+  "answer": 2,
+  "explanation": "打開 means finding a way out of a deadlock or difficult situation, so 'the situation's breakthrough was sought through a new proposal' is correct. Option 1 needs 開発 (develop), option 2 needs 開けて (open), and option 4 needs 打ち明けて (confide).",
+  "translation": "打開 (breakthrough; overcoming a deadlock)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-usage-a1-2",
+  "level": "N1",
+  "type": "usage",
+  "stem": "見合わせる",
+  "options": [
+   "大雨の影響で、電車は現在運転を見合わせている。",
+   "二人は駅前で見合わせて、一緒に映画を見に行った。",
+   "新しい服が自分に見合わせるかどうか、鏡で確かめた。",
+   "長い間の努力が、ついに大きな成果に見合わせた。"
+  ],
+  "answer": 0,
+  "explanation": "見合わせる means to suspend or hold off on an action, so 'trains are currently suspending operation' is correct. Option 2 needs 待ち合わせて (meet up), option 3 needs 似合う (suit), and option 4 needs something like 実を結んだ (bore fruit).",
+  "translation": "見合わせる (to postpone; to suspend; to refrain from)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-usage-a1-3",
+  "level": "N1",
+  "type": "usage",
+  "stem": "手分け",
+  "options": [
+   "母はケーキを五つに手分けして、子供たちに配った。",
+   "彼は手分けが器用なので、細かい作業が得意だ。",
+   "先生の手分けのおかげで、無事に論文を書き上げることができた。",
+   "時間がないので、資料の準備は三人で手分けして進めよう。"
+  ],
+  "answer": 3,
+  "explanation": "手分け means dividing a task among several people, so 'let's split the preparation of materials among the three of us' is correct. Option 1 needs 切り分けて (cut into pieces), option 2 needs 手先 (fingers; dexterity), and option 3 needs 手助け or 指導 (help; guidance).",
+  "translation": "手分け (dividing work among people)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-usage-a1-4",
+  "level": "N1",
+  "type": "usage",
+  "stem": "ほころびる",
+  "options": [
+   "長年使った机の脚がほころびて、ぐらぐらしている。",
+   "合格の知らせを聞いて、父の顔が思わずほころびた。",
+   "強い風が吹いて、窓ガラスがほころびてしまった。",
+   "朝から晩まで働いて、体がすっかりほころびてしまった。"
+  ],
+  "answer": 1,
+  "explanation": "ほころびる is used for seams coming undone, buds beginning to open, and a face breaking into a smile, so 'father's face broke into a smile' is correct. Option 1 needs がたついて (become wobbly), option 3 needs 割れて (break), and option 4 needs 疲れ果てて (be exhausted).",
+  "translation": "ほころびる (to come apart at the seams; to begin to bloom; to break into a smile)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-usage-a1-5",
+  "level": "N1",
+  "type": "usage",
+  "stem": "秘める",
+  "options": [
+   "子供たちは庭の木の陰に秘めて、鬼が来るのを待った。",
+   "出かける前に、財布を引き出しの奥に秘めておいた。",
+   "会議の内容は、明日の新聞に秘められる予定だ。",
+   "この若い選手は、まだまだ大きな可能性を秘めている。"
+  ],
+  "answer": 3,
+  "explanation": "秘める means to hold something abstract (a talent, feeling or possibility) hidden inside, so 'this young athlete has great potential within' is correct. Option 1 needs 隠れて (hide oneself), option 2 needs しまって (put away), and option 3 needs 掲載される (be published).",
+  "translation": "秘める (to hold within; to keep hidden inside)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t1-usage-a1-6",
+  "level": "N1",
+  "type": "usage",
+  "stem": "心得る",
+  "options": [
+   "彼女は客への接し方をよく心得ているので、安心して店を任せられる。",
+   "先週受けた試験の結果を、今日ようやく心得た。",
+   "友人のけがが一日も早く心得るように祈っている。",
+   "引っ越しをするので、古い家具を全部心得ることにした。"
+  ],
+  "answer": 0,
+  "explanation": "心得る means to know or understand something well, especially how to behave or handle things, so 'she knows well how to treat customers' is correct. Option 2 needs 知った (learned), option 3 needs 治る (heal), and option 4 needs 処分する (dispose of).",
+  "translation": "心得る (to know well; to understand how to)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-paraphrase-a1-1",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "重大な決断だったが、彼の返事には[[ためらい]]が少しも感じられなかった。",
+  "options": [
+   "怒り",
+   "疲れ",
+   "迷い",
+   "喜び"
+  ],
+  "answer": 2,
+  "explanation": "ためらい means hesitation, the feeling of being unable to decide, so 迷い ('indecision, wavering') is closest. 怒り ('anger'), 疲れ ('tiredness') and 喜び ('joy') are other feelings and do not mean hesitation.",
+  "translation": "It was a serious decision, but there was not the slightest hesitation in his reply.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-paraphrase-a1-2",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "その計画は予算不足のため[[頓挫した]]。",
+  "options": [
+   "途中でだめになった",
+   "無事に完了した",
+   "大きく修正された",
+   "予定どおり進んだ"
+  ],
+  "answer": 0,
+  "explanation": "頓挫する means that a plan breaks down partway through, the same as 途中でだめになる. 無事に完了した ('was completed safely') and 予定どおり進んだ ('went as scheduled') are the opposite, and 大きく修正された ('was greatly revised') means the plan continued in a changed form.",
+  "translation": "The plan fell through because of a lack of funds.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-paraphrase-a1-3",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "新しい部長は[[気さくな]]人で、誰とでもすぐに打ち解ける。",
+  "options": [
+   "厳しい",
+   "頭のいい",
+   "落ち着いた",
+   "親しみやすい"
+  ],
+  "answer": 3,
+  "explanation": "気さくな means friendly and easy to approach, so 親しみやすい ('approachable, friendly') is closest. 厳しい ('strict') is nearly the opposite, while 頭のいい ('clever') and 落ち着いた ('calm') describe other qualities.",
+  "translation": "The new department head is a friendly person who quickly gets along with anyone.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-paraphrase-a1-4",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "彼女は何度失敗しても、[[めげずに]]練習を続けた。",
+  "options": [
+   "休まずに",
+   "落ち込まずに",
+   "黙って",
+   "急いで"
+  ],
+  "answer": 1,
+  "explanation": "めげずに means without losing heart or getting discouraged, the same as 落ち込まずに ('without getting depressed'). 休まずに ('without resting') is about taking breaks, 黙って ('silently') is about speaking, and 急いで ('in a hurry') is about speed.",
+  "translation": "No matter how many times she failed, she kept practicing without losing heart.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-paraphrase-a1-5",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "先生の説明を聞いて、ようやく[[合点がいった]]。",
+  "options": [
+   "納得できた",
+   "安心できた",
+   "感動した",
+   "諦めがついた"
+  ],
+  "answer": 0,
+  "explanation": "合点がいく means to understand and accept something, so 納得できた ('was convinced, understood') is closest. 安心できた ('felt relieved') and 感動した ('was moved') are emotions, and 諦めがついた ('was resigned to it') means giving up, not understanding.",
+  "translation": "After hearing the teacher's explanation, it finally made sense to me.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-paraphrase-a1-6",
+  "level": "N1",
+  "type": "paraphrase",
+  "stem": "その件については、私は[[一切]]知らされていなかった。",
+  "options": [
+   "ほとんど",
+   "すぐには",
+   "少しも",
+   "正式には"
+  ],
+  "answer": 2,
+  "explanation": "一切 with a negative means 'not at all', the same as 少しも. ほとんど ('hardly') allows a little information, すぐには ('not right away') means the person was told later, and 正式には ('not officially') suggests they heard unofficially.",
+  "translation": "I had not been told anything at all about that matter.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-usage-a1-1",
+  "level": "N1",
+  "type": "usage",
+  "stem": "重宝",
+  "options": [
+   "長年の努力が重宝して、ついに難しい試験に合格した。",
+   "この小さな鍋は一人分の料理を作るのにちょうどよく、毎日重宝している。",
+   "久しぶりに会った友人と、昔の思い出を重宝しながら話した。",
+   "試験の前日は、体調を重宝して早めに寝ることにした。"
+  ],
+  "answer": 1,
+  "explanation": "重宝 means finding something handy and useful, so using a small pot every day because it suits one-person meals is correct. Option 1 needs 実を結んで (bore fruit), option 3 needs 懐かしみながら (reminiscing about), and option 4 needs 大事にして (taking care of).",
+  "translation": "重宝 (chōhō): handy; to find useful. Correct use: This small pot is just right for cooking one portion, and I find it useful every day.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-usage-a1-2",
+  "level": "N1",
+  "type": "usage",
+  "stem": "見計らう",
+  "options": [
+   "地図を見計らいながら、初めて訪れた町を歩いた。",
+   "新しい部長は、部下の意見をよく見計らう人だ。",
+   "窓から外を見計らうと、雪が降り始めていた。",
+   "会議が一段落したころを見計らって、課長に休暇の相談をした。"
+  ],
+  "answer": 3,
+  "explanation": "見計らう means to judge and pick the right moment (or the right thing), so waiting until the meeting settled down before asking is correct. Option 1 needs 見ながら (looking at), option 2 needs 聞き入れる or 尊重する (listen to, respect), and option 3 needs 眺める (look out).",
+  "translation": "見計らう (mihakarau): to judge the right time; to choose suitably. Correct use: I waited until the meeting had reached a break and then consulted the section chief about taking leave.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-usage-a1-3",
+  "level": "N1",
+  "type": "usage",
+  "stem": "拍車",
+  "options": [
+   "円安が観光客の増加に拍車をかけ、駅前の店はどこも混雑している。",
+   "部長の拍車を受けて、新しい企画に取り組むことになった。",
+   "彼は拍車のある話し方で、聴衆を最後まで引きつけた。",
+   "祭りの夜は、町中に太鼓の拍車が響いていた。"
+  ],
+  "answer": 0,
+  "explanation": "拍車 is used in the set phrase 拍車をかける (to spur on, accelerate), so a weak yen speeding up the rise in tourists is correct. Option 2 needs 励まし (encouragement), option 3 needs 迫力 (force, impact), and option 4 confuses it with 音 or 拍子 (sound, beat).",
+  "translation": "拍車 (hakusha): spur; 拍車をかける = to accelerate, spur on. Correct use: The weak yen has spurred the increase in tourists, and every shop in front of the station is crowded.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-usage-a1-4",
+  "level": "N1",
+  "type": "usage",
+  "stem": "手薄",
+  "options": [
+   "この布は手薄なので、夏のシャツを作るのに向いている。",
+   "彼は手薄な性格で、何を始めても長続きしない。",
+   "年末は警備が手薄になりがちなので、見回りの回数を増やすことにした。",
+   "彼女は手薄に料理を作り、すぐに食卓に並べた。"
+  ],
+  "answer": 2,
+  "explanation": "手薄 means short of people or poorly covered, as with security that becomes thin at year's end, so option 3 is correct. Option 1 needs 薄手 (thin fabric), option 2 needs 飽きっぽい (easily bored), and option 4 needs 手早く (quickly).",
+  "translation": "手薄 (teusu): short-handed; poorly covered (staff, defences). Correct use: Security tends to be thin at the end of the year, so we decided to increase the number of patrols.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-usage-a1-5",
+  "level": "N1",
+  "type": "usage",
+  "stem": "一律",
+  "options": [
+   "彼は一律な性格で、決めたことは必ず最後までやり通す。",
+   "二人の意見は、最初から最後まで一律していた。",
+   "この道を一律に進むと、駅の前に出ます。",
+   "今年度から、会員の年会費は年齢に関係なく一律三千円となった。"
+  ],
+  "answer": 3,
+  "explanation": "一律 means uniformly, the same for everyone, so a fee of 3,000 yen regardless of age is correct. Option 1 needs 一途 or 律儀 (single-minded, conscientious), option 2 needs 一致して (agreed), and option 3 needs まっすぐ (straight ahead).",
+  "translation": "一律 (ichiritsu): uniform; across the board. Correct use: From this fiscal year, the annual membership fee is a flat 3,000 yen regardless of age.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n1-t2-usage-a1-6",
+  "level": "N1",
+  "type": "usage",
+  "stem": "頓挫",
+  "options": [
+   "資金が集まらず、駅前の再開発計画は途中で頓挫してしまった。",
+   "階段で足を頓挫して、しばらく歩けなかった。",
+   "彼の失礼な態度に頓挫して、私は何も言えなくなった。",
+   "長い冬が頓挫して、ようやく春らしい日が続くようになった。"
+  ],
+  "answer": 0,
+  "explanation": "頓挫 means a plan or project breaks down partway, so a redevelopment plan stalling for lack of funds is correct. Option 2 confuses it with 捻挫 (sprain), option 3 needs あきれて (be appalled), and option 4 needs 終わって (end).",
+  "translation": "頓挫 (tonza): to break down; to stall (of plans). Correct use: Because funds could not be raised, the redevelopment plan in front of the station fell through partway.",
+  "source": "ai",
+  "status": "verified"
  }
 ]

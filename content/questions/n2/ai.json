@@ -85,91 +85,6 @@
   "status": "verified"
  },
  {
-  "id": "n2-t1-ua1-1",
-  "level": "N2",
-  "type": "usage",
-  "stem": "ぎっしり",
-  "options": [
-   "試験に合格したと聞いて、彼はぎっしり喜んだ。",
-   "引っ越しの箱の中には、古い本がぎっしり詰まっていた。",
-   "一日中歩き回ったので、足がぎっしり疲れてしまった。",
-   "朝から外では雨がぎっしり降っている。"
-  ],
-  "answer": 1,
-  "explanation": "ぎっしり describes something packed tightly with no gaps, so 'books packed tightly in a box' is correct. It cannot describe the degree of joy (option 1), tiredness (option 3), or heavy rain (option 4, which would be ざあざあ or 激しく).",
-  "translation": "ぎっしり (tightly packed; crammed)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t1-ua1-2",
-  "level": "N2",
-  "type": "usage",
-  "stem": "せっかく",
-  "options": [
-   "今日は朝寝坊したので、せっかく電車に乗り遅れた。",
-   "彼はせっかく時間を守らない人なので、みんな困っている。",
-   "試験に落ちたのは、せっかく勉強しなかったからだ。",
-   "せっかく作った料理なのに、誰も食べてくれなかった。"
-  ],
-  "answer": 3,
-  "explanation": "せっかく expresses that effort was made or a valuable chance existed, often followed by disappointment, so 'the meal I went to the trouble of making' is correct. Options 1, 2 and 3 use it as if it meant 'as a result', 'always' or 'at all', none of which it means.",
-  "translation": "せっかく (with much trouble; taking the trouble to)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t1-ua1-3",
-  "level": "N2",
-  "type": "usage",
-  "stem": "治す",
-  "options": [
-   "{風邪|かぜ}を早く治すために、今日は早めに寝ることにした。",
-   "{故障|こしょう}した自転車を、父が一日かけて治してくれた。",
-   "作文の中の間違った漢字を、先生に治してもらった。",
-   "止まっていた時計の時間を、正しく治しておいた。"
-  ],
-  "answer": 0,
-  "explanation": "治す means to cure an illness or injury, so curing a cold is correct. Repairing a bicycle (option 2), correcting mistaken kanji (option 3) and resetting a clock (option 4) all require 直す instead.",
-  "translation": "治す (to cure; to heal)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t1-ua1-4",
-  "level": "N2",
-  "type": "usage",
-  "stem": "見学",
-  "options": [
-   "毎晩、寝る前にテレビのニュースを見学している。",
-   "週末は友達の家で、一緒に映画を見学した。",
-   "学校の行事で、近くにある食品の工場を見学した。",
-   "毎朝、窓から外の天気を見学してから出かける。"
-  ],
-  "answer": 2,
-  "explanation": "見学 means visiting a place such as a factory or facility to observe and learn, so a school trip to a factory is correct. Watching the news (option 1) or a film (option 2) uses 見る, and checking the weather (option 4) uses 確かめる or 見る.",
-  "translation": "見学 (observational visit; field trip; tour)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t1-ua1-5",
-  "level": "N2",
-  "type": "usage",
-  "stem": "募集",
-  "options": [
-   "夏休みに家族と海へ行って、きれいな貝を募集した。",
-   "駅前のパン屋では、今アルバイトを募集している。",
-   "道に落ちていたごみを募集して、ごみ箱に捨てた。",
-   "毎月の給料から少しずつお金を募集している。"
-  ],
-  "answer": 1,
-  "explanation": "募集 means publicly recruiting people or inviting applications, so a shop recruiting part-time workers is correct. Gathering shells (option 1) or rubbish (option 3) uses 集める or 拾う, and saving money (option 4) uses 貯める or 貯金する.",
-  "translation": "募集 (recruiting; inviting applications)",
-  "source": "ai",
-  "status": "verified"
- },
- {
   "id": "n2-t1-gfa1-1",
   "level": "N2",
   "type": "grammar-form",
@@ -2520,91 +2435,6 @@
   "status": "verified"
  },
  {
-  "id": "n2-t2-ua1-1",
-  "level": "N2",
-  "type": "usage",
-  "stem": "引き受ける",
-  "options": [
-   "駅で友人を引き受けてから、一緒に会場へ向かった。",
-   "部長に頼まれて、来月の会議の進行役を引き受けることになった。",
-   "先週図書館から引き受けた本を、まだ読み終えていない。",
-   "雨が降り出したので、干してあった洗濯物を急いで引き受けた。"
-  ],
-  "answer": 1,
-  "explanation": "引き受ける means to take on a task or responsibility, so taking on the role of chairing a meeting is correct. Option 1 needs 迎えて (meet someone), option 3 needs 借りた (borrowed), and option 4 needs 取り込んだ (brought in the laundry).",
-  "translation": "引き受ける (to take on; to undertake)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t2-ua1-2",
-  "level": "N2",
-  "type": "usage",
-  "stem": "片寄る",
-  "options": [
-   "彼は毎朝早く起きる習慣がすっかり片寄っていて、遅刻したことがない。",
-   "長い間会っていなかった友達と、駅でばったり片寄った。",
-   "新しい店ができて、この通りはずいぶん片寄ってきた。",
-   "忙しくて外食ばかりしていたら、食事の内容が片寄ってしまった。"
-  ],
-  "answer": 3,
-  "explanation": "片寄る means to be unbalanced or lean to one side, so an unbalanced diet from eating out is correct. Option 1 needs 身について (a habit becoming ingrained), option 2 needs 出会った (ran into), and option 3 needs にぎやかになって (became lively).",
-  "translation": "片寄る (to be one-sided; to be unbalanced)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t2-ua1-3",
-  "level": "N2",
-  "type": "usage",
-  "stem": "通用",
-  "options": [
-   "学生時代に覚えたやり方は、社会に出ると通用しないこともある。",
-   "毎朝この道を通用して、駅まで歩いている。",
-   "山の中では{携帯|けいたい}電話が通用しなくて、連絡が取れなかった。",
-   "新しい橋が完成し、来月から通用が始まる予定だ。"
-  ],
-  "answer": 0,
-  "explanation": "通用 means to be accepted or to work as valid in some setting, so methods that don't work in the working world is correct. Option 2 needs 通って (pass along a road), option 3 needs 通じなくて (no phone connection), and option 4 needs 開通 (opening to traffic).",
-  "translation": "通用 (being accepted; being valid; working in practice)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t2-ua1-4",
-  "level": "N2",
-  "type": "usage",
-  "stem": "延ばす",
-  "options": [
-   "引っ越しの荷物が多かったので、友達に運ぶのを延ばしてもらった。",
-   "落とした財布を、親切な人が交番まで延ばしてくれた。",
-   "台風が近づいているため、出発を一日延ばすことにした。",
-   "店員にお願いして、シャツの値段を少し延ばしてもらった。"
-  ],
-  "answer": 2,
-  "explanation": "延ばす means to postpone or extend a time, so putting off a departure by a day because of a typhoon is correct. Option 1 needs 手伝って (help), option 2 needs 届けて (delivered), and option 4 needs 安くして or まけて (lower the price).",
-  "translation": "延ばす (to postpone; to extend)",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n2-t2-ua1-5",
-  "level": "N2",
-  "type": "usage",
-  "stem": "散らかる",
-  "options": [
-   "会議が終わると、参加者はそれぞれの部屋へ散らかっていった。",
-   "子どもが遊んだあとの部屋は、おもちゃが散らかっていて歩く場所もない。",
-   "夜遅くまで起きていたので、頭が散らかって仕事に集中できない。",
-   "久しぶりに雨が降って、庭の草花が元気に散らかっている。"
-  ],
-  "answer": 1,
-  "explanation": "散らかる means things lie scattered in a mess, so toys strewn across a room is correct. Option 1 needs 散っていった or 分かれていった (people dispersing), option 3 needs ぼんやりして (head feeling foggy), and option 4 needs 茂っている (growing thick).",
-  "translation": "散らかる (to be scattered; to be in a mess)",
-  "source": "ai",
-  "status": "verified"
- },
- {
   "id": "n2-t2-gfa1-1",
   "level": "N2",
   "type": "grammar-form",
@@ -4874,5 +4704,345 @@
   "source": "ai",
   "status": "verified",
   "audio": "/audio/n2/n2-t2-ila1-4.mp3"
+ },
+ {
+  "id": "n2-t1-paraphrase-a1-1",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "会議の資料は[[あらかじめ]]用意しておいてください。",
+  "options": [
+   "すぐに",
+   "必ず",
+   "前もって",
+   "全部"
+  ],
+  "answer": 2,
+  "explanation": "あらかじめ means 'in advance, beforehand', which is the same as 前もって. すぐに means 'right away', 必ず means 'without fail', and 全部 means 'all of it', so none of them mean 'beforehand'.",
+  "translation": "Please prepare the meeting materials in advance.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-paraphrase-a1-2",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "彼の説明は[[あいまいで]]、よくわからなかった。",
+  "options": [
+   "はっきりしなくて",
+   "長すぎて",
+   "早口で",
+   "難しくて"
+  ],
+  "answer": 0,
+  "explanation": "あいまい means 'vague, unclear', so はっきりしなくて ('not clear') is the closest. 長すぎて ('too long'), 早口で ('speaking fast') and 難しくて ('difficult') give other reasons for not understanding, but none of them mean 'vague'.",
+  "translation": "His explanation was vague, and I couldn't really understand it.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-paraphrase-a1-3",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "駅前の店のパンは、[[たちまち]]売り切れてしまった。",
+  "options": [
+   "少しずつ",
+   "あっという間に",
+   "やっと",
+   "思ったとおり"
+  ],
+  "answer": 1,
+  "explanation": "たちまち means 'instantly, in no time', the same as あっという間に. 少しずつ means 'little by little', やっと means 'finally (after a long wait)', and 思ったとおり means 'as expected', so they change the meaning.",
+  "translation": "The bread at the shop in front of the station sold out in no time.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-paraphrase-a1-4",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "気が進まなかったが、この仕事は[[やむをえず]]引き受けた。",
+  "options": [
+   "喜んで",
+   "急いで",
+   "迷いながら",
+   "仕方なく"
+  ],
+  "answer": 3,
+  "explanation": "やむをえず means 'unavoidably, because there was no other choice', which is 仕方なく. 喜んで means 'gladly', 急いで means 'in a hurry', and 迷いながら means 'while hesitating', which does not say there was no choice.",
+  "translation": "I didn't feel like it, but I reluctantly accepted this job because there was no other option.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-paraphrase-a1-5",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "待ち合わせの間、田中さんは[[しきりに]]時計を見ていた。",
+  "options": [
+   "ときどき",
+   "何度も",
+   "一度だけ",
+   "じっと"
+  ],
+  "answer": 1,
+  "explanation": "しきりに means 'frequently, over and over', so 何度も ('many times') is the closest. ときどき means only 'sometimes', 一度だけ means 'just once', and じっと means 'steadily, without moving', which describes one long look rather than repeated ones.",
+  "translation": "While waiting to meet someone, Tanaka kept looking at the clock again and again.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-usage-a1-1",
+  "level": "N2",
+  "type": "usage",
+  "stem": "ぎっしり",
+  "options": [
+   "試験に合格したと聞いて、彼はぎっしり喜んだ。",
+   "引っ越しの箱の中には、古い本がぎっしり詰まっていた。",
+   "一日中歩き回ったので、足がぎっしり疲れてしまった。",
+   "朝から外では雨がぎっしり降っている。"
+  ],
+  "answer": 1,
+  "explanation": "ぎっしり describes something packed tightly with no gaps, so 'books packed tightly in a box' is correct. It cannot describe the degree of joy (option 1), tiredness (option 3), or heavy rain (option 4, which would be ざあざあ or 激しく).",
+  "translation": "ぎっしり (tightly packed; crammed)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-usage-a1-2",
+  "level": "N2",
+  "type": "usage",
+  "stem": "せっかく",
+  "options": [
+   "今日は朝寝坊したので、せっかく電車に乗り遅れた。",
+   "彼はせっかく時間を守らない人なので、みんな困っている。",
+   "試験に落ちたのは、せっかく勉強しなかったからだ。",
+   "せっかく作った料理なのに、誰も食べてくれなかった。"
+  ],
+  "answer": 3,
+  "explanation": "せっかく expresses that effort was made or a valuable chance existed, often followed by disappointment, so 'the meal I went to the trouble of making' is correct. Options 1, 2 and 3 use it as if it meant 'as a result', 'always' or 'at all', none of which it means.",
+  "translation": "せっかく (with much trouble; taking the trouble to)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-usage-a1-3",
+  "level": "N2",
+  "type": "usage",
+  "stem": "治す",
+  "options": [
+   "{風邪|かぜ}を早く治すために、今日は早めに寝ることにした。",
+   "{故障|こしょう}した自転車を、父が一日かけて治してくれた。",
+   "作文の中の間違った漢字を、先生に治してもらった。",
+   "止まっていた時計の時間を、正しく治しておいた。"
+  ],
+  "answer": 0,
+  "explanation": "治す means to cure an illness or injury, so curing a cold is correct. Repairing a bicycle (option 2), correcting mistaken kanji (option 3) and resetting a clock (option 4) all require 直す instead.",
+  "translation": "治す (to cure; to heal)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-usage-a1-4",
+  "level": "N2",
+  "type": "usage",
+  "stem": "見学",
+  "options": [
+   "毎晩、寝る前にテレビのニュースを見学している。",
+   "週末は友達の家で、一緒に映画を見学した。",
+   "学校の行事で、近くにある食品の工場を見学した。",
+   "毎朝、窓から外の天気を見学してから出かける。"
+  ],
+  "answer": 2,
+  "explanation": "見学 means visiting a place such as a factory or facility to observe and learn, so a school trip to a factory is correct. Watching the news (option 1) or a film (option 2) uses 見る, and checking the weather (option 4) uses 確かめる or 見る.",
+  "translation": "見学 (observational visit; field trip; tour)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t1-usage-a1-5",
+  "level": "N2",
+  "type": "usage",
+  "stem": "募集",
+  "options": [
+   "夏休みに家族と海へ行って、きれいな貝を募集した。",
+   "駅前のパン屋では、今アルバイトを募集している。",
+   "道に落ちていたごみを募集して、ごみ箱に捨てた。",
+   "毎月の給料から少しずつお金を募集している。"
+  ],
+  "answer": 1,
+  "explanation": "募集 means publicly recruiting people or inviting applications, so a shop recruiting part-time workers is correct. Gathering shells (option 1) or rubbish (option 3) uses 集める or 拾う, and saving money (option 4) uses 貯める or 貯金する.",
+  "translation": "募集 (recruiting; inviting applications)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-paraphrase-a1-1",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "部長は会議の内容を[[ざっと]]説明した。",
+  "options": [
+   "何度も",
+   "大まかに",
+   "細かく",
+   "急いで"
+  ],
+  "answer": 1,
+  "explanation": "ざっと means roughly or briefly, covering only the main points, so 大まかに (roughly, in broad strokes) is closest. 何度も means many times, 細かく means in detail (the opposite), and 急いで means in a hurry, which is about speed rather than level of detail.",
+  "translation": "The department manager gave a rough explanation of what was discussed at the meeting.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-paraphrase-a1-2",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "彼の話は[[でたらめ]]だったことが後で分かった。",
+  "options": [
+   "長かった",
+   "分かりにくかった",
+   "面白くなかった",
+   "本当ではなかった"
+  ],
+  "answer": 3,
+  "explanation": "でたらめ means made up or groundless, so 本当ではなかった (was not true) matches. 長かった (was long), 分かりにくかった (was hard to understand) and 面白くなかった (was not interesting) describe the story's length, clarity or appeal, not whether it was true.",
+  "translation": "It later became clear that what he had said was nonsense.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-paraphrase-a1-3",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "{事故|じこ}の原因は[[いまだに]]分かっていない。",
+  "options": [
+   "まだ",
+   "すでに",
+   "少しも",
+   "ほとんど"
+  ],
+  "answer": 0,
+  "explanation": "いまだに means still, even now, so まだ is the closest. すでに means already, 少しも means not at all, and ほとんど means hardly; these change the meaning to a degree of understanding rather than something that remains unknown up to now.",
+  "translation": "The cause of the accident is still not known.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-paraphrase-a1-4",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "新しい店の計画は[[順調に]]進んでいる。",
+  "options": [
+   "少しずつ",
+   "予定より遅く",
+   "問題なく",
+   "思ったより早く"
+  ],
+  "answer": 2,
+  "explanation": "順調に means smoothly, without trouble, so 問題なく (without problems) is closest. 少しずつ means little by little, 予定より遅く means behind schedule, and 思ったより早く means faster than expected; none of these simply mean that things are going well.",
+  "translation": "The plans for the new shop are progressing smoothly.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-paraphrase-a1-5",
+  "level": "N2",
+  "type": "paraphrase",
+  "stem": "友人から借りた本を、家に帰って[[早速]]読み始めた。",
+  "options": [
+   "やっと",
+   "すぐに",
+   "再び",
+   "少しずつ"
+  ],
+  "answer": 1,
+  "explanation": "早速 means at once, without delay, so すぐに (immediately) is the match. やっと means finally after a wait, 再び means again, and 少しずつ means little by little, none of which express doing something right away.",
+  "translation": "I got home and started reading the book I had borrowed from a friend right away.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-usage-a1-1",
+  "level": "N2",
+  "type": "usage",
+  "stem": "引き受ける",
+  "options": [
+   "駅で友人を引き受けてから、一緒に会場へ向かった。",
+   "部長に頼まれて、来月の会議の進行役を引き受けることになった。",
+   "先週図書館から引き受けた本を、まだ読み終えていない。",
+   "雨が降り出したので、干してあった洗濯物を急いで引き受けた。"
+  ],
+  "answer": 1,
+  "explanation": "引き受ける means to take on a task or responsibility, so taking on the role of chairing a meeting is correct. Option 1 needs 迎えて (meet someone), option 3 needs 借りた (borrowed), and option 4 needs 取り込んだ (brought in the laundry).",
+  "translation": "引き受ける (to take on; to undertake)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-usage-a1-2",
+  "level": "N2",
+  "type": "usage",
+  "stem": "片寄る",
+  "options": [
+   "彼は毎朝早く起きる習慣がすっかり片寄っていて、遅刻したことがない。",
+   "長い間会っていなかった友達と、駅でばったり片寄った。",
+   "新しい店ができて、この通りはずいぶん片寄ってきた。",
+   "忙しくて外食ばかりしていたら、食事の内容が片寄ってしまった。"
+  ],
+  "answer": 3,
+  "explanation": "片寄る means to be unbalanced or lean to one side, so an unbalanced diet from eating out is correct. Option 1 needs 身について (a habit becoming ingrained), option 2 needs 出会った (ran into), and option 3 needs にぎやかになって (became lively).",
+  "translation": "片寄る (to be one-sided; to be unbalanced)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-usage-a1-3",
+  "level": "N2",
+  "type": "usage",
+  "stem": "通用",
+  "options": [
+   "学生時代に覚えたやり方は、社会に出ると通用しないこともある。",
+   "毎朝この道を通用して、駅まで歩いている。",
+   "山の中では{携帯|けいたい}電話が通用しなくて、連絡が取れなかった。",
+   "新しい橋が完成し、来月から通用が始まる予定だ。"
+  ],
+  "answer": 0,
+  "explanation": "通用 means to be accepted or to work as valid in some setting, so methods that don't work in the working world is correct. Option 2 needs 通って (pass along a road), option 3 needs 通じなくて (no phone connection), and option 4 needs 開通 (opening to traffic).",
+  "translation": "通用 (being accepted; being valid; working in practice)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-usage-a1-4",
+  "level": "N2",
+  "type": "usage",
+  "stem": "延ばす",
+  "options": [
+   "引っ越しの荷物が多かったので、友達に運ぶのを延ばしてもらった。",
+   "落とした財布を、親切な人が交番まで延ばしてくれた。",
+   "台風が近づいているため、出発を一日延ばすことにした。",
+   "店員にお願いして、シャツの値段を少し延ばしてもらった。"
+  ],
+  "answer": 2,
+  "explanation": "延ばす means to postpone or extend a time, so putting off a departure by a day because of a typhoon is correct. Option 1 needs 手伝って (help), option 2 needs 届けて (delivered), and option 4 needs 安くして or まけて (lower the price).",
+  "translation": "延ばす (to postpone; to extend)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n2-t2-usage-a1-5",
+  "level": "N2",
+  "type": "usage",
+  "stem": "散らかる",
+  "options": [
+   "会議が終わると、参加者はそれぞれの部屋へ散らかっていった。",
+   "子どもが遊んだあとの部屋は、おもちゃが散らかっていて歩く場所もない。",
+   "夜遅くまで起きていたので、頭が散らかって仕事に集中できない。",
+   "久しぶりに雨が降って、庭の草花が元気に散らかっている。"
+  ],
+  "answer": 1,
+  "explanation": "散らかる means things lie scattered in a mess, so toys strewn across a room is correct. Option 1 needs 散っていった or 分かれていった (people dispersing), option 3 needs ぼんやりして (head feeling foggy), and option 4 needs 茂っている (growing thick).",
+  "translation": "散らかる (to be scattered; to be in a mess)",
+  "source": "ai",
+  "status": "verified"
  }
 ]

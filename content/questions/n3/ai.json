@@ -1,56 +1,5 @@
 [
  {
-  "id": "n3-t1-pa1-3",
-  "level": "N3",
-  "type": "paraphrase",
-  "stem": "弟は[[しょっちゅう]]かぎをなくしている。",
-  "options": [
-   "よく",
-   "たまに",
-   "最近",
-   "また"
-  ],
-  "answer": 0,
-  "explanation": "しょっちゅう means very often, so よく (often) is closest. たまに means only occasionally; 最近 means recently, about time rather than frequency; また means again, about a single repetition.",
-  "translation": "My younger brother is always losing his keys.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n3-t1-pa1-5",
-  "level": "N3",
-  "type": "paraphrase",
-  "stem": "その話を聞いて、[[がっかりした]]。",
-  "options": [
-   "うれしく思った",
-   "おどろいた",
-   "残念に思った",
-   "腹が立った"
-  ],
-  "answer": 2,
-  "explanation": "がっかりする means to be disappointed, so 残念に思った (felt it was a pity) is closest. うれしく思った means felt happy; おどろいた means was surprised; 腹が立った means got angry.",
-  "translation": "I was disappointed when I heard that story.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n3-t1-ua1-5",
-  "level": "N3",
-  "type": "usage",
-  "stem": "{防ぐ|ふせぐ}",
-  "options": [
-   "試験を{防ぐ|ふせぐ}ために、毎日図書館で勉強している。",
-   "手をよく洗って、かぜを{防ぐ|ふせぐ}ようにしている。",
-   "大切な書類を{防いで|ふせいで}、かばんに入れた。",
-   "友だちの{誕生日|たんじょうび}を{防ぐ|ふせぐ}ために、プレゼントを買った。"
-  ],
-  "answer": 1,
-  "explanation": "防ぐ means to prevent or protect against something bad, so washing hands to prevent a cold is correct. One prepares for an exam (備える), folds or puts away documents rather than preventing them, and celebrates (祝う) a birthday, so the other options misuse the word.",
-  "translation": "fusegu (to prevent; to protect against)",
-  "source": "ai",
-  "status": "verified"
- },
- {
   "id": "n3-t1-gfa1-1",
   "level": "N3",
   "type": "grammar-form",
@@ -1970,40 +1919,6 @@
   "audio": "/audio/n3/n3-t1-qra1-9.mp3"
  },
  {
-  "id": "n3-t2-pa1-3",
-  "level": "N3",
-  "type": "paraphrase",
-  "stem": "山田さんは今日の会議を[[欠席した]]。",
-  "options": [
-   "遅れて来た",
-   "早く帰った",
-   "参加した",
-   "出なかった"
-  ],
-  "answer": 3,
-  "explanation": "欠席する means to be absent, i.e. not attend, so 出なかった is closest. 遅れて来た (came late) and 早く帰った (left early) mean he was there for part of it, and 参加した (took part) is the opposite.",
-  "translation": "Mr. Yamada was absent from today's meeting.",
-  "source": "ai",
-  "status": "verified"
- },
- {
-  "id": "n3-t2-ua1-5",
-  "level": "N3",
-  "type": "usage",
-  "stem": "通り過ぎる",
-  "options": [
-   "来月で、この会社に入ってから五年が通り過ぎる。",
-   "宿題が多すぎて、夜の十二時を通り過ぎても終わらなかった。",
-   "試験に通り過ぎるために、毎日三時間勉強している。",
-   "考え事をしながら歩いていたら、友達の家の前を通り過ぎてしまった。"
-  ],
-  "answer": 3,
-  "explanation": "通り過ぎる means to physically pass by a place without stopping, so walking past a friend's house while lost in thought is correct. Options 1 and 2 talk about time passing and need たつ or 過ぎる, and option 3 needs 合格する (pass an exam).",
-  "translation": "通り過ぎる (to pass by; to go past)",
-  "source": "ai",
-  "status": "verified"
- },
- {
   "id": "n3-t2-gfa1-1",
   "level": "N3",
   "type": "grammar-form",
@@ -3831,5 +3746,345 @@
   "source": "ai",
   "status": "verified",
   "audio": "/audio/n3/n3-t2-qra1-9.mp3"
+ },
+ {
+  "id": "n3-t1-paraphrase-a1-1",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "きのう駅で[[ばったり]]先生に会いました。",
+  "options": [
+   "約束して",
+   "{久|ひさ}しぶりに",
+   "偶然",
+   "急いで"
+  ],
+  "answer": 2,
+  "explanation": "ばったり describes meeting someone unexpectedly, so 偶然 (by chance) is closest. 約束して means by arrangement, the opposite; 久しぶりに means for the first time in a long while; 急いで means in a hurry.",
+  "translation": "Yesterday I ran into my teacher at the station.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-paraphrase-a1-2",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "この仕事は朝が早くて、[[きつい]]です。",
+  "options": [
+   "楽",
+   "安全",
+   "つまらない",
+   "大変"
+  ],
+  "answer": 3,
+  "explanation": "きつい here means physically or mentally hard, which matches 大変 (tough, demanding). 楽 means easy, the opposite; 安全 means safe; つまらない means boring, not hard.",
+  "translation": "This job starts early in the morning, so it is tough.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-paraphrase-a1-3",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "弟は[[しょっちゅう]]かぎをなくしている。",
+  "options": [
+   "よく",
+   "たまに",
+   "最近",
+   "また"
+  ],
+  "answer": 0,
+  "explanation": "しょっちゅう means very often, so よく (often) is closest. たまに means only occasionally; 最近 means recently, about time rather than frequency; また means again, about a single repetition.",
+  "translation": "My younger brother is always losing his keys.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-paraphrase-a1-4",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "明日の予定を[[キャンセルしました]]。",
+  "options": [
+   "確認しました",
+   "取り消しました",
+   "変更しました",
+   "決めました"
+  ],
+  "answer": 1,
+  "explanation": "キャンセルする means to call off, which is 取り消す. 確認する means to confirm; 変更する means to change rather than cancel; 決める means to decide.",
+  "translation": "I cancelled tomorrow's plans.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-paraphrase-a1-5",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "その話を聞いて、[[がっかりした]]。",
+  "options": [
+   "うれしく思った",
+   "おどろいた",
+   "残念に思った",
+   "腹が立った"
+  ],
+  "answer": 2,
+  "explanation": "がっかりする means to be disappointed, so 残念に思った (felt it was a pity) is closest. うれしく思った means felt happy; おどろいた means was surprised; 腹が立った means got angry.",
+  "translation": "I was disappointed when I heard that story.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-usage-a1-1",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{余裕|よゆう}",
+  "options": [
+   "駅に着いたら、電車はもう出た{余裕|よゆう}だった。",
+   "早く家を出たので、時間に{余裕|よゆう}を持って会場に着いた。",
+   "この料理は{余裕|よゆう}が多くて、とてもおいしい。",
+   "彼はいつも{余裕|よゆう}に話すので、みんなに好かれている。"
+  ],
+  "answer": 1,
+  "explanation": "余裕 means spare room or margin, and 時間に余裕を持って (with time to spare) is a natural collocation. Option 1 needs a word like あと (after), option 3 confuses it with an ingredient or amount, and 余裕に is not used as an adverb as in option 4.",
+  "translation": "yoyuu (margin; room to spare)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-usage-a1-2",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{修理|しゅうり}",
+  "options": [
+   "先生に作文の間違いを{修理|しゅうり}してもらった。",
+   "髪が長くなったので、店で{修理|しゅうり}した。",
+   "{壊れた|こわれた}自転車を店で{修理|しゅうり}してもらった。",
+   "病気が{修理|しゅうり}して、来週から学校に行ける。"
+  ],
+  "answer": 2,
+  "explanation": "修理 means repairing a machine or object, so having a broken bicycle repaired is correct. Mistakes in writing are corrected (直す), hair is cut (切る), and an illness gets better (治る), so the other options misuse the word.",
+  "translation": "shuuri (repair)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-usage-a1-3",
+  "level": "N3",
+  "type": "usage",
+  "stem": "諦める",
+  "options": [
+   "毎朝、駅まで走るのを諦めて、体が強くなった。",
+   "新しい仕事を諦めたので、来月から会社に通う。",
+   "電車に乗る前に、きっぷを諦めてください。",
+   "雨が強くなってきたので、山に登るのを諦めた。"
+  ],
+  "answer": 3,
+  "explanation": "諦める means to give up on something, so giving up climbing the mountain because of heavy rain is correct. Giving up running would not make you stronger (続ける fits), giving up a job contradicts starting to commute, and a ticket should be bought (買う), not given up.",
+  "translation": "akirameru (to give up)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-usage-a1-4",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{黙る|だまる}",
+  "options": [
+   "先生に理由を聞かれたが、彼は下を向いて{黙って|だまって}いた。",
+   "{冷蔵庫|れいぞうこ}に入れておいたので、{牛乳|ぎゅうにゅう}がよく{黙って|だまって}いる。",
+   "夜遅いので、テレビの音を{黙って|だまって}ください。",
+   "花に毎日水をやったら、きれいに{黙った|だまった}。"
+  ],
+  "answer": 0,
+  "explanation": "黙る means a person stops talking or stays silent, so a student keeping silent when asked for a reason is correct. Milk gets cold (冷えている), a TV's volume is turned down (小さくする), and flowers bloom (咲く), so the other options misuse the word.",
+  "translation": "damaru (to be silent)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t1-usage-a1-5",
+  "level": "N3",
+  "type": "usage",
+  "stem": "{防ぐ|ふせぐ}",
+  "options": [
+   "試験を{防ぐ|ふせぐ}ために、毎日図書館で勉強している。",
+   "手をよく洗って、かぜを{防ぐ|ふせぐ}ようにしている。",
+   "大切な書類を{防いで|ふせいで}、かばんに入れた。",
+   "友だちの{誕生日|たんじょうび}を{防ぐ|ふせぐ}ために、プレゼントを買った。"
+  ],
+  "answer": 1,
+  "explanation": "防ぐ means to prevent or protect against something bad, so washing hands to prevent a cold is correct. One prepares for an exam (備える), folds or puts away documents rather than preventing them, and celebrates (祝う) a birthday, so the other options misuse the word.",
+  "translation": "fusegu (to prevent; to protect against)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-paraphrase-a1-1",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "彼は[[たびたび]]約束の時間に遅れる。",
+  "options": [
+   "一度だけ",
+   "たまに",
+   "しばしば",
+   "最近"
+  ],
+  "answer": 2,
+  "explanation": "たびたび means 'often, repeatedly', the same as しばしば. 一度だけ (only once), たまに (occasionally) and 最近 (recently) all change how often or when he is late.",
+  "translation": "He is often late for appointments.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-paraphrase-a1-2",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "この仕事は思ったより[[容易]]だった。",
+  "options": [
+   "{簡単|かんたん}",
+   "{退屈|たいくつ}",
+   "大変",
+   "{複雑|ふくざつ}"
+  ],
+  "answer": 0,
+  "explanation": "容易 means 'easy', so 簡単 is closest. 退屈 means boring, 大変 means hard or tough, and 複雑 means complicated, none of which mean easy.",
+  "translation": "This job was easier than I expected.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-paraphrase-a1-3",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "山田さんは今日の会議を[[欠席した]]。",
+  "options": [
+   "遅れて来た",
+   "早く帰った",
+   "参加した",
+   "出なかった"
+  ],
+  "answer": 3,
+  "explanation": "欠席する means to be absent, i.e. not attend, so 出なかった is closest. 遅れて来た (came late) and 早く帰った (left early) mean he was there for part of it, and 参加した (took part) is the opposite.",
+  "translation": "Mr. Yamada was absent from today's meeting.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-paraphrase-a1-4",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "家から駅までは[[およそ]]十分かかる。",
+  "options": [
+   "ちょうど",
+   "だいたい",
+   "少なくとも",
+   "たった"
+  ],
+  "answer": 1,
+  "explanation": "およそ means 'about, roughly', the same as だいたい. ちょうど means exactly, 少なくとも means at least, and たった means only, so each changes the meaning of the time.",
+  "translation": "It takes about ten minutes from my house to the station.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-paraphrase-a1-5",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "話を聞いていた子どもが[[急に]]笑い出した。",
+  "options": [
+   "ゆっくり",
+   "やっと",
+   "突然",
+   "また"
+  ],
+  "answer": 2,
+  "explanation": "急に means 'suddenly', so 突然 is closest. ゆっくり means slowly, やっと means finally after a wait, and また means again, none of which mean suddenly.",
+  "translation": "The child who was listening to the story suddenly burst out laughing.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-usage-a1-1",
+  "level": "N3",
+  "type": "usage",
+  "stem": "任せる",
+  "options": [
+   "毎朝、駅まで自転車に任せて通っています。",
+   "旅行の計画は、旅行が好きな兄に全部任せることにした。",
+   "寒かったので、ストーブの前で手を任せた。",
+   "この本は、図書館で二週間任せることができます。"
+  ],
+  "answer": 1,
+  "explanation": "任せる means to leave a task to someone, so leaving the trip plan to an older brother is correct. Option 1 needs 乗って (ride), option 3 needs 温めた (warmed), and option 4 needs 借りる (borrow).",
+  "translation": "任せる (to leave something to someone; to entrust)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-usage-a1-2",
+  "level": "N3",
+  "type": "usage",
+  "stem": "深刻",
+  "options": [
+   "この{池|いけ}は深刻なので、子どもは入らないでください。",
+   "昨日のパーティーはとても深刻で、楽しかった。",
+   "母の作るカレーは深刻な味がして、おいしい。",
+   "この町では、働く人が足りないことが深刻な問題になっている。"
+  ],
+  "answer": 3,
+  "explanation": "深刻 describes a serious, grave situation or problem, so a labor shortage being a serious problem is correct. Option 1 confuses it with 深い (deep water), option 2 contradicts 楽しかった, and option 3 should be 深い味 (rich flavor).",
+  "translation": "深刻 (serious; grave)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-usage-a1-3",
+  "level": "N3",
+  "type": "usage",
+  "stem": "取り上げる",
+  "options": [
+   "今朝のニュースで、駅前の新しい図書館が取り上げられていた。",
+   "{階段|かいだん}を取り上げて、{三階|さんがい}の教室へ行った。",
+   "先生に質問があったので、手を取り上げた。",
+   "毎月、給料の一部を銀行に取り上げている。"
+  ],
+  "answer": 0,
+  "explanation": "取り上げる can mean to feature or take up a topic, as in a news program covering the new library. Option 2 needs 上がって (go up), option 3 needs 挙げた (raised a hand), and option 4 needs 預けて (deposit).",
+  "translation": "取り上げる (to take up; to feature a topic)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-usage-a1-4",
+  "level": "N3",
+  "type": "usage",
+  "stem": "欠席",
+  "options": [
+   "{財布|さいふ}を家に欠席してしまい、昼ご飯が買えなかった。",
+   "このスープは{塩|しお}が欠席しているので、少し味が{薄|うす}い。",
+   "熱が出たので、今日の会議は欠席させていただきます。",
+   "朝ご飯の{牛乳|ぎゅうにゅう}が欠席していたので、コンビニへ買いに行った。"
+  ],
+  "answer": 2,
+  "explanation": "欠席 means being absent from a meeting, class or event, so missing today's meeting because of a fever is correct. Option 1 needs 忘れて (forgot), option 2 needs 足りない (not enough), and option 4 needs なくなっていた (had run out).",
+  "translation": "欠席 (absence from a meeting, class, etc.)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-usage-a1-5",
+  "level": "N3",
+  "type": "usage",
+  "stem": "通り過ぎる",
+  "options": [
+   "来月で、この会社に入ってから五年が通り過ぎる。",
+   "宿題が多すぎて、夜の十二時を通り過ぎても終わらなかった。",
+   "試験に通り過ぎるために、毎日三時間勉強している。",
+   "考え事をしながら歩いていたら、友達の家の前を通り過ぎてしまった。"
+  ],
+  "answer": 3,
+  "explanation": "通り過ぎる means to physically pass by a place without stopping, so walking past a friend's house while lost in thought is correct. Options 1 and 2 talk about time passing and need たつ or 過ぎる, and option 3 needs 合格する (pass an exam).",
+  "translation": "通り過ぎる (to pass by; to go past)",
+  "source": "ai",
+  "status": "verified"
  }
 ]

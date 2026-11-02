@@ -3350,5 +3350,277 @@
   "source": "ai",
   "status": "verified",
   "audio": "/audio/n4/n4-t2-qra1-8.mp3"
+ },
+ {
+  "id": "n4-t1-paraphrase-a1-1",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "このへやは[[せまい]]です。",
+  "options": [
+   "明るくない",
+   "新しくない",
+   "{静|しず}かじゃない",
+   "広くない"
+  ],
+  "answer": 3,
+  "explanation": "せまい means 'small, cramped (in space)', which is the same as 広くない 'not spacious'. 明るくない means 'not bright', 新しくない 'not new', and 静かじゃない 'not quiet', none of which describe the room's size.",
+  "translation": "This room is small (cramped).",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-paraphrase-a1-2",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "弟は今、[[食堂]]にいます。",
+  "options": [
+   "本を読むところ",
+   "ごはんを食べるところ",
+   "服を買うところ",
+   "お金を出すところ"
+  ],
+  "answer": 1,
+  "explanation": "食堂 is a dining hall or cafeteria, a place where you eat meals, so ごはんを食べるところ is correct. A place to read books is a library, a place to buy clothes is a shop, and a place to take out money is a bank or ATM.",
+  "translation": "My younger brother is in the cafeteria now.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-paraphrase-a1-3",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "姉は休みの日、[[ちっとも]]勉強しません。",
+  "options": [
+   "あまり",
+   "ときどき",
+   "ぜんぜん",
+   "たまに"
+  ],
+  "answer": 2,
+  "explanation": "ちっとも with a negative means 'not at all', the same as ぜんぜん. あまり〜ない means 'not much', so she would still study a little; ときどき and たまに mean 'sometimes' and 'occasionally', which change the meaning.",
+  "translation": "My older sister doesn't study at all on her days off.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-paraphrase-a1-4",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "[[さっき]]、山田さんから電話がありました。",
+  "options": [
+   "少し前に",
+   "きのうの夜",
+   "けさ早く",
+   "先週"
+  ],
+  "answer": 0,
+  "explanation": "さっき means 'a little while ago', so 少し前に is correct. きのうの夜 'last night', けさ早く 'early this morning' and 先週 'last week' all point to a specific, more distant time.",
+  "translation": "There was a phone call from Mr. Yamada a little while ago.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-usage-a1-1",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{間に合う|まにあう}",
+  "options": [
+   "新しいくつは私の足によく{間に合います|まにあいます}。",
+   "急いで駅まで走ったので、電車に{間に合いました|まにあいました}。",
+   "この本はとても{間に合った|まにあった}ので、友だちにも貸しました。",
+   "弟は先生の質問にすぐ{間に合いました|まにあいました}。"
+  ],
+  "answer": 1,
+  "explanation": "間に合う means to be in time for something, so catching the train after running is correct. Option 1 needs あいます (fits), option 3 needs something like おもしろかった or 役に立った, and option 4 needs 答えました (answered).",
+  "translation": "間に合う (to be in time for)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-usage-a1-2",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{珍しい|めずらしい}",
+  "options": [
+   "この料理は{塩|しお}が多すぎて、少し{珍しい|めずらしい}です。",
+   "時間がないので、{珍しい|めずらしい}電車で行きましょう。",
+   "このかばんは重くて、持つのがとても{珍しい|めずらしい}です。",
+   "兄が朝早く起きるのは{珍しい|めずらしい}ので、母はびっくりしました。"
+  ],
+  "answer": 3,
+  "explanation": "珍しい means rare or unusual, so an older brother getting up early being unusual fits. Option 1 needs からい (salty), option 2 needs 速い (fast), and option 3 needs 大変 (hard).",
+  "translation": "珍しい (rare, unusual)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-usage-a1-3",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{拾う|ひろう}",
+  "options": [
+   "道に{落ちて|おちて}いたさいふを{拾って|ひろって}、{交番|こうばん}に持っていきました。",
+   "花に水を{拾って|ひろって}から、学校へ行きました。",
+   "先生の話をよく{拾って|ひろって}、ノートに書きました。",
+   "友だちに電話をかけて、パーティーに{拾いました|ひろいました}。"
+  ],
+  "answer": 0,
+  "explanation": "拾う means to pick something up from the ground, so picking up a wallet lying on the street is correct. Option 2 needs やって (gave water), option 3 needs 聞いて (listened), and option 4 needs さそいました (invited).",
+  "translation": "拾う (to pick up)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t1-usage-a1-4",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{寄る|よる}",
+  "options": [
+   "{寒い|さむい}ので、{窓|まど}を{寄って|よって}ください。",
+   "毎日、{日記|にっき}を{寄る|よる}ようにしています。",
+   "会社から帰るとき、スーパーに{寄って|よって}{牛乳|ぎゅうにゅう}を買いました。",
+   "友だちの{誕生日|たんじょうび}に、花を{寄りました|よりました}。"
+  ],
+  "answer": 2,
+  "explanation": "寄る means to stop by a place on the way, so stopping at a supermarket on the way home is correct. Option 1 needs 閉めて (close), option 2 needs 書く (write), and option 4 needs あげました or おくりました (gave).",
+  "translation": "寄る (to drop in, to stop by)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-paraphrase-a1-1",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "田中さんは[[このごろ]]よく図書館に行きます。",
+  "options": [
+   "{昔|むかし}",
+   "{最近|さいきん}",
+   "毎朝",
+   "ときどき"
+  ],
+  "answer": 1,
+  "explanation": "このごろ means 'these days, lately', which is the same as 最近. 昔 means 'long ago', 毎朝 means 'every morning', and ときどき means 'sometimes', so none of them keep the meaning.",
+  "translation": "Tanaka-san often goes to the library these days.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-paraphrase-a1-2",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "この{部屋|へや}は[[きたないです]]。",
+  "options": [
+   "せまいです",
+   "くらいです",
+   "あたらしいです",
+   "きれいじゃありません"
+  ],
+  "answer": 3,
+  "explanation": "きたない means 'dirty', so 'not clean' (きれいじゃありません) has the same meaning. せまい is 'small/narrow', くらい is 'dark', and あたらしい is 'new'; none of these mean dirty.",
+  "translation": "This room is dirty.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-paraphrase-a1-3",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "きのう、わたしは母に[[しかられました]]。",
+  "options": [
+   "{怒|おこ}られました",
+   "ほめられました",
+   "{呼|よ}ばれました",
+   "起こされました"
+  ],
+  "answer": 0,
+  "explanation": "しかられる means 'to be scolded', which is the same as 怒られる here. ほめられる is 'to be praised' (the opposite), 呼ばれる is 'to be called', and 起こされる is 'to be woken up'.",
+  "translation": "Yesterday I was scolded by my mother.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-paraphrase-a1-4",
+  "level": "N4",
+  "type": "paraphrase",
+  "stem": "山田さんは先生に[[うそを言いました]]。",
+  "options": [
+   "大きい{声|こえ}で言いました",
+   "{本当|ほんとう}のことを言いました",
+   "{本当|ほんとう}ではないことを言いました",
+   "おもしろいことを言いました"
+  ],
+  "answer": 2,
+  "explanation": "うそ is 'a lie', so うそを言う means saying something that is not true (本当ではないこと). 本当のこと is 'the truth', the opposite; 大きい声で言う is 'say loudly', and おもしろいこと is 'something funny'.",
+  "translation": "Yamada-san told the teacher a lie.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-usage-a1-1",
+  "level": "N4",
+  "type": "usage",
+  "stem": "足りる",
+  "options": [
+   "毎日勉強しているので、テストは足りると思います。",
+   "お金が足りなかったので、ペンを二本しか買えませんでした。",
+   "このかばんは重くて、一人では足りません。",
+   "雨が足りたので、出かけることにしました。"
+  ],
+  "answer": 1,
+  "explanation": "足りる means 'to be enough', so 'I didn't have enough money, so I could only buy two pens' is correct. Option 1 needs something like できる (do well on), option 3 needs 持てない (can't carry), and option 4 needs 止んだ (the rain stopped).",
+  "translation": "足りる (to be enough). Correct sentence: I didn't have enough money, so I could only buy two pens.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-usage-a1-2",
+  "level": "N4",
+  "type": "usage",
+  "stem": "止む",
+  "options": [
+   "駅の前で車が止みました。",
+   "毎朝のジョギングを止むことにしました。",
+   "{部屋|へや}を出るときは、電気を止んでください。",
+   "朝から{降|ふ}っていた雨が、夕方にやっと止みました。"
+  ],
+  "answer": 3,
+  "explanation": "止む (やむ) is used for rain, wind, noise and the like stopping on their own, so 'the rain that had been falling since morning finally stopped in the evening' is correct. A car stopping needs 止まりました (option 1), quitting a habit needs やめる (option 2), and turning off a light needs 消して (option 3).",
+  "translation": "止む (to stop, of rain etc.). Correct sentence: The rain that had been falling since morning finally stopped in the evening.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-usage-a1-3",
+  "level": "N4",
+  "type": "usage",
+  "stem": "{合|あ}う",
+  "options": [
+   "このくつは小さくて、私の足に{合|あ}いません。",
+   "今日は天気が{合|あ}って、とても{暑|あつ}いです。",
+   "来週の{会議|かいぎ}の時間は、もう{合|あ}いましたか。",
+   "私は毎日一時間ピアノを{合|あ}っています。"
+  ],
+  "answer": 0,
+  "explanation": "合う means 'to fit or match', so 'these shoes are small and don't fit my feet' is correct. Option 2 should say 天気がよくて (the weather is good), option 3 needs 決まりましたか (has it been decided), and option 4 needs 練習しています (practise).",
+  "translation": "合う (to fit, to match). Correct sentence: These shoes are small and don't fit my feet.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n4-t2-usage-a1-4",
+  "level": "N4",
+  "type": "usage",
+  "stem": "写す",
+  "options": [
+   "{毎晩|まいばん}、{日記|にっき}に今日のことを写しています。",
+   "{部屋|へや}が{暗|くら}いので、電気を写してください。",
+   "友だちのノートを借りて、休んだ日の{授業|じゅぎょう}のところを写しました。",
+   "母に手紙を写したら、すぐに{返事|へんじ}が来ました。"
+  ],
+  "answer": 2,
+  "explanation": "写す means 'to copy (out)', so copying a friend's notes for the class you missed is correct. Writing your own diary is 書いています (option 1), turning on a light is つけて (option 2), and sending a letter is 出したら or 送ったら (option 4).",
+  "translation": "写す (to copy). Correct sentence: I borrowed my friend's notebook and copied the part of the class from the day I was absent.",
+  "source": "ai",
+  "status": "verified"
  }
 ]

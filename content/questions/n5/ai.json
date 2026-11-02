@@ -2632,5 +2632,107 @@
   "source": "ai",
   "status": "verified",
   "audio": "/audio/n5/n5-t2-qra1-6.mp3"
+ },
+ {
+  "id": "n5-t1-paraphrase-a1-1",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "きのうは [[とても]] さむかったです。",
+  "options": [
+   "すこし",
+   "たいへん",
+   "あまり",
+   "ときどき"
+  ],
+  "answer": 1,
+  "explanation": "とても means 'very', and たいへん also means 'very' when it comes before an adjective. すこし means 'a little', あまり needs a negative and means 'not very', and ときどき means 'sometimes', so they all change the meaning.",
+  "translation": "Yesterday it was very cold.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-paraphrase-a1-2",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "この へやは [[せまいです]]。",
+  "options": [
+   "あかるくないです",
+   "ふるくないです",
+   "しずかじゃないです",
+   "ひろくないです"
+  ],
+  "answer": 3,
+  "explanation": "せまい means 'small (in space), narrow', which is the same as ひろくない, 'not spacious'. あかるくない means 'not bright', ふるくない means 'not old', and しずかじゃない means 'not quiet', so they describe something different.",
+  "translation": "This room is small.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t1-paraphrase-a1-3",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "[[おととい]]、友だちと えいがを 見ました。",
+  "options": [
+   "二日前",
+   "二日後",
+   "三日前",
+   "四日前"
+  ],
+  "answer": 0,
+  "explanation": "おととい means 'the day before yesterday', which is 二日前, 'two days ago'. 二日後 is 'two days later', and 三日前 and 四日前 are 'three days ago' and 'four days ago', so they are different days.",
+  "translation": "I saw a movie with a friend the day before yesterday.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t2-paraphrase-a1-1",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "この へやは [[くらい]]です。",
+  "options": [
+   "ひろくないです",
+   "あかるくないです",
+   "きれいじゃないです",
+   "しずかじゃないです"
+  ],
+  "answer": 1,
+  "explanation": "くらい means dark, which is the same as あかるくない (not bright). ひろくない means not spacious, きれいじゃない means not clean, and しずかじゃない means not quiet; none of these is about light.",
+  "translation": "This room is dark.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t2-paraphrase-a1-2",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "山川さんは [[りょうしん]]と いっしょに すんでいます。",
+  "options": [
+   "{兄|あに}と{姉|あね}",
+   "父と{兄|あに}",
+   "父と母",
+   "母と{姉|あね}"
+  ],
+  "answer": 2,
+  "explanation": "りょうしん means parents, that is, father and mother (父と母). The other options pair older brother, older sister, father or mother in ways that are not both parents.",
+  "translation": "Mr. Yamakawa lives together with his parents.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n5-t2-paraphrase-a1-3",
+  "level": "N5",
+  "type": "paraphrase",
+  "stem": "[[おととい]] デパートで くつを {買|か}いました。",
+  "options": [
+   "きのう",
+   "みっか前に",
+   "せんしゅう",
+   "ふつか前に"
+  ],
+  "answer": 3,
+  "explanation": "おととい means the day before yesterday, which is ふつか前に (two days ago). きのう is yesterday, みっか前に is three days ago, and せんしゅう is last week.",
+  "translation": "I bought shoes at the department store the day before yesterday.",
+  "source": "ai",
+  "status": "verified"
  }
 ]
