@@ -4,7 +4,7 @@ Practice for the JLPT (Japanese-Language Proficiency Test), N5 to N1, with full 
 
 ## What's in it
 
-**Mock tests.** One full test per level. Each one follows the official structure: the same sections, time limits and question types, with the same number of questions as the real test.
+**Mock tests.** Two full tests per level. Each one follows the official structure: the same sections, time limits and question types. Some sections are still a few questions short of the real test (paraphrase and usage most of all) until more questions pass review.
 - **Exam mode:** each section has its own timer, and nothing is revealed until the end.
 - **Reading:** passages sit above their questions.
 - **Listening:** each recording plays once and can't be paused or replayed.

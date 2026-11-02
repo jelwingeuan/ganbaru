@@ -83,8 +83,7 @@ async function check(level: Level, type: QuestionType, test: number, attempt: nu
   }
   const parsed = UnitSchema.safeParse(raw);
   if (!parsed.success) return out({ ok: false, problems: parsed.error.issues.slice(0, 12).map((i) => `${i.path.join(".")}: ${i.message}`) });
-  const abbrev = type.split("-").map((w) => w[0]).join("");
-  const { unit, problems } = toUnit(level, type, `${level.toLowerCase()}-t${test}-${abbrev}a${attempt}`, parsed.data);
+  const { unit, problems } = toUnit(level, type, `${level.toLowerCase()}-t${test}-${type}-a${attempt}`, parsed.data);
   const want = attempt === 1 ? countFor(level, type) : undefined;
   if (want && unit.questions.length !== want) problems.set("count", `${unit.questions.length} questions, the task asks for ${want}`);
   await write(p.unit, { ...unit, problems: Object.fromEntries(problems) });

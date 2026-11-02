@@ -335,13 +335,13 @@ async function aiType(level: Level, testNo: number, type: QuestionType, count: n
   const report: TypeReport = { level, type, wanted: count, firstPass: 0, firstFail: 0, shipped: 0, failures: [] };
   const passageCount = passagesFor(type, count);
   const shipped: Unit = { questions: [], passages: [] };
-  const abbrev = type.split("-").map((w) => w[0]).join("");
 
   for (let attempt = 1; attempt <= 3 && shipped.questions.length < count; attempt++) {
     const need = count - shipped.questions.length;
     // Passage types regenerate whole passages, so a retry asks for the passages still missing.
     const needPassages = passageCount ? Math.max(1, Math.round((passageCount * need) / count)) : 0;
-    const prefix = `${level.toLowerCase()}-t${testNo}-${abbrev}${attempt > 1 ? `r${attempt}` : ""}`;
+    // The full type name, so paraphrase/point and usage/utterance never share an id.
+    const prefix = `${level.toLowerCase()}-t${testNo}-${type}${attempt > 1 ? `-r${attempt}` : ""}`;
     const raw = await ask(GEN_MODEL, system, unitPrompt(level, type, need, needPassages, avoid), UnitSchema, "high");
     const { unit, problems } = toUnit(level, type, prefix, raw);
     const verdicts = await verify(level, { questions: unit.questions.filter((q) => !problems.has(q.id)), passages: unit.passages }, system);
