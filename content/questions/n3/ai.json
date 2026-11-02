@@ -1968,5 +1968,1868 @@
   "source": "ai",
   "status": "verified",
   "audio": "/audio/n3/n3-t1-qra1-9.mp3"
+ },
+ {
+  "id": "n3-t2-pa1-3",
+  "level": "N3",
+  "type": "paraphrase",
+  "stem": "山田さんは今日の会議を[[欠席した]]。",
+  "options": [
+   "遅れて来た",
+   "早く帰った",
+   "参加した",
+   "出なかった"
+  ],
+  "answer": 3,
+  "explanation": "欠席する means to be absent, i.e. not attend, so 出なかった is closest. 遅れて来た (came late) and 早く帰った (left early) mean he was there for part of it, and 参加した (took part) is the opposite.",
+  "translation": "Mr. Yamada was absent from today's meeting.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-ua1-5",
+  "level": "N3",
+  "type": "usage",
+  "stem": "通り過ぎる",
+  "options": [
+   "来月で、この会社に入ってから五年が通り過ぎる。",
+   "宿題が多すぎて、夜の十二時を通り過ぎても終わらなかった。",
+   "試験に通り過ぎるために、毎日三時間勉強している。",
+   "考え事をしながら歩いていたら、友達の家の前を通り過ぎてしまった。"
+  ],
+  "answer": 3,
+  "explanation": "通り過ぎる means to physically pass by a place without stopping, so walking past a friend's house while lost in thought is correct. Options 1 and 2 talk about time passing and need たつ or 過ぎる, and option 3 needs 合格する (pass an exam).",
+  "translation": "通り過ぎる (to pass by; to go past)",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-1",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "明日は大事な会議があるので、少しくらい熱があっても、会社を（　）。",
+  "options": [
+   "休まないわけにはいかない",
+   "休むわけにはいかない",
+   "休むことにしている",
+   "休んだことがある"
+  ],
+  "answer": 1,
+  "explanation": "〜わけにはいかない means 'can't very well do' for social reasons: with an important meeting tomorrow, you can't take the day off even with a slight fever. 休まないわけにはいかない ('must take off') contradicts 〜ても, 休むことにしている is a habitual rule that doesn't fit a one-time situation, and 休んだことがある is past experience, which clashes with 明日.",
+  "translation": "I have an important meeting tomorrow, so even if I have a bit of a fever, I can't take the day off work.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-2",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "昨日の夜は、となりの部屋がうるさかった（　）、よく眠れなかった。",
+  "options": [
+   "一方で",
+   "くせに",
+   "わりに",
+   "せいで"
+  ],
+  "answer": 3,
+  "explanation": "〜せいで gives the cause of a bad result: the noise next door is blamed for poor sleep. 一方で shows contrast, くせに criticizes someone's behavior ('even though'), and わりに expects a result contrary to expectation, none of which fit a simple cause-and-effect.",
+  "translation": "Last night the room next door was noisy, so I couldn't sleep well.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-3",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "家を出た（　）、雨が降り出した。",
+  "options": [
+   "とたん",
+   "うちに",
+   "最中に",
+   "ついでに"
+  ],
+  "answer": 0,
+  "explanation": "〜たとたん means 'the moment': it started raining just as I left the house. うちに and 最中に do not attach to the past form た, and ついでに ('while at it') makes no sense for rain starting.",
+  "translation": "The moment I left the house, it started to rain.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-4",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "この本は読め（　）読むほど、おもしろくなる。",
+  "options": [
+   "ても",
+   "たら",
+   "ば",
+   "なら"
+  ],
+  "answer": 2,
+  "explanation": "The pattern 〜ば〜ほど ('the more..., the more...') needs the ば form: 読めば読むほど. ても, たら and なら cannot combine with 〜ほど to make this pattern.",
+  "translation": "The more you read this book, the more interesting it gets.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-5",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "住所（　）わかれば、地図で調べて行けます。",
+  "options": [
+   "こそ",
+   "しか",
+   "さえ",
+   "ばかり"
+  ],
+  "answer": 2,
+  "explanation": "〜さえ〜ば means 'as long as': if I just know the address, I can find the way. しか requires a negative verb, and こそ and ばかり do not form a 'provided that' condition with 〜ば.",
+  "translation": "As long as I know the address, I can look it up on a map and get there.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-6",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "年をとる（　）、昔のことをよく思い出すようになった。",
+  "options": [
+   "によって",
+   "につれて",
+   "に対して",
+   "に{比|くら}べて"
+  ],
+  "answer": 1,
+  "explanation": "〜につれて means 'as one thing changes, another changes too': as I grow older, I remember the past more often. によって would need こと after a verb, and に対して ('toward, in contrast to') and に比べて ('compared to') do not express gradual parallel change.",
+  "translation": "As I've grown older, I've come to remember the old days more often.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-7",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "まだ時間は十分あるから、そんなに急ぐ（　）よ。",
+  "options": [
+   "ことだ",
+   "ものだ",
+   "ことにする",
+   "ことはない"
+  ],
+  "answer": 3,
+  "explanation": "〜ことはない means 'there's no need to': since there's plenty of time, you don't need to hurry. ことだ ('you should') and ものだ ('one should') would tell the listener to hurry, which contradicts the first half, and ことにする ('decide to') doesn't fit advice to someone else with そんなに.",
+  "translation": "There's still plenty of time, so there's no need to hurry like that.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-8",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "A「この料理、{辛|から}いけど、食べられる？」\nB「うん、食べられない（　）けど、ちょっと{辛|から}すぎるかな。」",
+  "options": [
+   "ばかりだ",
+   "ことはない",
+   "ものではない",
+   "しかない"
+  ],
+  "answer": 1,
+  "explanation": "〜ないことはない means 'it's not that I can't': B can eat it, but finds it a bit too spicy. ばかりだ ('just keeps getting'), ものではない ('one shouldn't') and しかない ('have no choice but') do not make sense after 食べられない here.",
+  "translation": "A: \"This dish is spicy, but can you eat it?\" B: \"Yeah, it's not that I can't eat it, but it's a little too spicy.\"",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-9",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "一人で暮らしてみて（　）、親のありがたさがよくわかった。",
+  "options": [
+   "ばかり",
+   "ほど",
+   "はじめて",
+   "ても"
+  ],
+  "answer": 2,
+  "explanation": "〜てはじめて means 'only after': I only understood how much my parents did for me after living alone. てばかり would need いる and is critical, てほど is not a valid form, and ても ('even if') wrongly suggests the realization happened despite living alone.",
+  "translation": "Only after trying to live on my own did I truly appreciate my parents.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-10",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "目覚まし時計が鳴らなくて、もう少しで遅刻する（　）。",
+  "options": [
+   "ことになった",
+   "はずだった",
+   "ようにした",
+   "ところだった"
+  ],
+  "answer": 3,
+  "explanation": "もう少しで〜ところだった means 'nearly happened (but didn't)': I was almost late. ことになった ('it was decided'), はずだった ('was supposed to') and ようにした ('made an effort to') do not fit with もう少しで.",
+  "translation": "My alarm clock didn't go off, and I was nearly late.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-11",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "弟は自分では何もしない（　）、いつも人の{文句|もんく}ばかり言っている。",
+  "options": [
+   "おかげで",
+   "くせに",
+   "ように",
+   "ついでに"
+  ],
+  "answer": 1,
+  "explanation": "〜くせに means 'even though' with a critical tone: my brother does nothing himself, yet always complains about others. おかげで is for good results, ように ('so that, like') doesn't connect the two clauses, and ついでに ('while at it') makes no sense here.",
+  "translation": "Even though my younger brother doesn't do anything himself, he's always complaining about other people.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-12",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "田中さんの{誕生日|たんじょうび}って、何月だった（　）。",
+  "options": [
+   "っけ",
+   "ほど",
+   "とか",
+   "ばかり"
+  ],
+  "answer": 0,
+  "explanation": "〜っけ is used when trying to remember something: 'What month was it again?'. ほど and ばかり cannot end a question like this, and とか (hearsay) does not combine with the question word 何月.",
+  "translation": "What month was Tanaka-san's birthday again?",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-gfa1-13",
+  "level": "N3",
+  "type": "grammar-form",
+  "stem": "この店のラーメンは、五百円（　）、とてもおいしい。",
+  "options": [
+   "にしては",
+   "として",
+   "にとって",
+   "によって"
+  ],
+  "answer": 0,
+  "explanation": "〜にしては means 'for (considering it's)': the ramen is surprisingly tasty for only 500 yen. として ('as, in the role of'), にとって ('for, from the standpoint of') and によって ('by, depending on') do not express a result that goes against expectation.",
+  "translation": "For only 500 yen, the ramen at this shop is really delicious.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-soa1-1",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "友だちから借りた本なので、＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 。",
+  "options": [
+   "返さない",
+   "いつまでも",
+   "わけには",
+   "いかない"
+  ],
+  "answer": 2,
+  "explanation": "The correct sentence is 友だちから借りた本なので、いつまでも返さないわけにはいかない。 The adverb いつまでも modifies 返さない, which must be followed by the fixed pattern わけにはいかない, so わけには is in the ★ slot. いかない must end the sentence, and 返さない cannot come before いつまでも.",
+  "translation": "It's a book I borrowed from a friend, so I can't very well keep it forever without returning it.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-soa1-2",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "家を ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 。",
+  "options": [
+   "雨が",
+   "降り出した",
+   "出た",
+   "とたんに"
+  ],
+  "answer": 0,
+  "explanation": "The correct sentence is 家を出たとたんに雨が降り出した。 家を needs the verb 出た, which must take the past form before とたんに; the main clause 雨が降り出した follows, putting 雨が in the ★ slot. 降り出した must come last, and とたんに cannot come before 出た.",
+  "translation": "The moment I left the house, it started to rain.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-soa1-3",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "{健康|けんこう}のために、エレベーターを ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 。",
+  "options": [
+   "ことにしている",
+   "使わずに",
+   "{階段|かいだん}を",
+   "上る"
+  ],
+  "answer": 3,
+  "explanation": "The correct sentence is 健康のために、エレベーターを使わずに階段を上ることにしている。 エレベーターを must be followed directly by its verb 使わずに, then 階段を上る, and the dictionary form 上る attaches to ことにしている, so 上る is in the ★ slot. ことにしている ends the sentence, and 階段を cannot come right after エレベーターを.",
+  "translation": "For my health, I make it a rule to take the stairs instead of using the elevator.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-soa1-4",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "兄は ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 作ってくれたことがない。",
+  "options": [
+   "一度も",
+   "くせに",
+   "料理が",
+   "上手な"
+  ],
+  "answer": 1,
+  "explanation": "The correct sentence is 兄は料理が上手なくせに一度も作ってくれたことがない。 料理が上手 takes the な form before くせに, so くせに is in the ★ slot, and 一度も must come right before the negative 作ってくれたことがない. 一度も cannot start the phrase, since it must go with the negative verb.",
+  "translation": "Even though my older brother is good at cooking, he has never once cooked for me.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-soa1-5",
+  "level": "N3",
+  "type": "sentence-order",
+  "stem": "先生が ＿＿＿ ＿＿＿ ＿★＿ ＿＿＿ 、試験に合格できた。",
+  "options": [
+   "くださった",
+   "おかげで",
+   "ていねいに",
+   "教えて"
+  ],
+  "answer": 0,
+  "explanation": "The correct sentence is 先生がていねいに教えてくださったおかげで、試験に合格できた。 The adverb ていねいに modifies 教えて, which joins with くださった, and the past form attaches to おかげで, so くださった is in the ★ slot. おかげで must come last before the comma, and 教えて cannot follow くださった.",
+  "translation": "Thanks to my teacher explaining things so carefully, I was able to pass the exam.",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-tga1-1",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（1）",
+  "options": [
+   "つらいわけがなかった",
+   "つらいことはなかった",
+   "つらくてしかたがなかった",
+   "つらくてもかまわなかった"
+  ],
+  "answer": 2,
+  "explanation": "The next sentence says the writer sometimes couldn't get out of bed, so getting up was extremely hard: つらくてしかたがなかった (unbearably hard). つらいわけがなかった (there was no way it was hard) and つらいことはなかった (it wasn't hard) contradict that, and つらくてもかまわなかった (it was fine even if hard) doesn't fit the complaint.",
+  "translation": "Choose what goes in blank (1).",
+  "passageId": "n3-t2-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-tga1-2",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（2）",
+  "options": [
+   "しかし",
+   "そのうえ",
+   "それで",
+   "つまり"
+  ],
+  "answer": 0,
+  "explanation": "The first week was hard, but after a month waking up became natural, so a contrasting conjunction しかし (however) is needed. そのうえ (moreover) adds a similar point, それで (so) presents a result of the difficulty, and つまり (in other words) restates; none fits the change from hard to easy.",
+  "translation": "Choose what goes in blank (2).",
+  "passageId": "n3-t2-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-tga1-3",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（3）",
+  "options": [
+   "ばかりで",
+   "いるくせに",
+   "しまうと",
+   "はじめて"
+  ],
+  "answer": 3,
+  "explanation": "続けてはじめて気づいた means 'noticed only after continuing', matching the point that daily walking lets the writer see small changes. 続けてばかりで (doing nothing but continue) is critical and doesn't connect, いるくせに (even though, reproachful) has the wrong tone, and しまうと (once one ends up doing) doesn't fit a past discovery.",
+  "translation": "Choose what goes in blank (3).",
+  "passageId": "n3-t2-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-tga1-4",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（4）",
+  "options": [
+   "するわけにはいかない",
+   "するようになった",
+   "することになっている",
+   "しようとしなかった"
+  ],
+  "answer": 1,
+  "explanation": "The next sentence contrasts before (only knowing faces) with now (chatting), so the blank must show a change: するようになった (have come to greet). するわけにはいかない (can't very well greet) and しようとしなかった (didn't try to greet) contradict the friendly result, and することになっている (it's the rule to greet) describes a fixed rule, not a change.",
+  "translation": "Choose what goes in blank (4).",
+  "passageId": "n3-t2-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-tga1-5",
+  "level": "N3",
+  "type": "text-grammar",
+  "stem": "（5）",
+  "options": [
+   "しかなかった",
+   "ばかりだった",
+   "だけではなかった",
+   "ほどではなかった"
+  ],
+  "answer": 2,
+  "explanation": "Besides health, the writer gained an eye for the seasons and friendly neighbors, so それだけではなかった (that wasn't all) is correct. しかなかった (there was only that) and ばかりだった (it was all just that) deny those extra benefits, and それほどではなかった (it wasn't that much) makes no sense with 得たもの.",
+  "translation": "Choose what goes in blank (5).",
+  "passageId": "n3-t2-tga1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rsa1-1",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "このお知らせによると、ごみについて正しいものはどれか。",
+  "options": [
+   "{燃える|もえる}ごみは水曜日の朝に出す。",
+   "ごみは出す日の朝8時までに出す。",
+   "ごみは前の日の夜に出してもいい。",
+   "大きな家具は{管理人室|かんりにんしつ}に持っていく。"
+  ],
+  "answer": 1,
+  "explanation": "The notice asks residents to put garbage out by 8 a.m. on the collection day. Burnable garbage is Monday and Thursday, not Wednesday; putting garbage out the night before is explicitly prohibited; and large furniture requires a phone application, not bringing it to the office.",
+  "translation": "According to this notice, which statement about garbage is correct?",
+  "passageId": "n3-t2-rsa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rsa1-2",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "このメールを読んで、田中さんがしなければならないことは何か。",
+  "options": [
+   "会議の資料を{印刷|いんさつ}する。",
+   "会議室を予約し直す。",
+   "部長に会議の時間を伝える。",
+   "送られてきた資料を確認する。"
+  ],
+  "answer": 3,
+  "explanation": "Yamamoto asks Tanaka to check the corrected materials and report any problems by 10 a.m. Yamamoto will do the printing, the meeting room is unchanged so no new booking is needed, and Yamamoto has already told the manager.",
+  "translation": "After reading this email, what does Tanaka have to do?",
+  "passageId": "n3-t2-rsa1-p2",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rsa1-3",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "{筆者|ひっしゃ}が最も言いたいことは何か。",
+  "options": [
+   "歩くことで、体も心も楽になった。",
+   "バスは便利だが、体によくない。",
+   "{季節|きせつ}の花を見るために、毎朝歩いている。",
+   "スマートフォンを見る時間をもっと{減らす|へらす}べきだ。"
+  ],
+  "answer": 0,
+  "explanation": "The writer concludes that walking has given them ease not only in body but also in mind. The writer never says buses are bad for health, started walking for health rather than to see flowers, and mentions smartphones only to describe the past, not to give advice.",
+  "translation": "What does the writer most want to say?",
+  "passageId": "n3-t2-rsa1-p3",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rsa1-4",
+  "level": "N3",
+  "type": "reading-short",
+  "stem": "このお知らせの内容と合っているものはどれか。",
+  "options": [
+   "3月1日から15日までは、本を返すことができない。",
+   "工事の間も、本を借りることができる。",
+   "3月10日が{返却日|へんきゃくび}の本は、3月31日までに返せばいい。",
+   "3月16日からは、朝8時に図書館が開く。"
+  ],
+  "answer": 2,
+  "explanation": "Books due during the closure have their due date extended to March 31, so a book due March 10 can be returned by then. Books can still be returned via the return box, borrowing is not possible during the work, and from March 16 the library stays open until 8 p.m., not opens at 8 a.m.",
+  "translation": "Which statement matches the content of this notice?",
+  "passageId": "n3-t2-rsa1-p4",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rma1-1",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "{筆者|ひっしゃ}がノートに日記を書き始めたのはなぜか。",
+  "options": [
+   "スマートフォンに残したメモを、全部なくしてしまったから",
+   "祖母の日記を見て、手で書いた字から気持ちが伝わると感じたから",
+   "祖母に、毎日日記を書くように言われたから",
+   "スマートフォンより、ノートのほうが速く書けると思ったから"
+  ],
+  "answer": 1,
+  "explanation": "The writer says that seeing the grandmother's diary made them feel her feelings came through in her handwriting, so they decided to write by hand. The notes were never lost, the grandmother did not tell them to write, and the writer actually says writing by hand takes longer.",
+  "translation": "Why did the writer start writing a diary in a notebook?",
+  "passageId": "n3-t2-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rma1-2",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "「まあ、いいか」と思えることが多いのはなぜだと考えられるか。",
+  "options": [
+   "疲れている日は、二、三行しか書かないから",
+   "いやなことは、日記に書かないようにしているから",
+   "祖母の日記を読むと、元気が出るから",
+   "ゆっくり書くことで、その日のことを落ち着いて考え直せるから"
+  ],
+  "answer": 3,
+  "explanation": "Just before this, the writer says slow writing lets them calmly think again about the day, which is why bad days feel lighter afterwards. Writing only a few lines is about tired days, the writer never says they avoid writing unpleasant things, and reading the grandmother's diary is not given as the reason.",
+  "translation": "Why does the writer often manage to think \"Oh well, never mind\"?",
+  "passageId": "n3-t2-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rma1-3",
+  "level": "N3",
+  "type": "reading-mid",
+  "stem": "{筆者|ひっしゃ}の考えに合うものはどれか。",
+  "options": [
+   "不便なところもあるが、手で書く時間を大切にしたい",
+   "手で書くほうが、スマートフォンより何でも便利だ",
+   "日記は、毎日長く書かなければ意味がない",
+   "スマートフォンにメモを残すのは、すぐにやめるべきだ"
+  ],
+  "answer": 0,
+  "explanation": "The writer admits a notebook is less convenient for finding things but still values the time spent writing by hand. The writer explicitly denies that writing by hand is more convenient, says two or three lines are sometimes enough, and never says people should stop using smartphone notes.",
+  "translation": "Which of the following matches the writer's view?",
+  "passageId": "n3-t2-rma1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rla1-1",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "{筆者|ひっしゃ}が朝歩くことを続けられたのはなぜか。",
+  "options": [
+   "医者に何度も注意されたから",
+   "公園で毎朝同じ人たちに会うようになったから",
+   "雨の日は歩かなくてもいいと決めたから",
+   "早く起きることがすぐに楽になったから"
+  ],
+  "answer": 1,
+  "explanation": "The writer says the reason they could keep going was that they started meeting the same people in the park every morning. The doctor spoke only once, at the check-up; the writer was tempted to skip rainy days but never decided to; and getting up early was hard at first, not quickly easy.",
+  "translation": "Why was the writer able to keep up the morning walks?",
+  "passageId": "n3-t2-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rla1-2",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "「最近、顔色がよくなりましたね」と言われたとき、{筆者|ひっしゃ}はどう思ったか。",
+  "options": [
+   "自分でもずっと前から変化に気づいていた",
+   "知らない人に声をかけられて、少し困った",
+   "言われて初めて、体の調子がよくなったと分かった",
+   "まだ運動が足りないので、もっと歩こうと思った"
+  ],
+  "answer": 2,
+  "explanation": "The writer had not noticed it themselves, but realized that they really were getting tired less easily, so they only became aware of the change when told. Option 1 contradicts \"自分では気がつかなかった\", the writer already greeted this man so was not troubled, and nothing is said about walking more.",
+  "translation": "When told \"Your complexion has improved lately,\" what did the writer think?",
+  "passageId": "n3-t2-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rla1-3",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "{筆者|ひっしゃ}がいちばん大きく変わったと思っていることは何か。",
+  "options": [
+   "夜よく眠れるようになったこと",
+   "仕事中に眠くならなくなったこと",
+   "公園で友だちがたくさんできたこと",
+   "朝の時間を一日の{準備|じゅんび}に使えるようになったこと"
+  ],
+  "answer": 3,
+  "explanation": "The writer says the biggest change is not the body but how they use the morning: it has become time to plan the day. Sleeping well and being less sleepy at work are bodily changes the writer ranks below this, and the park acquaintances are people whose names the writer does not even know, not many friends.",
+  "translation": "What does the writer think has changed the most?",
+  "passageId": "n3-t2-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-rla1-4",
+  "level": "N3",
+  "type": "reading-long",
+  "stem": "この{文章|ぶんしょう}で{筆者|ひっしゃ}がいちばん言いたいことは何か。",
+  "options": [
+   "運動を続けるには、その中に楽しみを見つけることが大切だ",
+   "{健康|けんこう}のためには、毎朝必ず運動をするべきだ",
+   "運動は無理をしてでも{頑張|がんば}って続けるべきだ",
+   "朝早く起きれば、だれでも仕事がうまくいく"
+  ],
+  "answer": 0,
+  "explanation": "The final paragraph concludes that finding your own enjoyment matters more than forcing yourself, which is option 1. The writer says exercising only for health would not have lasted, rejects forcing oneself (option 3), and never claims early rising makes anyone succeed at work.",
+  "translation": "What does the writer most want to say in this passage?",
+  "passageId": "n3-t2-rla1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-isa1-1",
+  "level": "N3",
+  "type": "info-search",
+  "stem": "会社員の田中さんは、平日の夜しか時間がない。田中さんはセンターの会員である。田中さんが参加できるコースの料金はいくらか。",
+  "options": [
+   "6,000円",
+   "6,300円",
+   "7,000円",
+   "7,700円"
+  ],
+  "answer": 1,
+  "explanation": "The only weekday evening course is C (Wednesdays 18:30), which costs 7,000 yen, and members get 10% off, so Tanaka pays 6,300 yen. 6,000 yen is Course A, a morning course; 7,000 yen ignores the member discount; 7,700 yen adds 10% instead of taking it off.",
+  "translation": "Mr. Tanaka, an office worker, only has time on weekday evenings. He is a member of the center. How much is the fee for the course he can take?",
+  "passageId": "n3-t2-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-isa1-2",
+  "level": "N3",
+  "type": "info-search",
+  "stem": "山本さんは、小学3年生の娘と一緒に、週末に料理を習いたいと思っている。日曜日は都合が悪い。山本さんはセンターの会員ではない。山本さんはどうすればいいか。",
+  "options": [
+   "7月10日までにDコースに申し込んで、1回目の日に5,400円払う",
+   "7月10日までにDコースに申し込んで、1回目の日に10,800円払う",
+   "7月10日までにBコースに申し込んで、1回目の日に6,000円払う",
+   "7月10日までにBコースに申し込んで、1回目の日に3,000円払う"
+  ],
+  "answer": 3,
+  "explanation": "The only weekend course other than Sunday is Course B on Saturdays, and its 3,000 yen fee already covers one parent and one child, paid on the first day. The Course D options are wrong because D is held on Sundays, and 6,000 yen wrongly charges the B fee twice.",
+  "translation": "Ms. Yamamoto wants to learn cooking on the weekend together with her daughter, who is in the third grade of elementary school. Sundays are inconvenient for her. She is not a member of the center. What should she do?",
+  "passageId": "n3-t2-isa1-p1",
+  "source": "ai",
+  "status": "verified"
+ },
+ {
+  "id": "n3-t2-ta1-1",
+  "level": "N3",
+  "type": "task",
+  "stem": "会社で男の人と女の人が話しています。男の人はこのあとまず何をしますか。",
+  "options": [
+   "資料をコピーする",
+   "プロジェクターを調べる",
+   "会議室を予約する",
+   "お客さんにメールを送る"
+  ],
+  "answer": 1,
+  "explanation": "The woman has already reserved the meeting room and the manager has already emailed the client, and the man has already copied the materials, so the only thing left is her request to check the projector. Options 1, 3 and 4 are all already done.",
+  "translation": "Narrator: A man and a woman are talking at a company. What will the man do first after this? Woman: Tanaka, how is the preparation for tomorrow's meeting going? Man: Fine. I've already copied the materials. All that's left is to reserve a room. Woman: Oh, I already reserved the meeting room earlier. From 3 o'clock. Man: I see, thank you. Then I have to email the client, don't I? Woman: The manager already sent that, apparently. More importantly, could you check whether the projector works? Man: Understood. I'll go and look right away. Narrator: What will the man do first after this?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "会社で男の人と女の人が話しています。男の人はこのあとまず何をしますか。"
+   },
+   {
+    "speaker": "F",
+    "text": "田中さん、あしたの会議の用意はどう？"
+   },
+   {
+    "speaker": "M",
+    "text": "はい、資料はもうコピーしました。あとは部屋を予約するだけです。"
+   },
+   {
+    "speaker": "F",
+    "text": "あ、会議室ならさっき私が予約しておいたよ。３時から。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうですか、ありがとうございます。じゃあ、お客さんにメールを送らないといけませんね。"
+   },
+   {
+    "speaker": "F",
+    "text": "それはもう部長が送ったって。それより、プロジェクターが動くかどうか調べておいてくれる？"
+   },
+   {
+    "speaker": "M",
+    "text": "わかりました。すぐ見てきます。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人はこのあとまず何をしますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ta1-1.mp3"
+ },
+ {
+  "id": "n3-t2-ta1-2",
+  "level": "N3",
+  "type": "task",
+  "stem": "大学で先生と女の学生が話しています。女の学生はこのあとまず何をしますか。",
+  "options": [
+   "他の大学に本を頼む",
+   "レポートを出す日を変えてもらう",
+   "インターネットで論文を探す",
+   "図書館の人に探し方を聞く"
+  ],
+  "answer": 3,
+  "explanation": "Ordering the book from another university would take a week, which is too late, and the teacher suggests searching for papers online. The student says she does not know how to search, so he tells her to ask the library staff first. Option 2 is never discussed.",
+  "translation": "Narrator: A teacher and a female student are talking at a university. What will the student do first after this? Student: Professor, I'd like to consult you about my report. Teacher: Oh, what is it? The deadline is Friday, you know. Student: Yes. But the book I want to use as a reference isn't in the library. Teacher: Then you can have it ordered from another university's library. Student: Will it take long? Teacher: About a week, so it won't be in time now. Why not look for a paper you can read on the internet? Student: I see. But I don't really know how to search. Teacher: Then ask the staff member at the library entrance. They'll teach you. Student: Understood. I'll go and try. Narrator: What will the student do first after this?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "大学で先生と女の学生が話しています。女の学生はこのあとまず何をしますか。"
+   },
+   {
+    "speaker": "F",
+    "text": "先生、レポートのことでご相談があるんですが。"
+   },
+   {
+    "speaker": "M",
+    "text": "ああ、どうしましたか。しめきりは金曜日ですよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "はい。でも、参考にしたい本が図書館になくて。"
+   },
+   {
+    "speaker": "M",
+    "text": "それなら、他の大学の図書館から取り寄せてもらえますよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "時間がかかりますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "一週間くらいかかるから、今からでは間に合わないね。インターネットで読める論文を探したらどう？"
+   },
+   {
+    "speaker": "F",
+    "text": "そうですね。でも、私、探し方がよくわからなくて。"
+   },
+   {
+    "speaker": "M",
+    "text": "じゃあ、図書館の入口にいる係の人に聞いてみて。教えてくれるから。"
+   },
+   {
+    "speaker": "F",
+    "text": "わかりました。行ってみます。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の学生はこのあとまず何をしますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ta1-2.mp3"
+ },
+ {
+  "id": "n3-t2-ta1-3",
+  "level": "N3",
+  "type": "task",
+  "stem": "家で男の人と女の人が話しています。男の人は何を買ってきますか。",
+  "options": [
+   "肉とたまねぎとにんじん",
+   "肉とじゃがいもとカレーのルー",
+   "たまねぎとにんじんとカレーのルー",
+   "肉とたまねぎとじゃがいも"
+  ],
+  "answer": 0,
+  "explanation": "The curry roux is already in the cupboard and the potatoes were given by the grandmother, so those are not needed, but the carrots have run out. He therefore buys meat, onions and carrots. Options 2, 3 and 4 each include roux or potatoes, or leave out the meat or carrots.",
+  "translation": "Narrator: A man and a woman are talking at home. What will the man buy? Woman: Hey, I'm thinking of making curry tonight. Could you go shopping for me? Man: Sure. What should I buy? Woman: Let's see, meat, onions, potatoes, and curry roux. Man: There was a box of roux we bought the other day in the cupboard. Woman: Oh, that's right. Then we don't need roux. And we have the potatoes grandma gave us. Man: So just meat and onions? Woman: No, we're out of carrots. Buy those too. Man: Got it. I'll go now. Narrator: What will the man buy?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "家で男の人と女の人が話しています。男の人は何を買ってきますか。"
+   },
+   {
+    "speaker": "F",
+    "text": "ねえ、今夜はカレーにしようと思うんだけど、買い物に行ってきてくれる？"
+   },
+   {
+    "speaker": "M",
+    "text": "いいよ。何を買えばいい？"
+   },
+   {
+    "speaker": "F",
+    "text": "えっと、肉とたまねぎとじゃがいもと、それからカレーのルーね。"
+   },
+   {
+    "speaker": "M",
+    "text": "ルーは、このあいだ買ったのが戸棚にあったよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "あ、そうだった。じゃあルーはいいわ。じゃがいももおばあちゃんにもらったのがあるし。"
+   },
+   {
+    "speaker": "M",
+    "text": "じゃあ、肉とたまねぎだけ？"
+   },
+   {
+    "speaker": "F",
+    "text": "ううん、にんじんがなかったわ。それも買ってきて。"
+   },
+   {
+    "speaker": "M",
+    "text": "わかった。行ってくるよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人は何を買ってきますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ta1-3.mp3"
+ },
+ {
+  "id": "n3-t2-ta1-4",
+  "level": "N3",
+  "type": "task",
+  "stem": "スポーツクラブの受付で、女の人と男の人が話しています。男の人は明日、何を持ってきますか。",
+  "options": [
+   "申込書と写真",
+   "申込書と会費",
+   "写真と会費",
+   "会費だけ"
+  ],
+  "answer": 2,
+  "explanation": "The man fills in the application form today, but he has no photo and not enough money with him, so the woman tells him to bring the photo and the first month's fee tomorrow. Options 1, 2 and 4 either include the form, which he writes today, or leave out the photo.",
+  "translation": "Narrator: A woman and a man are talking at a sports club reception. What will the man bring tomorrow? Man: Excuse me, I'd like to join. Woman: Thank you very much. First, please fill in this application form. A photo is also required. Man: A photo? I don't have one. Woman: You can take one at the machine at the entrance. You can fill in the form now, and the photo tomorrow is fine. Man: I see. Then I'll write it now. Do I pay the membership fee today? Woman: We'd like the first month's fee today, by card or cash. Man: I don't have much money today... Is tomorrow OK? Woman: Yes, that's fine. Then please bring the photo and the fee tomorrow. Man: Understood. Narrator: What will the man bring tomorrow?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "スポーツクラブの受付で、女の人と男の人が話しています。男の人は明日、何を持ってきますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "すみません、入会したいんですが。"
+   },
+   {
+    "speaker": "F",
+    "text": "ありがとうございます。まず、こちらの申込書に書いていただきます。写真も必要です。"
+   },
+   {
+    "speaker": "M",
+    "text": "写真ですか。持っていません。"
+   },
+   {
+    "speaker": "F",
+    "text": "入口の機械で撮れますよ。申込書は今書いて、写真はあしたでも大丈夫です。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうですか。じゃあ今書きます。会費は今日払うんですか。"
+   },
+   {
+    "speaker": "F",
+    "text": "はじめの月の会費は、カードでも現金でも今日お願いします。"
+   },
+   {
+    "speaker": "M",
+    "text": "今日はお金があまりなくて…。あしたでもいいですか。"
+   },
+   {
+    "speaker": "F",
+    "text": "はい、大丈夫です。では、あしたは写真と会費をお持ちください。"
+   },
+   {
+    "speaker": "M",
+    "text": "わかりました。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人は明日、何を持ってきますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ta1-4.mp3"
+ },
+ {
+  "id": "n3-t2-ta1-5",
+  "level": "N3",
+  "type": "task",
+  "stem": "病院の受付で、女の人と受付の人が話しています。女の人はいつ病院に来ますか。",
+  "options": [
+   "月曜日の午前",
+   "火曜日の午後",
+   "水曜日の午前",
+   "木曜日の午後"
+  ],
+  "answer": 3,
+  "explanation": "Monday morning is full, she cannot take time off from work on Tuesday, and she has plans on Wednesday morning with no doctor in the afternoon. She finally chooses Thursday afternoon, so options 1, 2 and 3 are all ruled out.",
+  "translation": "Narrator: A woman and a receptionist are talking at a hospital reception. When will the woman come to the hospital? Woman: Excuse me, I'd like to make an appointment for next week. Receptionist: Certainly. Which day would you prefer? Woman: Is Monday morning available? Receptionist: Monday is only available in the afternoon. Tuesday is fine for both morning and afternoon. Woman: I can't take time off work on Tuesday. How about Wednesday? Receptionist: Wednesday is morning only. The doctor isn't in on the afternoon. Woman: I have shopping plans on Wednesday morning... I'd rather go in the afternoon, so Thursday afternoon, then. Receptionist: On Thursday afternoon we have an opening from 2 o'clock. Woman: Then please book that. Narrator: When will the woman come to the hospital?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "病院の受付で、女の人と受付の人が話しています。女の人はいつ病院に来ますか。"
+   },
+   {
+    "speaker": "F",
+    "text": "すみません、来週の予約をお願いしたいんですが。"
+   },
+   {
+    "speaker": "M",
+    "text": "はい。どの曜日がよろしいですか。"
+   },
+   {
+    "speaker": "F",
+    "text": "月曜日の午前は空いていますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "月曜日は午後しか空いておりません。火曜日なら午前も午後も大丈夫です。"
+   },
+   {
+    "speaker": "F",
+    "text": "火曜日は仕事で休めないんです。水曜日はどうですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "水曜日は午前だけです。午後は先生がいらっしゃいません。"
+   },
+   {
+    "speaker": "F",
+    "text": "水曜日の午前は買い物の予定があって…。やっぱり午後に行きたいので、木曜日の午後にします。"
+   },
+   {
+    "speaker": "M",
+    "text": "木曜日の午後は、２時からなら空いています。"
+   },
+   {
+    "speaker": "F",
+    "text": "じゃあ、それでお願いします。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人はいつ病院に来ますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ta1-5.mp3"
+ },
+ {
+  "id": "n3-t2-ta1-6",
+  "level": "N3",
+  "type": "task",
+  "stem": "大学で男の学生と女の学生が話しています。女の学生は土曜日のバーベキューに何を持っていきますか。",
+  "options": [
+   "飲み物",
+   "アイスクリーム",
+   "ケーキ",
+   "くだもの"
+  ],
+  "answer": 1,
+  "explanation": "Drinks, meat and vegetables are already taken care of. A cake is hard to carry and fruit is out because Tanaka is bringing a watermelon, so the woman decides on ice cream, with the man bringing the cooler box. Options 1, 3 and 4 are all rejected in the talk.",
+  "translation": "Narrator: A male student and a female student are talking at a university. What will the woman bring to the barbecue on Saturday? Man: Yamada, could you bring something to the barbecue on Saturday? Woman: Sure. Would drinks be good? Man: I've already got the drinks, meat and vegetables. I'd like some dessert. Woman: Then shall I bake a cake? Man: A cake is hard to carry. How about fruit? Woman: Fruit... Oh, but Tanaka said earlier that he's bringing a watermelon, right? Man: That's right. Then something cold would be nice. Woman: If it's ice cream, I can buy that and take it. Man: I'll bring the cooler box, so let's go with that. Narrator: What will the woman bring to the barbecue on Saturday?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "大学で男の学生と女の学生が話しています。女の学生は土曜日のバーベキューに何を持っていきますか。"
+   },
+   {
+    "speaker": "M",
+    "text": "山田さん、土曜日のバーベキューに何か持ってきてもらえる？"
+   },
+   {
+    "speaker": "F",
+    "text": "いいよ。飲み物がいい？"
+   },
+   {
+    "speaker": "M",
+    "text": "飲み物と肉と野菜は、もう用意したんだ。デザートがほしいな。"
+   },
+   {
+    "speaker": "F",
+    "text": "じゃあ、ケーキを作っていこうか。"
+   },
+   {
+    "speaker": "M",
+    "text": "ケーキは運ぶのが大変だよ。くだものにしたらどう？"
+   },
+   {
+    "speaker": "F",
+    "text": "くだものか。あ、でも、さっき田中君がスイカを持ってくるって言ってたよね。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうだった。じゃあ、冷たいものがいいな。"
+   },
+   {
+    "speaker": "F",
+    "text": "アイスクリームなら、買って行けるね。"
+   },
+   {
+    "speaker": "M",
+    "text": "クーラーボックスは私が持っていくから、それにしよう。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の学生は土曜日のバーベキューに何を持っていきますか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ta1-6.mp3"
+ },
+ {
+  "id": "n3-t2-pa1-1",
+  "level": "N3",
+  "type": "point",
+  "stem": "会社で、男の人と女の人が話しています。女の人は、きのうなぜ会社を休みましたか。",
+  "options": [
+   "熱が高かったから",
+   "母の入院を手伝ったから",
+   "父が病気になったから",
+   "自分が病院で{検査|けんさ}を受けたから"
+  ],
+  "answer": 1,
+  "explanation": "The woman says her mother suddenly had to be hospitalized and she went with her to carry the luggage, so option 2 is right. She thought she had a fever but her temperature was normal (option 1), her father is only coming to help from today and did not get sick (option 3), and she never had an examination herself (option 4).",
+  "translation": "N: At the office, a man and a woman are talking. Why did the woman take yesterday off from work? M: Ms. Yamada, you were off yesterday, but are you all right now? F: Yes, thank you. In the morning I felt like I might have a fever and thought about going to the hospital, but when I took my temperature it was normal. M: Then why? F: Actually, my mother suddenly had to be admitted to the hospital, so I went to the hospital with her carrying her things. M: I see. Is your mother all right? F: Yes. From today my father will come, so I can come to work. N: Why did the woman take yesterday off from work?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "会社で、男の人と女の人が話しています。女の人は、きのうなぜ会社を休みましたか。"
+   },
+   {
+    "speaker": "M",
+    "text": "山田さん、きのう休んでたけど、もう大丈夫？"
+   },
+   {
+    "speaker": "F",
+    "text": "ええ、ありがとうございます。朝、熱があるような気がして病院に行こうと思ったんですけど、体温を計ったら平熱だったんです。"
+   },
+   {
+    "speaker": "M",
+    "text": "じゃあ、どうして？"
+   },
+   {
+    "speaker": "F",
+    "text": "実は、母が急に入院することになって、荷物を持って一緒に病院に行ったんです。"
+   },
+   {
+    "speaker": "M",
+    "text": "そうだったんだ。お母さん、大丈夫？"
+   },
+   {
+    "speaker": "F",
+    "text": "ええ、今日からは父が来てくれるので、私は会社に来られます。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人は、きのうなぜ会社を休みましたか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-pa1-1.mp3"
+ },
+ {
+  "id": "n3-t2-pa1-2",
+  "level": "N3",
+  "type": "point",
+  "stem": "男の人と女の人が話しています。女の人が新しいスマホを買わない一番の理由は何ですか。",
+  "options": [
+   "写真がきれいではないから",
+   "今のスマホが全然使えないから",
+   "画面が小さいほうがいいから",
+   "来月、お金が必要になるから"
+  ],
+  "answer": 3,
+  "explanation": "The woman says she will hold off because next month's move will cost money, so option 4 is correct. She actually likes the new phone's pictures and screen (options 1 and 3), and she says her current phone is still usable (option 2).",
+  "translation": "N: A man and a woman are talking. What is the main reason the woman is not buying a new smartphone? M: Aren't you going to buy a new phone? Your old one is old by now, isn't it? F: I'd like to. The new ones take nice pictures and have big screens. M: Then why not just buy one? F: But my current one is not unusable, and besides, next month we're moving and it will cost money, so I'll hold off for now. N: What is the main reason the woman is not buying a new smartphone?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "男の人と女の人が話しています。女の人が新しいスマホを買わない一番の理由は何ですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "新しいスマホ、買わないの？前のはもう古いでしょう。"
+   },
+   {
+    "speaker": "F",
+    "text": "買いたいんだけどね。新しいのは写真がきれいだし、画面も大きいし。"
+   },
+   {
+    "speaker": "M",
+    "text": "じゃあ、買えばいいじゃない。"
+   },
+   {
+    "speaker": "F",
+    "text": "でも、今のも使えないことはないし、それに来月は引っ越しでお金がかかるから、今は我慢するわ。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人が新しいスマホを買わない一番の理由は何ですか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-pa1-2.mp3"
+ },
+ {
+  "id": "n3-t2-pa1-4",
+  "level": "N3",
+  "type": "point",
+  "stem": "学校で、男の人と女の人が話しています。女の人が一番うれしかったのは、どんなことですか。",
+  "options": [
+   "発表を最後まで上手にできたこと",
+   "先生にほめられたこと",
+   "{先輩|せんぱい}に調べたことを認められたこと",
+   "友達が発表を聞きに来てくれたこと"
+  ],
+  "answer": 2,
+  "explanation": "She says that being praised by the usually strict senior student for her careful research made her happiest, so option 3 is correct. She was happy about the teacher's praise but says it mattered less (option 2), she lost her words partway through (option 1), and friends coming is never mentioned (option 4).",
+  "translation": "N: At school, a man and a woman are talking. What made the woman happiest? M: Good work on the presentation. It was really good. F: Thanks. But partway through I couldn't find the words and my mind went blank. M: Really? I couldn't tell at all. F: I was glad the teacher praised me, but more than that, the thing that made me happiest was that Tanaka, the senior who is always strict, said, \"You researched this well.\" N: What made the woman happiest?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "学校で、男の人と女の人が話しています。女の人が一番うれしかったのは、どんなことですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "発表、お疲れさま。すごくよかったよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "ありがとう。でも、途中で言葉が出なくなって、頭が真っ白になったの。"
+   },
+   {
+    "speaker": "M",
+    "text": "そう？全然わからなかったよ。"
+   },
+   {
+    "speaker": "F",
+    "text": "先生にほめられたのもうれしかったけど、それより、いつもきびしい田中先輩が「よく調べてあるね」って言ってくれたのが、一番うれしかった。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人が一番うれしかったのは、どんなことですか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-pa1-4.mp3"
+ },
+ {
+  "id": "n3-t2-pa1-5",
+  "level": "N3",
+  "type": "point",
+  "stem": "女の人と男の人が話しています。男の人が今、毎朝走っている一番の理由は何ですか。",
+  "options": [
+   "{健康|けんこう}になりたいから",
+   "朝ごはんをおいしく食べたいから",
+   "友達と一緒に走りたいから",
+   "静かな時間に仕事の予定を考えられるから"
+  ],
+  "answer": 3,
+  "explanation": "He says that thinking about the day's plans in the quiet morning makes his work go well, so option 4 is correct. Health was only his reason at first (option 1), and eating breakfast or running with friends are never mentioned (options 2 and 3).",
+  "translation": "N: A woman and a man are talking. What is the main reason the man runs every morning now? F: Mr. Tanaka, I hear you get up at six every morning and run? M: Yes, for three years now. At first it was for my health. F: It's different now? M: Health is part of it, but when I think about the day's plans in the quiet morning hours, my work goes well. F: Wow, that's impressive. N: What is the main reason the man runs every morning now?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "女の人と男の人が話しています。男の人が今、毎朝走っている一番の理由は何ですか。"
+   },
+   {
+    "speaker": "F",
+    "text": "田中さん、毎朝六時に起きて走っているんですって？"
+   },
+   {
+    "speaker": "M",
+    "text": "ええ、三年前から。最初は健康のためだったんですけど。"
+   },
+   {
+    "speaker": "F",
+    "text": "今は違うんですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "健康もあるけど、朝の静かな時間に一日の予定を考えると、仕事がうまくいくんです。"
+   },
+   {
+    "speaker": "F",
+    "text": "へえ、すごいですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人が今、毎朝走っている一番の理由は何ですか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-pa1-5.mp3"
+ },
+ {
+  "id": "n3-t2-pa1-6",
+  "level": "N3",
+  "type": "point",
+  "stem": "男の人と女の人が話しています。女の人が一番不満に思っているのは何ですか。",
+  "options": [
+   "天気が悪かったこと",
+   "友達の{連絡|れんらく}が遅かったこと",
+   "友達が仕事で行けなくなったこと",
+   "旅行の費用が高かったこと"
+  ],
+  "answer": 1,
+  "explanation": "She says it can't be helped that her friend couldn't go because of work, but she is upset that there was no word until the night before, so option 2 is correct. The weather was fine (option 1), the friend's work is called unavoidable (option 3), and cost is never mentioned (option 4).",
+  "translation": "N: A man and a woman are talking. What is the woman most dissatisfied about? M: What's wrong? You look down. F: Yesterday I was supposed to go on a trip with a friend, but we couldn't go. M: Was it raining? F: No, the weather was no problem. It can't be helped that my friend suddenly couldn't come because of work, but I heard nothing until the night before. They should have told me sooner. N: What is the woman most dissatisfied about?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "男の人と女の人が話しています。女の人が一番不満に思っているのは何ですか。"
+   },
+   {
+    "speaker": "M",
+    "text": "どうしたの？元気がないね。"
+   },
+   {
+    "speaker": "F",
+    "text": "昨日、友達と旅行に行くはずだったんだけど、行けなくなっちゃって。"
+   },
+   {
+    "speaker": "M",
+    "text": "雨だったの？"
+   },
+   {
+    "speaker": "F",
+    "text": "ううん、天気は問題なかったの。友達が急に仕事で行けなくなったのは仕方ないけど、前の日の夜まで何も連絡がなかったのよ。もっと早く言ってくれればよかったのに。"
+   },
+   {
+    "speaker": "N",
+    "text": "女の人が一番不満に思っているのは何ですか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-pa1-6.mp3"
+ },
+ {
+  "id": "n3-t2-sa1-1",
+  "level": "N3",
+  "type": "summary",
+  "stem": "先生は何について話していますか。",
+  "options": [
+   "図書館で行われる説明会のこと",
+   "先生が来週来られない理由",
+   "来週の{授業|じゅぎょう}の代わりの日のこと",
+   "{授業|じゅぎょう}で使う教室について"
+  ],
+  "answer": 2,
+  "explanation": "The teacher cancels next week's class and says a make-up class will be held on a different day at the same time and in the same room, so the main topic is the replacement day (3). The reason for the trip is only mentioned briefly (2), the library session is an extra note at the end (1), and the classroom is explicitly unchanged (4).",
+  "translation": "N: A teacher is talking to students at a university.\nM: About next Monday's class: I have to go to Osaka for work, so the class will be cancelled. Instead, we will hold the class in the same classroom on the afternoon of Wednesday the week after next. The time is the same as usual. Some of you may have other classes on Wednesday, but please attend if at all possible. Anyone who really cannot come should contact me afterwards. Also, there will be an explanation session at the library after that day's class, so please join if you are interested.\nN: What is the teacher talking about?\nN: 1. The explanation session held at the library\nN: 2. The reason the teacher cannot come next week\nN: 3. The day that replaces next week's class\nN: 4. The classroom used for the class",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "大学で先生が学生に話しています。"
+   },
+   {
+    "speaker": "M",
+    "text": "来週の月曜日の授業ですが、私が仕事で大阪へ行くことになったため、お休みにします。その代わり、再来週の水曜日の午後に、同じ教室で授業を行います。時間はいつもと同じです。水曜日は、ほかの授業がある人もいると思いますが、できるだけ出席してください。どうしても来られない人は、あとで私に連絡してください。なお、その日の授業のあとで、図書館の説明会がありますので、興味のある人は参加してください。"
+   },
+   {
+    "speaker": "N",
+    "text": "先生は何について話していますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、図書館で行われる説明会のこと"
+   },
+   {
+    "speaker": "N",
+    "text": "2、先生が来週来られない理由"
+   },
+   {
+    "speaker": "N",
+    "text": "3、来週の授業の代わりの日のこと"
+   },
+   {
+    "speaker": "N",
+    "text": "4、授業で使う教室について"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-sa1-1.mp3"
+ },
+ {
+  "id": "n3-t2-sa1-2",
+  "level": "N3",
+  "type": "summary",
+  "stem": "このアナウンスは何についてのお知らせですか。",
+  "options": [
+   "店が開いている時間が変わること",
+   "インターネットで買い物ができる新しいサービスのこと",
+   "朝の買い物がしやすくなること",
+   "夜に安くなる品物のこと"
+  ],
+  "answer": 0,
+  "explanation": "The announcement says that from next month the store will close at nine instead of eleven, so the main point is the change in opening hours (1). The online service is only a side note about something planned (2), the morning opening time stays the same (3), and discounted goods are never mentioned (4).",
+  "translation": "N: An announcement is playing in a supermarket.\nF: Thank you for shopping with us today. From the first of next month, our store hours will change. Until now we have been open until eleven at night, but from now on we will close at nine. In the morning, we will continue to open at eight as before. We apologize for the inconvenience and ask for your understanding. In addition, for customers who shop late in the evening, we plan to start a service that lets you place orders over the internet. For details, please see the notice at the store entrance.\nN: What is this announcement about?\nN: 1. The change in the hours the store is open\nN: 2. A new service for shopping on the internet\nN: 3. Morning shopping becoming easier\nN: 4. Items that become cheaper in the evening",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "スーパーでアナウンスが流れています。"
+   },
+   {
+    "speaker": "F",
+    "text": "本日もご来店ありがとうございます。来月一日から、当店の営業時間が変わります。今まで夜十一時まで開いておりましたが、これからは夜九時までになります。朝は、今までどおり八時に開きます。お客様にはご不便をおかけしますが、ご理解をお願いいたします。なお、夜遅くにお買い物をされる方のために、インターネットで注文できるサービスを始める予定です。詳しくは、お店の入り口のお知らせをご覧ください。"
+   },
+   {
+    "speaker": "N",
+    "text": "このアナウンスは何についてのお知らせですか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、店が開いている時間が変わること"
+   },
+   {
+    "speaker": "N",
+    "text": "2、インターネットで買い物ができる新しいサービスのこと"
+   },
+   {
+    "speaker": "N",
+    "text": "3、朝の買い物がしやすくなること"
+   },
+   {
+    "speaker": "N",
+    "text": "4、夜に安くなる品物のこと"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-sa1-2.mp3"
+ },
+ {
+  "id": "n3-t2-sa1-3",
+  "level": "N3",
+  "type": "summary",
+  "stem": "男の人は、何のために電話をしましたか。",
+  "options": [
+   "{歓迎会|かんげいかい}の店を教えてもらうため",
+   "新人に仕事を教えてほしいと頼むため",
+   "打ち合わせの時間を変えてもらうため",
+   "{歓迎会|かんげいかい}の{幹事|かんじ}を代わってほしいと頼むため"
+  ],
+  "answer": 3,
+  "explanation": "The man cannot organize the welcome party because a client meeting came up, and he asks Ms. Tanaka to take over as organizer, so his purpose is to ask her to replace him (4). The restaurant is already booked, so he does not need information about it (1), he does not mention training newcomers (2), and the client meeting is the reason he cannot do it, not something he asks to reschedule (3).",
+  "translation": "N: A man is leaving a message on a coworker's voicemail.\nM: Ms. Tanaka, thanks for your hard work. This is Yamamoto. I'm calling about the welcome party for the new employees next Friday. The thing is, a meeting with a client suddenly came up that day, so I can no longer be the organizer. The restaurant is already booked and the number of people is settled. All that's left is to call everyone together on the day and collect the money, but could I ask you to do it? I'll send you the restaurant's information by email. Please let me know your answer by tomorrow.\nN: Why did the man make the call?\nN: 1. To be told about the restaurant for the welcome party\nN: 2. To ask her to teach the new employees their work\nN: 3. To have the time of the meeting changed\nN: 4. To ask her to take over as organizer of the welcome party",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "男の人が会社の同僚の留守番電話にメッセージを残しています。"
+   },
+   {
+    "speaker": "M",
+    "text": "田中さん、お疲れ様です。山本です。来週の金曜日の新人の歓迎会のことでお電話しました。実は、その日に急にお客さんとの打ち合わせが入ってしまって、私は幹事ができなくなりました。店はもう予約してあって、人数も決まっています。あとは当日、みんなに声をかけてお金を集めるだけなんですが、田中さんにお願いできないでしょうか。お店の情報は、メールで送ります。お返事は明日までにお願いします。"
+   },
+   {
+    "speaker": "N",
+    "text": "男の人は、何のために電話をしましたか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、歓迎会の店を教えてもらうため"
+   },
+   {
+    "speaker": "N",
+    "text": "2、新人に仕事を教えてほしいと頼むため"
+   },
+   {
+    "speaker": "N",
+    "text": "3、打ち合わせの時間を変えてもらうため"
+   },
+   {
+    "speaker": "N",
+    "text": "4、歓迎会の幹事を代わってほしいと頼むため"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-sa1-3.mp3"
+ },
+ {
+  "id": "n3-t2-ua1-1",
+  "level": "N3",
+  "type": "utterance",
+  "stem": "友達と会う約束をしていましたが、急な仕事で行けなくなりました。友達に電話で何と言いますか。",
+  "options": [
+   "行けなくなったから、待っていてね。",
+   "急な仕事で行けなくなって、本当にごめん。",
+   "仕事が忙しくても、必ず行くよ。"
+  ],
+  "answer": 1,
+  "explanation": "急な仕事で行けなくなって、本当にごめん explains the sudden work and apologizes for cancelling, which fits the situation. The first option tells the friend to wait even though you cannot come, and the third says you will definitely come, which contradicts the situation.",
+  "translation": "You had arranged to meet a friend, but you can no longer go because of sudden work. What do you say to your friend on the phone? 1. I can't go now, so wait for me. 2. I can't come because of sudden work, I'm really sorry. 3. Even if work is busy, I'll definitely come.",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "友達と会う約束をしていましたが、急な仕事で行けなくなりました。友達に電話で何と言いますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、行けなくなったから、待っていてね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、急な仕事で行けなくなって、本当にごめん。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、仕事が忙しくても、必ず行くよ。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ua1-1.mp3"
+ },
+ {
+  "id": "n3-t2-ua1-2",
+  "level": "N3",
+  "type": "utterance",
+  "stem": "店で服を着てみましたが、少し小さいです。店員に何と言いますか。",
+  "options": [
+   "すみません、もう少し大きいサイズはありますか。",
+   "この服は、ちょうどいいサイズですね。",
+   "もっと小さいサイズを買いたいんですが。"
+  ],
+  "answer": 0,
+  "explanation": "Asking whether there is a slightly larger size is the natural way to deal with clothes that are too small. The second option says the size is just right, and the third asks for a smaller size, which is the opposite of what is needed.",
+  "translation": "You tried on clothes at a store, but they are a little small. What do you say to the shop assistant? 1. Excuse me, do you have a slightly larger size? 2. This piece is just the right size, isn't it. 3. I'd like to buy a smaller size.",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "店で服を着てみましたが、少し小さいです。店員に何と言いますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、すみません、もう少し大きいサイズはありますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、この服は、ちょうどいいサイズですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、もっと小さいサイズを買いたいんですが。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ua1-2.mp3"
+ },
+ {
+  "id": "n3-t2-ua1-3",
+  "level": "N3",
+  "type": "utterance",
+  "stem": "図書館で、{隣|となり}の人が大きい声で電話をしています。その人に何と言いますか。",
+  "options": [
+   "電話をかけたいので、貸してもらえませんか。",
+   "もっと大きい声で話してくださいませんか。",
+   "すみません、電話は外でお願いできませんか。"
+  ],
+  "answer": 2,
+  "explanation": "Politely asking the person to take the call outside solves the problem of noise in a library. The first option asks to borrow the phone, and the second asks the person to speak even louder, which makes things worse.",
+  "translation": "In a library, the person next to you is talking loudly on the phone. What do you say to that person? 1. I want to make a call, so could you lend me your phone? 2. Could you speak in a louder voice? 3. Excuse me, could I ask you to take your phone call outside?",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "図書館で、隣の人が大きい声で電話をしています。その人に何と言いますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、電話をかけたいので、貸してもらえませんか。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、もっと大きい声で話してくださいませんか。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、すみません、電話は外でお願いできませんか。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ua1-3.mp3"
+ },
+ {
+  "id": "n3-t2-ua1-4",
+  "level": "N3",
+  "type": "utterance",
+  "stem": "来週の月曜日、病院に行かなければならないので、会社を休みたいです。部長に何と言いますか。",
+  "options": [
+   "来週の月曜日、病院に行きますから、休んでください。",
+   "来週の月曜日、病院に行くので、休ませていただけませんか。",
+   "来週の月曜日、病院に行ったので、休みでした。"
+  ],
+  "answer": 1,
+  "explanation": "休ませていただけませんか is a polite way to ask a manager for permission to take a day off, and it gives the reason. The first option orders the manager to rest instead of asking permission, and the third uses the past tense for something that has not happened yet.",
+  "translation": "You have to go to the hospital next Monday, so you want to take the day off work. What do you say to your department manager? 1. I'm going to the hospital next Monday, so please take a rest. 2. I'm going to the hospital next Monday, so could I ask you to let me take the day off? 3. I went to the hospital next Monday, so I was off.",
+  "script": [
+   {
+    "speaker": "N",
+    "text": "来週の月曜日、病院に行かなければならないので、会社を休みたいです。部長に何と言いますか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、来週の月曜日、病院に行きますから、休んでください。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、来週の月曜日、病院に行くので、休ませていただけませんか。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、来週の月曜日、病院に行ったので、休みでした。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-ua1-4.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-1",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "十時からだと聞いていますよ。",
+   "会議室は{三階|さんかい}です。",
+   "昨日はとても長かったですね。"
+  ],
+  "answer": 0,
+  "explanation": "He asks what time tomorrow's meeting starts, so giving the start time is the natural reply. Option 2 answers a question about the place, and option 3 talks about yesterday's meeting.",
+  "translation": "M: What time does tomorrow's meeting start again? N: 1. I've heard it starts at ten. 2. The meeting room is on the third floor. 3. Yesterday's was very long, wasn't it?",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "明日の会議、何時からでしたっけ。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、十時からだと聞いていますよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、会議室は三階です。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、昨日はとても長かったですね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-1.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-2",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "はい、仕事は忙しいですね。",
+   "いいですね。どこに行きましょうか。",
+   "いいえ、終わっていませんでした。"
+  ],
+  "answer": 1,
+  "explanation": "She invites him to a meal, so accepting and asking where to go is natural. Option 1 ignores the invitation and comments on work, and option 3 wrongly refuses by saying the work was not finished, although she said it was.",
+  "translation": "F: My work finished early today, so how about having a meal together? N: 1. Yes, work is busy, isn't it? 2. Sounds good. Where shall we go? 3. No, it wasn't finished.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "今日は仕事が早く終わったので、一緒に食事でもしませんか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、はい、仕事は忙しいですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、いいですね。どこに行きましょうか。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、いいえ、終わっていませんでした。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-2.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-3",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "はい、私も行ってきました。",
+   "ええ、{出張|しゅっちょう}はいかがでしたか。",
+   "分かりました。日程を教えてください。"
+  ],
+  "answer": 2,
+  "explanation": "He asks her to go on the business trip in his place, so agreeing and asking for the schedule is natural. Option 1 says she has already been there, and option 2 asks about a trip that has not happened yet.",
+  "translation": "M: Could you go on next week's business trip in my place? N: 1. Yes, I went too. 2. Yes, how was the business trip? 3. All right. Please tell me the schedule.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "来週の出張、私の代わりに行ってもらえませんか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、はい、私も行ってきました。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、ええ、出張はいかがでしたか。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、分かりました。日程を教えてください。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-3.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-4",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "それはよかったですね。",
+   "よかったら、私のを貸しましょうか。",
+   "{傘|かさ}は便利ですからね。"
+  ],
+  "answer": 1,
+  "explanation": "She says she forgot her umbrella and is in trouble, so offering to lend hers is natural. Option 1 treats her trouble as good news, and option 3 only comments on umbrellas in general.",
+  "translation": "F: I've gone and forgotten my umbrella, and I'm in trouble. N: 1. That's good to hear. 2. If you like, shall I lend you mine? 3. Umbrellas are handy, after all.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "傘を忘れてしまって、困っているんです。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、それはよかったですね。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、よかったら、私のを貸しましょうか。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、傘は便利ですからね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-4.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-5",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "はい、いただきます。",
+   "いいえ、資料は私が書きました。",
+   "すみません、まだ見ていません。今日中に見ます。"
+  ],
+  "answer": 2,
+  "explanation": "He asks whether she has looked at the materials yet, so apologizing for not having done so and promising to do it today is natural. Option 1 is what one says before eating, and option 2 does not answer the question.",
+  "translation": "M: Have you been able to look at the materials I asked you about last week yet? N: 1. Yes, thank you for the food. 2. No, I wrote the materials. 3. I'm sorry, I haven't looked yet. I'll do it today.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "先週お願いした資料、もう見ていただけましたか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、はい、いただきます。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、いいえ、資料は私が書きました。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、すみません、まだ見ていません。今日中に見ます。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-5.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-6",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "いいですよ。この道をまっすぐ行ってください。",
+   "駅はとても大きいですよ。",
+   "道を教えてくれて、ありがとうございました。"
+  ],
+  "answer": 0,
+  "explanation": "She asks for directions to the station, so agreeing and telling her to go straight is natural. Option 2 only comments on the station's size, and option 3 thanks her for directions that have not been given yet.",
+  "translation": "F: I don't know the way to the station. Could you tell me? N: 1. Sure. Please go straight along this road. 2. The station is very big. 3. Thank you for telling me the way.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "駅までの道が分からないんですが、教えていただけませんか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、いいですよ。この道をまっすぐ行ってください。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、駅はとても大きいですよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、道を教えてくれて、ありがとうございました。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-6.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-7",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "いいえ、月曜は休みでした。",
+   "はい、遅れないように気をつけてください。",
+   "レポートはもう出しました。"
+  ],
+  "answer": 1,
+  "explanation": "He asks whether the report has to be handed in by next Monday, so confirming it and warning him not to be late is natural. Option 1 answers no and then talks about a past holiday, and option 3 says the report was already submitted, which does not answer his question.",
+  "translation": "M: Do I have to hand in this report by next Monday? N: 1. No, Monday was a holiday. 2. Yes, please be careful not to be late. 3. I've already handed in the report.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "このレポート、来週の月曜までに出さなければならないんですか。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、いいえ、月曜は休みでした。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、はい、遅れないように気をつけてください。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、レポートはもう出しました。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-7.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-8",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "よかったですね。次も{頑張|がんば}ってください。",
+   "落ちたら、また来週受けられますよ。",
+   "{残念|ざんねん}でしたね。でも、次はきっとうまくいきますよ。"
+  ],
+  "answer": 2,
+  "explanation": "She says she failed the exam despite studying so hard, so expressing sympathy and encouragement is natural. Option 1 congratulates her as if she had passed, and option 2 treats the failure as only a possibility and ignores her feelings.",
+  "translation": "F: To think I failed the exam even though I studied so hard. N: 1. That's good. Keep up the effort next time too. 2. If you fail, you can take it again next week. 3. That's too bad. But I'm sure next time will go well.",
+  "script": [
+   {
+    "speaker": "F",
+    "text": "あんなに勉強したのに、試験に落ちるなんて。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、よかったですね。次も頑張ってください。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、落ちたら、また来週受けられますよ。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、残念でしたね。でも、次はきっとうまくいきますよ。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-8.mp3"
+ },
+ {
+  "id": "n3-t2-qra1-9",
+  "level": "N3",
+  "type": "quick-response",
+  "stem": "文を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "options": [
+   "それは大変ですね。病院に行ってみたらどうですか。",
+   "それはよかったですね。ゆっくり休んでください。",
+   "夜は静かで、いいですね。"
+  ],
+  "answer": 0,
+  "explanation": "He says he has not been sleeping well lately, so showing concern and suggesting a visit to the hospital is natural. Option 2 treats his problem as good news, and option 3 comments on the quiet of the night and misses his point.",
+  "translation": "M: Lately I haven't been able to sleep well at night. N: 1. That sounds hard. Why don't you try going to the hospital? 2. That's good to hear. Please get plenty of rest. 3. Nights are quiet, which is nice.",
+  "script": [
+   {
+    "speaker": "M",
+    "text": "最近、夜よく眠れないんです。"
+   },
+   {
+    "speaker": "N",
+    "text": "1、それは大変ですね。病院に行ってみたらどうですか。"
+   },
+   {
+    "speaker": "N",
+    "text": "2、それはよかったですね。ゆっくり休んでください。"
+   },
+   {
+    "speaker": "N",
+    "text": "3、夜は静かで、いいですね。"
+   }
+  ],
+  "source": "ai",
+  "status": "verified",
+  "audio": "/audio/n3/n3-t2-qra1-9.mp3"
  }
 ]

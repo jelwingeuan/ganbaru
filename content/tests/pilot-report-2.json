@@ -1,0 +1,425 @@
+{
+ "testNo": 2,
+ "minutes": 0,
+ "firstPassErrorRate": 0.01762114537444934,
+ "checked": 227,
+ "failedFirstPass": 4,
+ "costUSD": 0,
+ "byModel": {},
+ "byType": [
+  {
+   "level": "N5",
+   "type": "context",
+   "wanted": 6,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 6
+  },
+  {
+   "level": "N5",
+   "type": "paraphrase",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N5",
+   "type": "grammar-form",
+   "wanted": 9,
+   "firstPass": 9,
+   "firstFail": 0,
+   "shipped": 9
+  },
+  {
+   "level": "N5",
+   "type": "sentence-order",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N5",
+   "type": "text-grammar",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N5",
+   "type": "reading-short",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N5",
+   "type": "reading-mid",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N5",
+   "type": "info-search",
+   "wanted": 1,
+   "firstPass": 0,
+   "firstFail": 1,
+   "shipped": 0
+  },
+  {
+   "level": "N4",
+   "type": "context",
+   "wanted": 8,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 8
+  },
+  {
+   "level": "N4",
+   "type": "paraphrase",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "usage",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "grammar-form",
+   "wanted": 13,
+   "firstPass": 13,
+   "firstFail": 0,
+   "shipped": 13
+  },
+  {
+   "level": "N4",
+   "type": "sentence-order",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "text-grammar",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N4",
+   "type": "reading-short",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N4",
+   "type": "reading-mid",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N4",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N3",
+   "type": "context",
+   "wanted": 11,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 11
+  },
+  {
+   "level": "N3",
+   "type": "paraphrase",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "usage",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "grammar-form",
+   "wanted": 13,
+   "firstPass": 13,
+   "firstFail": 0,
+   "shipped": 13
+  },
+  {
+   "level": "N3",
+   "type": "sentence-order",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "text-grammar",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N3",
+   "type": "reading-short",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N3",
+   "type": "reading-mid",
+   "wanted": 6,
+   "firstPass": 3,
+   "firstFail": 3,
+   "shipped": 3
+  },
+  {
+   "level": "N3",
+   "type": "reading-long",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N3",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N2",
+   "type": "word-formation",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "context",
+   "wanted": 7,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 7
+  },
+  {
+   "level": "N2",
+   "type": "paraphrase",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "usage",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "grammar-form",
+   "wanted": 12,
+   "firstPass": 12,
+   "firstFail": 0,
+   "shipped": 12
+  },
+  {
+   "level": "N2",
+   "type": "sentence-order",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "text-grammar",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "reading-short",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N2",
+   "type": "reading-mid",
+   "wanted": 9,
+   "firstPass": 9,
+   "firstFail": 0,
+   "shipped": 9
+  },
+  {
+   "level": "N2",
+   "type": "integrated-reading",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N2",
+   "type": "thematic-reading",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N2",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  },
+  {
+   "level": "N1",
+   "type": "context",
+   "wanted": 7,
+   "firstPass": 0,
+   "firstFail": 0,
+   "shipped": 7
+  },
+  {
+   "level": "N1",
+   "type": "paraphrase",
+   "wanted": 6,
+   "firstPass": 6,
+   "firstFail": 0,
+   "shipped": 6
+  },
+  {
+   "level": "N1",
+   "type": "usage",
+   "wanted": 6,
+   "firstPass": 6,
+   "firstFail": 0,
+   "shipped": 6
+  },
+  {
+   "level": "N1",
+   "type": "grammar-form",
+   "wanted": 10,
+   "firstPass": 10,
+   "firstFail": 0,
+   "shipped": 10
+  },
+  {
+   "level": "N1",
+   "type": "sentence-order",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N1",
+   "type": "text-grammar",
+   "wanted": 5,
+   "firstPass": 5,
+   "firstFail": 0,
+   "shipped": 5
+  },
+  {
+   "level": "N1",
+   "type": "reading-short",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N1",
+   "type": "reading-mid",
+   "wanted": 9,
+   "firstPass": 9,
+   "firstFail": 0,
+   "shipped": 9
+  },
+  {
+   "level": "N1",
+   "type": "reading-long",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N1",
+   "type": "integrated-reading",
+   "wanted": 3,
+   "firstPass": 3,
+   "firstFail": 0,
+   "shipped": 3
+  },
+  {
+   "level": "N1",
+   "type": "thematic-reading",
+   "wanted": 4,
+   "firstPass": 4,
+   "firstFail": 0,
+   "shipped": 4
+  },
+  {
+   "level": "N1",
+   "type": "info-search",
+   "wanted": 2,
+   "firstPass": 2,
+   "firstFail": 0,
+   "shipped": 2
+  }
+ ],
+ "failures": [
+  "n5-t2-isa1-1: unnatural Japanese. The answer (C) is unique, but the passage title says 夜のクラス while class B (Saturday 10:00-12:00) and class D (Sunday 2:00-5:00) are daytime classes, and the stem's 月曜日から金曜日まで、午後6時まで repeats まで awkwardly.",
+  "n3-t2-rma1-4: unnatural Japanese. The passage says 館の人 for a library staff member, which sounds unnatural; 図書館の人 or 司書 would be more natural.",
+  "n3-t2-rma1-5: unnatural Japanese. The passage says 館の人 for a library staff member, which sounds unnatural; 図書館の人 or 司書 would be more natural.",
+  "n3-t2-rma1-6: unnatural Japanese. The passage says 館の人 for a library staff member, which sounds unnatural; 図書館の人 or 司書 would be more natural."
+ ]
+}

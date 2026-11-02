@@ -40,5 +40,47 @@
   "type": "info-search",
   "text": "みどり{市|し}スポーツセンター　プールの 料金\n\n　　　　　　　　　　　大人　　子ども（中学生まで）\n午前（9:00～12:00）　400円　　200円\n午後（13:00～17:00）　500円　　250円\n夜　（18:00～21:00）　600円　　子どもは 入れません\n\n・毎週 月曜日は 休みです。\n・65{歳|さい}以上の 方は、大人の 料金の 半分です。\n・水曜日の 夜は、{女性|じょせい}だけが {利用|りよう}できます。\n・プールに 入る ときは、{帽子|ぼうし}を かぶって ください。\n・タオルは 自分で 持って 来て ください。",
   "translation": "Midori City Sports Center: Pool Prices\n\n                          Adults   Children (up to junior high school)\nMorning (9:00-12:00)      400 yen  200 yen\nAfternoon (13:00-17:00)   500 yen  250 yen\nEvening (18:00-21:00)     600 yen  Children may not enter\n\n- Closed every Monday.\n- People aged 65 and over pay half the adult price.\n- On Wednesday evenings, only women may use the pool.\n- Please wear a swimming cap when you enter the pool.\n- Please bring your own towel."
+ },
+ {
+  "id": "n4-t2-tga1-p1",
+  "level": "N4",
+  "type": "text-grammar",
+  "text": "わたしは料理が{苦手|にがて}で、いつもコンビニで{弁当|べんとう}を買っていました。でも、毎日お{弁当|べんとう}では体によくないと思いました。（1）、先月から近くの料理教室に通い始めました。\n{最初|さいしょ}の日は、{野菜|やさい}の切り方を習いました。先生は「{指|ゆび}を切らないように、ゆっくり切ってください」と言いましたが、わたしは急いで、{指|ゆび}を少し（2）。とても{痛|いた}かったです。\nでも、先生が何度もていねいに教えて（3）ので、だんだん上手に切れるようになりました。今では、週に{二回|にかい}、家で{晩|ばん}ご飯を作っています。\n来月は母の{誕生日|たんじょうび}なので、母のために料理を作って（4）。母がよろこんでくれたら、うれしいです。",
+  "translation": "I was bad at cooking and always bought boxed lunches at the convenience store. But I thought eating boxed lunches every day was not good for my health. (1), last month I started going to a cooking class nearby.\nOn the first day, we learned how to cut vegetables. The teacher said, \"Cut slowly so you don't cut your fingers,\" but I hurried and (2) cut my finger a little. It really hurt.\nBut because the teacher (3) taught me carefully many times, I gradually became able to cut well. Now I make dinner at home twice a week.\nNext month is my mother's birthday, so (4) cook for her. I'll be happy if she is pleased."
+ },
+ {
+  "id": "n4-t2-rsa1-p1",
+  "level": "N4",
+  "type": "reading-short",
+  "text": "日本語クラスのみなさんへ\n来週の金曜日の{授業|じゅぎょう}は、いつもの教室ではなく、{一階|いっかい}の図書室でします。図書室で{好|す}きな本を{一冊|いっさつ}えらんで、読んでもらいます。{辞書|じしょ}は図書室にもありますが、{数|かず}が少ないので、持っている人は持ってきてください。ノートとペンも{忘|わす}れないでください。\n{木村|きむら}",
+  "translation": "To everyone in the Japanese class,\nNext Friday's lesson will be held not in our usual classroom but in the library room on the first floor. I will have you choose one book you like in the library room and read it. There are dictionaries in the library room too, but there are only a few, so if you have one, please bring it. Please don't forget your notebook and pen either.\nKimura"
+ },
+ {
+  "id": "n4-t2-rsa1-p2",
+  "level": "N4",
+  "type": "reading-short",
+  "text": "{森|もり}さん\n土曜日の食事会のことですが、急に会社に行かなければならなくなりました。それで、食事会を日曜日の夜にしてもいいですか。お店にはまだ{連絡|れんらく}していないので、{森|もり}さんがいいと言ったら、私がお店に電話します。今日中に{返事|へんじ}をください。\n{高橋|たかはし}",
+  "translation": "Mr. Mori,\nAbout Saturday's dinner: I suddenly have to go in to work. So, would it be all right to move the dinner to Sunday evening? I haven't contacted the restaurant yet, so if you say it's fine, I will call the restaurant. Please give me your answer by the end of today.\nTakahashi"
+ },
+ {
+  "id": "n4-t2-rsa1-p3",
+  "level": "N4",
+  "type": "reading-short",
+  "text": "私は前、毎朝バスで駅まで行っていました。でも、去年医者に「もっと体を動かしたほうがいいですよ」と言われたので、駅まで歩くことにしました。はじめは三十分も歩くのが{大変|たいへん}でしたが、今はもう{慣|な}れました。歩きながら、{季節|きせつ}の花を見るのも楽しみです。それに、バス代を{払|はら}わなくてもよくなりました。",
+  "translation": "I used to take the bus to the station every morning. But last year a doctor told me, \"You should move your body more,\" so I decided to walk to the station. At first, walking as long as thirty minutes was hard, but now I'm used to it. While walking, I also enjoy looking at the flowers of the season. Besides, I no longer have to pay the bus fare."
+ },
+ {
+  "id": "n4-t2-rma1-p1",
+  "level": "N4",
+  "type": "reading-mid",
+  "text": "私は去年の春から、毎朝六時に起きて、家の近くの{公園|こうえん}を三十分ぐらい歩いています。\n前は、家を出る時間の少し前まで{寝|ね}ていて、朝ご飯を食べないで会社へ行っていました。そのため、午前中はいつも{眠|ねむ}くて、仕事がなかなか{進|すす}みませんでした。\nある日、会社の{先輩|せんぱい}に「朝、少し体を動かすと、一日が楽になるよ」と言われました。{先輩|せんぱい}は毎朝走ってから会社に来るそうです。でも、私は走るのが{苦手|にがて}なので、歩くことにしました。\n{最初|さいしょ}の一週間は、早く起きるのがとてもつらかったです。でも、朝の{公園|こうえん}は{静|しず}かで、空気もきれいです。{季節|きせつ}によって花や木の色が{変|か}わるのを見るのが、だんだん楽しくなりました。\n今では、歩いて帰ってくるとおなかがすくので、朝ご飯もしっかり食べるようになりました。午前中も、前よりずっと仕事に集中できます。\n雨の日は歩けないので、少し{残念|ざんねん}です。そういう日は、家で音楽を聞きながら、ゆっくり朝ご飯を作ることにしています。",
+  "translation": "Since last spring, I have been getting up at six every morning and walking for about thirty minutes in a park near my home.\nBefore, I used to sleep until just before it was time to leave the house, and went to work without eating breakfast. Because of that, I was always sleepy in the morning and my work didn't make much progress.\nOne day, a senior colleague at work told me, \"If you move your body a little in the morning, the whole day gets easier.\" Apparently he runs every morning before coming to work. But I'm not good at running, so I decided to walk.\nThe first week, getting up early was really hard. But the park in the morning is quiet and the air is clean. Watching the flowers and trees change color with the seasons gradually became enjoyable.\nNow, because I'm hungry when I come back from walking, I've started eating a proper breakfast too. I can also concentrate on work in the morning much better than before.\nOn rainy days I can't walk, which is a little disappointing. On those days, I make a point of slowly cooking breakfast at home while listening to music."
+ },
+ {
+  "id": "n4-t2-isa1-p1",
+  "level": "N4",
+  "type": "info-search",
+  "text": "みどり町{市民|しみん}センター　夏の教室のお知らせ（7月〜8月）\n\n① 料理教室　毎週土曜日　10:00〜12:00　1{回|かい}800円\n② 英語で話そう　毎週水曜日　19:00〜20:30　1{回|かい}500円\n③ ピアノ教室　毎週日曜日　14:00〜15:00　1{回|かい}1,000円\n④ 写真教室　毎週金曜日　18:30〜20:00　1{回|かい}600円\n⑤ 子どもの{絵|え}の教室　毎週土曜日　14:00〜15:30　1{回|かい}300円（小学生だけ）\n\n・{申し込み|もうしこみ}は、教室の日の3日前までに、電話でしてください。\n・{初|はじ}めて来る人は、1{回目|かいめ}だけ料金が半分になります。\n・お金は、教室の日にセンターの{受付|うけつけ}で{払|はら}ってください。",
+  "translation": "Midori Town Community Center: Summer Classes (July to August)\n\n1. Cooking class: every Saturday, 10:00-12:00, 800 yen per session\n2. Let's Talk in English: every Wednesday, 19:00-20:30, 500 yen per session\n3. Piano class: every Sunday, 14:00-15:00, 1,000 yen per session\n4. Photography class: every Friday, 18:30-20:00, 600 yen per session\n5. Children's drawing class: every Saturday, 14:00-15:30, 300 yen per session (elementary school students only)\n\n- Please apply by phone at least three days before the day of the class.\n- First-time participants pay half price for their first session only.\n- Please pay at the center's reception desk on the day of the class."
  }
 ]

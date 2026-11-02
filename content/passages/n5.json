@@ -33,5 +33,33 @@
   "type": "info-search",
   "text": "さくら日本語学校　{土曜日|どようび}の クラス\n\nA　ひらがな　　　　午前9時～10時　　　500円\nB　かんじ　　　　　午前10時半～12時　　800円\nC　日本の うた　　　午後1時～2時　　　　500円\nD　日本の りょうり　午後2時～4時半　　1,200円\n\n・りょうりの クラスは、エプロンを もって きて ください。\n・クラスに 入りたい 人は、ここに 名前を 書いて ください。",
   "translation": "Sakura Japanese Language School: Saturday classes\n\nA  Hiragana  9:00-10:00 a.m.  500 yen\nB  Kanji  10:30 a.m.-12:00 noon  800 yen\nC  Japanese songs  1:00-2:00 p.m.  500 yen\nD  Japanese cooking  2:00-4:30 p.m.  1,200 yen\n\n- For the cooking class, please bring an apron.\n- If you want to join a class, please write your name here."
+ },
+ {
+  "id": "n5-t2-tga1-p1",
+  "level": "N5",
+  "type": "text-grammar",
+  "text": "わたしの {日曜日|にちようび}\n\nわたしは {日曜日|にちようび}の {朝|あさ}、いつも 父と {近|ちか}くの {公園|こうえん}へ {散歩|さんぽ}（1） 行きます。{公園|こうえん}には 大きい {池|いけ}が あって、{鳥|とり}が たくさん います。\n{先週|せんしゅう}の {日曜日|にちようび}は {朝|あさ}から 雨でした。（2）、{公園|こうえん}へ 行きませんでした。父と {家|いえ}で {古|ふる}い {映画|えいが}を 見ました。父は {映画|えいが}が {大好|だいす}きですが、わたしは {映画|えいが}を あまり（3）。でも、その {映画|えいが}は とても {面白|おもしろ}かったです。\n{来週|らいしゅう}の {日曜日|にちようび}は、また 父と {公園|こうえん}へ（4）。",
+  "translation": "My Sunday\n\nOn Sunday mornings I always go for a walk with my father to a nearby park. The park has a big pond, and there are lots of birds.\nLast Sunday it rained from the morning. So we did not go to the park. I watched an old movie at home with my father. My father loves movies, but I don't watch movies much. Still, that movie was very interesting.\nNext Sunday I want to go to the park with my father again."
+ },
+ {
+  "id": "n5-t2-rsa1-p1",
+  "level": "N5",
+  "type": "reading-short",
+  "text": "キムさんへ\nあしたの　えいがは　十時からです。九時半に　えきの　まえで　あいましょう。きっぷは　わたしが　もう　かいましたから、かわなくても　いいです。えいがの　あとで、いっしょに　ひるごはんを　食べませんか。\n山川",
+  "translation": "To Kim,\nTomorrow's movie starts at ten o'clock. Let's meet in front of the station at nine thirty. I have already bought the tickets, so you don't need to buy any. After the movie, would you like to have lunch together?\nYamakawa"
+ },
+ {
+  "id": "n5-t2-rsa1-p2",
+  "level": "N5",
+  "type": "reading-short",
+  "text": "わたしは　まいあさ　七時に　おきます。あさごはんの　まえに、いぬと　{公園|こうえん}を　さんぽします。いつもは　三十分ぐらい　あるきますが、雨の　日は　さんぽしないで、うちで　しんぶんを　読みます。きのうは　雨でしたが、きょうは　はれましたから、いぬと　{公園|こうえん}へ　行きました。",
+  "translation": "I get up at seven o'clock every morning. Before breakfast, I walk my dog in the park. I usually walk for about thirty minutes, but on rainy days I don't go for a walk; I read the newspaper at home instead. Yesterday it rained, but today it was sunny, so I went to the park with my dog."
+ },
+ {
+  "id": "n5-t2-rma1-p1",
+  "level": "N5",
+  "type": "reading-mid",
+  "text": "わたしは 大学の 一年生です。{毎週|まいしゅう} {土曜日|どようび}の 午前、{駅|えき}の {近く|ちかく}の {図書館|としょかん}へ 行きます。わたしの {部屋|へや}は 小さくて、外の 車の {音|おと}が よく 聞こえます。それで、{家|いえ}では {勉強|べんきょう}が あまり できません。\n{図書館|としょかん}は 九時から 五時までです。中は とても しずかで、まどから 小さい 山が 見えます。わたしは そこで 二時間ぐらい 日本語の {宿題|しゅくだい}を します。\n{先週|せんしゅう}、{図書館|としょかん}で 高校の ときの 友だちに {会いました|あいました}。友だちも {毎週|まいしゅう} ここへ 来て いると {言いました|いいました}。そして、「{来週|らいしゅう}から いっしょに {勉強|べんきょう}しませんか。」と {言いました|いいました}。わたしは とても うれしかったです。",
+  "translation": "I am a first-year university student. Every Saturday morning I go to the library near the station. My room is small, and I can often hear the sound of cars outside. So I can't study much at home.\nThe library is open from nine to five. Inside it is very quiet, and you can see a small mountain from the window. I do my Japanese homework there for about two hours.\nLast week, I met a friend from high school at the library. My friend said that they also come here every week. Then they said, \"Won't you study together with me from next week?\" I was very happy."
  }
 ]

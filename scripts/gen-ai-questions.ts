@@ -224,6 +224,7 @@ Quality rules, all required:
 - Wrong options are plausible to a learner: same kind of word or form, similar length, nothing silly.
 - Japanese is natural, standard and error-free. Topics are everyday, study, work and society; avoid anything upsetting, political or about real named people or companies.
 - Difficulty, vocabulary and grammar match ${level}. Lower-level words and grammar are fine; avoid anything clearly above ${level}.
+- Grammar questions are where a second defensible answer most often slips in: check every wrong option against the full sentence, including politeness, tense and who is acting. Aim for real-exam difficulty, not easier; learners report that practice tests at N3 to N1 often feel easier than the real exam.
 - Kanji: ${kanji} Write any other kanji with furigana in the notation {漢字|かんじ} (whole word in braces, then its kana reading). Don't add furigana to allowed kanji.
 - Vary the answer position: across a set, the correct option should land on 1, 2, 3 and 4 about equally often.
 - explanation: English, two or three sentences. Say why the answer is right and, briefly, why each other option is wrong.

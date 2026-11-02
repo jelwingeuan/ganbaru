@@ -5,7 +5,7 @@
 //   node scripts/ai-unit.ts jobs <test>                         write prompts, print jobs still to do
 //   node scripts/ai-unit.ts check <level> <type> <test> <try>   validate content/.ai-cache/raw/<…>.json
 //   node scripts/ai-unit.ts grade <level> <type> <test> <try>   grade content/.ai-cache/verdicts/<…>.json
-//   node scripts/ai-unit.ts context-blind <level> <test>        blind copy of draft word-in-context questions
+//   node scripts/ai-unit.ts context-blind <level> <test> [n]    blind copy of draft word-in-context questions (n: how many to have ready)
 //   node scripts/ai-unit.ts context-grade <level> <test>        mark the ones that passed as verified
 //   node scripts/ai-unit.ts collect <test>                      merge passed questions into the generator cache
 import { existsSync } from "node:fs";
@@ -122,11 +122,11 @@ async function grade(level: Level, type: QuestionType, test: number, attempt: nu
   out({ passed: ok.length, of: unit.questions.length, accepted: acc.questions.length, count, remaining: count - acc.questions.length, failures: [...failures].map(([id, why]) => `${id}: ${why}`) });
 }
 
-async function contextBlind(level: Level, test: number) {
+async function contextBlind(level: Level, test: number, want = countFor(level, "context")) {
   const used = await usedInTests(level);
   const all = await read<Question[]>(contextFile(level), []);
   const ready = all.filter((q) => q.status === "verified" && !used.has(q.id)).length;
-  const need = countFor(level, "context") - ready;
+  const need = want - ready;
   const candidates = all.filter((q) => q.status === "draft" && !used.has(q.id)).sort((a, b) => hash(a.id) - hash(b.id)).slice(0, Math.max(0, need) * 3);
   const p = paths(level, test, "context", "x");
   await write(p.unit, { questions: candidates, passages: [], problems: {} });
@@ -196,7 +196,7 @@ if (cmd === "jobs") await jobs(Number(a[0]), a.includes("--listening"));
 else if (cmd === "attach-listening") await attachListening(Number(a[0]));
 else if (cmd === "check") await check(lvl(a[0]), a[1] as QuestionType, Number(a[2]), Number(a[3]));
 else if (cmd === "grade") await grade(lvl(a[0]), a[1] as QuestionType, Number(a[2]), Number(a[3]));
-else if (cmd === "context-blind") await contextBlind(lvl(a[0]), Number(a[1]));
+else if (cmd === "context-blind") await contextBlind(lvl(a[0]), Number(a[1]), a[2] ? Number(a[2]) : undefined);
 else if (cmd === "context-grade") await contextGrade(lvl(a[0]), Number(a[1]));
 else if (cmd === "collect") await collect(Number(a[0]));
 else throw new Error("usage: jobs | check | grade | context-blind | context-grade | collect (see the comment at the top)");
