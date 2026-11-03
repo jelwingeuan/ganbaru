@@ -1,6 +1,6 @@
 export default function DictionaryLayout({ children }: LayoutProps<"/dictionary">) {
   return (
-    <div className="max-w-5xl">
+    <div>
       <main>{children}</main>
       <footer className="mt-20 max-w-[44rem] border-t border-edge pt-5 text-xs leading-relaxed text-ink-2">
         <p>

@@ -69,7 +69,7 @@ async function GrammarDirectory({ searchParams }: Pick<PageProps<"/grammar">, "s
           ))}
         </nav>}
 
-        <div className={`min-w-0 max-w-[44rem] ${groups.length === 0 ? "lg:col-start-2" : ""}`}>
+        <div className={`min-w-0 ${groups.length === 0 ? "lg:col-start-2" : ""}`}>
           <p role="status" className="text-sm text-ink-2">
             {query ? `${matches.length} ${matches.length === 1 ? "result" : "results"} for “${query}”` : "Browse by level or search for a pattern."}
             {query && <Link href="/grammar" className="ml-3 font-medium text-ink underline underline-offset-4">Clear search</Link>}
@@ -85,7 +85,7 @@ async function GrammarDirectory({ searchParams }: Pick<PageProps<"/grammar">, "s
                 {points.map((point) => (
                   <li key={point.id}>
                     <ListRow href={`/grammar/${point.id}`}>
-                      <span className="grid w-full min-w-0 gap-1 sm:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] sm:gap-5">
+                      <span className="grid w-full min-w-0 gap-1 sm:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] xl:grid-cols-[minmax(0,22rem)_minmax(0,1fr)] sm:gap-5">
                         <span lang="ja" className="font-jp min-w-0 text-lg [overflow-wrap:anywhere]">{point.pattern}</span>
                         <span className="min-w-0 text-sm text-ink-2 [overflow-wrap:anywhere]">{point.meaning}</span>
                       </span>

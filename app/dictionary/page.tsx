@@ -11,7 +11,7 @@ const EXAMPLES = ["食べる", "taberu", "eat", "#n5 #verb", "学"];
 
 export default function DictionaryPage({ searchParams }: PageProps<"/dictionary">) {
   return (
-    <div className="max-w-[56rem]">
+    <div>
       <header className="max-w-[44rem] pt-4 sm:pt-8">
         <p className="text-xs font-semibold tracking-[0.18em] text-pen uppercase">Dictionary</p>
         <h1 className="mt-3 text-4xl font-medium tracking-tight sm:text-5xl">Find a word. Keep going.</h1>

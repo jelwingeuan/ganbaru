@@ -44,7 +44,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a href="#main-content" className="sr-only fixed top-2 left-2 z-50 rounded-lg bg-ink px-4 py-2 text-paper focus:not-sr-only">
           Skip to content
         </a>
-        <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-28 sm:px-6 sm:pb-10 lg:px-10">
+        <div className="mx-auto flex w-full max-w-[120rem] flex-1 flex-col px-4 pb-28 sm:px-6 sm:pb-10 lg:px-10">
           <SiteHeader />
           <div id="main-content" tabIndex={-1} className="w-full flex-1 outline-none">
             {children}
